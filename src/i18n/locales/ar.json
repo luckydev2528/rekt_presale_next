@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "تحذير تنظيمي",
+    "warningIntro": "قد يكون لدى بلدك ({country}) قيود على تداول العملات المشفرة أو مبيعات الرموز المميزة. يرجى مراجعة المعلومات أدناه والإقرار للمتابعة.",
+    "bullets": {
+      "info": "هذا الموقع لأغراض إعلامية فقط ولا يشكل نصيحة مالية.",
+      "restrictions": "قد تكون المشاركة مقيدة أو محظورة في ولايتك القضائية.",
+      "continue": "من خلال المتابعة، تؤكد أنك تفهم المخاطر واللوائح المحلية."
+    },
+    "blockedTitle": "الوصول مقيد",
+    "blockedBody": "الوصول إلى هذا المحتوى غير متاح في ولايتك القضائية ({country}). لا يمكننا توفير معلومات بيع أو تداول الرموز المميزة في موقعك بسبب القيود التنظيمية.",
+    "back": "العودة",
+    "continue": "أفهم، متابعة",
+    "warningCountryNotes": {
+      "US": "خدمات العملات المشفرة منظمة بصرامة في الولايات المتحدة (SEC، CFTC، FinCEN). من خلال المتابعة، تقر بأن الامتثال هو مسؤوليتك.",
+      "IN": "تداول العملات المشفرة في الهند يخضع لضرائب عالية ولوائح غير واضحة. تابع فقط إذا كنت تفهم القوانين المحلية.",
+      "VN": "فيتنام تحظر العملات المشفرة كعملة قانونية، لكن التداول مستخدم على نطاق واسع. تابع على مسؤوليتك الخاصة.",
+      "TH": "تايلاند نظمت بورصات العملات المشفرة؛ تأكد من الامتثال مع SEC تايلاند.",
+      "TR": "تركيا تقيد استخدام العملات المشفرة للمدفوعات. التداول يبقى مسموحاً تحت التنظيم.",
+      "NG": "نيجيريا لديها قيود على البنوك التي تتعامل مع العملات المشفرة، لكن تداول P2P شائع. تابع على مسؤوليتك الخاصة.",
+      "UA": "العملات المشفرة قانونية في أوكرانيا، لكن تحت لوائح متطورة. تابع على مسؤوليتك الخاصة.",
+      "RS": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة.",
+      "BG": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة.",
+      "HU": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة.",
+      "CZ": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة.",
+      "SK": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة.",
+      "SI": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة.",
+      "PL": "العملات المشفرة مسموحة لكن منظمة تحت قانون الاتحاد الأوروبي أو المحلي. تابع على مسؤوليتك الخاصة."
+    },
+    "blockedCountryNotes": {
+      "RU": "بسبب العقوبات الدولية، الوصول من روسيا مقيد. التداول غير متاح.",
+      "CN": "تداول العملات المشفرة والبورصات محظورة في الصين القارية. الوصول مرفوض.",
+      "BD": "تداول العملات المشفرة محظور قانونياً في بنغلاديش.",
+      "NP": "تداول العملات المشفرة محظور في نيبال.",
+      "BO": "تداول العملات المشفرة محظور في بوليفيا.",
+      "DZ": "تداول العملات المشفرة محظور في الجزائر.",
+      "MA": "تداول العملات المشفرة محظور في المغرب.",
+      "QA": "تداول العملات المشفرة محظور في قطر.",
+      "EG": "تداول العملات المشفرة محظور في مصر."
+    }
+  },
+  "seo": {
+    "title": "$REKT - الخاسرون فقط يفوزون",
+    "description": "احتضن الانهيار. أول عملة ميم تكافئ خسائرك."
+  },
+  "nav": {
+    "hero": "الرئيسية",
+    "tokenomics": "اقتصاد الرموز",
+    "lossClaim": "مطالبة الخسارة",
+    "staking": "الرهان",
+    "leaderboard": "لوحة المتصدرين",
+    "team": "الفريق",
+    "roadmap": "خارطة الطريق",
+    "whitepaper": "الورقة البيضاء",
+    "faq": "الأسئلة الشائعة"
+  },
+  "home": {
+    "hero": {
+      "title": "الخاسرون فقط يفوزون",
+      "subtitle": "احتضن الانهيار"
+    },
+    "howToBuy": {
+      "title": "كيفية الشراء:",
+      "steps": {
+        "connectWallet": "اربط محفظتك",
+        "choosePayment": "اختر طريقة الدفع",
+        "enterAmount": "أدخل المبلغ",
+        "confirmTransaction": "أكد المعاملة"
+      }
+    },
+    "wallet": {
+      "connect": "ربط المحفظة"
+    },
+    "presale": {
+      "title": "البيع المسبق المرحلة 1",
+      "currentPrice": "السعر الحالي",
+      "nextPrice": "السعر التالي",
+      "priceIncreaseNote": "زيادة السعر عند تحقيق الهدف",
+      "progress": "التقدم",
+      "raised": "{amount} تم جمعه",
+      "amountPlaceholder": "أدخل المبلغ",
+      "max": "الحد الأقصى",
+      "buyWith": "اشتري بـ {method}",
+      "alt": {
+        "buyWithSOL": "اشتري بـ SOL",
+        "buyWithSOLHover": "اشتري بـ SOL تمرير"
+      }
+    },
+    "countdown": {
+      "days": "أيام",
+      "hours": "ساعات",
+      "minutes": "دقائق",
+      "seconds": "ثوان"
+    },
+    "asSeenOn": {
+      "title": "كما رأيت على"
+    }
+  },
+  "lossClaim": {
+    "title": "مطالبة خسارة REKT",
+    "tagline": "رصاصة واحدة. درع واحد.",
+    "description": {
+      "before": "مكافأة حصرية للبيع المسبق V1 للمحافظ مع تخصيص لا يقل عن 350$. قدم مطالبتك بعد انتهاء البيع المسبق لاستعادة رموز REKT للخسائر المؤهلة. مكافآت مطالبة الخسارة",
+      "not": "ليست",
+      "after": "مرهونة — هذه فرصة لمرة واحدة."
+    },
+    "cta": {
+      "check": "تحقق من الأهلية",
+      "viewEligibility": "عرض الأهلية"
+    },
+    "status": {
+      "eligible": "مؤهل",
+      "unused": "غير مستخدم"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "محفظة في القائمة البيضاء",
+        "desc": "فقط محافظ البيع المسبق V1 مع تخصيص 350$ يمكنها المطالبة"
+      },
+      "onePer": {
+        "title": "مطالبة واحدة لكل محفظة",
+        "desc": "مطالبة واحدة لكل محفظة — لا إعادة تعيين"
+      },
+      "window": {
+        "title": "نافذة المطالبة",
+        "desc": "يمكن تقديم المطالبات فقط بعد إغلاق البيع المسبق رسمياً"
+      }
+    },
+    "form": {
+      "heading": "اطلب مكافأة البيع المسبق",
+      "selectToken": "اختر الرمز",
+      "chooseEligibleToken": "اختر رمزاً مؤهلاً...",
+      "claimAmount": "مبلغ المطالبة",
+      "usdtEquivalent": "ما يعادل 0.00$ USDT",
+      "disclaimer": "رموز مطالبة الخسارة غير مرهونة ولا يمكن رهنها لاحقاً",
+      "submit": "تقديم المطالبة"
+    },
+    "info": {
+      "title": "مهم: مكافأة البيع المسبق V1",
+      "list": {
+        "whitelisted": "متاح فقط لمحافظ البيع المسبق V1 مع تخصيص ≥ 350$",
+        "onePer": "مطالبة واحدة لكل محفظة",
+        "eligibleOnly": "الرموز المؤهلة فقط",
+        "afterPresale": "يمكن تقديم المطالبات فقط بعد انتهاء البيع المسبق",
+        "notStaked": "الرموز المستلمة من مطالبة الخسارة غير مرهونة"
+      }
+    },
+    "ctaBottom": {
+      "title": "مكافأة V1 — مرة واحدة فقط",
+      "text": "فوّت نافذة المطالبة، وستختفي إلى الأبد.",
+      "buy": "اشتري $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "رهان REKT - الخاسرون فقط يفوزون",
+      "logoAlt": "الشعار"
+    },
+    "info": "جميع رموز البيع المسبق مرهونة تلقائياً من الشراء. المكافآت تبدأ فوراً، قابلة للمطالبة في نهاية البيع المسبق.",
+    "buttons": {
+      "viewLeaderboard": "عرض لوحة المتصدرين",
+      "claim": "مطالبة"
+    },
+    "stats": {
+      "yourStakedBalance": "رصيدك المرهون",
+      "unlockNote": "30% مفتوح عند الإطلاق، 70% استحقاق على 6 أشهر (الرموز فقط)",
+      "yourPoolShare": "نسبتك من المجموعة",
+      "yourPoolShareDesc": "نصيبك من مجموعة الرهان الإجمالية",
+      "totalStaked": "المجموع المرهون (مجموعة البيع المسبق)",
+      "totalStakedDesc": "إجمالي الرموز المرهونة لجميع مشاركي البيع المسبق",
+      "annualApy": "العائد السنوي",
+      "annualApyValue": "65% سنوياً",
+      "annualApyDesc": "العائد السنوي الحالي",
+      "dailyRewards": "المكافآت اليومية",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "متاح الآن (بدون استحقاق)"
+    },
+    "rewards": {
+      "title": "إجمالي المكافآت المتراكمة"
+    },
+    "footer": {
+      "notice": "الرهان حصري لمشتري البيع المسبق. المكافآت تعتمد على نشاط النظام البيئي.",
+      "vestingNote": "الاستحقاق ينطبق فقط على الرموز المرهونة. المكافآت غير مستحقة."
+    },
+    "alts": {
+      "viewLeaderboardImg": "عرض لوحة المتصدرين",
+      "frame": "إطار",
+      "longFrame": "إطار طويل",
+      "logoSpread": "انتشار الشعار",
+      "claimButton": "مطالبة"
+    }
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير موجودة.",
+    "goHome": "اذهب للرئيسية",
+    "staking": "الرهان",
+    "lossClaim": "مطالبة الخسارة"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

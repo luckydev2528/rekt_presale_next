@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "ریگولیٹری وارننگ",
+    "warningIntro": "آپ کے ملک ({country}) میں کرپٹو ٹریڈنگ یا ٹوکن فروخت پر پابندیاں ہو سکتی ہیں۔ براہ کرم نیچے دی گئی معلومات کا جائزہ لیں اور جاری رکھنے کی تصدیق کریں۔",
+    "bullets": {
+      "info": "یہ سائٹ صرف معلوماتی مقاصد کے لیے ہے اور یہ مالی مشورہ نہیں ہے۔",
+      "restrictions": "آپ کے دائرہ اختیار میں شرکت محدود یا ممنوع ہو سکتی ہے۔",
+      "continue": "جاری رکھ کر، آپ تصدیق کرتے ہیں کہ آپ خطرات اور مقامی ضوابط کو سمجھتے ہیں۔"
+    },
+    "blockedTitle": "رسائی محدود",
+    "blockedBody": "آپ کے دائرہ اختیار ({country}) میں اس مواد تک رسائی دستیاب نہیں ہے۔ ریگولیٹری پابندیوں کی وجہ سے ہم آپ کے مقام پر ٹوکن فروخت یا ٹریڈنگ کی معلومات فراہم نہیں کر سکتے۔",
+    "back": "واپس",
+    "continue": "میں سمجھ گیا، جاری رکھیں",
+    "warningCountryNotes": {
+      "US": "امریکہ میں کرپٹو سروسز سختی سے منظم ہیں (SEC, CFTC, FinCEN)۔ جاری رکھ کر، آپ تسلیم کرتے ہیں کہ تعمیل آپ کی ذمہ داری ہے۔",
+      "IN": "ہندوستان میں کرپٹو ٹریڈنگ بھاری ٹیکس اور غیر واضح ضوابط کے تابع ہے۔ صرف اس وقت آگے بڑھیں جب آپ مقامی قوانین سمجھتے ہوں۔",
+      "VN": "ویتنام کرپٹو کو قانونی کرنسی کے طور پر ممنوع قرار دیتا ہے، لیکن ٹریڈنگ وسیع پیمانے پر استعمال ہوتی ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "TH": "تھائی لینڈ نے کرپٹو ایکسچینجز کو منظم کیا ہے؛ SEC تھائی لینڈ کے ساتھ تعمیل کو یقینی بنائیں۔",
+      "TR": "ترکی ادائیگیوں کے لیے کرپٹو کا استعمال محدود کرتا ہے۔ ریگولیشن کے تحت ٹریڈنگ اجازت یافتہ رہتی ہے۔",
+      "NG": "نائجیریا میں کرپٹو ہینڈل کرنے والے بینکوں پر پابندیاں ہیں، لیکن P2P ٹریڈنگ عام ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "UA": "یوکرین میں کرپٹو قانونی ہے، لیکن ترقی پذیر ضوابط کے تحت۔ اپنے خطرے پر جاری رکھیں۔",
+      "RS": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "BG": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "HU": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "CZ": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "SK": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "SI": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔",
+      "PL": "کرپٹو اجازت یافتہ ہے لیکن EU یا مقامی قانون کے تحت منظم ہے۔ اپنے خطرے پر جاری رکھیں۔"
+    },
+    "blockedCountryNotes": {
+      "RU": "بین الاقوامی پابندیوں کی وجہ سے، روس سے رسائی محدود ہے۔ ٹریڈنگ دستیاب نہیں۔",
+      "CN": "مین لینڈ چین میں کرپٹو ٹریڈنگ اور ایکسچینجز ممنوع ہیں۔ رسائی مسترد۔",
+      "BD": "بنگلہ دیش میں کرپٹو ٹریڈنگ قانونی طور پر ممنوع ہے۔",
+      "NP": "نیپال میں کرپٹو ٹریڈنگ ممنوع ہے۔",
+      "BO": "بولیویا میں کرپٹو ٹریڈنگ ممنوع ہے۔",
+      "DZ": "الجزائر میں کرپٹو ٹریڈنگ ممنوع ہے۔",
+      "MA": "مراکش میں کرپٹو ٹریڈنگ ممنوع ہے۔",
+      "QA": "قطر میں کرپٹو ٹریڈنگ ممنوع ہے۔",
+      "EG": "مصر میں کرپٹو ٹریڈنگ ممنوع ہے۔"
+    }
+  },
+  "seo": {
+    "title": "$REKT - صرف ہارنے والے جیتتے ہیں",
+    "description": "تباہی کو گلے لگائیں۔ پہلا memecoin جو آپ کے نقصانات کو انعام دیتا ہے۔"
+  },
+  "nav": {
+    "hero": "ہوم",
+    "tokenomics": "ٹوکنومکس",
+    "lossClaim": "نقصان کا دعویٰ",
+    "staking": "سٹیکنگ",
+    "leaderboard": "لیڈر بورڈ",
+    "team": "ٹیم",
+    "roadmap": "روڈ میپ",
+    "whitepaper": "وائٹ پیپر",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "صرف ہارنے والے جیتتے ہیں",
+      "subtitle": "تباہی کو گلے لگائیں"
+    },
+    "howToBuy": {
+      "title": "کیسے خریدیں:",
+      "steps": {
+        "connectWallet": "اپنا والیٹ کنکٹ کریں",
+        "choosePayment": "ادائیگی کا طریقہ منتخب کریں",
+        "enterAmount": "رقم داخل کریں",
+        "confirmTransaction": "لین دین کی تصدیق کریں"
+      }
+    },
+    "wallet": {
+      "connect": "والیٹ کنکٹ کریں"
+    },
+    "presale": {
+      "title": "فیز 1 پری سیل",
+      "currentPrice": "موجودہ قیمت",
+      "nextPrice": "اگلی قیمت",
+      "priceIncreaseNote": "ہدف حاصل ہونے پر قیمت میں اضافہ",
+      "progress": "پیشرفت",
+      "raised": "{amount} جمع کیا گیا",
+      "amountPlaceholder": "رقم داخل کریں",
+      "max": "زیادہ سے زیادہ",
+      "buyWith": "{method} کے ساتھ خریدیں",
+      "alt": {
+        "buyWithSOL": "SOL کے ساتھ خریدیں",
+        "buyWithSOLHover": "SOL کے ساتھ خریدیں ہوور"
+      }
+    },
+    "countdown": {
+      "days": "دن",
+      "hours": "گھنٹے",
+      "minutes": "منٹ",
+      "seconds": "سیکنڈ"
+    },
+    "asSeenOn": {
+      "title": "جیسا کہ دیکھا گیا"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT نقصان کا دعویٰ",
+    "tagline": "ایک شاٹ۔ ایک ڈھال۔",
+    "description": {
+      "before": "کم از کم $350 تفویض والے والیٹس کے لیے خصوصی V1 پری سیل بونس۔ اہل نقصانات کے لیے REKT ٹوکنز بحالی کے لیے پری سیل ختم ہونے کے بعد اپنا دعویٰ جمع کریں۔ نقصان کے دعوے کے انعامات",
+      "not": "سٹیک نہیں",
+      "after": "ہوتے — یہ ایک بار کا موقع ہے۔"
+    },
+    "cta": {
+      "check": "اہلیت چیک کریں",
+      "viewEligibility": "اہلیت دیکھیں"
+    },
+    "status": {
+      "eligible": "اہل",
+      "unused": "غیر استعمال شدہ"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "وائٹ لسٹ والیٹ",
+        "desc": "صرف $350 تفویض والے V1 پری سیل والیٹس دعویٰ کر سکتے ہیں"
+      },
+      "onePer": {
+        "title": "فی والیٹ ایک دعویٰ",
+        "desc": "فی والیٹ واحد دعویٰ — کوئی ری سیٹ نہیں"
+      },
+      "window": {
+        "title": "دعوے کی ونڈو",
+        "desc": "دعوے صرف پری سیل کے سرکاری طور پر بند ہونے کے بعد جمع کیے جا سکتے ہیں"
+      }
+    },
+    "form": {
+      "heading": "اپنا پری سیل بونس کلیم کریں",
+      "selectToken": "ٹوکن منتخب کریں",
+      "chooseEligibleToken": "اہل ٹوکن منتخب کریں...",
+      "claimAmount": "دعوے کی رقم",
+      "usdtEquivalent": "$0.00 USDT کے برابر",
+      "disclaimer": "نقصان کے دعوے کے ٹوکنز سٹیک نہیں ہوتے اور بعد میں دوبارہ سٹیک نہیں کیے جا سکتے",
+      "submit": "دعویٰ جمع کریں"
+    },
+    "info": {
+      "title": "اہم: V1 پری سیل بونس",
+      "list": {
+        "whitelisted": "صرف ≥ $350 تفویض والے V1 پری سیل والیٹس کے لیے دستیاب",
+        "onePer": "فی والیٹ ایک دعویٰ",
+        "eligibleOnly": "صرف اہل ٹوکنز",
+        "afterPresale": "دعوے صرف پری سیل ختم ہونے کے بعد جمع کیے جا سکتے ہیں",
+        "notStaked": "نقصان کے دعوے سے حاصل ٹوکنز سٹیک نہیں ہوتے"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 بونس — صرف ایک بار",
+      "text": "دعوے کی ونڈو چوک جائیں، اور یہ ہمیشہ کے لیے ختم ہو جائے گا۔",
+      "buy": "$REKT خریدیں"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT سٹیکنگ - صرف ہارنے والے جیتتے ہیں",
+      "logoAlt": "لوگو"
+    },
+    "info": "تمام پری سیل ٹوکنز خریداری سے خودکار طور پر سٹیک ہو جاتے ہیں۔ انعامات فوری طور پر شروع ہوتے ہیں، پری سیل کے اختتام پر قابل دعویٰ۔",
+    "buttons": {
+      "viewLeaderboard": "لیڈر بورڈ دیکھیں",
+      "claim": "دعویٰ کریں"
+    },
+    "stats": {
+      "yourStakedBalance": "آپ کا سٹیک شدہ بیلنس",
+      "unlockNote": "لانچ پر 30% انلاک، 6 ماہ میں 70% ویسٹنگ (صرف ٹوکنز)",
+      "yourPoolShare": "پول کا آپ کا %",
+      "yourPoolShareDesc": "کل سٹیکنگ پول میں آپ کا حصہ",
+      "totalStaked": "کل سٹیک شدہ (پری سیل پول)",
+      "totalStakedDesc": "تمام پری سیل شرکاء کے کل سٹیک شدہ ٹوکنز",
+      "annualApy": "سالانہ APY",
+      "annualApyValue": "سالانہ 65%",
+      "annualApyDesc": "موجودہ سالانہ فیصد منافع",
+      "dailyRewards": "روزانہ انعامات",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "اب دستیاب (کوئی ویسٹنگ نہیں)"
+    },
+    "rewards": {
+      "title": "کل جمع شدہ انعامات"
+    },
+    "footer": {
+      "notice": "سٹیکنگ پری سیل خریداروں کے لیے خصوصی ہے۔ انعامات ایکو سسٹم کی سرگرمی پر منحصر ہیں۔",
+      "vestingNote": "ویسٹنگ صرف سٹیک شدہ ٹوکنز پر لاگو ہوتی ہے۔ انعامات ویسٹ نہیں ہوتے۔"
+    },
+    "alts": {
+      "viewLeaderboardImg": "لیڈر بورڈ دیکھیں",
+      "frame": "فریم",
+      "longFrame": "لمبا فریم",
+      "logoSpread": "لوگو پھیلاؤ",
+      "claimButton": "دعویٰ کریں"
+    }
+  },
+  "notFound": {
+    "title": "صفحہ نہیں ملا",
+    "description": "آپ جو صفحہ تلاش کر رہے ہیں وہ موجود نہیں۔",
+    "goHome": "ہوم جائیں",
+    "staking": "سٹیکنگ",
+    "lossClaim": "نقصان کا دعویٰ"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

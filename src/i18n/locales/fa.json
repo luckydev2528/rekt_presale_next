@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "هشدار نظارتی",
+    "warningIntro": "کشور شما ({country}) ممکن است محدودیت‌هایی در معاملات رمزارز یا فروش توکن داشته باشد. لطفاً اطلاعات زیر را بررسی کرده و برای ادامه تأیید کنید.",
+    "bullets": {
+      "info": "این سایت تنها برای اهداف اطلاع‌رسانی است و مشاوره مالی محسوب نمی‌شود.",
+      "restrictions": "مشارکت ممکن است در حوزه قضایی شما محدود یا ممنوع باشد.",
+      "continue": "با ادامه، تأیید می‌کنید که خطرات و مقررات محلی را درک می‌کنید."
+    },
+    "blockedTitle": "دسترسی محدود",
+    "blockedBody": "دسترسی به این محتوا در حوزه قضایی شما ({country}) در دسترس نیست. به دلیل محدودیت‌های نظارتی نمی‌توانیم اطلاعات فروش یا معاملات توکن را در موقعیت شما ارائه دهیم.",
+    "back": "بازگشت",
+    "continue": "متوجه شدم، ادامه",
+    "warningCountryNotes": {
+      "US": "خدمات رمزارز در ایالات متحده به شدت تنظیم شده‌اند (SEC، CFTC، FinCEN). با ادامه، تصدیق می‌کنید که انطباق مسئولیت خود شماست.",
+      "IN": "معاملات رمزارز در هند مشمول مالیات سنگین و مقررات نامشخص است. تنها در صورت درک قوانین محلی ادامه دهید.",
+      "VN": "ویتنام رمزارز را به عنوان پول قانونی ممنوع کرده، اما معاملات به طور گسترده استفاده می‌شود. با مسئولیت خود ادامه دهید.",
+      "TH": "تایلند صرافی‌های رمزارز را تنظیم کرده؛ انطباق با SEC تایلند را تضمین کنید.",
+      "TR": "ترکیه استفاده از رمزارز برای پرداخت‌ها را محدود کرده. معاملات تحت نظارت مجاز است.",
+      "NG": "نیجریه محدودیت‌هایی روی بانک‌های مدیریت رمزارز دارد، اما معاملات P2P رایج است. با مسئولیت خود ادامه دهید.",
+      "UA": "رمزارز در اوکراین قانونی است، اما تحت مقررات در حال تکامل. با مسئولیت خود ادامه دهید.",
+      "RS": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید.",
+      "BG": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید.",
+      "HU": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید.",
+      "CZ": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید.",
+      "SK": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید.",
+      "SI": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید.",
+      "PL": "رمزارز مجاز است اما تحت قانون اتحادیه اروپا یا محلی تنظیم شده. با مسئولیت خود ادامه دهید."
+    },
+    "blockedCountryNotes": {
+      "RU": "به دلیل تحریم‌های بین‌المللی، دسترسی از روسیه محدود است. معاملات در دسترس نیست.",
+      "CN": "معاملات رمزارز و صرافی‌ها در چین قاره‌ای ممنوع است. دسترسی رد شده.",
+      "BD": "معاملات رمزارز در بنگلادش قانوناً ممنوع است.",
+      "NP": "معاملات رمزارز در نپال ممنوع است.",
+      "BO": "معاملات رمزارز در بولیوی ممنوع است.",
+      "DZ": "معاملات رمزارز در الجزایر ممنوع است.",
+      "MA": "معاملات رمزارز در مراکش ممنوع است.",
+      "QA": "معاملات رمزارز در قطر ممنوع است.",
+      "EG": "معاملات رمزارز در مصر ممنوع است."
+    }
+  },
+  "seo": {
+    "title": "$REKT - فقط بازندگان برنده می‌شوند",
+    "description": "سقوط را در آغوش بگیرید. اولین میم‌کوین که ضررهای شما را پاداش می‌دهد."
+  },
+  "nav": {
+    "hero": "خانه",
+    "tokenomics": "اقتصاد توکن",
+    "lossClaim": "درخواست ضرر",
+    "staking": "سهام‌گذاری",
+    "leaderboard": "جدول رهبری",
+    "team": "تیم",
+    "roadmap": "نقشه راه",
+    "whitepaper": "کتاب سفید",
+    "faq": "سوالات متداول"
+  },
+  "home": {
+    "hero": {
+      "title": "فقط بازندگان برنده می‌شوند",
+      "subtitle": "سقوط را در آغوش بگیرید"
+    },
+    "howToBuy": {
+      "title": "نحوه خرید:",
+      "steps": {
+        "connectWallet": "کیف پول خود را متصل کنید",
+        "choosePayment": "روش پرداخت را انتخاب کنید",
+        "enterAmount": "مبلغ را وارد کنید",
+        "confirmTransaction": "تراکنش را تأیید کنید"
+      }
+    },
+    "wallet": {
+      "connect": "اتصال کیف پول"
+    },
+    "presale": {
+      "title": "فروش مقدماتی فاز ۱",
+      "currentPrice": "قیمت فعلی",
+      "nextPrice": "قیمت بعدی",
+      "priceIncreaseNote": "افزایش قیمت هنگام رسیدن به هدف",
+      "progress": "پیشرفت",
+      "raised": "{amount} جمع‌آوری شده",
+      "amountPlaceholder": "مبلغ را وارد کنید",
+      "max": "حداکثر",
+      "buyWith": "خرید با {method}",
+      "alt": {
+        "buyWithSOL": "خرید با SOL",
+        "buyWithSOLHover": "خرید با SOL شناور"
+      }
+    },
+    "countdown": {
+      "days": "روز",
+      "hours": "ساعت",
+      "minutes": "دقیقه",
+      "seconds": "ثانیه"
+    },
+    "asSeenOn": {
+      "title": "همانطور که در دیده شده"
+    }
+  },
+  "lossClaim": {
+    "title": "درخواست ضرر REKT",
+    "tagline": "یک شلیک. یک سپر.",
+    "description": {
+      "before": "یک پاداش انحصاری فروش مقدماتی V1 برای کیف پول‌های با حداقل تخصیص ۳۵۰ دلار. درخواست خود را پس از پایان فروش مقدماتی ارسال کنید تا توکن‌های REKT را برای ضررهای واجد شرایط بازیابی کنید. پاداش‌های درخواست ضرر",
+      "not": "سهام‌گذاری نشده‌اند",
+      "after": " — این یک فرصت یکباره است."
+    },
+    "cta": {
+      "check": "بررسی واجد بودن شرایط",
+      "viewEligibility": "مشاهده واجد بودن شرایط"
+    },
+    "status": {
+      "eligible": "واجد شرایط",
+      "unused": "استفاده نشده"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "کیف پول فهرست سفید",
+        "desc": "فقط کیف پول‌های فروش مقدماتی V1 با تخصیص ۳۵۰ دلار می‌توانند درخواست دهند"
+      },
+      "onePer": {
+        "title": "یک درخواست به ازای هر کیف پول",
+        "desc": "یک درخواست واحد برای هر کیف پول — بدون تنظیم مجدد"
+      },
+      "window": {
+        "title": "پنجره درخواست",
+        "desc": "درخواست‌ها فقط پس از بسته شدن رسمی فروش مقدماتی قابل ارسال هستند"
+      }
+    },
+    "form": {
+      "heading": "پاداش فروش مقدماتی خود را درخواست کنید",
+      "selectToken": "انتخاب توکن",
+      "chooseEligibleToken": "توکن واجد شرایط را انتخاب کنید...",
+      "claimAmount": "مبلغ درخواست",
+      "usdtEquivalent": "معادل ۰.۰۰ دلار USDT",
+      "disclaimer": "توکن‌های درخواست ضرر سهام‌گذاری نشده‌اند و نمی‌توان آن‌ها را بعداً دوباره سهام‌گذاری کرد",
+      "submit": "ارسال درخواست"
+    },
+    "info": {
+      "title": "مهم: پاداش فروش مقدماتی V1",
+      "list": {
+        "whitelisted": "فقط برای کیف پول‌های فروش مقدماتی V1 با تخصیص ≥ ۳۵۰ دلار در دسترس است",
+        "onePer": "یک درخواست به ازای هر کیف پول",
+        "eligibleOnly": "فقط توکن‌های واجد شرایط",
+        "afterPresale": "درخواست‌ها فقط پس از پایان فروش مقدماتی قابل ارسال هستند",
+        "notStaked": "توکن‌های دریافتی از درخواست ضرر سهام‌گذاری نشده‌اند"
+      }
+    },
+    "ctaBottom": {
+      "title": "پاداش V1 — فقط یک بار",
+      "text": "پنجره درخواست را از دست بدهید، و برای همیشه از بین می‌رود.",
+      "buy": "خرید $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "سهام‌گذاری REKT - فقط بازندگان برنده می‌شوند",
+      "logoAlt": "لوگو"
+    },
+    "info": "همه توکن‌های فروش مقدماتی از خرید به صورت خودکار سهام‌گذاری می‌شوند. پاداش‌ها فوراً شروع می‌شوند، در پایان فروش مقدماتی قابل درخواست.",
+    "buttons": {
+      "viewLeaderboard": "مشاهده جدول رهبری",
+      "claim": "درخواست"
+    },
+    "stats": {
+      "yourStakedBalance": "موجودی سهام‌گذاری شده شما",
+      "unlockNote": "۳۰٪ در راه‌اندازی آزاد، ۷۰٪ سپرده‌گذاری طی ۶ ماه (فقط توکن‌ها)",
+      "yourPoolShare": "درصد استخر شما",
+      "yourPoolShareDesc": "سهم شما از کل استخر سهام‌گذاری",
+      "totalStaked": "کل سهام‌گذاری شده (استخر فروش مقدماتی)",
+      "totalStakedDesc": "کل توکن‌های سهام‌گذاری شده همه شرکت‌کنندگان فروش مقدماتی",
+      "annualApy": "درآمد سالانه",
+      "annualApyValue": "۶۵٪ سالانه",
+      "annualApyDesc": "درآمد درصدی سالانه فعلی",
+      "dailyRewards": "پاداش‌های روزانه",
+      "dailyRewardsValue": "۲,۱۷۸+ REKT",
+      "dailyRewardsDesc": "اکنون در دسترس (بدون سپرده‌گذاری)"
+    },
+    "rewards": {
+      "title": "کل پاداش‌های تجمعی"
+    },
+    "footer": {
+      "notice": "سهام‌گذاری انحصاری خریداران فروش مقدماتی است. پاداش‌ها به فعالیت اکوسیستم بستگی دارد.",
+      "vestingNote": "سپرده‌گذاری فقط برای توکن‌های سهام‌گذاری شده اعمال می‌شود. پاداش‌ها سپرده‌گذاری نمی‌شوند."
+    },
+    "alts": {
+      "viewLeaderboardImg": "مشاهده جدول رهبری",
+      "frame": "قاب",
+      "longFrame": "قاب بلند",
+      "logoSpread": "پراکنش لوگو",
+      "claimButton": "درخواست"
+    }
+  },
+  "notFound": {
+    "title": "صفحه یافت نشد",
+    "description": "صفحه‌ای که به دنبال آن هستید وجود ندارد.",
+    "goHome": "رفتن به خانه",
+    "staking": "سهام‌گذاری",
+    "lossClaim": "درخواست ضرر"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

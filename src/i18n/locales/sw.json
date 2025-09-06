@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Onyo la Kudhibiti",
+    "warningIntro": "Nchi yako ({country}) inaweza kuwa na vikwazo vya biashara ya crypto au mauzo ya tokeni. Tafadhali kagua habari hapa chini na thibitisha kuendelea.",
+    "bullets": {
+      "info": "Tovuti hii ni kwa madhumuni ya habari tu na haitengenezi ushauri wa kifedha.",
+      "restrictions": "Ushiriki unaweza kuwa mdogo au kupigwa marufuku katika mamlaka yako.",
+      "continue": "Kwa kuendelea, unathibitisha kwamba unaelewa hatari na kanuni za ndani."
+    },
+    "blockedTitle": "Ufikiaji Umezuiliwa",
+    "blockedBody": "Ufikiaji wa maudhui haya haupatikani katika mamlaka yako ({country}). Hatuwezi kutoa habari za mauzo au biashara ya tokeni katika eneo lako kwa sababu ya vikwazo vya udhibiti.",
+    "back": "Rudi",
+    "continue": "Naelewa, Endelea",
+    "warningCountryNotes": {
+      "US": "Huduma za crypto zinadhibitiwa kwa ukali nchini Marekani (SEC, CFTC, FinCEN). Kwa kuendelea, unakubali kwamba kufuata ni jukumu lako mwenyewe.",
+      "IN": "Biashara ya crypto nchini India inategemea ushuru mkuu na kanuni zisizo wazi. Endelea tu ikiwa unaelewa sheria za ndani.",
+      "VN": "Vietnam inakataza crypto kama sarafu ya kisheria, lakini biashara inatumika kwa wingi. Endelea kwa hatari yako mwenyewe.",
+      "TH": "Thailand imeweka kanuni za crypto exchanges; hakikisha kufuata na SEC Thailand.",
+      "TR": "Uturuki inazuia matumizi ya crypto kwa malipo. Biashara inabaki kuwa halali chini ya udhibiti.",
+      "NG": "Nigeria ina vikwazo kwa benki zinazoshughulikia crypto, lakini biashara ya P2P ni ya kawaida. Endelea kwa hatari yako mwenyewe.",
+      "UA": "Crypto ni halali nchini Ukraine, lakini chini ya kanuni zinazokua. Endelea kwa hatari yako mwenyewe.",
+      "RS": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe.",
+      "BG": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe.",
+      "HU": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe.",
+      "CZ": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe.",
+      "SK": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe.",
+      "SI": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe.",
+      "PL": "Crypto inaruhusiwa lakini inadhibitiwa chini ya sheria ya EU au ya ndani. Endelea kwa hatari yako mwenyewe."
+    },
+    "blockedCountryNotes": {
+      "RU": "Kwa sababu ya adhabu za kimataifa, ufikiaji kutoka Urusi umezuiliwa. Biashara haipatikani.",
+      "CN": "Biashara ya crypto na ubadilishaji wa tokeni vimekatazwa nchini China ya bara. Ufikiaji umekataliwa.",
+      "BD": "Biashara ya crypto imekatazwa kisheria nchini Bangladesh.",
+      "NP": "Biashara ya crypto imekatazwa nchini Nepal.",
+      "BO": "Biashara ya crypto imekatazwa nchini Bolivia.",
+      "DZ": "Biashara ya crypto imekatazwa nchini Algeria.",
+      "MA": "Biashara ya crypto imekatazwa nchini Morocco.",
+      "QA": "Biashara ya crypto imekatazwa nchini Qatar.",
+      "EG": "Biashara ya crypto imekatazwa nchini Misri."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Washindani pekee ndio wanaoshinda",
+    "description": "Kumbatia anguko. Memecoin ya kwanza inayolipa hasara zako."
+  },
+  "nav": {
+    "hero": "Nyumbani",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Madai ya Hasara",
+    "staking": "Kuweka",
+    "leaderboard": "Jedwali la Viongozi",
+    "team": "Timu",
+    "roadmap": "Ramani ya Njia",
+    "whitepaper": "Karatasi Nyeupe",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Washindani pekee ndio wanaoshinda",
+      "subtitle": "Kumbatia anguko"
+    },
+    "howToBuy": {
+      "title": "Jinsi ya Kununua:",
+      "steps": {
+        "connectWallet": "Unganisha pochi yako",
+        "choosePayment": "Chagua njia ya malipo",
+        "enterAmount": "Ingiza kiasi",
+        "confirmTransaction": "Thibitisha muamala"
+      }
+    },
+    "wallet": {
+      "connect": "Unganisha Pochi"
+    },
+    "presale": {
+      "title": "Mauzo ya Awali Awamu 1",
+      "currentPrice": "Bei ya Sasa",
+      "nextPrice": "Bei Inayofuata",
+      "priceIncreaseNote": "Ongezeko la bei wakati lengo likipatikana",
+      "progress": "Maendeleo",
+      "raised": "{amount} imekusanywa",
+      "amountPlaceholder": "Ingiza kiasi",
+      "max": "JUU KABISA",
+      "buyWith": "NUNUA NA {method}",
+      "alt": {
+        "buyWithSOL": "Nunua na SOL",
+        "buyWithSOLHover": "Nunua na SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "siku",
+      "hours": "masaa",
+      "minutes": "dakika",
+      "seconds": "sekunde"
+    },
+    "asSeenOn": {
+      "title": "Kama inavyoonekana kwenye"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Madai ya Hasara",
+    "tagline": "Risasi moja. Ngao moja.",
+    "description": {
+      "before": "Pekee ya bonus ya mauzo ya awali V1 kwa pochi zilizo na angalau $350 mgao. Wasilisha madai yako baada ya mauzo ya awali kumalizika ili kurudisha tokeni za REKT kwa hasara zinazostahili. Tuzo za Madai ya Hasara",
+      "not": "HAZIWEKWI",
+      "after": "— hii ni fursa ya mara moja."
+    },
+    "cta": {
+      "check": "Angalia Ustahili",
+      "viewEligibility": "Ona Ustahili"
+    },
+    "status": {
+      "eligible": "Anastahili",
+      "unused": "Haijatumika"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Pochi katika Orodha Nyeupe",
+        "desc": "Pochi za mauzo ya awali V1 zenye mgao wa $350 pekee zinaweza kudai"
+      },
+      "onePer": {
+        "title": "Madai Moja Kwa Pochi",
+        "desc": "Madai moja kwa pochi — hakuna kurejesha"
+      },
+      "window": {
+        "title": "Dirisha la Madai",
+        "desc": "Madai yanaweza kuwasilishwa tu baada ya mauzo ya awali kufungwa rasmi"
+      }
+    },
+    "form": {
+      "heading": "Dai Bonus Yako ya Mauzo ya Awali",
+      "selectToken": "Chagua Tokeni",
+      "chooseEligibleToken": "Chagua tokeni inayostahili...",
+      "claimAmount": "Kiasi cha Madai",
+      "usdtEquivalent": "Sawa na $0.00 USDT",
+      "disclaimer": "Tokeni za Madai ya Hasara haziwekwi na haziwezi kuwekwa tena baadaye",
+      "submit": "Wasilisha Madai"
+    },
+    "info": {
+      "title": "Muhimu: Bonus ya Mauzo ya Awali V1",
+      "list": {
+        "whitelisted": "Inapatikana tu kwa pochi za mauzo ya awali V1 zenye mgao ≥ $350",
+        "onePer": "Madai moja kwa pochi",
+        "eligibleOnly": "Tokeni zinazostahili tu",
+        "afterPresale": "Madai yanaweza kuwasilishwa tu baada ya mauzo ya awali kumalizika",
+        "notStaked": "Tokeni zilizopokelewa kutoka Madai ya Hasara HAZIWEKWI"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus ya V1 — Mara Moja Tu",
+      "text": "Kosa dirisha la madai, na linapotea milele.",
+      "buy": "NUNUA $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Kuweka - Washindani pekee ndio wanaoshinda",
+      "logoAlt": "Logo"
+    },
+    "info": "Tokeni zote za mauzo ya awali zimewekwa kiotomatiki kutoka ununuzi. Tuzo zinaanza mara moja, zinaweza kudaiwa mwishoni mwa mauzo ya awali.",
+    "buttons": {
+      "viewLeaderboard": "Ona Jedwali la Viongozi",
+      "claim": "DAI"
+    },
+    "stats": {
+      "yourStakedBalance": "Usawa Wako Uliowekwa",
+      "unlockNote": "30% imefunguliwa kwenye uzinduzi, 70% kuvuna kwa miezi 6 (tokeni tu)",
+      "yourPoolShare": "% Yako ya Bwawa",
+      "yourPoolShareDesc": "Sehemu yako ya jumla ya bwawa la kuweka",
+      "totalStaked": "Jumla Iliyowekwa (Bwawa la Mauzo ya Awali)",
+      "totalStakedDesc": "Jumla ya tokeni zilizowekwa za washiriki wote wa mauzo ya awali",
+      "annualApy": "APY ya Kila Mwaka",
+      "annualApyValue": "65% kwa mwaka",
+      "annualApyDesc": "Mapato ya kila mwaka ya sasa kwa asilimia",
+      "dailyRewards": "Tuzo za Kila Siku",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Inapatikana Sasa (hakuna kuvuna)"
+    },
+    "rewards": {
+      "title": "Jumla ya Tuzo Zilizokusanywa"
+    },
+    "footer": {
+      "notice": "Kuweka ni pekee kwa wananunuzi wa mauzo ya awali. Tuzo zinategemea shughuli za mazingira.",
+      "vestingNote": "Kuvuna kunatumika kwa tokeni zilizowekwa tu. Tuzo hazivunwi."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Ona Jedwali la Viongozi",
+      "frame": "Fremu",
+      "longFrame": "Fremu Ndefu",
+      "logoSpread": "Uenezaji wa Logo",
+      "claimButton": "Dai"
+    }
+  },
+  "notFound": {
+    "title": "Ukurasa Haujapatikana",
+    "description": "Ukurasa unaoutafuta haupo.",
+    "goHome": "Enda Nyumbani",
+    "staking": "Kuweka",
+    "lossClaim": "Madai ya Hasara"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

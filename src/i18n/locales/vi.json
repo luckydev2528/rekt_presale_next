@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Cảnh Báo Quy Định",
+    "warningIntro": "Quốc gia của bạn ({country}) có thể có những hạn chế về giao dịch tiền mã hóa hoặc bán token. Vui lòng xem xét thông tin dưới đây và xác nhận để tiếp tục.",
+    "bullets": {
+      "info": "Trang web này chỉ nhằm mục đích thông tin và không cấu thành lời khuyên tài chính.",
+      "restrictions": "Việc tham gia có thể bị hạn chế hoặc cấm trong phạm vi quyền hạn của bạn.",
+      "continue": "Bằng cách tiếp tục, bạn xác nhận rằng bạn hiểu các rủi ro và quy định địa phương."
+    },
+    "blockedTitle": "Truy Cập Bị Hạn Chế",
+    "blockedBody": "Truy cập vào nội dung này không khả dụng trong phạm vi quyền hạn của bạn ({country}). Chúng tôi không thể cung cấp thông tin bán hoặc giao dịch token tại vị trí của bạn do các hạn chế quy định.",
+    "back": "Quay Lại",
+    "continue": "Tôi Hiểu, Tiếp Tục",
+    "warningCountryNotes": {
+      "US": "Các dịch vụ tiền mã hóa được quy định nghiêm ngặt tại Hoa Kỳ (SEC, CFTC, FinCEN). Bằng cách tiếp tục, bạn thừa nhận rằng việc tuân thủ là trách nhiệm của riêng bạn.",
+      "IN": "Giao dịch tiền mã hóa ở Ấn Độ phải chịu thuế nặng và quy định không rõ ràng. Chỉ tiếp tục nếu bạn hiểu luật địa phương.",
+      "VN": "Việt Nam cấm tiền mã hóa làm phương tiện thanh toán hợp pháp, nhưng giao dịch được sử dụng rộng rãi. Tiếp tục với rủi ro của riêng bạn.",
+      "TH": "Thái Lan đã quy định các sàn giao dịch tiền mã hóa; đảm bảo tuân thủ với SEC Thái Lan.",
+      "TR": "Thổ Nhĩ Kỳ hạn chế việc sử dụng tiền mã hóa cho thanh toán. Giao dịch vẫn được phép dưới quy định.",
+      "NG": "Nigeria có hạn chế đối với các ngân hàng xử lý tiền mã hóa, nhưng giao dịch P2P phổ biến. Tiếp tục với rủi ro của riêng bạn.",
+      "UA": "Tiền mã hóa hợp pháp ở Ukraine, nhưng dưới các quy định đang phát triển. Tiếp tục với rủi ro của riêng bạn.",
+      "RS": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn.",
+      "BG": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn.",
+      "HU": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn.",
+      "CZ": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn.",
+      "SK": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn.",
+      "SI": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn.",
+      "PL": "Tiền mã hóa được phép nhưng được quy định dưới luật EU hoặc địa phương. Tiếp tục với rủi ro của riêng bạn."
+    },
+    "blockedCountryNotes": {
+      "RU": "Do các lệnh trừng phạt quốc tế, quyền truy cập từ Nga bị hạn chế. Giao dịch không khả dụng.",
+      "CN": "Giao dịch tiền mã hóa và sàn giao dịch bị cấm ở Trung Quốc đại lục. Truy cập bị từ chối.",
+      "BD": "Giao dịch tiền mã hóa bị cấm về mặt pháp lý ở Bangladesh.",
+      "NP": "Giao dịch tiền mã hóa bị cấm ở Nepal.",
+      "BO": "Giao dịch tiền mã hóa bị cấm ở Bolivia.",
+      "DZ": "Giao dịch tiền mã hóa bị cấm ở Algeria.",
+      "MA": "Giao dịch tiền mã hóa bị cấm ở Morocco.",
+      "QA": "Giao dịch tiền mã hóa bị cấm ở Qatar.",
+      "EG": "Giao dịch tiền mã hóa bị cấm ở Ai Cập."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Chỉ kẻ thua cuộc mới thắng",
+    "description": "Đón nhận sự sụp đổ. Đồng memecoin đầu tiên thưởng cho những tổn thất của bạn."
+  },
+  "nav": {
+    "hero": "Trang Chủ",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Yêu Cầu Tổn Thất",
+    "staking": "Staking",
+    "leaderboard": "Bảng Xếp Hạng",
+    "team": "Đội Ngũ",
+    "roadmap": "Lộ Trình",
+    "whitepaper": "Giấy Trắng",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Chỉ kẻ thua cuộc mới thắng",
+      "subtitle": "Đón nhận sự sụp đổ"
+    },
+    "howToBuy": {
+      "title": "Cách Mua:",
+      "steps": {
+        "connectWallet": "Kết nối ví của bạn",
+        "choosePayment": "Chọn phương thức thanh toán",
+        "enterAmount": "Nhập số tiền",
+        "confirmTransaction": "Xác nhận giao dịch"
+      }
+    },
+    "wallet": {
+      "connect": "Kết Nối Ví"
+    },
+    "presale": {
+      "title": "Giai Đoạn 1 Bán Trước",
+      "currentPrice": "Giá Hiện Tại",
+      "nextPrice": "Giá Tiếp Theo",
+      "priceIncreaseNote": "Tăng giá khi đạt mục tiêu",
+      "progress": "Tiến Độ",
+      "raised": "Đã gây quỹ {amount}",
+      "amountPlaceholder": "Nhập số tiền",
+      "max": "TỐI ĐA",
+      "buyWith": "MUA BẰNG {method}",
+      "alt": {
+        "buyWithSOL": "Mua bằng SOL",
+        "buyWithSOLHover": "Mua bằng SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "ngày",
+      "hours": "giờ",
+      "minutes": "phút",
+      "seconds": "giây"
+    },
+    "asSeenOn": {
+      "title": "Như đã thấy trên"
+    }
+  },
+  "lossClaim": {
+    "title": "Yêu Cầu Tổn Thất REKT",
+    "tagline": "Một phát bắn. Một lá chắn.",
+    "description": {
+      "before": "Một phần thưởng độc quyền từ bán trước V1 cho các ví có ít nhất $350 phân bổ. Gửi yêu cầu của bạn sau khi bán trước kết thúc để khôi phục token REKT cho các tổn thất đủ điều kiện. Phần thưởng Yêu Cầu Tổn Thất",
+      "not": "KHÔNG",
+      "after": "được stake — đây là cơ hội một lần."
+    },
+    "cta": {
+      "check": "Kiểm Tra Tính Đủ Điều Kiện",
+      "viewEligibility": "Xem Tính Đủ Điều Kiện"
+    },
+    "status": {
+      "eligible": "Đủ điều kiện",
+      "unused": "Chưa sử dụng"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Ví Trong Danh Sách Trắng",
+        "desc": "Chỉ các ví bán trước V1 có phân bổ $350 mới có thể yêu cầu"
+      },
+      "onePer": {
+        "title": "Một Yêu Cầu Mỗi Ví",
+        "desc": "Một yêu cầu duy nhất mỗi ví — không đặt lại"
+      },
+      "window": {
+        "title": "Cửa Sổ Yêu Cầu",
+        "desc": "Yêu cầu chỉ có thể được gửi sau khi bán trước chính thức đóng"
+      }
+    },
+    "form": {
+      "heading": "Yêu Cầu Phần Thưởng Bán Trước Của Bạn",
+      "selectToken": "Chọn Token",
+      "chooseEligibleToken": "Chọn token đủ điều kiện...",
+      "claimAmount": "Số Tiền Yêu Cầu",
+      "usdtEquivalent": "Tương đương $0.00 USDT",
+      "disclaimer": "Token Yêu Cầu Tổn Thất không được stake và không thể stake lại sau này",
+      "submit": "Gửi Yêu Cầu"
+    },
+    "info": {
+      "title": "Quan Trọng: Phần Thưởng Bán Trước V1",
+      "list": {
+        "whitelisted": "Chỉ khả dụng cho các ví bán trước V1 có phân bổ ≥ $350",
+        "onePer": "Một yêu cầu mỗi ví",
+        "eligibleOnly": "Chỉ token đủ điều kiện",
+        "afterPresale": "Yêu cầu chỉ có thể được gửi sau khi bán trước kết thúc",
+        "notStaked": "Token nhận được từ Yêu Cầu Tổn Thất KHÔNG được stake"
+      }
+    },
+    "ctaBottom": {
+      "title": "Phần Thưởng V1 — Chỉ Một Lần",
+      "text": "Bỏ lỡ cửa sổ yêu cầu, và nó sẽ mất mãi mãi.",
+      "buy": "MUA $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Chỉ kẻ thua cuộc mới thắng",
+      "logoAlt": "Logo"
+    },
+    "info": "Tất cả token bán trước được tự động stake từ khi mua. Phần thưởng bắt đầu ngay lập tức, có thể yêu cầu vào cuối bán trước.",
+    "buttons": {
+      "viewLeaderboard": "Xem Bảng Xếp Hạng",
+      "claim": "YÊU CẦU"
+    },
+    "stats": {
+      "yourStakedBalance": "Số Dư Stake Của Bạn",
+      "unlockNote": "30% mở khóa khi ra mắt, 70% vesting trong 6 tháng (chỉ token)",
+      "yourPoolShare": "% Pool Của Bạn",
+      "yourPoolShareDesc": "Phần của bạn trong tổng pool staking",
+      "totalStaked": "Tổng Stake (Pool Bán Trước)",
+      "totalStakedDesc": "Tổng token được stake của tất cả người tham gia bán trước",
+      "annualApy": "APY Hàng Năm",
+      "annualApyValue": "65% năm",
+      "annualApyDesc": "Lợi suất phần trăm hàng năm hiện tại",
+      "dailyRewards": "Phần Thưởng Hàng Ngày",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Khả Dụng Ngay (không vesting)"
+    },
+    "rewards": {
+      "title": "Tổng Phần Thưởng Tích Lũy"
+    },
+    "footer": {
+      "notice": "Staking độc quyền cho người mua bán trước. Phần thưởng phụ thuộc vào hoạt động hệ sinh thái.",
+      "vestingNote": "Vesting chỉ áp dụng cho token được stake. Phần thưởng không có vesting."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Xem Bảng Xếp Hạng",
+      "frame": "Khung",
+      "longFrame": "Khung Dài",
+      "logoSpread": "Logo Lan Rộng",
+      "claimButton": "Yêu Cầu"
+    }
+  },
+  "notFound": {
+    "title": "Không Tìm Thấy Trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại.",
+    "goHome": "Về Trang Chủ",
+    "staking": "Staking",
+    "lossClaim": "Yêu Cầu Tổn Thất"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

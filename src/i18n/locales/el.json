@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Κανονιστική Προειδοποίηση",
+    "warningIntro": "Η χώρα σας ({country}) μπορεί να έχει περιορισμούς στο εμπόριο κρυπτονομισμάτων ή στην πώληση tokens. Παρακαλώ εξετάστε τις παρακάτω πληροφορίες και επιβεβαιώστε για να συνεχίσετε.",
+    "bullets": {
+      "info": "Αυτός ο ιστότοπος είναι μόνο για ενημερωτικούς σκοπούς και δεν αποτελεί χρηματοοικονομικό συμβουλή.",
+      "restrictions": "Η συμμετοχή μπορεί να είναι περιορισμένη ή απαγορευμένη στη δικαιοδοσία σας.",
+      "continue": "Συνεχίζοντας, επιβεβαιώνετε ότι κατανοείτε τους κινδύνους και τους τοπικούς κανονισμούς."
+    },
+    "blockedTitle": "Πρόσβαση Περιορισμένη",
+    "blockedBody": "Η πρόσβαση σε αυτό το περιεχόμενο δεν είναι διαθέσιμη στη δικαιοδοσία σας ({country}). Δεν μπορούμε να παρέχουμε πληροφορίες πώλησης ή εμπορίου tokens στην τοποθεσία σας λόγω κανονιστικών περιορισμών.",
+    "back": "Πίσω",
+    "continue": "Κατανοώ, Συνέχεια",
+    "warningCountryNotes": {
+      "US": "Οι υπηρεσίες κρυπτονομισμάτων είναι αυστηρά ρυθμισμένες στις Ηνωμένες Πολιτείες (SEC, CFTC, FinCEN). Συνεχίζοντας, αναγνωρίζετε ότι η συμμόρφωση είναι δική σας ευθύνη.",
+      "IN": "Το εμπόριο κρυπτονομισμάτων στην Ινδία υπόκειται σε βαρεία φορολογία και ασαφείς κανονισμούς. Συνεχίστε μόνο εάν κατανοείτε τους τοπικούς νόμους.",
+      "VN": "Το Βιετνάμ απαγορεύει τα κρυπτονομίσματα ως νόμιμο νόμισμα, αλλά το εμπόριο χρησιμοποιείται ευρέως. Συνεχίστε με δική σας ευθύνη.",
+      "TH": "Η Ταϊλάνδη έχει ρυθμίσει τα κρυπτο-χρηματιστήρια· διασφαλίστε τη συμμόρφωση με την SEC Ταϊλάνδης.",
+      "TR": "Η Τουρκία περιορίζει τη χρήση κρυπτονομισμάτων για πληρωμές. Το εμπόριο παραμένει επιτρεπτό υπό ρύθμιση.",
+      "NG": "Η Νιγηρία έχει περιορισμούς για τράπεζες που χειρίζονται κρυπτονομίσματα, αλλά το P2P εμπόριο είναι κοινό. Συνεχίστε με δική σας ευθύνη.",
+      "UA": "Τα κρυπτονομίσματα είναι νόμιμα στην Ουκρανία, αλλά υπό εξελισσόμενους κανονισμούς. Συνεχίστε με δική σας ευθύνη.",
+      "RS": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη.",
+      "BG": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη.",
+      "HU": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη.",
+      "CZ": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη.",
+      "SK": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη.",
+      "SI": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη.",
+      "PL": "Τα κρυπτονομίσματα επιτρέπονται αλλά ρυθμίζονται υπό το δίκαιο της ΕΕ ή τοπικό. Συνεχίστε με δική σας ευθύνη."
+    },
+    "blockedCountryNotes": {
+      "RU": "Λόγω διεθνών κυρώσεων, η πρόσβαση από τη Ρωσία είναι περιορισμένη. Το εμπόριο δεν είναι διαθέσιμο.",
+      "CN": "Το εμπόριο κρυπτονομισμάτων και τα χρηματιστήρια απαγορεύονται στην ηπειρωτική Κίνα. Άρνηση πρόσβασης.",
+      "BD": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται νομικά στο Μπαγκλαντές.",
+      "NP": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται στο Νεπάλ.",
+      "BO": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται στη Βολιβία.",
+      "DZ": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται στην Αλγερία.",
+      "MA": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται στο Μαρόκο.",
+      "QA": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται στο Κατάρ.",
+      "EG": "Το εμπόριο κρυπτονομισμάτων απαγορεύεται στην Αίγυπτο."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Μόνο οι χαμένοι κερδίζουν",
+    "description": "Αγκαλιάστε την κατάρρευση. Το πρώτο memecoin που ανταμείβει τις απώλειές σας."
+  },
+  "nav": {
+    "hero": "Αρχική",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Αξίωση Απωλειών",
+    "staking": "Staking",
+    "leaderboard": "Πίνακας Κορυφαίων",
+    "team": "Ομάδα",
+    "roadmap": "Χάρτης Πορείας",
+    "whitepaper": "Λευκό Βιβλίο",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Μόνο οι χαμένοι κερδίζουν",
+      "subtitle": "Αγκαλιάστε την κατάρρευση"
+    },
+    "howToBuy": {
+      "title": "Πώς να Αγοράσετε:",
+      "steps": {
+        "connectWallet": "Συνδέστε το πορτοφόλι σας",
+        "choosePayment": "Επιλέξτε μέθοδο πληρωμής",
+        "enterAmount": "Εισάγετε ποσό",
+        "confirmTransaction": "Επιβεβαιώστε τη συναλλαγή"
+      }
+    },
+    "wallet": {
+      "connect": "Σύνδεση Πορτοφολιού"
+    },
+    "presale": {
+      "title": "Φάση 1 Προπώληση",
+      "currentPrice": "Τρέχουσα Τιμή",
+      "nextPrice": "Επόμενη Τιμή",
+      "priceIncreaseNote": "Αύξηση τιμής όταν επιτευχθεί ο στόχος",
+      "progress": "Πρόοδος",
+      "raised": "{amount} συγκεντρώθηκαν",
+      "amountPlaceholder": "Εισάγετε ποσό",
+      "max": "ΜΕΓΙΣΤΟ",
+      "buyWith": "ΑΓΟΡΑ ΜΕ {method}",
+      "alt": {
+        "buyWithSOL": "Αγορά με SOL",
+        "buyWithSOLHover": "Αγορά με SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "μέρες",
+      "hours": "ώρες",
+      "minutes": "λεπτά",
+      "seconds": "δευτερόλεπτα"
+    },
+    "asSeenOn": {
+      "title": "Όπως φαίνεται στο"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Αξίωση Απωλειών",
+    "tagline": "Ένας πυροβολισμός. Μία ασπίδα.",
+    "description": {
+      "before": "Ένα αποκλειστικό V1 bonus προπώλησης για πορτοφόλια με τουλάχιστον $350 κατανομή. Υποβάλετε την αξίωσή σας μετά το τέλος της προπώλησης για να ανακτήσετε REKT tokens για επιλέξιμες απώλειες. Οι ανταμοιβές Αξίωσης Απωλειών",
+      "not": "ΔΕΝ",
+      "after": "είναι σε staking — αυτή είναι μια ευκαιρία μιας φοράς."
+    },
+    "cta": {
+      "check": "Έλεγχος Δικαιώματος",
+      "viewEligibility": "Προβολή Δικαιώματος"
+    },
+    "status": {
+      "eligible": "Δικαιούχος",
+      "unused": "Αχρησιμοποίητο"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Πορτοφόλι στη Λευκή Λίστα",
+        "desc": "Μόνο πορτοφόλια προπώλησης V1 με κατανομή $350 μπορούν να αξιώσουν"
+      },
+      "onePer": {
+        "title": "Μία Αξίωση Ανά Πορτοφόλι",
+        "desc": "Μια αξίωση ανά πορτοφόλι — χωρίς επαναφορές"
+      },
+      "window": {
+        "title": "Παράθυρο Αξιώσεων",
+        "desc": "Οι αξιώσεις μπορούν να υποβληθούν μόνο μετά το επίσημο κλείσιμο της προπώλησης"
+      }
+    },
+    "form": {
+      "heading": "Αξιώστε το Bonus Προπώλησής Σας",
+      "selectToken": "Επιλογή Token",
+      "chooseEligibleToken": "Επιλέξτε επιλέξιμο token...",
+      "claimAmount": "Ποσό Αξίωσης",
+      "usdtEquivalent": "Ισοδύναμο $0.00 USDT",
+      "disclaimer": "Τα tokens Αξίωσης Απωλειών δεν είναι σε staking και δεν μπορούν να μπουν ξανά σε staking αργότερα",
+      "submit": "Υποβολή Αξίωσης"
+    },
+    "info": {
+      "title": "Σημαντικό: V1 Bonus Προπώλησης",
+      "list": {
+        "whitelisted": "Διαθέσιμο μόνο για πορτοφόλια προπώλησης V1 με κατανομή ≥ $350",
+        "onePer": "Μία αξίωση ανά πορτοφόλι",
+        "eligibleOnly": "Μόνο επιλέξιμα tokens",
+        "afterPresale": "Οι αξιώσεις μπορούν να υποβληθούν μόνο μετά το τέλος της προπώλησης",
+        "notStaked": "Τα tokens που λαμβάνονται από την Αξίωση Απωλειών ΔΕΝ είναι σε staking"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bonus — Μόνο Μία Φορά",
+      "text": "Χάστε το παράθυρο αξίωσης και χάνεται για πάντα.",
+      "buy": "ΑΓΟΡΑΣΤΕ $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Μόνο οι χαμένοι κερδίζουν",
+      "logoAlt": "Λογότυπο"
+    },
+    "info": "Όλα τα tokens προπώλησης είναι αυτόματα σε staking από την αγορά. Οι ανταμοιβές ξεκινούν αμέσως, αξιώσιμες στο τέλος της προπώλησης.",
+    "buttons": {
+      "viewLeaderboard": "Προβολή Πίνακα Κορυφαίων",
+      "claim": "ΑΞΙΩΣΗ"
+    },
+    "stats": {
+      "yourStakedBalance": "Το Υπόλοιπό Σας σε Staking",
+      "unlockNote": "30% ξεκλειδωμένο στην εκκίνηση, 70% vesting σε 6 μήνες (μόνο tokens)",
+      "yourPoolShare": "Το % σας από το Pool",
+      "yourPoolShareDesc": "Το μερίδιό σας από το συνολικό pool staking",
+      "totalStaked": "Συνολικά σε Staking (Pool Προπώλησης)",
+      "totalStakedDesc": "Συνολικά tokens σε staking όλων των συμμετεχόντων προπώλησης",
+      "annualApy": "Ετήσιο APY",
+      "annualApyValue": "65% ετησίως",
+      "annualApyDesc": "Τρέχουσα ετήσια ποσοστιαία απόδοση",
+      "dailyRewards": "Ημερήσιες Ανταμοιβές",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Διαθέσιμο Τώρα (χωρίς vesting)"
+    },
+    "rewards": {
+      "title": "Συνολικές Συσσωρευμένες Ανταμοιβές"
+    },
+    "footer": {
+      "notice": "Το staking είναι αποκλειστικό για αγοραστές προπώλησης. Οι ανταμοιβές εξαρτώνται από τη δραστηριότητα του οικοσυστήματος.",
+      "vestingNote": "Το vesting ισχύει μόνο για tokens σε staking. Οι ανταμοιβές δεν έχουν vesting."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Προβολή Πίνακα Κορυφαίων",
+      "frame": "Πλαίσιο",
+      "longFrame": "Μακρύ Πλαίσιο",
+      "logoSpread": "Διασπορά Λογοτύπου",
+      "claimButton": "Αξίωση"
+    }
+  },
+  "notFound": {
+    "title": "Σελίδα Δεν Βρέθηκε",
+    "description": "Η σελίδα που ψάχνετε δεν υπάρχει.",
+    "goHome": "Μετάβαση στην Αρχική",
+    "staking": "Staking",
+    "lossClaim": "Αξίωση Απωλειών"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

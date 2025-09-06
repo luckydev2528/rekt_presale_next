@@ -1,0 +1,254 @@
+{
+  "gating": {
+    "warningTitle": "Regulatory Warning",
+    "warningIntro": "Your country ({country}) may have restrictions on crypto trading or token sales. Please review the information below and acknowledge to proceed.",
+    "bullets": {
+      "info": "This site is for informational purposes only and does not constitute financial advice.",
+      "restrictions": "Participation may be restricted or prohibited in your jurisdiction.",
+      "continue": "By continuing, you confirm you understand the risks and local regulations."
+    },
+    "blockedTitle": "Access Restricted",
+    "blockedBody": "Access to this content is not available in your jurisdiction ({country}). We cannot provide token sale or trading information in your location due to regulatory restrictions.",
+    "back": "Go Back",
+    "continue": "I Understand, Continue",
+    "warningCountryNotes": {
+      "US": "Crypto services are strictly regulated in the United States (SEC, CFTC, FinCEN). By continuing, you acknowledge compliance is your own responsibility.",
+      "IN": "Crypto trading in India is subject to heavy taxation and unclear regulations. Proceed only if you understand the local laws.",
+      "VN": "Vietnam prohibits crypto as legal tender, but trading is widely used. Continue at your own risk.",
+      "TH": "Thailand has regulated crypto exchanges; ensure compliance with SEC Thailand.",
+      "TR": "Turkey restricts use of crypto for payments. Trading remains allowed under regulation.",
+      "NG": "Nigeria has restrictions on banks handling crypto, but P2P trading is common. Continue at your own risk.",
+      "UA": "Crypto is legal in Ukraine, but under evolving regulations. Continue at your own risk.",
+      "RS": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
+      "BG": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
+      "HU": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
+      "CZ": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
+      "SK": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
+      "SI": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
+      "PL": "Crypto is permitted but regulated under EU or local law. Continue at your own risk."
+    },
+    "blockedCountryNotes": {
+      "RU": "Due to international sanctions, access from Russia is restricted. Trading is not available.",
+      "CN": "Crypto trading and exchanges are banned in mainland China. Access denied.",
+      "BD": "Crypto trading is prohibited by law in Bangladesh.",
+      "NP": "Crypto trading is prohibited in Nepal.",
+      "BO": "Crypto trading is prohibited in Bolivia.",
+      "DZ": "Crypto trading is prohibited in Algeria.",
+      "MA": "Crypto trading is prohibited in Morocco.",
+      "QA": "Crypto trading is prohibited in Qatar.",
+      "EG": "Crypto trading is prohibited in Egypt."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Only losers win",
+    "description": "Embrace the crash. The first memecoin that rewards your losses."
+  },
+  "nav": {
+    "hero": "首頁",
+    "tokenomics": "代幣經濟",
+    "lossClaim": "賠損申請",
+    "staking": "質押",
+    "leaderboard": "排行榜",
+    "team": "團隊",
+    "roadmap": "路線圖",
+    "whitepaper": "白皮書",
+    "faq": "常見問題"
+  },
+  "home": {
+    "hero": {
+      "title": "輸家才會贏",
+      "subtitle": "擁抱崩盤"
+    },
+    "howToBuy": {
+      "title": "How to Buy:",
+      "steps": {
+        "connectWallet": "Connect your wallet",
+        "choosePayment": "Choose payment method",
+        "enterAmount": "Enter amount",
+        "confirmTransaction": "Confirm transaction"
+      }
+    },
+    "wallet": {
+      "connect": "Connect Wallet"
+    },
+    "presale": {
+      "title": "Phase 1 Presale",
+      "currentPrice": "Current Price",
+      "nextPrice": "Next Price",
+      "priceIncreaseNote": "Price increase when goal reached",
+      "progress": "Progress",
+      "raised": "{amount} raised",
+      "amountPlaceholder": "Enter amount",
+      "max": "MAX",
+      "buyWith": "BUY WITH {method}",
+      "alt": {
+        "buyWithSOL": "Buy with SOL",
+        "buyWithSOLHover": "Buy with SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "days",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds"
+    },
+    "asSeenOn": {
+      "title": "As seen on"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT 賠損申請",
+    "tagline": "一擊，一盾。",
+    "description": {
+      "before": "專屬於 V1 預售、配額至少 $350 的錢包。預售結束後提交申請，可就符合資格的損失領回 REKT 代幣。賠損申請獎勵",
+      "not": "不會",
+      "after": "參與質押 — 這是一次性的機會。"
+    },
+    "cta": {
+      "check": "檢查資格",
+      "viewEligibility": "查看資格"
+    },
+    "status": {
+      "eligible": "符合資格",
+      "unused": "未使用"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "白名單錢包",
+        "desc": "僅限 V1 預售且配額達 $350 的錢包可申請"
+      },
+      "onePer": {
+        "title": "每錢包限申請一次",
+        "desc": "每個錢包僅能申請一次 — 不可重置"
+      },
+      "window": {
+        "title": "申請時間窗",
+        "desc": "僅限預售正式結束後方可提交申請"
+      }
+    },
+    "form": {
+      "heading": "申領你的預售加碼",
+      "selectToken": "選擇代幣",
+      "chooseEligibleToken": "選擇可申請的代幣…",
+      "claimAmount": "申領數量",
+      "usdtEquivalent": "$0.00 USDT 等值",
+      "disclaimer": "賠損申請所得代幣不會參與質押，且日後不可再質押",
+      "submit": "提交申請"
+    },
+    "info": {
+      "title": "重要：V1 預售加碼",
+      "list": {
+        "whitelisted": "僅限 V1 預售且配額 ≥ $350 的錢包",
+        "onePer": "每錢包限申請一次",
+        "eligibleOnly": "僅限符合資格的代幣",
+        "afterPresale": "僅限預售結束後方可提交",
+        "notStaked": "賠損申請取得的代幣不會參與質押"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 加碼 — 僅此一次",
+      "text": "錯過申請時段就永遠錯過。",
+      "buy": "購買 $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Only losers win",
+      "logoAlt": "Logo"
+    },
+    "info": "All presale tokens are auto-staked from purchase. Rewards start instantly, claimable at end of presale.",
+    "buttons": {
+      "viewLeaderboard": "View Leaderboard",
+      "claim": "CLAIM"
+    },
+    "stats": {
+      "yourStakedBalance": "Your Staked Balance",
+      "unlockNote": "30% unlocked at launch, 70% vesting over 6 months (tokens only)",
+      "yourPoolShare": "Your % of Pool",
+      "yourPoolShareDesc": "Your share of the total staking pool",
+      "totalStaked": "Total Staked (Presale Pool)",
+      "totalStakedDesc": "Total tokens staked across all presale participants",
+      "annualApy": "Annual APY",
+      "annualApyValue": "65% p/a",
+      "annualApyDesc": "Current annual percentage yield",
+      "dailyRewards": "Daily Rewards",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Available Now (no vesting)"
+    },
+    "rewards": {
+      "title": "Total Rewards Accrued"
+    },
+    "footer": {
+      "notice": "Staking is exclusive to presale buyers. Rewards depend on ecosystem activity.",
+      "vestingNote": "Vesting applies only to staked tokens. Rewards are not vested."
+    },
+    "alts": {
+      "viewLeaderboardImg": "View Leaderboard",
+      "frame": "Frame",
+      "longFrame": "Long Frame",
+      "logoSpread": "Logo Spread",
+      "claimButton": "Claim"
+    }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

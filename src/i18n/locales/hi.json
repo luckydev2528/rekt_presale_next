@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "नियामक चेतावनी",
+    "warningIntro": "आपके देश ({country}) में क्रिप्टो ट्रेडिंग या टोकन बिक्री पर प्रतिबंध हो सकते हैं। कृपया नीचे दी गई जानकारी देखें और जारी रखने के लिए स्वीकार करें।",
+    "bullets": {
+      "info": "यह साइट केवल सूचनात्मक उद्देश्यों के लिए है और यह वित्तीय सलाह नहीं है।",
+      "restrictions": "आपके न्यायाधिकार में भागीदारी प्रतिबंधित या निषिद्ध हो सकती है।",
+      "continue": "जारी रखकर, आप पुष्टि करते हैं कि आप जोखिमों और स्थानीय नियमों को समझते हैं।"
+    },
+    "blockedTitle": "पहुंच प्रतिबंधित",
+    "blockedBody": "आपके न्यायाधिकार ({country}) में इस सामग्री तक पहुंच उपलब्ध नहीं है। नियामक प्रतिबंधों के कारण हम आपके स्थान पर टोकन बिक्री या ट्रेडिंग जानकारी प्रदान नहीं कर सकते।",
+    "back": "वापस",
+    "continue": "मैं समझता हूं, जारी रखें",
+    "warningCountryNotes": {
+      "US": "संयुक्त राज्य में क्रिप्टो सेवाएं सख्ती से नियंत्रित हैं (SEC, CFTC, FinCEN)। जारी रखकर, आप स्वीकार करते हैं कि अनुपालन आपकी जिम्मेदारी है।",
+      "IN": "भारत में क्रिप्टो ट्रेडिंग भारी कराधान और अस्पष्ट नियमों के अधीन है। केवल तभी आगे बढ़ें जब आप स्थानीय कानूनों को समझते हों।",
+      "VN": "वियतनाम क्रिप्टो को कानूनी मुद्रा के रूप में प्रतिबंधित करता है, लेकिन ट्रेडिंग व्यापक रूप से उपयोग की जाती है। अपने जोखिम पर जारी रखें।",
+      "TH": "थाईलैंड ने क्रिप्टो एक्सचेंजों को नियंत्रित किया है; SEC थाईलैंड के साथ अनुपालन सुनिश्चित करें।",
+      "TR": "तुर्की भुगतान के लिए क्रिप्टो के उपयोग को प्रतिबंधित करता है। ट्रेडिंग नियंत्रण के तहत अनुमतित है।",
+      "NG": "नाइजीरिया में क्रिप्टो संभालने वाले बैंकों पर प्रतिबंध हैं, लेकिन P2P ट्रेडिंग आम है। अपने जोखिम पर जारी रखें।",
+      "UA": "यूक्रेन में क्रिप्टो कानूनी है, लेकिन विकसित हो रहे नियमों के तहत। अपने जोखिम पर जारी रखें।",
+      "RS": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।",
+      "BG": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।",
+      "HU": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।",
+      "CZ": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।",
+      "SK": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।",
+      "SI": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।",
+      "PL": "क्रिप्टो अनुमतित है लेकिन EU या स्थानीय कानून के तहत नियंत्रित है। अपने जोखिम पर जारी रखें।"
+    },
+    "blockedCountryNotes": {
+      "RU": "अंतरराष्ट्रीय प्रतिबंधों के कारण, रूस से पहुंच प्रतिबंधित है। ट्रेडिंग उपलब्ध नहीं है।",
+      "CN": "मुख्यभूमि चीन में क्रिप्टो ट्रेडिंग और एक्सचेंज प्रतिबंधित हैं। पहुंच अस्वीकार।",
+      "BD": "बांग्लादेश में क्रिप्टो ट्रेडिंग कानूनी रूप से प्रतिबंधित है।",
+      "NP": "नेपाल में क्रिप्टो ट्रेडिंग प्रतिबंधित है।",
+      "BO": "बोलीविया में क्रिप्टो ट्रेडिंग प्रतिबंधित है।",
+      "DZ": "अल्जीरिया में क्रिप्टो ट्रेडिंग प्रतिबंधित है।",
+      "MA": "मोरक्को में क्रिप्टो ट्रेडिंग प्रतिबंधित है।",
+      "QA": "कतर में क्रिप्टो ट्रेडिंग प्रतिबंधित है।",
+      "EG": "मिस्र में क्रिप्टो ट्रेडिंग प्रतिबंधित है।"
+    }
+  },
+  "seo": {
+    "title": "$REKT - केवल हारने वाले जीतते हैं",
+    "description": "दुर्घटना को गले लगाएं। पहला मीमकॉइन जो आपके नुकसान को पुरस्कृत करता है।"
+  },
+  "nav": {
+    "hero": "होम",
+    "tokenomics": "टोकनोमिक्स",
+    "lossClaim": "नुकसान दावा",
+    "staking": "स्टेकिंग",
+    "leaderboard": "लीडरबोर्ड",
+    "team": "टीम",
+    "roadmap": "रोडमैप",
+    "whitepaper": "व्हाइटपेपर",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "केवल हारने वाले जीतते हैं",
+      "subtitle": "दुर्घटना को गले लगाएं"
+    },
+    "howToBuy": {
+      "title": "कैसे खरीदें:",
+      "steps": {
+        "connectWallet": "अपना वॉलेट कनेक्ट करें",
+        "choosePayment": "भुगतान विधि चुनें",
+        "enterAmount": "राशि दर्ज करें",
+        "confirmTransaction": "लेनदेन की पुष्टि करें"
+      }
+    },
+    "wallet": {
+      "connect": "वॉलेट कनेक्ट करें"
+    },
+    "presale": {
+      "title": "चरण 1 प्रीसेल",
+      "currentPrice": "वर्तमान मूल्य",
+      "nextPrice": "अगला मूल्य",
+      "priceIncreaseNote": "लक्ष्य पहुंचने पर मूल्य वृद्धि",
+      "progress": "प्रगति",
+      "raised": "{amount} जुटाया गया",
+      "amountPlaceholder": "राशि दर्ज करें",
+      "max": "अधिकतम",
+      "buyWith": "{method} के साथ खरीदें",
+      "alt": {
+        "buyWithSOL": "SOL के साथ खरीदें",
+        "buyWithSOLHover": "SOL के साथ खरीदें होवर"
+      }
+    },
+    "countdown": {
+      "days": "दिन",
+      "hours": "घंटे",
+      "minutes": "मिनट",
+      "seconds": "सेकंड"
+    },
+    "asSeenOn": {
+      "title": "जैसा कि देखा गया"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT नुकसान दावा",
+    "tagline": "एक शॉट। एक ढाल।",
+    "description": {
+      "before": "कम से कम $350 आवंटन वाले वॉलेट के लिए एक विशेष V1 प्रीसेल बोनस। प्रीसेल समाप्त होने के बाद योग्य नुकसान के लिए REKT टोकन की वसूली के लिए अपना दावा जमा करें। नुकसान दावा पुरस्कार",
+      "not": "स्टेक नहीं",
+      "after": "हैं — यह एक बार का मौका है।"
+    },
+    "cta": {
+      "check": "पात्रता जांचें",
+      "viewEligibility": "पात्रता देखें"
+    },
+    "status": {
+      "eligible": "योग्य",
+      "unused": "अप्रयुक्त"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "व्हाइटलिस्ट वॉलेट",
+        "desc": "केवल $350 आवंटन वाले V1 प्रीसेल वॉलेट दावा कर सकते हैं"
+      },
+      "onePer": {
+        "title": "प्रति वॉलेट एक दावा",
+        "desc": "प्रति वॉलेट एकल दावा — कोई रीसेट नहीं"
+      },
+      "window": {
+        "title": "दावा विंडो",
+        "desc": "प्रीसेल आधिकारिक रूप से बंद होने के बाद ही दावे जमा किए जा सकते हैं"
+      }
+    },
+    "form": {
+      "heading": "अपना प्रीसेल बोनस दावा करें",
+      "selectToken": "टोकन चुनें",
+      "chooseEligibleToken": "योग्य टोकन चुनें...",
+      "claimAmount": "दावा राशि",
+      "usdtEquivalent": "$0.00 USDT समकक्ष",
+      "disclaimer": "नुकसान दावा टोकन स्टेक नहीं हैं और बाद में दोबारा स्टेक नहीं किए जा सकते",
+      "submit": "दावा जमा करें"
+    },
+    "info": {
+      "title": "महत्वपूर्ण: V1 प्रीसेल बोनस",
+      "list": {
+        "whitelisted": "केवल ≥ $350 आवंटन वाले V1 प्रीसेल वॉलेट के लिए उपलब्ध",
+        "onePer": "प्रति वॉलेट एक दावा",
+        "eligibleOnly": "केवल योग्य टोकन",
+        "afterPresale": "प्रीसेल समाप्त होने के बाद ही दावे जमा किए जा सकते हैं",
+        "notStaked": "नुकसान दावे से प्राप्त टोकन स्टेक नहीं हैं"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 बोनस — केवल एक बार",
+      "text": "दावा विंडो चूकें, और यह हमेशा के लिए चला जाता है।",
+      "buy": "$REKT खरीदें"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT स्टेकिंग - केवल हारने वाले जीतते हैं",
+      "logoAlt": "लोगो"
+    },
+    "info": "सभी प्रीसेल टोकन खरीद से ऑटो-स्टेक हैं। पुरस्कार तुरंत शुरू होते हैं, प्रीसेल के अंत में दावा योग्य।",
+    "buttons": {
+      "viewLeaderboard": "लीडरबोर्ड देखें",
+      "claim": "दावा करें"
+    },
+    "stats": {
+      "yourStakedBalance": "आपका स्टेक बैलेंस",
+      "unlockNote": "लॉन्च पर 30% अनलॉक, 6 महीने में 70% वेस्टिंग (केवल टोकन)",
+      "yourPoolShare": "पूल का आपका %",
+      "yourPoolShareDesc": "कुल स्टेकिंग पूल में आपका हिस्सा",
+      "totalStaked": "कुल स्टेक (प्रीसेल पूल)",
+      "totalStakedDesc": "सभी प्रीसेल भागीदारों के कुल स्टेक टोकन",
+      "annualApy": "वार्षिक APY",
+      "annualApyValue": "65% प्रति वर्ष",
+      "annualApyDesc": "वर्तमान वार्षिक प्रतिशत उपज",
+      "dailyRewards": "दैनिक पुरस्कार",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "अब उपलब्ध (कोई वेस्टिंग नहीं)"
+    },
+    "rewards": {
+      "title": "कुल संचित पुरस्कार"
+    },
+    "footer": {
+      "notice": "स्टेकिंग प्रीसेल खरीदारों के लिए विशेष है। पुरस्कार इकोसिस्टम गतिविधि पर निर्भर करते हैं।",
+      "vestingNote": "वेस्टिंग केवल स्टेक टोकन पर लागू होती है। पुरस्कार वेस्टेड नहीं हैं।"
+    },
+    "alts": {
+      "viewLeaderboardImg": "लीडरबोर्ड देखें",
+      "frame": "फ्रेम",
+      "longFrame": "लंबा फ्रेम",
+      "logoSpread": "लोगो स्प्रेड",
+      "claimButton": "दावा करें"
+    }
+  },
+  "notFound": {
+    "title": "पेज नहीं मिला",
+    "description": "आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।",
+    "goHome": "होम जाएं",
+    "staking": "स्टेकिंग",
+    "lossClaim": "नुकसान दावा"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

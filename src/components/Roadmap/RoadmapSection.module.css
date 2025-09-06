@@ -1,0 +1,392 @@
+.timeline {
+  position: relative;
+
+  --spine-gap: 32px;
+}
+
+
+.sectionRoot {
+
+  --sep-h: clamp(14px, 2.6vw, 40px);
+  --sep-gap: clamp(-30px, 0.1vw, -30px);
+
+  --mid-h: clamp(22px, 2.6vw, 42px);
+
+  --top-h: clamp(18px, 1.6vw, 28px);
+  --top-gap: clamp(0px, 0.2vw, 3px);
+
+  --center-gap: clamp(160px, 20vw, 420px);
+
+
+  --top-mid-h: calc(var(--top-h, 24px) * 5 / 3);
+  --top-mid-offset: -2px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background: var(--bright-cyan-glow);
+  box-shadow: 0 0 10px var(--bright-cyan-glow);
+  transform: translateX(-50%);
+}
+
+.phaseCard {
+  position: relative;
+  padding: 16px 18px 18px 18px;
+  background: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.phaseCard:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+}
+
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.phaseHeader {
+  position: relative;
+  height: clamp(72px, 8vw, 104px);
+  margin-bottom: 1rem;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.desktopPhaseHeader {
+  position: relative;
+}
+
+.desktopPhaseHeader > img {
+  transform: translateX(-10%);
+}
+
+.desktopPhaseHeader .headerTitle {
+  transform: translateX(-10%);
+}
+
+.goalBox {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  
+  padding: clamp(16px, 2.2vw, 24px) clamp(24px, 3vw, 36px) clamp(28px, 3.5vw, 44px) clamp(18px, 2.2vw, 28px);
+  min-height: 230px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.goalBox:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+}
+
+.goalLabel {
+  position: relative;
+  z-index: 1;
+  color: #f7f2d7;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.goalList {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.headerTitle {
+  position: relative; 
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  font-size: clamp(11px, 1.05vw, 14px);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  text-wrap: balance;
+  padding: 0 24px; 
+  white-space: normal;
+  
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  text-align: center;
+}
+
+
+
+.goalText {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f7f2d7;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+
+.listItem span {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.listItem::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: var(--primary-bright-purple);
+  flex-shrink: 0;
+  margin-top: 0.4rem;
+  box-shadow: 0 0 6px rgba(138, 43, 226, 0.8);
+}
+
+.highlight {
+  border: 1px solid var(--bright-cyan-glow);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.phaseBadge {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.phaseBadge:hover {
+  transform: translateY(-50%) scale(1.05);
+  filter: brightness(1.15);
+}
+
+.badgeBox {
+  position: relative;
+  width: 190px;
+  height: 76px;
+}
+
+
+.badgeArrow {
+  position: absolute;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.arrowLeft {
+  left: -26px;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.arrowRight {
+  right: -26px;
+  transform: translateY(-50%);
+}
+
+.badgeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #66fcff;
+  font-family: var(--font-display, inherit);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+
+.oppositeRight {
+  left: calc(50% + var(--spine-gap));
+  transform: translateY(-50%);
+}
+
+.oppositeRight:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+
+.oppositeLeft {
+  left: calc(50% - var(--spine-gap) - 8px);
+  transform: translate(-100%, -50%);
+}
+
+.oppositeLeft:hover {
+  transform: translate(-100%, -50%) scale(1.05);
+}
+
+
+.rowReverse {
+  flex-direction: row-reverse;
+}
+
+
+.bottomSeparator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--sep-h, clamp(14px, 2.6vw, 40px));
+  pointer-events: none;
+}
+
+
+.bottomSeparatorUpper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--sep-h, 32px) + max(var(--sep-gap, 12px), 0px));
+  height: var(--sep-h, clamp(14px, 2.6vw, 40px));
+  pointer-events: none;
+}
+
+
+.bottomSeparatorMiddle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(
+    var(--sep-h, 32px) + max(var(--sep-gap, 12px), 0px) / 2 - var(--mid-h, 28px) / 2
+  );
+  height: var(--mid-h, 28px);
+  pointer-events: none;
+}
+
+
+.topSeparator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: var(--sep-h, clamp(14px, 2.6vw, 40px));
+  pointer-events: none;
+}
+
+.topSeparatorLower {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(var(--sep-h, 32px) + max(var(--sep-gap, 12px), 0px));
+  height: var(--sep-h, clamp(14px, 2.6vw, 40px));
+  pointer-events: none;
+}
+
+.topSeparatorMiddle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(
+    var(--sep-h, 32px) + max(var(--top-gap, 12px), 0px) / 2 - var(--mid-h, 28px) / 2
+  );
+  height: var(--mid-h, 28px);
+  pointer-events: none;
+}
+
+
+.topSeparatorLeft {
+  position: absolute;
+  left: 0;
+  right: calc(50% + var(--center-gap, 240px) / 2);
+  top: 0;
+  height: var(--top-h, var(--sep-h, clamp(14px, 2.6vw, 40px)));
+  pointer-events: none;
+}
+
+.topSeparatorRight {
+  position: absolute;
+  left: calc(50% + var(--center-gap, 240px) / 2);
+  right: 0;
+  top: 0;
+  height: var(--top-h, var(--sep-h, clamp(14px, 2.6vw, 40px)));
+  pointer-events: none;
+}
+
+.topSeparatorLowerLeft {
+  position: absolute;
+  left: 0;
+  right: calc(50% + var(--center-gap, 240px) / 2);
+  top: calc(var(--top-h, 32px) + var(--top-gap, 12px));
+  height: var(--top-h, var(--sep-h, clamp(14px, 2.6vw, 40px)));
+  pointer-events: none;
+}
+
+.topSeparatorLowerRight {
+  position: absolute;
+  left: calc(50% + var(--center-gap, 240px) / 2);
+  right: 0;
+  top: calc(var(--top-h, 32px) + var(--top-gap, 12px));
+  height: var(--top-h, var(--sep-h, clamp(14px, 2.6vw, 40px)));
+  pointer-events: none;
+}
+
+.topSeparatorMiddleLeft {
+  position: absolute;
+  left: 0;
+  right: calc(50% + var(--center-gap, 240px) / 2);
+  top: calc(
+    var(--top-h, 32px)
+    + var(--top-gap, 12px) / 2
+    - var(--top-mid-h, var(--mid-h, 28px)) / 2
+    + var(--top-mid-offset, 0px)
+  );
+  height: var(--top-mid-h, var(--mid-h, 28px));
+  pointer-events: none;
+}
+
+.topSeparatorMiddleRight {
+  position: absolute;
+  left: calc(50% + var(--center-gap, 240px) / 2);
+  right: 0;
+  top: calc(
+    var(--top-h, 32px)
+    + var(--top-gap, 12px) / 2
+    - var(--top-mid-h, var(--mid-h, 28px)) / 2
+    + var(--top-mid-offset, 0px)
+  );
+  height: var(--top-mid-h, var(--mid-h, 28px));
+  pointer-events: none;
+}
+
+
+@media (max-width: 767px) {
+  .mobileHeaderTitle {
+    font-size: clamp(13px, 3.7vw, 16px);
+    letter-spacing: 0.6px;
+  }
+
+  .mobileGoalBox {
+    padding: 16px 20px 28px 16px;
+  }
+}

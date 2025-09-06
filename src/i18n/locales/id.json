@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Peringatan Regulasi",
+    "warningIntro": "Negara Anda ({country}) mungkin memiliki pembatasan pada perdagangan kripto atau penjualan token. Silakan tinjau informasi di bawah ini dan setujui untuk melanjutkan.",
+    "bullets": {
+      "info": "Situs ini hanya untuk tujuan informasi dan tidak merupakan nasihat keuangan.",
+      "restrictions": "Partisipasi mungkin dibatasi atau dilarang di yurisdiksi Anda.",
+      "continue": "Dengan melanjutkan, Anda mengonfirmasi bahwa Anda memahami risiko dan regulasi lokal."
+    },
+    "blockedTitle": "Akses Dibatasi",
+    "blockedBody": "Akses ke konten ini tidak tersedia di yurisdiksi Anda ({country}). Kami tidak dapat memberikan informasi penjualan atau perdagangan token di lokasi Anda karena pembatasan regulasi.",
+    "back": "Kembali",
+    "continue": "Saya Mengerti, Lanjutkan",
+    "warningCountryNotes": {
+      "US": "Layanan kripto diatur ketat di Amerika Serikat (SEC, CFTC, FinCEN). Dengan melanjutkan, Anda mengakui bahwa kepatuhan adalah tanggung jawab Anda sendiri.",
+      "IN": "Perdagangan kripto di India tunduk pada pajak berat dan regulasi yang tidak jelas. Lanjutkan hanya jika Anda memahami hukum lokal.",
+      "VN": "Vietnam melarang kripto sebagai mata uang legal, tetapi perdagangan banyak digunakan. Lanjutkan dengan risiko Anda sendiri.",
+      "TH": "Thailand telah mengatur pertukaran kripto; pastikan kepatuhan dengan SEC Thailand.",
+      "TR": "Turki membatasi penggunaan kripto untuk pembayaran. Perdagangan tetap diizinkan di bawah regulasi.",
+      "NG": "Nigeria memiliki pembatasan pada bank yang menangani kripto, tetapi perdagangan P2P umum. Lanjutkan dengan risiko Anda sendiri.",
+      "UA": "Kripto legal di Ukraina, tetapi di bawah regulasi yang berkembang. Lanjutkan dengan risiko Anda sendiri.",
+      "RS": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri.",
+      "BG": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri.",
+      "HU": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri.",
+      "CZ": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri.",
+      "SK": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri.",
+      "SI": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri.",
+      "PL": "Kripto diizinkan tetapi diatur di bawah hukum UE atau lokal. Lanjutkan dengan risiko Anda sendiri."
+    },
+    "blockedCountryNotes": {
+      "RU": "Karena sanksi internasional, akses dari Rusia dibatasi. Perdagangan tidak tersedia.",
+      "CN": "Perdagangan kripto dan pertukaran dilarang di Tiongkok daratan. Akses ditolak.",
+      "BD": "Perdagangan kripto dilarang secara hukum di Bangladesh.",
+      "NP": "Perdagangan kripto dilarang di Nepal.",
+      "BO": "Perdagangan kripto dilarang di Bolivia.",
+      "DZ": "Perdagangan kripto dilarang di Aljazair.",
+      "MA": "Perdagangan kripto dilarang di Maroko.",
+      "QA": "Perdagangan kripto dilarang di Qatar.",
+      "EG": "Perdagangan kripto dilarang di Mesir."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Hanya pecundang yang menang",
+    "description": "Peluk kehancuran. Memecoin pertama yang menghargai kerugian Anda."
+  },
+  "nav": {
+    "hero": "Beranda",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Klaim Kerugian",
+    "staking": "Staking",
+    "leaderboard": "Papan Peringkat",
+    "team": "Tim",
+    "roadmap": "Peta Jalan",
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Hanya pecundang yang menang",
+      "subtitle": "Peluk kehancuran"
+    },
+    "howToBuy": {
+      "title": "Cara Membeli:",
+      "steps": {
+        "connectWallet": "Hubungkan dompet Anda",
+        "choosePayment": "Pilih metode pembayaran",
+        "enterAmount": "Masukkan jumlah",
+        "confirmTransaction": "Konfirmasi transaksi"
+      }
+    },
+    "wallet": {
+      "connect": "Hubungkan Dompet"
+    },
+    "presale": {
+      "title": "Presale Fase 1",
+      "currentPrice": "Harga Saat Ini",
+      "nextPrice": "Harga Selanjutnya",
+      "priceIncreaseNote": "Kenaikan harga saat target tercapai",
+      "progress": "Kemajuan",
+      "raised": "{amount} terkumpul",
+      "amountPlaceholder": "Masukkan jumlah",
+      "max": "MAKS",
+      "buyWith": "BELI DENGAN {method}",
+      "alt": {
+        "buyWithSOL": "Beli dengan SOL",
+        "buyWithSOLHover": "Beli dengan SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "hari",
+      "hours": "jam",
+      "minutes": "menit",
+      "seconds": "detik"
+    },
+    "asSeenOn": {
+      "title": "Seperti yang terlihat di"
+    }
+  },
+  "lossClaim": {
+    "title": "Klaim Kerugian REKT",
+    "tagline": "Satu tembakan. Satu perisai.",
+    "description": {
+      "before": "Bonus presale V1 eksklusif untuk dompet dengan alokasi minimal $350. Kirim klaim Anda setelah presale berakhir untuk memulihkan token REKT untuk kerugian yang memenuhi syarat. Hadiah Klaim Kerugian",
+      "not": "TIDAK",
+      "after": "di-stake — ini adalah kesempatan sekali seumur hidup."
+    },
+    "cta": {
+      "check": "Periksa Kelayakan",
+      "viewEligibility": "Lihat Kelayakan"
+    },
+    "status": {
+      "eligible": "Memenuhi syarat",
+      "unused": "Tidak digunakan"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Dompet Whitelist",
+        "desc": "Hanya dompet presale V1 dengan alokasi $350 yang dapat mengklaim"
+      },
+      "onePer": {
+        "title": "Satu Klaim Per Dompet",
+        "desc": "Klaim tunggal per dompet — tidak ada reset"
+      },
+      "window": {
+        "title": "Jendela Klaim",
+        "desc": "Klaim hanya dapat dikirim setelah presale resmi ditutup"
+      }
+    },
+    "form": {
+      "heading": "Klaim Bonus Presale Anda",
+      "selectToken": "Pilih Token",
+      "chooseEligibleToken": "Pilih token yang memenuhi syarat...",
+      "claimAmount": "Jumlah Klaim",
+      "usdtEquivalent": "Setara $0.00 USDT",
+      "disclaimer": "Token Klaim Kerugian tidak di-stake dan tidak dapat di-stake ulang nanti",
+      "submit": "Kirim Klaim"
+    },
+    "info": {
+      "title": "Penting: Bonus Presale V1",
+      "list": {
+        "whitelisted": "Hanya tersedia untuk dompet presale V1 dengan alokasi ≥ $350",
+        "onePer": "Satu klaim per dompet",
+        "eligibleOnly": "Hanya token yang memenuhi syarat",
+        "afterPresale": "Klaim hanya dapat dikirim setelah presale berakhir",
+        "notStaked": "Token yang diterima dari Klaim Kerugian TIDAK di-stake"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Hanya Sekali",
+      "text": "Lewatkan jendela klaim, dan hilang selamanya.",
+      "buy": "BELI $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Hanya pecundang yang menang",
+      "logoAlt": "Logo"
+    },
+    "info": "Semua token presale di-stake otomatis dari pembelian. Hadiah dimulai seketika, dapat diklaim di akhir presale.",
+    "buttons": {
+      "viewLeaderboard": "Lihat Papan Peringkat",
+      "claim": "KLAIM"
+    },
+    "stats": {
+      "yourStakedBalance": "Saldo Stake Anda",
+      "unlockNote": "30% dibuka saat peluncuran, 70% vesting selama 6 bulan (hanya token)",
+      "yourPoolShare": "% Pool Anda",
+      "yourPoolShareDesc": "Bagian Anda dari total pool staking",
+      "totalStaked": "Total Di-stake (Pool Presale)",
+      "totalStakedDesc": "Total token di-stake dari semua peserta presale",
+      "annualApy": "APY Tahunan",
+      "annualApyValue": "65% per tahun",
+      "annualApyDesc": "Hasil persentase tahunan saat ini",
+      "dailyRewards": "Hadiah Harian",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Tersedia Sekarang (tanpa vesting)"
+    },
+    "rewards": {
+      "title": "Total Hadiah Terakumulasi"
+    },
+    "footer": {
+      "notice": "Staking eksklusif untuk pembeli presale. Hadiah tergantung pada aktivitas ekosistem.",
+      "vestingNote": "Vesting hanya berlaku untuk token yang di-stake. Hadiah tidak di-vest."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Lihat Papan Peringkat",
+      "frame": "Bingkai",
+      "longFrame": "Bingkai Panjang",
+      "logoSpread": "Penyebaran Logo",
+      "claimButton": "Klaim"
+    }
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Halaman yang Anda cari tidak ada.",
+    "goHome": "Ke Beranda",
+    "staking": "Staking",
+    "lossClaim": "Klaim Kerugian"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

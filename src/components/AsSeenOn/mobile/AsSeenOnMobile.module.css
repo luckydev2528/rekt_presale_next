@@ -1,0 +1,72 @@
+.scrollSlow {
+  
+  animation: scroll-infinite 28s linear infinite !important;
+}
+
+
+@keyframes marquee-x {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.track {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; 
+  padding-left: 1rem; 
+  white-space: nowrap;
+  animation: marquee-x 20s linear infinite;
+}
+
+.track2 {
+  composes: track;
+  left: 100%;
+}
+
+
+@keyframes marquee-50 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+  padding-left: 0;
+  width: max-content;
+  animation: marquee-50 18s linear infinite;
+}
+
+
+@keyframes marquee-100 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.group, .group2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 0;
+  min-width: 100%;
+  white-space: nowrap;
+  animation: marquee-100 22s linear infinite;
+}
+
+.group2 {
+  left: 100%;
+}

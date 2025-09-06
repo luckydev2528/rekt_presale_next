@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Düzenleyici Uyarı",
+    "warningIntro": "Ülkeniz ({country}) kripto para ticareti veya token satışları konusunda kısıtlamalara sahip olabilir. Lütfen aşağıdaki bilgileri inceleyin ve devam etmek için onaylayın.",
+    "bullets": {
+      "info": "Bu site yalnızca bilgilendirme amaçlıdır ve finansal tavsiye oluşturmaz.",
+      "restrictions": "Yetki alanınızda katılım kısıtlı veya yasak olabilir.",
+      "continue": "Devam ederek, riskleri ve yerel düzenlemeleri anladığınızı onaylıyorsunuz."
+    },
+    "blockedTitle": "Erişim Kısıtlı",
+    "blockedBody": "Bu içeriğe erişim yetki alanınızda ({country}) mevcut değildir. Düzenleyici kısıtlamalar nedeniyle konumunuzda token satışı veya ticaret bilgisi sağlayamıyoruz.",
+    "back": "Geri",
+    "continue": "Anlıyorum, Devam Et",
+    "warningCountryNotes": {
+      "US": "Kripto hizmetleri Amerika Birleşik Devletleri'nde sıkı şekilde düzenlenmektedir (SEC, CFTC, FinCEN). Devam ederek, uyumluluğun kendi sorumluluğunuz olduğunu kabul ediyorsunuz.",
+      "IN": "Hindistan'da kripto ticareti ağır vergilendirme ve belirsiz düzenlemelere tabidir. Yalnızca yerel yasaları anlıyorsanız devam edin.",
+      "VN": "Vietnam kripto parayı yasal ödeme aracı olarak yasaklar, ancak ticaret yaygın olarak kullanılır. Kendi riskinizle devam edin.",
+      "TH": "Tayland kripto borsalarını düzenlemiştir; SEC Tayland ile uyumluluğu sağlayın.",
+      "TR": "Türkiye ödemeler için kripto kullanımını kısıtlar. Ticaret düzenleme altında izinli kalır.",
+      "NG": "Nijerya'da kripto işleyen bankalar üzerinde kısıtlamalar var, ancak P2P ticaret yaygın. Kendi riskinizle devam edin.",
+      "UA": "Kripto Ukrayna'da yasal, ancak gelişen düzenlemeler altında. Kendi riskinizle devam edin.",
+      "RS": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin.",
+      "BG": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin.",
+      "HU": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin.",
+      "CZ": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin.",
+      "SK": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin.",
+      "SI": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin.",
+      "PL": "Kripto izinli ancak AB veya yerel yasa altında düzenlenir. Kendi riskinizle devam edin."
+    },
+    "blockedCountryNotes": {
+      "RU": "Uluslararası yaptırımlar nedeniyle Rusya'dan erişim kısıtlıdır. Ticaret mevcut değil.",
+      "CN": "Anakara Çin'de kripto ticareti ve borsalar yasaklanmıştır. Erişim reddedildi.",
+      "BD": "Bangladeş'te kripto ticareti yasal olarak yasaklanmıştır.",
+      "NP": "Nepal'de kripto ticareti yasaklanmıştır.",
+      "BO": "Bolivya'da kripto ticareti yasaklanmıştır.",
+      "DZ": "Cezayir'de kripto ticareti yasaklanmıştır.",
+      "MA": "Fas'ta kripto ticareti yasaklanmıştır.",
+      "QA": "Katar'da kripto ticareti yasaklanmıştır.",
+      "EG": "Mısır'da kripto ticareti yasaklanmıştır."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Sadece kaybedenler kazanır",
+    "description": "Çöküşü kucaklayın. Kayıplarınızı ödüllendiren ilk memecoin."
+  },
+  "nav": {
+    "hero": "Ana Sayfa",
+    "tokenomics": "Tokenomiks",
+    "lossClaim": "Kayıp Talebi",
+    "staking": "Stake Etme",
+    "leaderboard": "Lider Tablosu",
+    "team": "Takım",
+    "roadmap": "Yol Haritası",
+    "whitepaper": "Beyaz Kağıt",
+    "faq": "SSS"
+  },
+  "home": {
+    "hero": {
+      "title": "Sadece kaybedenler kazanır",
+      "subtitle": "Çöküşü kucaklayın"
+    },
+    "howToBuy": {
+      "title": "Nasıl Satın Alınır:",
+      "steps": {
+        "connectWallet": "Cüzdanınızı bağlayın",
+        "choosePayment": "Ödeme yöntemini seçin",
+        "enterAmount": "Tutarı girin",
+        "confirmTransaction": "İşlemi onaylayın"
+      }
+    },
+    "wallet": {
+      "connect": "Cüzdan Bağla"
+    },
+    "presale": {
+      "title": "Faz 1 Ön Satış",
+      "currentPrice": "Mevcut Fiyat",
+      "nextPrice": "Sonraki Fiyat",
+      "priceIncreaseNote": "Hedefe ulaşıldığında fiyat artışı",
+      "progress": "İlerleme",
+      "raised": "{amount} toplandı",
+      "amountPlaceholder": "Tutarı girin",
+      "max": "MAKS",
+      "buyWith": "{method} İLE SATIN AL",
+      "alt": {
+        "buyWithSOL": "SOL ile satın al",
+        "buyWithSOLHover": "SOL ile satın al hover"
+      }
+    },
+    "countdown": {
+      "days": "gün",
+      "hours": "saat",
+      "minutes": "dakika",
+      "seconds": "saniye"
+    },
+    "asSeenOn": {
+      "title": "Görüldüğü gibi"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Kayıp Talebi",
+    "tagline": "Bir atış. Bir kalkan.",
+    "description": {
+      "before": "En az $350 tahsisli cüzdanlar için özel bir V1 ön satış bonusu. Uygun kayıplar için REKT tokenlerini kurtarmak için ön satış sona erdikten sonra talebinizi gönderin. Kayıp Talebi ödülleri",
+      "not": "stake edilmez",
+      "after": " — bu tek seferlik bir şans."
+    },
+    "cta": {
+      "check": "Uygunluğu Kontrol Et",
+      "viewEligibility": "Uygunluğu Görüntüle"
+    },
+    "status": {
+      "eligible": "Uygun",
+      "unused": "Kullanılmamış"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Beyaz Listeli Cüzdan",
+        "desc": "Sadece $350 tahsisli V1 ön satış cüzdanları talep edebilir"
+      },
+      "onePer": {
+        "title": "Cüzdan Başına Bir Talep",
+        "desc": "Cüzdan başına tek talep — sıfırlama yok"
+      },
+      "window": {
+        "title": "Talep Penceresi",
+        "desc": "Talepler sadece ön satış resmi olarak kapandıktan sonra gönderilebilir"
+      }
+    },
+    "form": {
+      "heading": "Ön Satış Bonusunuzu Talep Edin",
+      "selectToken": "Token Seç",
+      "chooseEligibleToken": "Uygun token seçin...",
+      "claimAmount": "Talep Tutarı",
+      "usdtEquivalent": "$0.00 USDT eşdeğeri",
+      "disclaimer": "Kayıp Talebi tokenleri stake edilmez ve daha sonra yeniden stake edilemez",
+      "submit": "Talep Gönder"
+    },
+    "info": {
+      "title": "Önemli: V1 Ön Satış Bonusu",
+      "list": {
+        "whitelisted": "Sadece ≥ $350 tahsisli V1 ön satış cüzdanları için mevcut",
+        "onePer": "Cüzdan başına bir talep",
+        "eligibleOnly": "Sadece uygun tokenler",
+        "afterPresale": "Talepler sadece ön satış sona erdikten sonra gönderilebilir",
+        "notStaked": "Kayıp Talebinden alınan tokenler stake edilmez"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bonusu — Sadece Bir Kez",
+      "text": "Talep penceresini kaçırın ve sonsuza dek kaybolur.",
+      "buy": "$REKT SATIN AL"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Stake Etme - Sadece kaybedenler kazanır",
+      "logoAlt": "Logo"
+    },
+    "info": "Tüm ön satış tokenleri satın alımdan itibaren otomatik stake edilir. Ödüller anında başlar, ön satış sonunda talep edilebilir.",
+    "buttons": {
+      "viewLeaderboard": "Lider Tablosunu Görüntüle",
+      "claim": "TALEP ET"
+    },
+    "stats": {
+      "yourStakedBalance": "Stake Edilen Bakiyeniz",
+      "unlockNote": "Başlangıçta %30 kilidini açılır, 6 ay boyunca %70 vesting (sadece tokenler)",
+      "yourPoolShare": "Havuzdan Payınız %",
+      "yourPoolShareDesc": "Toplam stake havuzundaki payınız",
+      "totalStaked": "Toplam Stake Edilen (Ön Satış Havuzu)",
+      "totalStakedDesc": "Tüm ön satış katılımcılarının stake edilen token toplamı",
+      "annualApy": "Yıllık APY",
+      "annualApyValue": "%65 yıllık",
+      "annualApyDesc": "Mevcut yıllık yüzde getiri",
+      "dailyRewards": "Günlük Ödüller",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Şimdi Mevcut (vesting yok)"
+    },
+    "rewards": {
+      "title": "Toplam Birikmiş Ödüller"
+    },
+    "footer": {
+      "notice": "Stake etme ön satış alıcılarına özeldir. Ödüller ekosistem aktivitesine bağlıdır.",
+      "vestingNote": "Vesting sadece stake edilen tokenler için geçerlidir. Ödüller vesting edilmez."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Lider Tablosunu Görüntüle",
+      "frame": "Çerçeve",
+      "longFrame": "Uzun Çerçeve",
+      "logoSpread": "Logo Yayılımı",
+      "claimButton": "Talep Et"
+    }
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil.",
+    "goHome": "Ana Sayfaya Git",
+    "staking": "Stake Etme",
+    "lossClaim": "Kayıp Talebi"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

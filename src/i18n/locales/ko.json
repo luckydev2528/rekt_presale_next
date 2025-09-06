@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "규제 경고",
+    "warningIntro": "귀하의 국가({country})는 암호화폐 거래 또는 토큰 판매에 제한이 있을 수 있습니다. 아래 정보를 검토하고 계속하기 위해 승인해 주세요.",
+    "bullets": {
+      "info": "이 사이트는 정보 제공 목적으로만 사용되며 금융 조언을 구성하지 않습니다.",
+      "restrictions": "귀하의 관할권에서 참여가 제한되거나 금지될 수 있습니다.",
+      "continue": "계속함으로써 위험과 현지 규정을 이해한다는 것을 확인합니다."
+    },
+    "blockedTitle": "접근 제한",
+    "blockedBody": "이 콘텐츠에 대한 접근은 귀하의 관할권({country})에서 사용할 수 없습니다. 규제 제한으로 인해 귀하의 위치에서 토큰 판매 또는 거래 정보를 제공할 수 없습니다.",
+    "back": "뒤로",
+    "continue": "이해했습니다, 계속",
+    "warningCountryNotes": {
+      "US": "암호화폐 서비스는 미국에서 엄격히 규제됩니다(SEC, CFTC, FinCEN). 계속함으로써 규정 준수는 귀하의 책임임을 인정합니다.",
+      "IN": "인도에서의 암호화폐 거래는 높은 세금과 불분명한 규정의 대상입니다. 현지 법률을 이해하는 경우에만 진행하세요.",
+      "VN": "베트남은 암호화폐를 법정 화폐로 금지하지만 거래는 널리 사용됩니다. 자신의 위험으로 계속하세요.",
+      "TH": "태국은 암호화폐 거래소를 규제합니다; SEC 태국과의 규정 준수를 보장하세요.",
+      "TR": "터키는 결제에 대한 암호화폐 사용을 제한합니다. 거래는 규제 하에 허용됩니다.",
+      "NG": "나이지리아는 암호화폐를 처리하는 은행에 제한이 있지만 P2P 거래는 일반적입니다. 자신의 위험으로 계속하세요.",
+      "UA": "암호화폐는 우크라이나에서 합법이지만 진화하는 규정 하에 있습니다. 자신의 위험으로 계속하세요.",
+      "RS": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요.",
+      "BG": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요.",
+      "HU": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요.",
+      "CZ": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요.",
+      "SK": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요.",
+      "SI": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요.",
+      "PL": "암호화폐는 허용되지만 EU 또는 현지 법률 하에 규제됩니다. 자신의 위험으로 계속하세요."
+    },
+    "blockedCountryNotes": {
+      "RU": "국제 제재로 인해 러시아에서의 접근이 제한됩니다. 거래는 사용할 수 없습니다.",
+      "CN": "암호화폐 거래와 거래소는 중국 본토에서 금지됩니다. 접근 거부.",
+      "BD": "암호화폐 거래는 방글라데시에서 법적으로 금지됩니다.",
+      "NP": "암호화폐 거래는 네팔에서 금지됩니다.",
+      "BO": "암호화폐 거래는 볼리비아에서 금지됩니다.",
+      "DZ": "암호화폐 거래는 알제리에서 금지됩니다.",
+      "MA": "암호화폐 거래는 모로코에서 금지됩니다.",
+      "QA": "암호화폐 거래는 카타르에서 금지됩니다.",
+      "EG": "암호화폐 거래는 이집트에서 금지됩니다."
+    }
+  },
+  "seo": {
+    "title": "$REKT - 패자만이 승리한다",
+    "description": "폭락을 받아들여라. 당신의 손실을 보상하는 첫 번째 밈코인."
+  },
+  "nav": {
+    "hero": "홈",
+    "tokenomics": "토크노믹스",
+    "lossClaim": "손실 청구",
+    "staking": "스테이킹",
+    "leaderboard": "리더보드",
+    "team": "팀",
+    "roadmap": "로드맵",
+    "whitepaper": "백서",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "패자만이 승리한다",
+      "subtitle": "폭락을 받아들여라"
+    },
+    "howToBuy": {
+      "title": "구매 방법:",
+      "steps": {
+        "connectWallet": "지갑 연결",
+        "choosePayment": "결제 방법 선택",
+        "enterAmount": "금액 입력",
+        "confirmTransaction": "거래 확인"
+      }
+    },
+    "wallet": {
+      "connect": "지갑 연결"
+    },
+    "presale": {
+      "title": "1단계 사전 판매",
+      "currentPrice": "현재 가격",
+      "nextPrice": "다음 가격",
+      "priceIncreaseNote": "목표 달성 시 가격 상승",
+      "progress": "진행률",
+      "raised": "{amount} 모금",
+      "amountPlaceholder": "금액 입력",
+      "max": "최대",
+      "buyWith": "{method}로 구매",
+      "alt": {
+        "buyWithSOL": "SOL로 구매",
+        "buyWithSOLHover": "SOL로 구매 호버"
+      }
+    },
+    "countdown": {
+      "days": "일",
+      "hours": "시간",
+      "minutes": "분",
+      "seconds": "초"
+    },
+    "asSeenOn": {
+      "title": "에서 봤듯이"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT 손실 청구",
+    "tagline": "한 번의 샷. 하나의 방패.",
+    "description": {
+      "before": "최소 $350 할당을 가진 지갑을 위한 독점 V1 사전 판매 보너스. 사전 판매 종료 후 청구를 제출하여 적격 손실에 대한 REKT 토큰을 복구하세요. 손실 청구 보상은",
+      "not": "스테이킹되지",
+      "after": "않습니다 — 이것은 일회성 기회입니다."
+    },
+    "cta": {
+      "check": "자격 확인",
+      "viewEligibility": "자격 보기"
+    },
+    "status": {
+      "eligible": "자격 있음",
+      "unused": "사용되지 않음"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "화이트리스트 지갑",
+        "desc": "$350 할당을 가진 V1 사전 판매 지갑만 청구 가능"
+      },
+      "onePer": {
+        "title": "지갑당 하나의 청구",
+        "desc": "지갑당 단일 청구 — 재설정 없음"
+      },
+      "window": {
+        "title": "청구 기간",
+        "desc": "청구는 사전 판매가 공식적으로 종료된 후에만 제출 가능"
+      }
+    },
+    "form": {
+      "heading": "사전 판매 보너스 청구",
+      "selectToken": "토큰 선택",
+      "chooseEligibleToken": "적격 토큰 선택...",
+      "claimAmount": "청구 금액",
+      "usdtEquivalent": "$0.00 USDT 상당",
+      "disclaimer": "손실 청구 토큰은 스테이킹되지 않으며 나중에 다시 스테이킹할 수 없습니다",
+      "submit": "청구 제출"
+    },
+    "info": {
+      "title": "중요: V1 사전 판매 보너스",
+      "list": {
+        "whitelisted": "≥ $350 할당을 가진 V1 사전 판매 지갑에만 사용 가능",
+        "onePer": "지갑당 하나의 청구",
+        "eligibleOnly": "적격 토큰만",
+        "afterPresale": "청구는 사전 판매 종료 후에만 제출 가능",
+        "notStaked": "손실 청구로부터 받은 토큰은 스테이킹되지 않습니다"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 보너스 — 단 한 번",
+      "text": "청구 기간을 놓치면 영원히 사라집니다.",
+      "buy": "$REKT 구매"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT 스테이킹 - 패자만이 승리한다",
+      "logoAlt": "로고"
+    },
+    "info": "모든 사전 판매 토큰은 구매와 함께 자동 스테이킹됩니다. 보상은 즉시 시작되며 사전 판매 종료 시 청구 가능합니다.",
+    "buttons": {
+      "viewLeaderboard": "리더보드 보기",
+      "claim": "청구"
+    },
+    "stats": {
+      "yourStakedBalance": "귀하의 스테이킹 잔액",
+      "unlockNote": "런칭 시 30% 언락, 6개월에 걸쳐 70% 베스팅 (토큰만)",
+      "yourPoolShare": "귀하의 풀 %",
+      "yourPoolShareDesc": "전체 스테이킹 풀에서 귀하의 몫",
+      "totalStaked": "총 스테이킹 (사전 판매 풀)",
+      "totalStakedDesc": "모든 사전 판매 참가자의 총 스테이킹 토큰",
+      "annualApy": "연간 APY",
+      "annualApyValue": "연 65%",
+      "annualApyDesc": "현재 연간 수익률",
+      "dailyRewards": "일일 보상",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "지금 이용 가능 (베스팅 없음)"
+    },
+    "rewards": {
+      "title": "총 누적 보상"
+    },
+    "footer": {
+      "notice": "스테이킹은 사전 판매 구매자 전용입니다. 보상은 생태계 활동에 따라 달라집니다.",
+      "vestingNote": "베스팅은 스테이킹 토큰에만 적용됩니다. 보상은 베스팅되지 않습니다."
+    },
+    "alts": {
+      "viewLeaderboardImg": "리더보드 보기",
+      "frame": "프레임",
+      "longFrame": "긴 프레임",
+      "logoSpread": "로고 스프레드",
+      "claimButton": "청구"
+    }
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없음",
+    "description": "찾고 있는 페이지가 존재하지 않습니다.",
+    "goHome": "홈으로 가기",
+    "staking": "스테이킹",
+    "lossClaim": "손실 청구"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

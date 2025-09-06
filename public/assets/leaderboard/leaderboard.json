@@ -1,0 +1,225 @@
+{
+    "designSystemName": "Neon_Leaderboard_UI",
+    "description": "A futuristic, gaming-inspired UI design system for displaying leaderboard data. The style is defined by a dark, immersive theme, custom container shapes, and vibrant neon glowing effects, primarily in shades of purple and blue.",
+    "colorPalette": {
+      "primary": {
+        "name": "primary-background",
+        "hex": "#1a0f2b",
+        "description": "Deep purple, used for the main background."
+      },
+      "secondary": {
+        "name": "container-background",
+        "hex": "#2c1d4a",
+        "description": "Slightly lighter purple for the main content area inside the frame."
+      },
+      "accent-glow": {
+        "name": "vibrant-purple-glow",
+        "hex": "#8a2be2",
+        "description": "A bright, glowing purple for outer borders and highlights."
+      },
+      "accent-glow-secondary": {
+        "name": "bright-cyan-glow",
+        "hex": "#00d1ff",
+        "description": "A vivid cyan used for inner border glows and highlights."
+      },
+      "text-primary": {
+        "name": "primary-text",
+        "hex": "#ffffff",
+        "description": "White for primary text, titles, and body content."
+      },
+      "text-accent": {
+        "name": "accent-text-red",
+        "hex": "#ff4d4d",
+        "description": "A bright red for highlighting specific data like losses."
+      },
+      "table-header": {
+        "name": "table-header-background",
+        "hex": "#00a0b0",
+        "description": "A distinct teal/cyan for the leaderboard's header background."
+      },
+      "table-row-colors": [
+        {
+          "name": "gold-rank-background",
+          "hex": "#40e0d0"
+        },
+        {
+          "name": "silver-rank-background",
+          "hex": "#3b5998"
+        },
+        {
+          "name": "bronze-rank-background",
+          "hex": "#8b4513"
+        },
+        {
+          "name": "standard-row-background",
+          "hex": "#3a2a5e"
+        }
+      ],
+      "button": {
+        "name": "button-gradient-start",
+        "hex": "#4d4dff"
+      },
+      "button-glow": {
+        "name": "button-glow-color",
+        "hex": "#6a0dad"
+      },
+      "decorative": [
+        {
+          "name": "pixel-art-green",
+          "hex": "#00ff00"
+        },
+        {
+          "name": "pixel-art-red",
+          "hex": "#ff0000"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamily": "Sans-Serif, preferably a clean, futuristic font like 'Exo 2' or 'Orbitron'",
+      "styles": {
+        "main-title": {
+          "name": "leaderboard-title",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "color": "primary-text",
+          "textShadow": "0 0 5px rgba(255, 255, 255, 0.5)"
+        },
+        "subtitle": {
+          "name": "leaderboard-subtitle",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "color": "primary-text"
+        },
+        "table-header": {
+          "name": "leaderboard-column-title",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "color": "primary-text"
+        },
+        "table-body": {
+          "name": "leaderboard-cell-text",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "primary-text"
+        },
+        "button": {
+          "name": "cta-button-text",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "color": "primary-text"
+        }
+      }
+    },
+    "layout": {
+      "mainContainer": "A single, centered container with custom shape and significant padding.",
+      "spacing": {
+        "baseUnit": "8px",
+        "small": "8px",
+        "medium": "16px",
+        "large": "24px"
+      }
+    },
+    "components": {
+      "main-frame": {
+        "name": "main-view-frame",
+        "description": "The primary outer container with a custom, non-rectangular shape and intricate multi-layered glowing borders.",
+        "style": {
+          "border": "2px solid",
+          "outerBorderColor": "vibrant-purple-glow",
+          "innerBorderColor": "bright-cyan-glow",
+          "boxShadow": "0 0 20px rgba(138, 43, 226, 0.6)",
+          "borderRadius": "24px",
+          "padding": "large"
+        }
+      },
+      "header": {
+        "name": "leaderboard-header",
+        "description": "The top section containing the title and subtitle.",
+        "style": {
+          "textAlign": "center",
+          "marginBottom": "large"
+        }
+      },
+      "header-decoration": {
+        "name": "corner-pixel-art",
+        "description": "Decorative pixel art elements flanking the header.",
+        "style": {
+          "position": "absolute",
+          "top": "0",
+          "left": "0",
+          "right": "0"
+        }
+      },
+      "leaderboard-table": {
+        "name": "leaderboard-grid",
+        "description": "The main table for displaying ranked data.",
+        "style": {
+          "width": "100%",
+          "borderRadius": "12px",
+          "overflow": "hidden"
+        },
+        "header": {
+          "name": "leaderboard-grid-header",
+          "style": {
+            "backgroundColor": "table-header-background",
+            "padding": "12px 16px"
+          }
+        },
+        "row": {
+          "name": "leaderboard-grid-row",
+          "style": {
+            "padding": "10px 16px",
+            "borderBottom": "1px solid rgba(0, 209, 255, 0.2)"
+          },
+          "top-3-variants": {
+            "firstPlace": "gold-rank-background",
+            "secondPlace": "silver-rank-background",
+            "thirdPlace": "bronze-rank-background"
+          }
+        },
+        "cell-elements": {
+          "rank-icon": {
+            "name": "rank-medal-icon",
+            "description": "Medal icons for 1st, 2nd, and 3rd place."
+          },
+          "user-icon": {
+            "name": "user-avatar-icon",
+            "description": "Small circular icon next to the user's name."
+          },
+          "score-pill": {
+            "name": "data-pill",
+            "description": "A rounded, pill-shaped container for numerical scores.",
+            "style": {
+              "backgroundColor": "rgba(0, 160, 176, 0.5)",
+              "borderRadius": "16px",
+              "padding": "4px 10px",
+              "border": "1px solid #00a0b0"
+            }
+          }
+        }
+      },
+      "button-group": {
+        "name": "action-button-container",
+        "description": "Container for the action buttons at the bottom.",
+        "style": {
+          "display": "flex",
+          "justifyContent": "center",
+          "gap": "medium",
+          "marginTop": "large"
+        }
+      },
+      "cta-button": {
+        "name": "primary-action-button",
+        "description": "A call-to-action button with a glowing, futuristic style.",
+        "style": {
+          "background": "linear-gradient(90deg, var(--button-gradient-start), var(--vibrant-purple-glow))",
+          "borderRadius": "20px",
+          "padding": "10px 24px",
+          "border": "none",
+          "boxShadow": "0 0 15px var(--button-glow-color)",
+          "color": "primary-text",
+          "cursor": "pointer"
+        }
+      }
+    }
+  }

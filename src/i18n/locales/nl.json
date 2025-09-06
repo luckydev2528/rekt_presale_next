@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Regulatoire Waarschuwing",
+    "warningIntro": "Uw land ({country}) kan beperkingen hebben op crypto trading of token verkoop. Bekijk de informatie hieronder en bevestig om door te gaan.",
+    "bullets": {
+      "info": "Deze site is alleen voor informatieve doeleinden en vormt geen financieel advies.",
+      "restrictions": "Deelname kan beperkt of verboden zijn in uw jurisdictie.",
+      "continue": "Door door te gaan, bevestigt u dat u de risico's en lokale regelgeving begrijpt."
+    },
+    "blockedTitle": "Toegang Beperkt",
+    "blockedBody": "Toegang tot deze inhoud is niet beschikbaar in uw jurisdictie ({country}). We kunnen geen token verkoop- of handelsinformatie verstrekken op uw locatie vanwege regulatoire beperkingen.",
+    "back": "Terug",
+    "continue": "Ik Begrijp Het, Doorgaan",
+    "warningCountryNotes": {
+      "US": "Crypto diensten zijn streng gereguleerd in de Verenigde Staten (SEC, CFTC, FinCEN). Door door te gaan, erkent u dat compliance uw eigen verantwoordelijkheid is.",
+      "IN": "Crypto trading in India is onderhevig aan zware belasting en onduidelijke regelgeving. Ga alleen verder als u de lokale wetten begrijpt.",
+      "VN": "Vietnam verbiedt crypto als wettig betaalmiddel, maar trading wordt veel gebruikt. Ga verder op eigen risico.",
+      "TH": "Thailand heeft crypto exchanges gereguleerd; zorg voor naleving met SEC Thailand.",
+      "TR": "Turkije beperkt het gebruik van crypto voor betalingen. Trading blijft toegestaan onder regulering.",
+      "NG": "Nigeria heeft beperkingen op banken die crypto afhandelen, maar P2P trading is gewoon. Ga verder op eigen risico.",
+      "UA": "Crypto is legaal in Oekraïne, maar onder evolerende regelgeving. Ga verder op eigen risico.",
+      "RS": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico.",
+      "BG": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico.",
+      "HU": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico.",
+      "CZ": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico.",
+      "SK": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico.",
+      "SI": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico.",
+      "PL": "Crypto is toegestaan maar gereguleerd onder EU of lokale wet. Ga verder op eigen risico."
+    },
+    "blockedCountryNotes": {
+      "RU": "Vanwege internationale sancties is toegang vanuit Rusland beperkt. Trading is niet beschikbaar.",
+      "CN": "Crypto trading en exchanges zijn verboden in continentaal China. Toegang geweigerd.",
+      "BD": "Crypto trading is wettelijk verboden in Bangladesh.",
+      "NP": "Crypto trading is verboden in Nepal.",
+      "BO": "Crypto trading is verboden in Bolivia.",
+      "DZ": "Crypto trading is verboden in Algerije.",
+      "MA": "Crypto trading is verboden in Marokko.",
+      "QA": "Crypto trading is verboden in Qatar.",
+      "EG": "Crypto trading is verboden in Egypte."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Alleen verliezers winnen",
+    "description": "Omarm de crash. De eerste memecoin die je verliezen beloont."
+  },
+  "nav": {
+    "hero": "Home",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Verlies Claim",
+    "staking": "Staking",
+    "leaderboard": "Leaderboard",
+    "team": "Team",
+    "roadmap": "Roadmap",
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Alleen verliezers winnen",
+      "subtitle": "Omarm de crash"
+    },
+    "howToBuy": {
+      "title": "Hoe Te Kopen:",
+      "steps": {
+        "connectWallet": "Verbind je wallet",
+        "choosePayment": "Kies betaalmethode",
+        "enterAmount": "Voer bedrag in",
+        "confirmTransaction": "Bevestig transactie"
+      }
+    },
+    "wallet": {
+      "connect": "Verbind Wallet"
+    },
+    "presale": {
+      "title": "Fase 1 Presale",
+      "currentPrice": "Huidige Prijs",
+      "nextPrice": "Volgende Prijs",
+      "priceIncreaseNote": "Prijsstijging wanneer doel bereikt is",
+      "progress": "Voortgang",
+      "raised": "{amount} opgehaald",
+      "amountPlaceholder": "Voer bedrag in",
+      "max": "MAX",
+      "buyWith": "KOOP MET {method}",
+      "alt": {
+        "buyWithSOL": "Koop met SOL",
+        "buyWithSOLHover": "Koop met SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "minuten",
+      "seconds": "seconden"
+    },
+    "asSeenOn": {
+      "title": "Zoals gezien op"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Verlies Claim",
+    "tagline": "Eén schot. Eén schild.",
+    "description": {
+      "before": "Een exclusieve V1 presale bonus voor wallets met minstens $350 toewijzing. Dien je claim in na het einde van de presale om REKT tokens te herstellen voor in aanmerking komende verliezen. Verlies Claim beloningen zijn",
+      "not": "NIET",
+      "after": "gestaked — dit is een eenmalige kans."
+    },
+    "cta": {
+      "check": "Controleer Geschiktheid",
+      "viewEligibility": "Bekijk Geschiktheid"
+    },
+    "status": {
+      "eligible": "Geschikt",
+      "unused": "Ongebruikt"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Whitelisted Wallet",
+        "desc": "Alleen V1 presale wallets met een $350 toewijzing kunnen claimen"
+      },
+      "onePer": {
+        "title": "Eén Claim Per Wallet",
+        "desc": "Enkele claim per wallet — geen resets"
+      },
+      "window": {
+        "title": "Claim Venster",
+        "desc": "Claims kunnen alleen worden ingediend nadat de presale officieel is gesloten"
+      }
+    },
+    "form": {
+      "heading": "Claim Je Presale Bonus",
+      "selectToken": "Selecteer Token",
+      "chooseEligibleToken": "Kies geschikt token...",
+      "claimAmount": "Claim Bedrag",
+      "usdtEquivalent": "$0.00 USDT equivalent",
+      "disclaimer": "Verlies Claim tokens zijn niet gestaked en kunnen later niet opnieuw gestaked worden",
+      "submit": "Claim Indienen"
+    },
+    "info": {
+      "title": "Belangrijk: V1 Presale Bonus",
+      "list": {
+        "whitelisted": "Alleen beschikbaar voor V1 presale wallets met ≥ $350 toewijzing",
+        "onePer": "Eén claim per wallet",
+        "eligibleOnly": "Alleen geschikte tokens",
+        "afterPresale": "Claims kunnen alleen worden ingediend na het einde van de presale",
+        "notStaked": "Tokens ontvangen van Verlies Claim zijn NIET gestaked"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bonus — Eén Keer Slechts",
+      "text": "Mis het claim venster, en het is voor altijd weg.",
+      "buy": "KOOP $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Alleen verliezers winnen",
+      "logoAlt": "Logo"
+    },
+    "info": "Alle presale tokens zijn auto-gestaked vanaf aankoop. Beloningen starten direct, claimbaar aan het einde van de presale.",
+    "buttons": {
+      "viewLeaderboard": "Bekijk Leaderboard",
+      "claim": "CLAIM"
+    },
+    "stats": {
+      "yourStakedBalance": "Je Gestakte Saldo",
+      "unlockNote": "30% ontgrendeld bij lancering, 70% vesting over 6 maanden (alleen tokens)",
+      "yourPoolShare": "Je % van Pool",
+      "yourPoolShareDesc": "Je aandeel van de totale staking pool",
+      "totalStaked": "Totaal Gestaked (Presale Pool)",
+      "totalStakedDesc": "Totaal gestakte tokens van alle presale deelnemers",
+      "annualApy": "Jaarlijkse APY",
+      "annualApyValue": "65% p.j.",
+      "annualApyDesc": "Huidige jaarlijkse percentage opbrengst",
+      "dailyRewards": "Dagelijkse Beloningen",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Nu Beschikbaar (geen vesting)"
+    },
+    "rewards": {
+      "title": "Totaal Verzamelde Beloningen"
+    },
+    "footer": {
+      "notice": "Staking is exclusief voor presale kopers. Beloningen hangen af van ecosysteem activiteit.",
+      "vestingNote": "Vesting geldt alleen voor gestakte tokens. Beloningen zijn niet geverst."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Bekijk Leaderboard",
+      "frame": "Frame",
+      "longFrame": "Lang Frame",
+      "logoSpread": "Logo Spread",
+      "claimButton": "Claim"
+    }
+  },
+  "notFound": {
+    "title": "Pagina Niet Gevonden",
+    "description": "De pagina die je zoekt bestaat niet.",
+    "goHome": "Ga Naar Home",
+    "staking": "Staking",
+    "lossClaim": "Verlies Claim"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

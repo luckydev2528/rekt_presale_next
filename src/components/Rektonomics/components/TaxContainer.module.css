@@ -1,0 +1,168 @@
+.taxContainer {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(26, 15, 43, 0.95) 0%,
+    rgba(42, 26, 69, 0.9) 100%
+  );
+  background-image: url('/assets/Rektonomics/tax.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  border: none;
+  box-shadow: none;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease;
+}
+
+.taxContainer:hover {
+  border-color: inherit;
+  box-shadow: none;
+  transform: none;
+}
+
+.cornerBrackets {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.bracket {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff007f;
+  box-shadow: 
+    0 0 8px rgba(255, 0, 127, 0.6),
+    0 0 15px rgba(255, 0, 127, 0.3);
+  transition: all 0.3s ease;
+}
+
+.topLeft {
+  top: 8px;
+  left: 8px;
+  border-right: none;
+  border-bottom: none;
+  border-top-left-radius: 4px;
+}
+
+.topRight {
+  top: 8px;
+  right: 8px;
+  border-left: none;
+  border-bottom: none;
+  border-top-right-radius: 4px;
+}
+
+.bottomLeft {
+  bottom: 8px;
+  left: 8px;
+  border-right: none;
+  border-top: none;
+  border-bottom-left-radius: 4px;
+}
+
+.bottomRight {
+  bottom: 8px;
+  right: 8px;
+  border-left: none;
+  border-top: none;
+  border-bottom-right-radius: 4px;
+}
+
+.taxContainer:hover .bracket {
+  border-color: #00ffff;
+  box-shadow: 
+    0 0 12px rgba(0, 255, 255, 0.8),
+    0 0 20px rgba(0, 255, 255, 0.4);
+  transform: scale(1.1);
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 1;
+  
+  padding: 36px 24px 12px;
+}
+
+
+@media (max-width: 768px) {
+  .taxContainer {
+    background-size: contain;
+    background-position: center top;
+    min-height: 320px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .contentWrapper {
+    padding: 32px 20px 16px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .bracket {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .topLeft,
+  .topRight {
+    top: 6px;
+  }
+  
+  .bottomLeft,
+  .bottomRight {
+    bottom: 6px;
+  }
+  
+  .topLeft,
+  .bottomLeft {
+    left: 6px;
+  }
+  
+  .topRight,
+  .bottomRight {
+    right: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .taxContainer {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .contentWrapper {
+    padding: 22px 16px 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .bracket {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .taxContainer,
+  .bracket {
+    transition: none;
+  }
+  
+  .taxContainer:hover {
+    transform: none;
+  }
+  
+  .taxContainer:hover .bracket {
+    transform: none;
+  }
+}

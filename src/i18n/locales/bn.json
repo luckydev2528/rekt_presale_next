@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "নিয়ন্ত্রক সতর্কতা",
+    "warningIntro": "আপনার দেশ ({country}) ক্রিপটো ট্রেডিং বা টোকেন বিক্রয়ের উপর সীমাবদ্ধতা থাকতে পারে। অনুগ্রহ করে নিচের তথ্য পর্যালোচনা করুন এবং চালিয়ে যেতে নিশ্চিত করুন।",
+    "bullets": {
+      "info": "এই সাইটটি শুধুমাত্র তথ্যগত উদ্দেশ্যে এবং আর্থিক পরামর্শ গঠন করে না।",
+      "restrictions": "আপনার এখতিয়ারে অংশগ্রহণ সীমাবদ্ধ বা নিষিদ্ধ হতে পারে।",
+      "continue": "চালিয়ে যাওয়ার মাধ্যমে, আপনি নিশ্চিত করেন যে আপনি ঝুঁকি এবং স্থানীয় নিয়মাবলী বুঝতে পারেন।"
+    },
+    "blockedTitle": "অ্যাক্সেস সীমাবদ্ধ",
+    "blockedBody": "এই কন্টেন্টে অ্যাক্সেস আপনার এখতিয়ারে ({country}) উপলব্ধ নেই। নিয়ন্ত্রক সীমাবদ্ধতার কারণে আমরা আপনার অবস্থানে টোকেন বিক্রয় বা ট্রেডিং তথ্য প্রদান করতে পারি না।",
+    "back": "ফিরে যান",
+    "continue": "আমি বুঝতে পেরেছি, চালিয়ে যান",
+    "warningCountryNotes": {
+      "US": "মার্কিন যুক্তরাষ্ট্রে ক্রিপটো সেবা কঠোরভাবে নিয়ন্ত্রিত (SEC, CFTC, FinCEN)। চালিয়ে যাওয়ার মাধ্যমে, আপনি স্বীকার করেন যে সম্মতি আপনার নিজের দায়িত্ব।",
+      "IN": "ভারতে ক্রিপটো ট্রেডিং ভারী কর এবং অস্পষ্ট নিয়মাবলীর অধীন। স্থানীয় আইন বুঝলে তবেই এগিয়ে যান।",
+      "VN": "ভিয়েতনাম ক্রিপটোকে আইনি মুদ্রা হিসেবে নিষিদ্ধ করে, কিন্তু ট্রেডিং ব্যাপকভাবে ব্যবহৃত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "TH": "থাইল্যান্ড ক্রিপটো এক্সচেঞ্জ নিয়ন্ত্রিত করেছে; SEC থাইল্যান্ডের সাথে সম্মতি নিশ্চিত করুন।",
+      "TR": "তুরস্ক পেমেন্টের জন্য ক্রিপটো ব্যবহার সীমিত করে। ট্রেডিং নিয়ন্ত্রণের অধীনে অনুমতিপ্রাপ্ত থাকে।",
+      "NG": "নাইজেরিয়ায় ক্রিপটো হ্যান্ডেল করা ব্যাংকগুলির উপর সীমাবদ্ধতা রয়েছে, কিন্তু P2P ট্রেডিং সাধারণ। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "UA": "ইউক্রেনে ক্রিপটো আইনি, কিন্তু বিকশিত নিয়মাবলীর অধীনে। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "RS": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "BG": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "HU": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "CZ": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "SK": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "SI": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।",
+      "PL": "ক্রিপটো অনুমতিপ্রাপ্ত কিন্তু EU বা স্থানীয় আইনের অধীনে নিয়ন্ত্রিত। আপনার নিজের ঝুঁকিতে চালিয়ে যান।"
+    },
+    "blockedCountryNotes": {
+      "RU": "আন্তর্জাতিক নিষেধাজ্ঞার কারণে, রাশিয়া থেকে অ্যাক্সেস সীমিত। ট্রেডিং উপলব্ধ নেই।",
+      "CN": "মূল ভূখণ্ড চীনে ক্রিপটো ট্রেডিং এবং এক্সচেঞ্জ নিষিদ্ধ। অ্যাক্সেস অস্বীকৃত।",
+      "BD": "বাংলাদেশে ক্রিপটো ট্রেডিং আইনত নিষিদ্ধ।",
+      "NP": "নেপালে ক্রিপটো ট্রেডিং নিষিদ্ধ।",
+      "BO": "বলিভিয়ায় ক্রিপটো ট্রেডিং নিষিদ্ধ।",
+      "DZ": "আলজেরিয়ায় ক্রিপটো ট্রেডিং নিষিদ্ধ।",
+      "MA": "মরক্কোতে ক্রিপটো ট্রেডিং নিষিদ্ধ।",
+      "QA": "কাতারে ক্রিপটো ট্রেডিং নিষিদ্ধ।",
+      "EG": "মিশরে ক্রিপটো ট্রেডিং নিষিদ্ধ।"
+    }
+  },
+  "seo": {
+    "title": "$REKT - শুধু হারানোরাই জেতে",
+    "description": "ক্র্যাশকে আলিঙ্গন করুন। প্রথম মেমকয়েন যা আপনার ক্ষতির পুরস্কার দেয়।"
+  },
+  "nav": {
+    "hero": "হোম",
+    "tokenomics": "টোকেনোমিক্স",
+    "lossClaim": "ক্ষতির দাবি",
+    "staking": "স্ট্যাকিং",
+    "leaderboard": "লিডারবোর্ড",
+    "team": "টিম",
+    "roadmap": "রোডম্যাপ",
+    "whitepaper": "হোয়াইটপেপার",
+    "faq": "প্রশ্নোত্তর"
+  },
+  "home": {
+    "hero": {
+      "title": "শুধু হারানোরাই জেতে",
+      "subtitle": "ক্র্যাশকে আলিঙ্গন করুন"
+    },
+    "howToBuy": {
+      "title": "কিভাবে কিনবেন:",
+      "steps": {
+        "connectWallet": "আপনার ওয়ালেট সংযুক্ত করুন",
+        "choosePayment": "পেমেন্ট পদ্ধতি বেছে নিন",
+        "enterAmount": "পরিমাণ প্রবেশ করান",
+        "confirmTransaction": "লেনদেন নিশ্চিত করুন"
+      }
+    },
+    "wallet": {
+      "connect": "ওয়ালেট সংযুক্ত করুন"
+    },
+    "presale": {
+      "title": "পর্যায় ১ প্রি-সেল",
+      "currentPrice": "বর্তমান মূল্য",
+      "nextPrice": "পরবর্তী মূল্য",
+      "priceIncreaseNote": "লক্ষ্য অর্জিত হলে মূল্য বৃদ্ধি",
+      "progress": "অগ্রগতি",
+      "raised": "{amount} সংগৃহীত",
+      "amountPlaceholder": "পরিমাণ প্রবেশ করান",
+      "max": "সর্বোচ্চ",
+      "buyWith": "{method} দিয়ে কিনুন",
+      "alt": {
+        "buyWithSOL": "SOL দিয়ে কিনুন",
+        "buyWithSOLHover": "SOL দিয়ে কিনুন হোভার"
+      }
+    },
+    "countdown": {
+      "days": "দিন",
+      "hours": "ঘন্টা",
+      "minutes": "মিনিট",
+      "seconds": "সেকেন্ড"
+    },
+    "asSeenOn": {
+      "title": "যেমন দেখা গেছে"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT ক্ষতির দাবি",
+    "tagline": "এক শট। এক ঢাল।",
+    "description": {
+      "before": "কমপক্ষে $৩৫০ বরাদ্দ সহ ওয়ালেটগুলির জন্য একটি একচেটিয়া V1 প্রি-সেল বোনাস। যোগ্য ক্ষতির জন্য REKT টোকেন পুনরুদ্ধার করতে প্রি-সেল শেষ হওয়ার পর আপনার দাবি জমা দিন। ক্ষতির দাবি পুরস্কার",
+      "not": "স্ট্যাক করা হয় না",
+      "after": " — এটি একবারের সুযোগ।"
+    },
+    "cta": {
+      "check": "যোগ্যতা পরীক্ষা করুন",
+      "viewEligibility": "যোগ্যতা দেখুন"
+    },
+    "status": {
+      "eligible": "যোগ্য",
+      "unused": "অব্যবহৃত"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "হোয়াইটলিস্ট ওয়ালেট",
+        "desc": "শুধুমাত্র $৩৫০ বরাদ্দ সহ V1 প্রি-সেল ওয়ালেট দাবি করতে পারে"
+      },
+      "onePer": {
+        "title": "প্রতি ওয়ালেটে একটি দাবি",
+        "desc": "প্রতি ওয়ালেটে একক দাবি — কোন রিসেট নেই"
+      },
+      "window": {
+        "title": "দাবির উইন্ডো",
+        "desc": "প্রি-সেল আনুষ্ঠানিকভাবে বন্ধ হওয়ার পরেই দাবি জমা দেওয়া যাবে"
+      }
+    },
+    "form": {
+      "heading": "আপনার প্রি-সেল বোনাস দাবি করুন",
+      "selectToken": "টোকেন নির্বাচন করুন",
+      "chooseEligibleToken": "যোগ্য টোকেন বেছে নিন...",
+      "claimAmount": "দাবির পরিমাণ",
+      "usdtEquivalent": "$০.০০ USDT সমতুল্য",
+      "disclaimer": "ক্ষতির দাবি টোকেন স্ট্যাক করা হয় না এবং পরে পুনরায় স্ট্যাক করা যায় না",
+      "submit": "দাবি জমা দিন"
+    },
+    "info": {
+      "title": "গুরুত্বপূর্ণ: V1 প্রি-সেল বোনাস",
+      "list": {
+        "whitelisted": "শুধুমাত্র ≥ $৩৫০ বরাদ্দ সহ V1 প্রি-সেল ওয়ালেটের জন্য উপলব্ধ",
+        "onePer": "প্রতি ওয়ালেটে একটি দাবি",
+        "eligibleOnly": "শুধুমাত্র যোগ্য টোকেন",
+        "afterPresale": "প্রি-সেল শেষ হওয়ার পরেই দাবি জমা দেওয়া যাবে",
+        "notStaked": "ক্ষতির দাবি থেকে প্রাপ্ত টোকেন স্ট্যাক করা হয় না"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 বোনাস — শুধুমাত্র একবার",
+      "text": "দাবির উইন্ডো মিস করুন, এবং এটি চিরতরে চলে যাবে।",
+      "buy": "$REKT কিনুন"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT স্ট্যাকিং - শুধু হারানোরাই জেতে",
+      "logoAlt": "লোগো"
+    },
+    "info": "সমস্ত প্রি-সেল টোকেন ক্রয় থেকে অটো-স্ট্যাক। পুরস্কার তৎক্ষণাৎ শুরু হয়, প্রি-সেলের শেষে দাবিযোগ্য।",
+    "buttons": {
+      "viewLeaderboard": "লিডারবোর্ড দেখুন",
+      "claim": "দাবি করুন"
+    },
+    "stats": {
+      "yourStakedBalance": "আপনার স্ট্যাক করা ব্যালেন্স",
+      "unlockNote": "লঞ্চে ৩০% আনলক, ৬ মাসে ৭০% ভেস্টিং (শুধুমাত্র টোকেন)",
+      "yourPoolShare": "পুলের আপনার %",
+      "yourPoolShareDesc": "মোট স্ট্যাকিং পুলে আপনার অংশ",
+      "totalStaked": "মোট স্ট্যাক করা (প্রি-সেল পুল)",
+      "totalStakedDesc": "সমস্ত প্রি-সেল অংশগ্রহণকারীদের মোট স্ট্যাক করা টোকেন",
+      "annualApy": "বার্ষিক APY",
+      "annualApyValue": "৬৫% বার্ষিক",
+      "annualApyDesc": "বর্তমান বার্ষিক শতাংশ ফলন",
+      "dailyRewards": "দৈনিক পুরস্কার",
+      "dailyRewardsValue": "২,১৭৮+ REKT",
+      "dailyRewardsDesc": "এখনই উপলব্ধ (কোন ভেস্টিং নেই)"
+    },
+    "rewards": {
+      "title": "মোট সঞ্চিত পুরস্কার"
+    },
+    "footer": {
+      "notice": "স্ট্যাকিং প্রি-সেল ক্রেতাদের জন্য একচেটিয়া। পুরস্কার ইকোসিস্টেম কার্যকলাপের উপর নির্ভর করে।",
+      "vestingNote": "ভেস্টিং শুধুমাত্র স্ট্যাক করা টোকেনের জন্য প্রযোজ্য। পুরস্কার ভেস্ট করা হয় না।"
+    },
+    "alts": {
+      "viewLeaderboardImg": "লিডারবোর্ড দেখুন",
+      "frame": "ফ্রেম",
+      "longFrame": "লম্বা ফ্রেম",
+      "logoSpread": "লোগো স্প্রেড",
+      "claimButton": "দাবি করুন"
+    }
+  },
+  "notFound": {
+    "title": "পৃষ্ঠা পাওয়া যায়নি",
+    "description": "আপনি যে পৃষ্ঠাটি খুঁজছেন তা বিদ্যমান নেই।",
+    "goHome": "হোমে যান",
+    "staking": "স্ট্যাকিং",
+    "lossClaim": "ক্ষতির দাবি"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

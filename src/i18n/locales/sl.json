@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Regulatorno Opozorilo",
+    "warningIntro": "Vaša država ({country}) ima lahko omejitve glede trgovanja s kriptovalutami ali prodaje žetonov. Prosimo, preglejte spodnje informacije in potrdite za nadaljevanje.",
+    "bullets": {
+      "info": "Ta spletna stran je namenjena samo informativnim namenom in ne predstavlja finančnega svetovanja.",
+      "restrictions": "Sodelovanje je lahko omejeno ali prepovedano v vaši jurisdikciji.",
+      "continue": "Z nadaljevanjem potrjujete, da razumete tveganja in lokalne predpise."
+    },
+    "blockedTitle": "Dostop Omejen",
+    "blockedBody": "Dostop do te vsebine ni na voljo v vaši jurisdikciji ({country}). Ne moremo zagotoviti informacij o prodaji ali trgovanju z žetoni na vaši lokaciji zaradi regulatornih omejitev.",
+    "back": "Nazaj",
+    "continue": "Razumem, Nadaljuj",
+    "warningCountryNotes": {
+      "US": "Kripto storitve so strogo regulirane v Združenih državah (SEC, CFTC, FinCEN). Z nadaljevanjem priznavate, da je skladnost vaša lastna odgovornost.",
+      "IN": "Trgovanje s kriptovalutami v Indiji je podvrženo visokim davkom in nejasnim predpisom. Nadaljujte samo, če razumete lokalne zakone.",
+      "VN": "Vietnam prepoveduje kripto kot zakonito plačilno sredstvo, vendar se trgovanje široko uporablja. Nadaljujte na lastno odgovornost.",
+      "TH": "Tajska je regulirala kripto borze; zagotovite skladnost s SEC Tajska.",
+      "TR": "Turčija omejuje uporabo kripta za plačila. Trgovanje ostaja dovoljeno pod regulacijo.",
+      "NG": "Nigerija ima omejitve za banke, ki upravljajo s kripto, vendar je P2P trgovanje pogosto. Nadaljujte na lastno odgovornost.",
+      "UA": "Kripto je zakonit v Ukrajini, vendar pod razvijajočimi se predpisi. Nadaljujte na lastno odgovornost.",
+      "RS": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost.",
+      "BG": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost.",
+      "HU": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost.",
+      "CZ": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost.",
+      "SK": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost.",
+      "SI": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost.",
+      "PL": "Kripto je dovoljen, vendar reguliran pod pravom EU ali lokalnim. Nadaljujte na lastno odgovornost."
+    },
+    "blockedCountryNotes": {
+      "RU": "Zaradi mednarodnih sankcij je dostop iz Rusije omejen. Trgovanje ni na voljo.",
+      "CN": "Trgovanje s kriptovalutami in borze so prepovedane v celinski Kitajski. Dostop zavrnjen.",
+      "BD": "Trgovanje s kriptovalutami je zakonsko prepovedano v Bangladešu.",
+      "NP": "Trgovanje s kriptovalutami je prepovedano v Nepalu.",
+      "BO": "Trgovanje s kriptovalutami je prepovedano v Boliviji.",
+      "DZ": "Trgovanje s kriptovalutami je prepovedano v Alžiriji.",
+      "MA": "Trgovanje s kriptovalutami je prepovedano v Maroku.",
+      "QA": "Trgovanje s kriptovalutami je prepovedano v Katarju.",
+      "EG": "Trgovanje s kriptovalutami je prepovedano v Egiptu."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Samo poraženci zmagajo",
+    "description": "Objemite padec. Prvi memecoin, ki nagradi vaše izgube."
+  },
+  "nav": {
+    "hero": "Domov",
+    "tokenomics": "Tokenomika",
+    "lossClaim": "Zahtevek Izgub",
+    "staking": "Staking",
+    "leaderboard": "Lestvica",
+    "team": "Ekipa",
+    "roadmap": "Načrt",
+    "whitepaper": "Bela Knjiga",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Samo poraženci zmagajo",
+      "subtitle": "Objemite padec"
+    },
+    "howToBuy": {
+      "title": "Kako Kupiti:",
+      "steps": {
+        "connectWallet": "Povežite svojo denarnico",
+        "choosePayment": "Izberite način plačila",
+        "enterAmount": "Vnesite znesek",
+        "confirmTransaction": "Potrdite transakcijo"
+      }
+    },
+    "wallet": {
+      "connect": "Poveži Denarnico"
+    },
+    "presale": {
+      "title": "Predprodaja Faza 1",
+      "currentPrice": "Trenutna Cena",
+      "nextPrice": "Naslednja Cena",
+      "priceIncreaseNote": "Povišanje cene ob dosegi cilja",
+      "progress": "Napredek",
+      "raised": "{amount} zbranih",
+      "amountPlaceholder": "Vnesite znesek",
+      "max": "MAX",
+      "buyWith": "KUPI Z {method}",
+      "alt": {
+        "buyWithSOL": "Kupi s SOL",
+        "buyWithSOLHover": "Kupi s SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "dni",
+      "hours": "ure",
+      "minutes": "minut",
+      "seconds": "sekund"
+    },
+    "asSeenOn": {
+      "title": "Kot je vidno na"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Zahtevek Izgub",
+    "tagline": "En strel. En ščit.",
+    "description": {
+      "before": "Ekskluziven V1 predprodajni bonus za denarnice z najmanj $350 dodelitvijo. Vložite svoj zahtevek po koncu predprodaje za obnovitev REKT žetonov za upravičene izgube. Nagrade Zahtevka Izgub",
+      "not": "NISO",
+      "after": "staked — to je enkratna priložnost."
+    },
+    "cta": {
+      "check": "Preveri Upravičenost",
+      "viewEligibility": "Poglej Upravičenost"
+    },
+    "status": {
+      "eligible": "Upravičen",
+      "unused": "Neuporabljeno"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Denarnica na Belem Seznamu",
+        "desc": "Samo V1 predprodajne denarnice z $350 dodelitvijo lahko zahtevajo"
+      },
+      "onePer": {
+        "title": "En Zahtevek Na Denarnico",
+        "desc": "Posamezen zahtevek na denarnico — brez ponastavitev"
+      },
+      "window": {
+        "title": "Okno Zahtevkov",
+        "desc": "Zahtevki se lahko vložijo šele po uradni zaprtju predprodaje"
+      }
+    },
+    "form": {
+      "heading": "Zahtevajte Svoj Predprodajni Bonus",
+      "selectToken": "Izberi Žeton",
+      "chooseEligibleToken": "Izberite upravičen žeton...",
+      "claimAmount": "Znesek Zahtevka",
+      "usdtEquivalent": "Ekvivalent $0.00 USDT",
+      "disclaimer": "Žetoni Zahtevka Izgub niso staked in jih pozneje ni mogoče ponovno staked",
+      "submit": "Vloži Zahtevek"
+    },
+    "info": {
+      "title": "Pomembno: V1 Predprodajni Bonus",
+      "list": {
+        "whitelisted": "Na voljo samo za V1 predprodajne denarnice z dodelitvijo ≥ $350",
+        "onePer": "En zahtevek na denarnico",
+        "eligibleOnly": "Samo upravičeni žetoni",
+        "afterPresale": "Zahtevki se lahko vložijo šele po koncu predprodaje",
+        "notStaked": "Žetoni prejeti iz Zahtevka Izgub NISO staked"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bonus — Samo Enkrat",
+      "text": "Zamudite okno zahtevkov in je za vedno izgubljeno.",
+      "buy": "KUPI $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Samo poraženci zmagajo",
+      "logoAlt": "Logo"
+    },
+    "info": "Vsi predprodajni žetoni so samodejno staked od nakupa. Nagrade se začnejo takoj, zahtevajo se lahko ob koncu predprodaje.",
+    "buttons": {
+      "viewLeaderboard": "Poglej Lestvico",
+      "claim": "ZAHTEVAJ"
+    },
+    "stats": {
+      "yourStakedBalance": "Vaše Staked Stanje",
+      "unlockNote": "30% odklenjeno ob zagonu, 70% vesting čez 6 mesecev (samo žetoni)",
+      "yourPoolShare": "Vaš % Bazena",
+      "yourPoolShareDesc": "Vaš delež celotnega staking bazena",
+      "totalStaked": "Skupaj Staked (Predprodajni Bazen)",
+      "totalStakedDesc": "Skupaj staked žetoni vseh udeležencev predprodaje",
+      "annualApy": "Letni APY",
+      "annualApyValue": "65% letno",
+      "annualApyDesc": "Trenutni letni odstotni donos",
+      "dailyRewards": "Dnevne Nagrade",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Na Voljo Zdaj (brez vestinga)"
+    },
+    "rewards": {
+      "title": "Skupaj Nakopičene Nagrade"
+    },
+    "footer": {
+      "notice": "Staking je ekskluziven za kupce predprodaje. Nagrade so odvisne od dejavnosti ekosistema.",
+      "vestingNote": "Vesting velja samo za staked žetone. Nagrade niso vested."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Poglej Lestvico",
+      "frame": "Okvir",
+      "longFrame": "Dolg Okvir",
+      "logoSpread": "Logo Razprostiranje",
+      "claimButton": "Zahtevaj"
+    }
+  },
+  "notFound": {
+    "title": "Stran Ni Najdena",
+    "description": "Stran, ki jo iščete, ne obstaja.",
+    "goHome": "Pojdi Domov",
+    "staking": "Staking",
+    "lossClaim": "Zahtevek Izgub"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

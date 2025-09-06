@@ -1,0 +1,185 @@
+{
+  "designSystemName": "Neon_Staking_Dashboard_UI",
+  "description": "A futuristic UI design system for a cryptocurrency staking dashboard. The design uses a dark, space-themed background, a structured grid of data cards with custom shapes, and vibrant neon glows in magenta and blue to create an engaging and informative user experience.",
+  "colorPalette": {
+    "primary": {
+      "name": "primary-background",
+      "hex": "#0a0612",
+      "description": "Very dark purple/black with a subtle noise or starfield texture."
+    },
+    "secondary": {
+      "name": "card-background",
+      "hex": "#2a1a45",
+      "description": "A dark purple used for the background of data cards, with a subtle internal texture."
+    },
+    "accent-glow-primary": {
+      "name": "vibrant-magenta-glow",
+      "hex": "#be29ec",
+      "description": "A bright, glowing magenta/purple used for borders, titles, and disclaimers."
+    },
+    "accent-glow-secondary": {
+      "name": "bright-blue-glow",
+      "hex": "#00aeff",
+      "description": "A vivid blue used for primary buttons and some card borders."
+    },
+    "text-primary": {
+      "name": "primary-text",
+      "hex": "#ffffff",
+      "description": "White for main data points and titles."
+    },
+    "text-secondary": {
+      "name": "secondary-text",
+      "hex": "#d3d3d3",
+      "description": "Light grey for subtitles and descriptive text."
+    },
+    "text-highlight": {
+      "name": "highlight-green",
+      "hex": "#39ff14",
+      "description": "A bright neon green for key performance indicators like APY."
+    },
+    "button-primary": {
+      "name": "primary-button-gradient",
+      "gradient": "linear-gradient(90deg, #00aeff, #4d4dff)",
+      "description": "A cyan-to-blue gradient for primary call-to-action buttons."
+    },
+    "disclaimer-banner": {
+      "name": "full-width-disclaimer-bg",
+      "hex": "#be29ec",
+      "description": "The solid magenta background for the full-width disclaimer banner."
+    }
+  },
+  "typography": {
+    "fontFamily": "Sans-Serif, a futuristic or techno-style font like 'Orbitron' or 'Exo 2'",
+    "styles": {
+      "page-title": {
+        "name": "staking-main-title",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "color": "primary-text",
+        "textTransform": "uppercase"
+      },
+      "subtitle": {
+        "name": "page-subtitle",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "secondary-text"
+      },
+      "card-label": {
+        "name": "data-card-title",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "color": "secondary-text"
+      },
+      "card-value-large": {
+        "name": "data-card-metric",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "color": "primary-text"
+      },
+      "card-value-highlight": {
+        "name": "data-card-metric-highlight",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "color": "highlight-green"
+      },
+      "card-description": {
+        "name": "data-card-caption",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "color": "secondary-text"
+      },
+      "button": {
+        "name": "cta-button-text",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "color": "primary-text"
+      }
+    }
+  },
+  "layout": {
+    "structure": "A centered, single-column layout with a header, a main content area featuring a grid of data cards, and a footer.",
+    "spacing": { "baseUnit": "8px", "medium": "16px", "large": "24px", "xlarge": "48px" },
+    "gridSystem": "A responsive grid for the data cards, likely transitioning from 3 or 2 columns on desktop to a single column on mobile."
+  },
+  "components": {
+    "header-nav": {
+      "name": "main-navigation-bar",
+      "description": "The main site header with navigation links. The active link is highlighted.",
+      "active-style": { "backgroundColor": "vibrant-magenta-glow" }
+    },
+    "page-title-banner": {
+      "name": "main-title-container",
+      "description": "A custom-shaped container for the main page title with a glowing border and textured background.",
+      "style": {
+        "border": "2px solid",
+        "borderColor": "vibrant-magenta-glow",
+        "borderRadius": "12px",
+        "padding": "medium large",
+        "boxShadow": "0 0 15px var(--vibrant-magenta-glow)",
+        "backgroundColor": "rgba(0,0,0,0.5)"
+      }
+    },
+    "primary-button": {
+      "name": "view-leaderboard-button",
+      "description": "The main call-to-action button, styled with a gradient and glow.",
+      "style": {
+        "background": "var(--primary-button-gradient)",
+        "borderRadius": "20px",
+        "padding": "10px 24px",
+        "border": "1px solid #fff",
+        "boxShadow": "0 0 15px var(--bright-blue-glow)"
+      }
+    },
+    "data-card": {
+      "name": "stat-card",
+      "description": "The primary container for displaying a single data metric.",
+      "style": {
+        "border": "1px solid",
+        "borderColor": "vibrant-magenta-glow",
+        "borderRadius": "16px",
+        "padding": "large",
+        "backgroundColor": "card-background",
+        "clipPath": "polygon(0 20px, 20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%)"
+      }
+    },
+    "gradient-data-card": {
+      "name": "stat-card-gradient-border",
+      "description": "A variation of the data card with a gradient border.",
+      "style": { "borderImage": "linear-gradient(to right, #be29ec, #2a1a45) 1" }
+    },
+    "rewards-container": {
+      "name": "total-rewards-card",
+      "description": "A large, distinct container for showcasing total accrued rewards.",
+      "style": {
+        "border": "1px solid",
+        "borderColor": "bright-blue-glow",
+        "borderRadius": "16px",
+        "padding": "large",
+        "textAlign": "center"
+      }
+    },
+    "decorative-icons": {
+      "name": "floating-reward-tokens",
+      "description": "Small, decorative token icons floating within the rewards container."
+    },
+    "claim-button": {
+      "name": "claim-rewards-button",
+      "description": "The button used to claim rewards.",
+      "style": {
+        "background": "var(--primary-button-gradient)",
+        "borderRadius": "8px",
+        "padding": "10px 40px",
+        "border": "none"
+      }
+    },
+    "disclaimer-banner-fullwidth": {
+      "name": "page-disclaimer-bar",
+      "description": "A full-width banner at the bottom of the content area for disclaimers.",
+      "style": { "backgroundColor": "disclaimer-banner", "padding": "small 0", "textAlign": "center" }
+    },
+    "footer": {
+      "name": "main-site-footer",
+      "description": "The standard site footer containing logo, links, and social media icons."
+    }
+  }
+}

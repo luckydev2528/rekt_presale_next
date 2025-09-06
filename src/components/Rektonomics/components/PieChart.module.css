@@ -1,0 +1,264 @@
+.pieChartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+  width: 100%;
+  max-width: 350px;
+  justify-self: end;
+}
+
+.chartWrapper {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 
+    0 0 20px rgba(138, 43, 226, 0.4),
+    0 0 40px rgba(0, 255, 255, 0.3),
+    0 0 60px rgba(255, 0, 127, 0.2),
+    inset 0 0 20px rgba(42, 26, 69, 0.5);
+  transition: all 0.4s ease;
+  border: 2px solid rgba(138, 43, 226, 0.3);
+  
+  
+  animation: chartRotate 20s linear infinite;
+}
+
+.chartWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 
+    0 0 40px rgba(138, 43, 226, 0.6),
+    0 0 80px rgba(0, 255, 255, 0.5),
+    0 0 100px rgba(255, 0, 127, 0.3),
+    inset 0 0 30px rgba(42, 26, 69, 0.7);
+  border-color: rgba(138, 43, 226, 0.6);
+  animation-play-state: paused;
+}
+
+.chartImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  object-position: 53% 52%;
+  border-radius: 50%;
+}
+
+
+.centerOverlay {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.coinDustGif {
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 280px;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(42, 26, 69, 0.8) 0%, rgba(26, 15, 43, 0.6) 100%);
+  border: 1px solid rgba(138, 43, 226, 0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.3),
+    0 0 15px rgba(138, 43, 226, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.legend:hover {
+  background: linear-gradient(135deg, rgba(42, 26, 69, 0.9) 0%, rgba(26, 15, 43, 0.8) 100%);
+  border-color: rgba(138, 43, 226, 0.6);
+  box-shadow: 
+    0 12px 25px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(138, 43, 226, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.legendItem:hover {
+  background: rgba(138, 43, 226, 0.2);
+  transform: translateX(4px);
+}
+
+.legendColor {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 8px currentColor;
+  transition: all 0.3s ease;
+}
+
+.legendItem:hover .legendColor {
+  transform: scale(1.2);
+  box-shadow: 0 0 12px currentColor;
+}
+
+.legendText {
+  font-family: 'Poppins', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  transition: all 0.3s ease;
+}
+
+.legendItem:hover .legendText {
+  color: #00ffff;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+
+@media (max-width: 1024px) {
+  .pieChartContainer {
+    max-width: min(320px, 90vw);
+    align-items: center;
+  }
+  
+  .chartWrapper {
+    width: min(280px, 90vw);
+    height: min(280px, 90vw);
+  }
+  
+  .coinDustGif {
+    width: 76px;
+    height: 76px;
+  }
+  
+  .legend {
+    max-width: min(260px, 90vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .pieChartContainer {
+    max-width: min(280px, 90vw);
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+  }
+  
+  .chartWrapper {
+    width: min(250px, 90vw);
+    height: min(250px, 90vw);
+  }
+  
+  .coinDustGif {
+    width: 68px;
+    height: 68px;
+  }
+  
+  .legend {
+    max-width: min(240px, 90vw);
+  }
+  
+  .legendText {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pieChartContainer {
+    max-width: min(240px, 90vw);
+    width: 100%;
+  }
+  
+  .chartWrapper {
+    width: min(220px, 90vw);
+    height: min(220px, 90vw);
+  }
+  
+  .coinDustGif {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .legend {
+    max-width: min(200px, 90vw);
+    padding: 12px;
+  }
+  
+  .legendItem {
+    gap: 8px;
+  }
+  
+  .legendColor {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .legendText {
+    font-size: 12px;
+  }
+}
+
+
+@media (prefers-contrast: high) {
+  .legend {
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid #ffffff;
+  }
+  
+  .legendColor {
+    border: 2px solid #ffffff;
+  }
+}
+
+
+@keyframes chartRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .chartWrapper {
+    animation: none;
+    transition: none;
+  }
+  
+  .chartWrapper:hover {
+    transform: none;
+    animation: none;
+  }
+  
+  .legendItem,
+  .legendColor,
+  .legendText {
+    transition: none;
+  }
+}

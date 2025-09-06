@@ -1,0 +1,202 @@
+.mainContainer {
+  position: relative;
+  background: #1a0f2b;
+  border-radius: 16px;
+  padding: 0;
+  overflow: hidden;
+
+  --frame-top-safe-desktop: 12px;
+  --frame-top-safe-tablet: 8px;
+  --frame-top-safe-mobile: 6px;
+
+  --frame-height-extra-desktop: 40px;
+  --frame-height-extra-tablet: 24px;
+  --frame-height-extra-mobile: 16px;
+
+  --frame-align-offset-mobile: 0px;
+  
+
+  box-shadow: none;
+  
+
+  border: none;
+  
+
+  width: 100%;
+  max-width: 100%; 
+  margin: 0 auto;
+  
+  
+  transition: all 0.3s ease;
+}
+
+.mainContainer:hover {
+  
+  box-shadow: none; 
+}
+
+.borderOverlay {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  opacity: 1; 
+}
+
+.borderImage {
+  object-fit: contain; 
+  object-position: top left; 
+  mix-blend-mode: normal; 
+}
+
+.cornerBrackets {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 2;
+  display: none; 
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 3;
+  padding: calc(24px + var(--frame-top-safe-desktop)) 24px calc(24px + var(--frame-height-extra-desktop)); 
+}
+
+.mainContainer::before, .mainContainer::after {
+  content: none; 
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.mainContainer::before {
+  top: 0;
+  left: 0;
+}
+
+.mainContainer::after {
+  bottom: 0;
+  right: 0;
+  transform: scale(-1, -1);
+}
+
+.cornerBrackets::before, .cornerBrackets::after {
+  content: none; 
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.cornerBrackets::before {
+  background-position: right top;
+  top: 0;
+  right: 0;
+}
+
+.cornerBrackets::after {
+  background-position: left bottom;
+  bottom: -4px;
+  left: -137px;
+  transform: scale(-1, -1);
+}
+
+
+@media (max-width: 768px) {
+  .mainContainer {
+    padding: 0; 
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 100%;
+    
+    --frame-align-offset-mobile: 0px;
+  }
+  
+  .contentWrapper {
+    padding: calc(16px + var(--frame-top-safe-tablet)) 0 calc(16px + var(--frame-height-extra-tablet));
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bracket {
+    width: 16px;
+    height: 16px;
+  }
+  
+  
+  .borderImage {
+    object-position: center top;
+  }
+  
+  .topLeft,
+  .topRight {
+    top: 6px;
+  }
+  
+  .topLeft,
+  .bottomLeft {
+    left: 6px;
+  }
+  
+  .topRight,
+  .bottomRight {
+    right: 6px;
+  }
+  
+  .bottomLeft,
+  .bottomRight {
+    bottom: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    padding: 0; 
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 100%;
+    
+    --frame-align-offset-mobile: 0px;
+  }
+  
+  .contentWrapper {
+    padding: calc(12px + var(--frame-top-safe-mobile)) 0 calc(12px + var(--frame-height-extra-mobile));
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bracket {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .topLeft::before,
+  .topRight::before,
+  .bottomLeft::before,
+  .bottomRight::before {
+    width: 8px;
+  }
+  
+  .topLeft::after,
+  .topRight::after,
+  .bottomLeft::after,
+  .bottomRight::after {
+    height: 8px;
+  }
+}

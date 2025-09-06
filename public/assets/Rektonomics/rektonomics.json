@@ -1,0 +1,264 @@
+{
+    "designSystemName": "Rektnomics_UI",
+    "description": "A dark-themed, futuristic, and vibrant UI design system with a focus on data visualization and cryptocurrency-related information. The style is characterized by glowing neon accents, clean lines, and a structured, container-based layout.",
+    "colorPalette": {
+      "primary": {
+        "name": "primary-background",
+        "hex": "#1a0f2b",
+        "description": "Deep purple, used as the main background color."
+      },
+      "secondary": {
+        "name": "container-background",
+        "hex": "#2a1a45",
+        "description": "A slightly lighter purple for container backgrounds and panels."
+      },
+      "accent": {
+        "name": "vibrant-purple",
+        "hex": "#8a2be2",
+        "description": "A bright, glowing purple for highlights, borders, and important UI elements."
+      },
+      "accent-secondary": {
+        "name": "bright-cyan",
+        "hex": "#00ffff",
+        "description": "A vivid cyan for accents, data visualizations, and highlights."
+      },
+      "accent-tertiary": {
+        "name": "hot-pink",
+        "hex": "#ff007f",
+        "description": "A vibrant pink used for accents and corner details on containers."
+      },
+      "text": {
+        "name": "primary-text",
+        "hex": "#ffffff",
+        "description": "White for primary text and headings."
+      },
+      "text-secondary": {
+        "name": "secondary-text",
+        "hex": "#a9a9a9",
+        "description": "A light grey for subheadings and less important text."
+      },
+      "data-viz": [
+        {
+          "name": "chart-purple",
+          "hex": "#8c5dff"
+        },
+        {
+          "name": "chart-cyan",
+          "hex": "#00d1ff"
+        },
+        {
+          "name": "chart-blue",
+          "hex": "#007bff"
+        },
+        {
+          "name": "chart-deep-blue",
+          "hex": "#0052cc"
+        },
+        {
+          "name": "chart-light-blue",
+          "hex": "#4dc3ff"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamily": "Sans-Serif, preferably a modern, geometric font like 'Poppins' or 'Montserrat'",
+      "styles": {
+        "heading-main": {
+          "name": "main-title",
+          "fontSize": "36px",
+          "fontWeight": "700",
+          "color": "primary-text"
+        },
+        "heading-section": {
+          "name": "section-title",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "color": "primary-text"
+        },
+        "subheading": {
+          "name": "subtitle",
+          "fontSize": "18px",
+          "fontWeight": "500",
+          "color": "secondary-text"
+        },
+        "body": {
+          "name": "body-text",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "primary-text"
+        },
+        "label": {
+          "name": "data-label",
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "primary-text"
+        },
+        "caption": {
+          "name": "caption-text",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "color": "secondary-text"
+        }
+      }
+    },
+    "layout": {
+      "gridSystem": "A flexible grid system, likely based on a 12-column layout.",
+      "spacing": {
+        "baseUnit": "8px",
+        "small": "8px",
+        "medium": "16px",
+        "large": "24px",
+        "xlarge": "32px"
+      },
+      "containerPadding": {
+        "horizontal": "24px",
+        "vertical": "24px"
+      }
+    },
+    "components": {
+      "main-container": {
+        "name": "main-card",
+        "description": "The primary container for content sections, featuring a dark background, rounded corners, and glowing borders.",
+        "style": {
+          "backgroundColor": "container-background",
+          "borderRadius": "16px",
+          "border": "2px solid",
+          "borderColor": "vibrant-purple",
+          "boxShadow": "0 0 15px rgba(138, 43, 226, 0.5)",
+          "padding": "large"
+        },
+        "corner-accents": {
+          "name": "card-corner-flair",
+          "description": "Small, decorative elements at the corners of the main containers.",
+          "style": {
+            "topLeft": {
+              "color": "hot-pink",
+              "shape": "L-shaped bracket"
+            },
+            "topRight": {
+              "color": "hot-pink",
+              "shape": "L-shaped bracket"
+            },
+            "bottomLeft": {
+              "color": "hot-pink",
+              "shape": "L-shaped bracket"
+            },
+            "bottomRight": {
+              "color": "hot-pink",
+              "shape": "L-shaped bracket"
+            }
+          }
+        }
+      },
+      "info-banner": {
+        "name": "highlight-bar",
+        "description": "A banner used for displaying key information, such as the total supply of a token.",
+        "style": {
+          "backgroundColor": "bright-cyan",
+          "borderRadius": "8px",
+          "padding": "8px 16px",
+          "textColor": "primary-background",
+          "fontWeight": "600"
+        },
+        "label-chip": {
+          "name": "info-tag",
+          "description": "A small tag or chip often attached to the info banner for additional context.",
+          "style": {
+            "backgroundColor": "vibrant-purple",
+            "borderRadius": "4px",
+            "padding": "4px 8px",
+            "textColor": "primary-text",
+            "fontSize": "12px",
+            "fontWeight": "500"
+          }
+        }
+      },
+      "pie-chart": {
+        "name": "data-donut-chart",
+        "description": "A circular chart for visualizing data distribution.",
+        "style": {
+          "colors": "data-viz palette",
+          "innerCircle": {
+            "backgroundColor": "container-background"
+          },
+          "labels": {
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "color": "primary-text"
+          }
+        }
+      },
+      "line-graph-breakdown": {
+        "name": "distribution-line-plot",
+        "description": "A horizontal line graph used to show a breakdown of percentages.",
+        "style": {
+          "line-colors": ["vibrant-purple", "bright-cyan", "chart-blue", "chart-deep-blue", "chart-light-blue"],
+          "line-thickness": "2px",
+          "labels": {
+            "percentage": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "color": "primary-text"
+            },
+            "category": {
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "color": "secondary-text"
+            }
+          }
+        }
+      },
+      "tax-info-bar": {
+        "name": "summary-bar",
+        "description": "A horizontal bar at the bottom of the layout for summarizing key metrics or taxes.",
+        "style": {
+          "backgroundColor": "rgba(42, 26, 69, 0.8)",
+          "borderRadius": "12px",
+          "border": "1px solid",
+          "borderColor": "vibrant-purple",
+          "padding": "24px"
+        },
+        "title": {
+          "name": "summary-bar-title",
+          "fontSize": "20px",
+          "fontWeight": "700",
+          "color": "primary-text"
+        },
+        "data-point": {
+          "name": "summary-data-item",
+          "description": "Individual data points within the tax info bar.",
+          "style": {
+            "percentage": {
+              "fontSize": "18px",
+              "fontWeight": "600",
+              "color": ["chart-cyan", "chart-purple", "hot-pink"]
+            },
+            "label": {
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "color": "primary-text"
+            }
+          }
+        },
+        "caption": {
+          "name": "summary-bar-caption",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "secondary-text"
+        }
+      },
+      "character-illustration": {
+        "name": "mascot-artwork",
+        "description": "A stylized character illustration used as a mascot or decorative element.",
+        "style": {
+          "artStyle": "Cartoonish with bold outlines and vibrant colors that match the UI palette.",
+          "effects": "Subtle drop shadow to make it stand out from the background."
+        }
+      },
+      "background-texture": {
+        "name": "subtle-noise-background",
+        "description": "A subtle texture applied to the main background to add depth.",
+        "style": "A faint, dark noise or static pattern."
+      }
+    }
+  }

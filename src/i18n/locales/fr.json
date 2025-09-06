@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Avertissement Réglementaire",
+    "warningIntro": "Votre pays ({country}) peut avoir des restrictions sur le trading de crypto-monnaies ou les ventes de tokens. Veuillez examiner les informations ci-dessous et accepter pour continuer.",
+    "bullets": {
+      "info": "Ce site est à titre informatif uniquement et ne constitue pas un conseil financier.",
+      "restrictions": "La participation peut être restreinte ou interdite dans votre juridiction.",
+      "continue": "En continuant, vous confirmez comprendre les risques et réglementations locales."
+    },
+    "blockedTitle": "Accès Restreint",
+    "blockedBody": "L'accès à ce contenu n'est pas disponible dans votre juridiction ({country}). Nous ne pouvons pas fournir d'informations sur la vente ou le trading de tokens dans votre localisation en raison de restrictions réglementaires.",
+    "back": "Retour",
+    "continue": "Je Comprends, Continuer",
+    "warningCountryNotes": {
+      "US": "Les services crypto sont strictement réglementés aux États-Unis (SEC, CFTC, FinCEN). En continuant, vous reconnaissez que la conformité est de votre responsabilité.",
+      "IN": "Le trading crypto en Inde est soumis à une taxation importante et des réglementations floues. Procédez seulement si vous comprenez les lois locales.",
+      "VN": "Le Vietnam interdit la crypto comme monnaie légale, mais le trading est largement utilisé. Continuez à vos risques et périls.",
+      "TH": "La Thaïlande a réglementé les échanges crypto ; assurez-vous de la conformité avec la SEC Thaïlande.",
+      "TR": "La Turquie restreint l'utilisation de la crypto pour les paiements. Le trading reste autorisé sous réglementation.",
+      "NG": "Le Nigeria a des restrictions sur les banques gérant la crypto, mais le trading P2P est courant. Continuez à vos risques et périls.",
+      "UA": "La crypto est légale en Ukraine, mais sous des réglementations évolutives. Continuez à vos risques et périls.",
+      "RS": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls.",
+      "BG": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls.",
+      "HU": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls.",
+      "CZ": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls.",
+      "SK": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls.",
+      "SI": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls.",
+      "PL": "La crypto est autorisée mais réglementée sous la loi UE ou locale. Continuez à vos risques et périls."
+    },
+    "blockedCountryNotes": {
+      "RU": "En raison des sanctions internationales, l'accès depuis la Russie est restreint. Le trading n'est pas disponible.",
+      "CN": "Le trading crypto et les échanges sont interdits en Chine continentale. Accès refusé.",
+      "BD": "Le trading crypto est interdit par la loi au Bangladesh.",
+      "NP": "Le trading crypto est interdit au Népal.",
+      "BO": "Le trading crypto est interdit en Bolivie.",
+      "DZ": "Le trading crypto est interdit en Algérie.",
+      "MA": "Le trading crypto est interdit au Maroc.",
+      "QA": "Le trading crypto est interdit au Qatar.",
+      "EG": "Le trading crypto est interdit en Égypte."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Seuls les perdants gagnent",
+    "description": "Embrassez le crash. La première memecoin qui récompense vos pertes."
+  },
+  "nav": {
+    "hero": "Accueil",
+    "tokenomics": "Tokenomiques",
+    "lossClaim": "Réclamation de Perte",
+    "staking": "Jalonnement",
+    "leaderboard": "Classement",
+    "team": "Équipe",
+    "roadmap": "Feuille de Route",
+    "whitepaper": "Livre Blanc",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Seuls les perdants gagnent",
+      "subtitle": "Embrassez le crash"
+    },
+    "howToBuy": {
+      "title": "Comment Acheter:",
+      "steps": {
+        "connectWallet": "Connectez votre portefeuille",
+        "choosePayment": "Choisissez la méthode de paiement",
+        "enterAmount": "Entrez le montant",
+        "confirmTransaction": "Confirmez la transaction"
+      }
+    },
+    "wallet": {
+      "connect": "Connecter le Portefeuille"
+    },
+    "presale": {
+      "title": "Prévente Phase 1",
+      "currentPrice": "Prix Actuel",
+      "nextPrice": "Prix Suivant",
+      "priceIncreaseNote": "Augmentation du prix lorsque l'objectif est atteint",
+      "progress": "Progression",
+      "raised": "{amount} levé",
+      "amountPlaceholder": "Entrez le montant",
+      "max": "MAX",
+      "buyWith": "ACHETER AVEC {method}",
+      "alt": {
+        "buyWithSOL": "Acheter avec SOL",
+        "buyWithSOLHover": "Acheter avec SOL survol"
+      }
+    },
+    "countdown": {
+      "days": "jours",
+      "hours": "heures",
+      "minutes": "min",
+      "seconds": "sec"
+    },
+    "asSeenOn": {
+      "title": "Vu sur"
+    }
+  },
+  "lossClaim": {
+    "title": "Réclamation de Perte REKT",
+    "tagline": "Un tir. Un bouclier.",
+    "description": {
+      "before": "Un bonus exclusif de prévente V1 pour les portefeuilles avec au moins 350$ d'allocation. Soumettez votre réclamation après la fin de la prévente pour récupérer des tokens REKT pour les pertes éligibles. Les récompenses de Réclamation de Perte ne sont",
+      "not": "PAS",
+      "after": "jalonnées — c'est une chance unique."
+    },
+    "cta": {
+      "check": "Vérifier l'Éligibilité",
+      "viewEligibility": "Voir l'Éligibilité"
+    },
+    "status": {
+      "eligible": "Éligible",
+      "unused": "Non utilisé"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Portefeuille sur Liste Blanche",
+        "desc": "Seuls les portefeuilles de prévente V1 avec une allocation de 350$ peuvent réclamer"
+      },
+      "onePer": {
+        "title": "Une Réclamation par Portefeuille",
+        "desc": "Une seule réclamation par portefeuille — pas de remise à zéro"
+      },
+      "window": {
+        "title": "Fenêtre de Réclamation",
+        "desc": "Les réclamations ne peuvent être soumises qu'une fois la prévente officiellement terminée"
+      }
+    },
+    "form": {
+      "heading": "Réclamez Votre Bonus de Prévente",
+      "selectToken": "Sélectionner le Token",
+      "chooseEligibleToken": "Choisir un token éligible...",
+      "claimAmount": "Montant de la Réclamation",
+      "usdtEquivalent": "Équivalent 0.00$ USDT",
+      "disclaimer": "Les tokens de Réclamation de Perte ne sont pas jalonnés et ne peuvent pas être re-jalonnés plus tard",
+      "submit": "Soumettre la Réclamation"
+    },
+    "info": {
+      "title": "Important: Bonus de Prévente V1",
+      "list": {
+        "whitelisted": "Disponible uniquement pour les portefeuilles de prévente V1 avec allocation ≥ 350$",
+        "onePer": "Une réclamation par portefeuille",
+        "eligibleOnly": "Tokens éligibles uniquement",
+        "afterPresale": "Les réclamations ne peuvent être soumises qu'après la fin de la prévente",
+        "notStaked": "Les tokens reçus de la Réclamation de Perte ne sont PAS jalonnés"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Une Seule Fois",
+      "text": "Ratez la fenêtre de réclamation, et c'est parti pour toujours.",
+      "buy": "ACHETER $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "Jalonnement REKT - Seuls les perdants gagnent",
+      "logoAlt": "Logo"
+    },
+    "info": "Tous les tokens de prévente sont auto-jalonnés dès l'achat. Les récompenses commencent instantanément, réclamables à la fin de la prévente.",
+    "buttons": {
+      "viewLeaderboard": "Voir le Classement",
+      "claim": "RÉCLAMER"
+    },
+    "stats": {
+      "yourStakedBalance": "Votre Solde Jalonné",
+      "unlockNote": "30% débloqué au lancement, 70% acquisition sur 6 mois (tokens seulement)",
+      "yourPoolShare": "Votre % du Pool",
+      "yourPoolShareDesc": "Votre part du pool de jalonnement total",
+      "totalStaked": "Total Jalonné (Pool de Prévente)",
+      "totalStakedDesc": "Total de tokens jalonnés de tous les participants à la prévente",
+      "annualApy": "APY Annuel",
+      "annualApyValue": "65% p/a",
+      "annualApyDesc": "Rendement annuel actuel en pourcentage",
+      "dailyRewards": "Récompenses Quotidiennes",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Disponible Maintenant (pas d'acquisition)"
+    },
+    "rewards": {
+      "title": "Total des Récompenses Accumulées"
+    },
+    "footer": {
+      "notice": "Le jalonnement est exclusif aux acheteurs de prévente. Les récompenses dépendent de l'activité de l'écosystème.",
+      "vestingNote": "L'acquisition s'applique uniquement aux tokens jalonnés. Les récompenses ne sont pas acquises."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Voir le Classement",
+      "frame": "Cadre",
+      "longFrame": "Cadre Long",
+      "logoSpread": "Logo Étalé",
+      "claimButton": "Réclamer"
+    }
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas.",
+    "goHome": "Aller à l'Accueil",
+    "staking": "Jalonnement",
+    "lossClaim": "Réclamation de Perte"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

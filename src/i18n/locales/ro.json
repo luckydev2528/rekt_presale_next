@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Avertisment Regulatoriu",
+    "warningIntro": "Țara dumneavoastră ({country}) poate avea restricții privind tranzacționarea crypto sau vânzarea de tokenuri. Vă rugăm să examinați informațiile de mai jos și să confirmați pentru a continua.",
+    "bullets": {
+      "info": "Acest site este doar în scopuri informative și nu constituie sfaturi financiare.",
+      "restrictions": "Participarea poate fi restricționată sau interzisă în jurisdicția dumneavoastră.",
+      "continue": "Prin continuare, confirmați că înțelegeți riscurile și reglementările locale."
+    },
+    "blockedTitle": "Acces Restricționat",
+    "blockedBody": "Accesul la acest conținut nu este disponibil în jurisdicția dumneavoastră ({country}). Nu putem furniza informații despre vânzarea sau tranzacționarea de tokenuri în locația dumneavoastră din cauza restricțiilor regulatorii.",
+    "back": "Înapoi",
+    "continue": "Înțeleg, Continuă",
+    "warningCountryNotes": {
+      "US": "Serviciile crypto sunt strict reglementate în Statele Unite (SEC, CFTC, FinCEN). Prin continuare, recunoașteți că conformitatea este responsabilitatea dumneavoastră.",
+      "IN": "Tranzacționarea crypto în India este supusă unei impozitări grele și unor reglementări neclare. Continuați doar dacă înțelegeți legile locale.",
+      "VN": "Vietnam interzice crypto ca monedă legală, dar tranzacționarea este larg utilizată. Continuați pe propriul risc.",
+      "TH": "Thailanda a reglementat bursele crypto; asigurați-vă conformitatea cu SEC Thailanda.",
+      "TR": "Turcia restricționează utilizarea crypto pentru plăți. Tranzacționarea rămâne permisă sub reglementare.",
+      "NG": "Nigeria are restricții pentru băncile care gestionează crypto, dar tranzacționarea P2P este comună. Continuați pe propriul risc.",
+      "UA": "Crypto este legal în Ucraina, dar sub reglementări în evoluție. Continuați pe propriul risc.",
+      "RS": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc.",
+      "BG": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc.",
+      "HU": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc.",
+      "CZ": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc.",
+      "SK": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc.",
+      "SI": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc.",
+      "PL": "Crypto este permis dar reglementat sub legea UE sau locală. Continuați pe propriul risc."
+    },
+    "blockedCountryNotes": {
+      "RU": "Din cauza sancțiunilor internaționale, accesul din Rusia este restricționat. Tranzacționarea nu este disponibilă.",
+      "CN": "Tranzacționarea crypto și bursele sunt interzise în China continentală. Acces refuzat.",
+      "BD": "Tranzacționarea crypto este interzisă legal în Bangladesh.",
+      "NP": "Tranzacționarea crypto este interzisă în Nepal.",
+      "BO": "Tranzacționarea crypto este interzisă în Bolivia.",
+      "DZ": "Tranzacționarea crypto este interzisă în Algeria.",
+      "MA": "Tranzacționarea crypto este interzisă în Maroc.",
+      "QA": "Tranzacționarea crypto este interzisă în Qatar.",
+      "EG": "Tranzacționarea crypto este interzisă în Egipt."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Doar pierzătorii câștigă",
+    "description": "Îmbrățișează prăbușirea. Prima memecoin care îți recompensează pierderile."
+  },
+  "nav": {
+    "hero": "Acasă",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Revendicare Pierderi",
+    "staking": "Staking",
+    "leaderboard": "Clasament",
+    "team": "Echipă",
+    "roadmap": "Foaie de Parcurs",
+    "whitepaper": "Carte Albă",
+    "faq": "Întrebări Frecvente"
+  },
+  "home": {
+    "hero": {
+      "title": "Doar pierzătorii câștigă",
+      "subtitle": "Îmbrățișează prăbușirea"
+    },
+    "howToBuy": {
+      "title": "Cum să Cumpărați:",
+      "steps": {
+        "connectWallet": "Conectați-vă portofelul",
+        "choosePayment": "Alegeți metoda de plată",
+        "enterAmount": "Introduceți suma",
+        "confirmTransaction": "Confirmați tranzacția"
+      }
+    },
+    "wallet": {
+      "connect": "Conectare Portofel"
+    },
+    "presale": {
+      "title": "Prevânzare Faza 1",
+      "currentPrice": "Preț Actual",
+      "nextPrice": "Preț Următor",
+      "priceIncreaseNote": "Creșterea prețului când se atinge obiectivul",
+      "progress": "Progres",
+      "raised": "{amount} strâns",
+      "amountPlaceholder": "Introduceți suma",
+      "max": "MAX",
+      "buyWith": "CUMPĂRĂ CU {method}",
+      "alt": {
+        "buyWithSOL": "Cumpără cu SOL",
+        "buyWithSOLHover": "Cumpără cu SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "zile",
+      "hours": "ore",
+      "minutes": "minute",
+      "seconds": "secunde"
+    },
+    "asSeenOn": {
+      "title": "Cum se vede pe"
+    }
+  },
+  "lossClaim": {
+    "title": "Revendicare Pierderi REKT",
+    "tagline": "O lovitură. Un scut.",
+    "description": {
+      "before": "Un bonus exclusiv de prevânzare V1 pentru portofele cu cel puțin $350 alocare. Trimiteți revendicarea după încheierea prevânzării pentru a recupera tokenurile REKT pentru pierderile eligibile. Recompensele pentru Revendicare Pierderi",
+      "not": "NU SUNT",
+      "after": "staked — aceasta este o șansă unică."
+    },
+    "cta": {
+      "check": "Verificare Eligibilitate",
+      "viewEligibility": "Vizualizare Eligibilitate"
+    },
+    "status": {
+      "eligible": "Eligibil",
+      "unused": "Nefolosit"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Portofel Whitelisted",
+        "desc": "Doar portofele de prevânzare V1 cu alocare de $350 pot revendica"
+      },
+      "onePer": {
+        "title": "O Revendicare Pe Portofel",
+        "desc": "O singură revendicare pe portofel — fără resetări"
+      },
+      "window": {
+        "title": "Fereastra de Revendicare",
+        "desc": "Revendicările pot fi trimise doar după închiderea oficială a prevânzării"
+      }
+    },
+    "form": {
+      "heading": "Revendicați Bonusul de Prevânzare",
+      "selectToken": "Selectare Token",
+      "chooseEligibleToken": "Alegeți token eligibil...",
+      "claimAmount": "Suma Revendicării",
+      "usdtEquivalent": "Echivalent $0.00 USDT",
+      "disclaimer": "Tokenurile de Revendicare Pierderi nu sunt staked și nu pot fi re-staked mai târziu",
+      "submit": "Trimite Revendicarea"
+    },
+    "info": {
+      "title": "Important: Bonus Prevânzare V1",
+      "list": {
+        "whitelisted": "Disponibil doar pentru portofele de prevânzare V1 cu alocare ≥ $350",
+        "onePer": "O revendicare pe portofel",
+        "eligibleOnly": "Doar tokenuri eligibile",
+        "afterPresale": "Revendicările pot fi trimise doar după sfârșitul prevânzării",
+        "notStaked": "Tokenurile primite din Revendicare Pierderi NU SUNT staked"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Doar O Dată",
+      "text": "Ratați fereastra de revendicare și dispare pentru totdeauna.",
+      "buy": "CUMPĂRAȚI $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Doar pierzătorii câștigă",
+      "logoAlt": "Logo"
+    },
+    "info": "Toate tokenurile de prevânzare sunt auto-staked de la cumpărare. Recompensele încep instant, revendicabile la sfârșitul prevânzării.",
+    "buttons": {
+      "viewLeaderboard": "Vizualizare Clasament",
+      "claim": "REVENDICĂ"
+    },
+    "stats": {
+      "yourStakedBalance": "Soldul Dvs. Staked",
+      "unlockNote": "30% deblocat la lansare, 70% vesting peste 6 luni (doar tokenuri)",
+      "yourPoolShare": "% din Pool",
+      "yourPoolShareDesc": "Partea dvs. din pool-ul total de staking",
+      "totalStaked": "Total Staked (Pool Prevânzare)",
+      "totalStakedDesc": "Total tokenuri staked de toți participanții la prevânzare",
+      "annualApy": "APY Anual",
+      "annualApyValue": "65% pe an",
+      "annualApyDesc": "Randamentul procentual anual actual",
+      "dailyRewards": "Recompense Zilnice",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Disponibil Acum (fără vesting)"
+    },
+    "rewards": {
+      "title": "Total Recompense Acumulate"
+    },
+    "footer": {
+      "notice": "Staking-ul este exclusiv pentru cumpărătorii de prevânzare. Recompensele depind de activitatea ecosistemului.",
+      "vestingNote": "Vesting-ul se aplică doar tokenurilor staked. Recompensele nu sunt vested."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Vizualizare Clasament",
+      "frame": "Cadru",
+      "longFrame": "Cadru Lung",
+      "logoSpread": "Logo Răspândit",
+      "claimButton": "Revendică"
+    }
+  },
+  "notFound": {
+    "title": "Pagina Nu A Fost Găsită",
+    "description": "Pagina pe care o căutați nu există.",
+    "goHome": "Mergi Acasă",
+    "staking": "Staking",
+    "lossClaim": "Revendicare Pierderi"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

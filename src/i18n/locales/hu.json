@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Szabályozási Figyelmeztetés",
+    "warningIntro": "Az Ön országa ({country}) korlátozásokkal élhet a kripto kereskedés vagy token értékesítés terén. Kérjük tekintse át az alábbi információkat és erősítse meg a folytatáshoz.",
+    "bullets": {
+      "info": "Ez az oldal kizárólag tájékoztató célokat szolgál és nem minősül pénzügyi tanácsnak.",
+      "restrictions": "A részvétel korlátozva vagy tiltva lehet az Ön joghatóságában.",
+      "continue": "A folytatással Ön megerősíti, hogy megérti a kockázatokat és a helyi szabályozásokat."
+    },
+    "blockedTitle": "Hozzáférés Korlátozva",
+    "blockedBody": "Az ehhez a tartalomhoz való hozzáférés nem elérhető az Ön joghatóságában ({country}). Szabályozási korlátozások miatt nem tudunk token értékesítési vagy kereskedési információkat nyújtani az Ön helyszínén.",
+    "back": "Vissza",
+    "continue": "Értem, Folytatás",
+    "warningCountryNotes": {
+      "US": "A kripto szolgáltatások szigorúan szabályozottak az Egyesült Államokban (SEC, CFTC, FinCEN). A folytatással Ön elismeri, hogy a megfelelőség az Ön saját felelőssége.",
+      "IN": "A kripto kereskedés Indiában magas adóztatás és tisztázatlan szabályozások alá esik. Csak akkor folytassa, ha érti a helyi törvényeket.",
+      "VN": "Vietnam tiltja a kriptót mint törvényes fizetőeszközt, de a kereskedés széles körben használt. Folytassa saját felelősségére.",
+      "TH": "Thaiföld szabályozta a kripto tőzsdéket; biztosítsa a megfelelőséget a thai SEC-cel.",
+      "TR": "Törökország korlátozza a kripto használatát fizetésekhez. A kereskedés továbbra is engedélyezett szabályozás alatt.",
+      "NG": "Nigériában vannak korlátozások a kriptót kezelő bankokra, de a P2P kereskedés gyakori. Folytassa saját felelősségére.",
+      "UA": "A kripto legális Ukrajnában, de fejlődő szabályozások alatt. Folytassa saját felelősségére.",
+      "RS": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére.",
+      "BG": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére.",
+      "HU": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére.",
+      "CZ": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére.",
+      "SK": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére.",
+      "SI": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére.",
+      "PL": "A kripto engedélyezett, de EU vagy helyi jog alatt szabályozott. Folytassa saját felelősségére."
+    },
+    "blockedCountryNotes": {
+      "RU": "Nemzetközi szankciók miatt az oroszországi hozzáférés korlátozott. A kereskedés nem elérhető.",
+      "CN": "A kripto kereskedés és tőzsdék tiltottak a szárazföldi Kínában. Hozzáférés megtagadva.",
+      "BD": "A kripto kereskedés törvényileg tiltott Bangladeshben.",
+      "NP": "A kripto kereskedés tiltott Nepálban.",
+      "BO": "A kripto kereskedés tiltott Bolíviában.",
+      "DZ": "A kripto kereskedés tiltott Algériában.",
+      "MA": "A kripto kereskedés tiltott Marokkóban.",
+      "QA": "A kripto kereskedés tiltott Katarban.",
+      "EG": "A kripto kereskedés tiltott Egyiptomban."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Csak a vesztesek nyernek",
+    "description": "Ölelje fel a zuhanást. Az első memecoin, amely megjutalmazza a veszteségeit."
+  },
+  "nav": {
+    "hero": "Főoldal",
+    "tokenomics": "Tokenomika",
+    "lossClaim": "Veszteség Igény",
+    "staking": "Letét",
+    "leaderboard": "Rangsor",
+    "team": "Csapat",
+    "roadmap": "Útiterv",
+    "whitepaper": "Fehér Könyv",
+    "faq": "GYIK"
+  },
+  "home": {
+    "hero": {
+      "title": "Csak a vesztesek nyernek",
+      "subtitle": "Ölelje fel a zuhanást"
+    },
+    "howToBuy": {
+      "title": "Hogyan Vásároljon:",
+      "steps": {
+        "connectWallet": "Csatlakoztassa a tárcáját",
+        "choosePayment": "Válassza ki a fizetési módot",
+        "enterAmount": "Adja meg az összeget",
+        "confirmTransaction": "Erősítse meg a tranzakciót"
+      }
+    },
+    "wallet": {
+      "connect": "Tárca Csatlakoztatása"
+    },
+    "presale": {
+      "title": "1. Fázis Előértékesítés",
+      "currentPrice": "Jelenlegi Ár",
+      "nextPrice": "Következő Ár",
+      "priceIncreaseNote": "Áremelkedés a cél elérésekor",
+      "progress": "Haladás",
+      "raised": "{amount} összegyűjtve",
+      "amountPlaceholder": "Adja meg az összeget",
+      "max": "MAX",
+      "buyWith": "VÁSÁRLÁS {method}-VAL",
+      "alt": {
+        "buyWithSOL": "Vásárlás SOL-lal",
+        "buyWithSOLHover": "Vásárlás SOL-lal hover"
+      }
+    },
+    "countdown": {
+      "days": "nap",
+      "hours": "óra",
+      "minutes": "perc",
+      "seconds": "másodperc"
+    },
+    "asSeenOn": {
+      "title": "Amint látható"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Veszteség Igény",
+    "tagline": "Egy lövés. Egy pajzs.",
+    "description": {
+      "before": "Exkluzív V1 előértékesítési bónusz legalább $350 allokációjú tárcáknak. Nyújtsa be igényét az előértékesítés befejezése után, hogy visszaszerezze a REKT tokeneket jogosult veszteségekért. A Veszteség Igény jutalmak",
+      "not": "NINCSENEK",
+      "after": "letétbe helyezve — ez egy egyszeri lehetőség."
+    },
+    "cta": {
+      "check": "Jogosultság Ellenőrzése",
+      "viewEligibility": "Jogosultság Megtekintése"
+    },
+    "status": {
+      "eligible": "Jogosult",
+      "unused": "Használatlan"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Fehérlistás Tárca",
+        "desc": "Csak a $350 allokációjú V1 előértékesítési tárcák igényelhetnek"
+      },
+      "onePer": {
+        "title": "Egy Igény Tárcánként",
+        "desc": "Egyetlen igény tárcánként — nincs visszaállítás"
+      },
+      "window": {
+        "title": "Igénylési Ablak",
+        "desc": "Az igények csak az előértékesítés hivatalos lezárása után nyújthatók be"
+      }
+    },
+    "form": {
+      "heading": "Igényelje Előértékesítési Bónuszát",
+      "selectToken": "Token Kiválasztása",
+      "chooseEligibleToken": "Válasszon jogosult tokent...",
+      "claimAmount": "Igény Összege",
+      "usdtEquivalent": "$0.00 USDT egyenérték",
+      "disclaimer": "A Veszteség Igény tokenek nincsenek letétbe helyezve és később nem helyezhetők újra letétbe",
+      "submit": "Igény Benyújtása"
+    },
+    "info": {
+      "title": "Fontos: V1 Előértékesítési Bónusz",
+      "list": {
+        "whitelisted": "Csak ≥ $350 allokációjú V1 előértékesítési tárcáknak elérhető",
+        "onePer": "Egy igény tárcánként",
+        "eligibleOnly": "Csak jogosult tokenek",
+        "afterPresale": "Az igények csak az előértékesítés befejezése után nyújthatók be",
+        "notStaked": "A Veszteség Igényből kapott tokenek NINCSENEK letétbe helyezve"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bónusz — Csak Egyszer",
+      "text": "Lemarad az igénylési ablakról, és örökre elvész.",
+      "buy": "$REKT VÁSÁRLÁSA"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Letét - Csak a vesztesek nyernek",
+      "logoAlt": "Logó"
+    },
+    "info": "Minden előértékesítési token automatikusan letétbe kerül a vásárlástól. A jutalmak azonnal kezdődnek, az előértékesítés végén igényelhetők.",
+    "buttons": {
+      "viewLeaderboard": "Rangsor Megtekintése",
+      "claim": "IGÉNYLÉS"
+    },
+    "stats": {
+      "yourStakedBalance": "Az Ön Letéti Egyenlege",
+      "unlockNote": "30% feloldva induláskor, 70% vesting 6 hónap alatt (csak tokenek)",
+      "yourPoolShare": "Az Ön %-a a Poolból",
+      "yourPoolShareDesc": "Az Ön része a teljes letéti poolból",
+      "totalStaked": "Összesen Letétben (Előértékesítési Pool)",
+      "totalStakedDesc": "Az összes előértékesítési résztvevő összes letéti tokenje",
+      "annualApy": "Éves APY",
+      "annualApyValue": "65% évente",
+      "annualApyDesc": "Jelenlegi éves százalékos hozam",
+      "dailyRewards": "Napi Jutalmak",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Most Elérhető (nincs vesting)"
+    },
+    "rewards": {
+      "title": "Összes Felhalmozott Jutalom"
+    },
+    "footer": {
+      "notice": "A letét kizárólag az előértékesítési vásárlóknak szól. A jutalmak az ökoszisztéma aktivitásától függenek.",
+      "vestingNote": "A vesting csak a letéti tokenekre vonatkozik. A jutalmak nem vestingelt."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Rangsor Megtekintése",
+      "frame": "Keret",
+      "longFrame": "Hosszú Keret",
+      "logoSpread": "Logó Szétterítés",
+      "claimButton": "Igénylés"
+    }
+  },
+  "notFound": {
+    "title": "Oldal Nem Található",
+    "description": "A keresett oldal nem létezik.",
+    "goHome": "Főoldalra",
+    "staking": "Letét",
+    "lossClaim": "Veszteség Igény"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

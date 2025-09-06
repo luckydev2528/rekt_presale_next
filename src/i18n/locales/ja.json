@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "規制警告",
+    "warningIntro": "あなたの国（{country}）では、暗号通貨取引やトークン販売に制限がある可能性があります。以下の情報を確認し、続行することを承認してください。",
+    "bullets": {
+      "info": "このサイトは情報提供のみを目的としており、金融アドバイスを構成するものではありません。",
+      "restrictions": "あなたの管轄区域では参加が制限または禁止されている可能性があります。",
+      "continue": "続行することで、リスクと現地の規制を理解していることを確認します。"
+    },
+    "blockedTitle": "アクセス制限",
+    "blockedBody": "このコンテンツへのアクセスはあなたの管轄区域（{country}）では利用できません。規制制限により、あなたの場所でトークン販売や取引情報を提供することはできません。",
+    "back": "戻る",
+    "continue": "理解しました、続行",
+    "warningCountryNotes": {
+      "US": "暗号サービスは米国で厳格に規制されています（SEC、CFTC、FinCEN）。続行することで、コンプライアンスはあなた自身の責任であることを認めます。",
+      "IN": "インドでの暗号取引は重い課税と不明確な規制の対象です。現地の法律を理解している場合のみ続行してください。",
+      "VN": "ベトナムは暗号を法定通貨として禁止していますが、取引は広く使用されています。自己責任で続行してください。",
+      "TH": "タイは暗号取引所を規制しています；SEC タイとのコンプライアンスを確保してください。",
+      "TR": "トルコは支払いでの暗号使用を制限しています。取引は規制下で許可されています。",
+      "NG": "ナイジェリアは暗号を扱う銀行に制限がありますが、P2P取引は一般的です。自己責任で続行してください。",
+      "UA": "暗号はウクライナで合法ですが、進化する規制下にあります。自己責任で続行してください。",
+      "RS": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。",
+      "BG": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。",
+      "HU": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。",
+      "CZ": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。",
+      "SK": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。",
+      "SI": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。",
+      "PL": "暗号は許可されていますが、EUまたは現地法の下で規制されています。自己責任で続行してください。"
+    },
+    "blockedCountryNotes": {
+      "RU": "国際制裁により、ロシアからのアクセスは制限されています。取引は利用できません。",
+      "CN": "暗号取引と取引所は中国本土で禁止されています。アクセス拒否。",
+      "BD": "暗号取引はバングラデシュで法的に禁止されています。",
+      "NP": "暗号取引はネパールで禁止されています。",
+      "BO": "暗号取引はボリビアで禁止されています。",
+      "DZ": "暗号取引はアルジェリアで禁止されています。",
+      "MA": "暗号取引はモロッコで禁止されています。",
+      "QA": "暗号取引はカタールで禁止されています。",
+      "EG": "暗号取引はエジプトで禁止されています。"
+    }
+  },
+  "seo": {
+    "title": "$REKT - 負け犬だけが勝つ",
+    "description": "クラッシュを受け入れよう。あなたの損失を報酬とする最初のミームコイン。"
+  },
+  "nav": {
+    "hero": "ホーム",
+    "tokenomics": "トークノミクス",
+    "lossClaim": "損失請求",
+    "staking": "ステーキング",
+    "leaderboard": "リーダーボード",
+    "team": "チーム",
+    "roadmap": "ロードマップ",
+    "whitepaper": "ホワイトペーパー",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "負け犬だけが勝つ",
+      "subtitle": "クラッシュを受け入れよう"
+    },
+    "howToBuy": {
+      "title": "購入方法：",
+      "steps": {
+        "connectWallet": "ウォレットを接続",
+        "choosePayment": "支払い方法を選択",
+        "enterAmount": "金額を入力",
+        "confirmTransaction": "取引を確認"
+      }
+    },
+    "wallet": {
+      "connect": "ウォレット接続"
+    },
+    "presale": {
+      "title": "フェーズ1プレセール",
+      "currentPrice": "現在価格",
+      "nextPrice": "次の価格",
+      "priceIncreaseNote": "目標達成時に価格上昇",
+      "progress": "進捗",
+      "raised": "{amount} 調達済み",
+      "amountPlaceholder": "金額を入力",
+      "max": "最大",
+      "buyWith": "{method}で購入",
+      "alt": {
+        "buyWithSOL": "SOLで購入",
+        "buyWithSOLHover": "SOLで購入 ホバー"
+      }
+    },
+    "countdown": {
+      "days": "日",
+      "hours": "時間",
+      "minutes": "分",
+      "seconds": "秒"
+    },
+    "asSeenOn": {
+      "title": "で見た通り"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT損失請求",
+    "tagline": "一撃。一つの盾。",
+    "description": {
+      "before": "最低$350の割り当てを持つウォレット向けの独占V1プレセールボーナス。プレセール終了後に請求を提出して、適格な損失に対してREKTトークンを回復してください。損失請求報酬は",
+      "not": "ステーキングされて",
+      "after": "いません — これは一度だけのチャンスです。"
+    },
+    "cta": {
+      "check": "資格確認",
+      "viewEligibility": "資格を表示"
+    },
+    "status": {
+      "eligible": "適格",
+      "unused": "未使用"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "ホワイトリストウォレット",
+        "desc": "$350の割り当てを持つV1プレセールウォレットのみが請求可能"
+      },
+      "onePer": {
+        "title": "ウォレットあたり一回の請求",
+        "desc": "ウォレットあたり一回の請求 — リセットなし"
+      },
+      "window": {
+        "title": "請求期間",
+        "desc": "請求はプレセールが正式に終了した後にのみ提出可能"
+      }
+    },
+    "form": {
+      "heading": "プレセールボーナスを請求",
+      "selectToken": "トークン選択",
+      "chooseEligibleToken": "適格なトークンを選択...",
+      "claimAmount": "請求金額",
+      "usdtEquivalent": "$0.00 USDT相当",
+      "disclaimer": "損失請求トークンはステーキングされておらず、後でステーキングし直すことはできません",
+      "submit": "請求を提出"
+    },
+    "info": {
+      "title": "重要：V1プレセールボーナス",
+      "list": {
+        "whitelisted": "≥$350の割り当てを持つV1プレセールウォレットのみ利用可能",
+        "onePer": "ウォレットあたり一回の請求",
+        "eligibleOnly": "適格なトークンのみ",
+        "afterPresale": "請求はプレセール終了後にのみ提出可能",
+        "notStaked": "損失請求から受け取ったトークンはステーキングされていません"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1ボーナス — 一度だけ",
+      "text": "請求期間を逃すと、永遠に失われます。",
+      "buy": "$REKTを購入"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKTステーキング - 負け犬だけが勝つ",
+      "logoAlt": "ロゴ"
+    },
+    "info": "すべてのプレセールトークンは購入時から自動ステーキングされます。報酬は即座に開始し、プレセール終了時に請求可能です。",
+    "buttons": {
+      "viewLeaderboard": "リーダーボード表示",
+      "claim": "請求"
+    },
+    "stats": {
+      "yourStakedBalance": "あなたのステーキング残高",
+      "unlockNote": "ローンチ時に30%アンロック、6ヶ月で70%ベスティング（トークンのみ）",
+      "yourPoolShare": "あなたのプール割合",
+      "yourPoolShareDesc": "総ステーキングプールのあなたのシェア",
+      "totalStaked": "総ステーキング（プレセールプール）",
+      "totalStakedDesc": "すべてのプレセール参加者のステーキング総トークン",
+      "annualApy": "年間APY",
+      "annualApyValue": "年65%",
+      "annualApyDesc": "現在の年間利回り",
+      "dailyRewards": "日次報酬",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "現在利用可能（ベスティングなし）"
+    },
+    "rewards": {
+      "title": "累積総報酬"
+    },
+    "footer": {
+      "notice": "ステーキングはプレセール購入者限定です。報酬はエコシステムの活動に依存します。",
+      "vestingNote": "ベスティングはステーキングトークンのみに適用されます。報酬はベスティングされません。"
+    },
+    "alts": {
+      "viewLeaderboardImg": "リーダーボード表示",
+      "frame": "フレーム",
+      "longFrame": "ロングフレーム",
+      "logoSpread": "ロゴスプレッド",
+      "claimButton": "請求"
+    }
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しません。",
+    "goHome": "ホームへ",
+    "staking": "ステーキング",
+    "lossClaim": "損失請求"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

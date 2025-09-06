@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Regulatorische Warnung",
+    "warningIntro": "Ihr Land ({country}) kann Beschränkungen für Krypto-Handel oder Token-Verkäufe haben. Bitte überprüfen Sie die Informationen unten und bestätigen Sie, um fortzufahren.",
+    "bullets": {
+      "info": "Diese Website dient nur zu Informationszwecken und stellt keine Finanzberatung dar.",
+      "restrictions": "Die Teilnahme kann in Ihrer Rechtsordnung eingeschränkt oder verboten sein.",
+      "continue": "Durch das Fortfahren bestätigen Sie, dass Sie die Risiken und lokalen Vorschriften verstehen."
+    },
+    "blockedTitle": "Zugang Beschränkt",
+    "blockedBody": "Der Zugang zu diesem Inhalt ist in Ihrer Rechtsordnung ({country}) nicht verfügbar. Wir können aufgrund regulatorischer Beschränkungen keine Token-Verkaufs- oder Handelsinformationen an Ihrem Standort bereitstellen.",
+    "back": "Zurück",
+    "continue": "Ich Verstehe, Fortfahren",
+    "warningCountryNotes": {
+      "US": "Krypto-Dienste sind in den Vereinigten Staaten streng reguliert (SEC, CFTC, FinCEN). Durch das Fortfahren erkennen Sie an, dass die Compliance Ihre eigene Verantwortung ist.",
+      "IN": "Krypto-Handel in Indien unterliegt hoher Besteuerung und unklaren Vorschriften. Fahren Sie nur fort, wenn Sie die lokalen Gesetze verstehen.",
+      "VN": "Vietnam verbietet Krypto als gesetzliches Zahlungsmittel, aber der Handel wird weit verbreitet verwendet. Fahren Sie auf eigenes Risiko fort.",
+      "TH": "Thailand hat Krypto-Börsen reguliert; stellen Sie die Compliance mit der SEC Thailand sicher.",
+      "TR": "Die Türkei beschränkt die Verwendung von Krypto für Zahlungen. Der Handel bleibt unter Regulierung erlaubt.",
+      "NG": "Nigeria hat Beschränkungen für Banken, die Krypto handhaben, aber P2P-Handel ist üblich. Fahren Sie auf eigenes Risiko fort.",
+      "UA": "Krypto ist in der Ukraine legal, aber unter sich entwickelnden Vorschriften. Fahren Sie auf eigenes Risiko fort.",
+      "RS": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort.",
+      "BG": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort.",
+      "HU": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort.",
+      "CZ": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort.",
+      "SK": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort.",
+      "SI": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort.",
+      "PL": "Krypto ist erlaubt, aber unter EU- oder lokalem Recht reguliert. Fahren Sie auf eigenes Risiko fort."
+    },
+    "blockedCountryNotes": {
+      "RU": "Aufgrund internationaler Sanktionen ist der Zugang aus Russland beschränkt. Handel ist nicht verfügbar.",
+      "CN": "Krypto-Handel und -Börsen sind im chinesischen Festland verboten. Zugang verweigert.",
+      "BD": "Krypto-Handel ist in Bangladesch gesetzlich verboten.",
+      "NP": "Krypto-Handel ist in Nepal verboten.",
+      "BO": "Krypto-Handel ist in Bolivien verboten.",
+      "DZ": "Krypto-Handel ist in Algerien verboten.",
+      "MA": "Krypto-Handel ist in Marokko verboten.",
+      "QA": "Krypto-Handel ist in Katar verboten.",
+      "EG": "Krypto-Handel ist in Ägypten verboten."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Nur Verlierer gewinnen",
+    "description": "Umarme den Crash. Die erste Memecoin, die deine Verluste belohnt."
+  },
+  "nav": {
+    "hero": "Startseite",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Verlust-Anspruch",
+    "staking": "Staking",
+    "leaderboard": "Bestenliste",
+    "team": "Team",
+    "roadmap": "Roadmap",
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Nur Verlierer gewinnen",
+      "subtitle": "Umarme den Crash"
+    },
+    "howToBuy": {
+      "title": "Wie Kaufen:",
+      "steps": {
+        "connectWallet": "Wallet verbinden",
+        "choosePayment": "Zahlungsmethode wählen",
+        "enterAmount": "Betrag eingeben",
+        "confirmTransaction": "Transaktion bestätigen"
+      }
+    },
+    "wallet": {
+      "connect": "Wallet Verbinden"
+    },
+    "presale": {
+      "title": "Phase 1 Vorverkauf",
+      "currentPrice": "Aktueller Preis",
+      "nextPrice": "Nächster Preis",
+      "priceIncreaseNote": "Preisanstieg bei Zielerreichung",
+      "progress": "Fortschritt",
+      "raised": "{amount} gesammelt",
+      "amountPlaceholder": "Betrag eingeben",
+      "max": "MAX",
+      "buyWith": "KAUFEN MIT {method}",
+      "alt": {
+        "buyWithSOL": "Mit SOL kaufen",
+        "buyWithSOLHover": "Mit SOL kaufen Hover"
+      }
+    },
+    "countdown": {
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Min",
+      "seconds": "Sek"
+    },
+    "asSeenOn": {
+      "title": "Gesehen auf"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Verlust-Anspruch",
+    "tagline": "Ein Schuss. Ein Schild.",
+    "description": {
+      "before": "Ein exklusiver V1-Vorverkaufsbonus für Wallets mit mindestens 350$ Zuteilung. Reichen Sie Ihren Anspruch nach Ende des Vorverkaufs ein, um REKT-Token für berechtigte Verluste zu erhalten. Verlust-Anspruch-Belohnungen sind",
+      "not": "NICHT",
+      "after": "gestakt — das ist eine einmalige Chance."
+    },
+    "cta": {
+      "check": "Berechtigung Prüfen",
+      "viewEligibility": "Berechtigung Anzeigen"
+    },
+    "status": {
+      "eligible": "Berechtigt",
+      "unused": "Ungenutzt"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Whitelisted Wallet",
+        "desc": "Nur V1-Vorverkaufs-Wallets mit 350$ Zuteilung können Ansprüche geltend machen"
+      },
+      "onePer": {
+        "title": "Ein Anspruch Pro Wallet",
+        "desc": "Ein einziger Anspruch pro Wallet — keine Zurücksetzung"
+      },
+      "window": {
+        "title": "Anspruchsfenster",
+        "desc": "Ansprüche können nur eingereicht werden, nachdem der Vorverkauf offiziell beendet ist"
+      }
+    },
+    "form": {
+      "heading": "Ihren Vorverkaufsbonus Beanspruchen",
+      "selectToken": "Token Auswählen",
+      "chooseEligibleToken": "Berechtigten Token wählen...",
+      "claimAmount": "Anspruchsbetrag",
+      "usdtEquivalent": "0,00$ USDT Äquivalent",
+      "disclaimer": "Verlust-Anspruch-Token sind nicht gestakt und können später nicht neu gestakt werden",
+      "submit": "Anspruch Einreichen"
+    },
+    "info": {
+      "title": "Wichtig: V1 Vorverkaufsbonus",
+      "list": {
+        "whitelisted": "Nur für V1-Vorverkaufs-Wallets mit ≥ 350$ Zuteilung verfügbar",
+        "onePer": "Ein Anspruch pro Wallet",
+        "eligibleOnly": "Nur berechtigte Token",
+        "afterPresale": "Ansprüche können nur nach Ende des Vorverkaufs eingereicht werden",
+        "notStaked": "Token aus Verlust-Anspruch sind NICHT gestakt"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bonus — Nur Einmal",
+      "text": "Verpasse das Anspruchsfenster und es ist für immer weg.",
+      "buy": "$REKT KAUFEN"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Nur Verlierer gewinnen",
+      "logoAlt": "Logo"
+    },
+    "info": "Alle Vorverkaufs-Token sind ab dem Kauf automatisch gestakt. Belohnungen beginnen sofort, abrufbar am Ende des Vorverkaufs.",
+    "buttons": {
+      "viewLeaderboard": "Bestenliste Anzeigen",
+      "claim": "ANFORDERN"
+    },
+    "stats": {
+      "yourStakedBalance": "Ihr Gestaktes Guthaben",
+      "unlockNote": "30% entsperrt beim Launch, 70% Vesting über 6 Monate (nur Token)",
+      "yourPoolShare": "Ihr % vom Pool",
+      "yourPoolShareDesc": "Ihr Anteil am gesamten Staking-Pool",
+      "totalStaked": "Gesamt Gestakt (Vorverkaufs-Pool)",
+      "totalStakedDesc": "Gesamt gestakte Token aller Vorverkaufsteilnehmer",
+      "annualApy": "Jährlicher APY",
+      "annualApyValue": "65% p.a.",
+      "annualApyDesc": "Aktuelle jährliche prozentuale Rendite",
+      "dailyRewards": "Tägliche Belohnungen",
+      "dailyRewardsValue": "2.178+ REKT",
+      "dailyRewardsDesc": "Jetzt Verfügbar (kein Vesting)"
+    },
+    "rewards": {
+      "title": "Gesamt Angesammelte Belohnungen"
+    },
+    "footer": {
+      "notice": "Staking ist exklusiv für Vorverkaufskäufer. Belohnungen hängen von der Ökosystem-Aktivität ab.",
+      "vestingNote": "Vesting gilt nur für gestakte Token. Belohnungen sind nicht gevertet."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Bestenliste Anzeigen",
+      "frame": "Rahmen",
+      "longFrame": "Langer Rahmen",
+      "logoSpread": "Logo-Verteilung",
+      "claimButton": "Anfordern"
+    }
+  },
+  "notFound": {
+    "title": "Seite Nicht Gefunden",
+    "description": "Die Seite, die Sie suchen, existiert nicht.",
+    "goHome": "Zur Startseite",
+    "staking": "Staking",
+    "lossClaim": "Verlust-Anspruch"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

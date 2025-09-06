@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "Regulačné Varovanie",
+    "warningIntro": "Vaša krajina ({country}) môže mať obmedzenia na krypto obchodovanie alebo predaj tokenov. Prosím, prečítajte si informácie nižšie a potvrďte pokračovanie.",
+    "bullets": {
+      "info": "Táto stránka je len na informačné účely a nepredstavuje finančné poradenstvo.",
+      "restrictions": "Účasť môže byť obmedzená alebo zakázaná vo vašej jurisdikcii.",
+      "continue": "Pokračovaním potvrdzujete, že rozumiete rizikám a miestnym predpisom."
+    },
+    "blockedTitle": "Prístup Obmedzený",
+    "blockedBody": "Prístup k tomuto obsahu nie je dostupný vo vašej jurisdikcii ({country}). Nemôžeme poskytnúť informácie o predaji alebo obchodovaní tokenov vo vašej lokalite kvôli regulačným obmedzeniam.",
+    "back": "Späť",
+    "continue": "Rozumiem, Pokračovať",
+    "warningCountryNotes": {
+      "US": "Krypto služby sú prísne regulované v Spojených štátoch (SEC, CFTC, FinCEN). Pokračovaním uznávate, že dodržiavanie je vaša vlastná zodpovednosť.",
+      "IN": "Krypto obchodovanie v Indii podlieha vysokému zdaneniu a nejasným predpisom. Pokračujte len ak rozumiete miestnym zákonom.",
+      "VN": "Vietnam zakazuje krypto ako zákonné platidlo, ale obchodovanie je široko používané. Pokračujte na vlastné riziko.",
+      "TH": "Thajsko regulovalo krypto burzy; zabezpečte dodržiavanie s SEC Thajska.",
+      "TR": "Turecko obmedzuje používanie krypta na platby. Obchodovanie zostáva povolené pod reguláciou.",
+      "NG": "Nigéria má obmedzenia na banky spracovávajúce krypto, ale P2P obchodovanie je bežné. Pokračujte na vlastné riziko.",
+      "UA": "Krypto je legálne na Ukrajine, ale pod vyvíjajúcimi sa predpismi. Pokračujte na vlastné riziko.",
+      "RS": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko.",
+      "BG": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko.",
+      "HU": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko.",
+      "CZ": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko.",
+      "SK": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko.",
+      "SI": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko.",
+      "PL": "Krypto je povolené, ale regulované pod právom EÚ alebo miestnym. Pokračujte na vlastné riziko."
+    },
+    "blockedCountryNotes": {
+      "RU": "Kvôli medzinárodným sankciám je prístup z Ruska obmedzený. Obchodovanie nie je dostupné.",
+      "CN": "Krypto obchodovanie a burzy sú zakázané v kontinentálnej Číne. Prístup odmietnutý.",
+      "BD": "Krypto obchodovanie je právne zakázané v Bangladéši.",
+      "NP": "Krypto obchodovanie je zakázané v Nepále.",
+      "BO": "Krypto obchodovanie je zakázané v Bolívii.",
+      "DZ": "Krypto obchodovanie je zakázané v Alžírsku.",
+      "MA": "Krypto obchodovanie je zakázané v Maroku.",
+      "QA": "Krypto obchodovanie je zakázané v Katare.",
+      "EG": "Krypto obchodovanie je zakázané v Egypte."
+    }
+  },
+  "seo": {
+    "title": "$REKT - Len porazení vyhrajú",
+    "description": "Objímte pád. Prvý memecoin, ktorý odmeňuje vaše straty."
+  },
+  "nav": {
+    "hero": "Domov",
+    "tokenomics": "Tokenomika",
+    "lossClaim": "Nárok na Straty",
+    "staking": "Staking",
+    "leaderboard": "Rebríček",
+    "team": "Tím",
+    "roadmap": "Plán",
+    "whitepaper": "Biela Kniha",
+    "faq": "FAQ"
+  },
+  "home": {
+    "hero": {
+      "title": "Len porazení vyhrajú",
+      "subtitle": "Objímte pád"
+    },
+    "howToBuy": {
+      "title": "Ako Kúpiť:",
+      "steps": {
+        "connectWallet": "Pripojte vašu peňaženku",
+        "choosePayment": "Vyberte spôsob platby",
+        "enterAmount": "Zadajte sumu",
+        "confirmTransaction": "Potvrďte transakciu"
+      }
+    },
+    "wallet": {
+      "connect": "Pripojiť Peňaženku"
+    },
+    "presale": {
+      "title": "Predpredaj Fáza 1",
+      "currentPrice": "Súčasná Cena",
+      "nextPrice": "Ďalšia Cena",
+      "priceIncreaseNote": "Zvýšenie ceny pri dosiahnutí cieľa",
+      "progress": "Pokrok",
+      "raised": "{amount} vyzbieraných",
+      "amountPlaceholder": "Zadajte sumu",
+      "max": "MAX",
+      "buyWith": "KÚPIŤ S {method}",
+      "alt": {
+        "buyWithSOL": "Kúpiť s SOL",
+        "buyWithSOLHover": "Kúpiť s SOL hover"
+      }
+    },
+    "countdown": {
+      "days": "dni",
+      "hours": "hodiny",
+      "minutes": "minúty",
+      "seconds": "sekundy"
+    },
+    "asSeenOn": {
+      "title": "Ako je vidieť na"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Nárok na Straty",
+    "tagline": "Jeden výstrel. Jeden štít.",
+    "description": {
+      "before": "Exkluzívny bonus predpredaja V1 pre peňaženky s alokáciou aspoň $350. Podajte svoj nárok po skončení predpredaja na obnovenie REKT tokenov za oprávnené straty. Odmeny Nároku na Straty",
+      "not": "NIE SÚ",
+      "after": "stakované — toto je jednorazová príležitosť."
+    },
+    "cta": {
+      "check": "Skontrolovať Oprávnenosť",
+      "viewEligibility": "Zobraziť Oprávnenosť"
+    },
+    "status": {
+      "eligible": "Oprávnený",
+      "unused": "Nepoužité"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Peňaženka na Bielej Listine",
+        "desc": "Len peňaženky predpredaja V1 s alokáciou $350 môžu nárokovať"
+      },
+      "onePer": {
+        "title": "Jeden Nárok Na Peňaženku",
+        "desc": "Jeden nárok na peňaženku — žiadne resetovanie"
+      },
+      "window": {
+        "title": "Okno Nárokov",
+        "desc": "Nároky môžu byť podané len po oficiálnom uzavretí predpredaja"
+      }
+    },
+    "form": {
+      "heading": "Nárokujte Si Váš Bonus Predpredaja",
+      "selectToken": "Vybrať Token",
+      "chooseEligibleToken": "Vyberte oprávnený token...",
+      "claimAmount": "Suma Nároku",
+      "usdtEquivalent": "Ekvivalent $0.00 USDT",
+      "disclaimer": "Tokeny Nároku na Straty nie sú stakované a neskôr nemôžu byť znovu stakované",
+      "submit": "Podať Nárok"
+    },
+    "info": {
+      "title": "Dôležité: Bonus Predpredaja V1",
+      "list": {
+        "whitelisted": "Dostupné len pre peňaženky predpredaja V1 s alokáciou ≥ $350",
+        "onePer": "Jeden nárok na peňaženku",
+        "eligibleOnly": "Len oprávnené tokeny",
+        "afterPresale": "Nároky môžu byť podané len po skončení predpredaja",
+        "notStaked": "Tokeny získané z Nároku na Straty NIE SÚ stakované"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Len Raz",
+      "text": "Premeškajte okno nárokov a je to navždy preč.",
+      "buy": "KÚPIŤ $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Len porazení vyhrajú",
+      "logoAlt": "Logo"
+    },
+    "info": "Všetky tokeny predpredaja sú automaticky stakované od nákupu. Odmeny začínajú okamžite, nárokovateľné na konci predpredaja.",
+    "buttons": {
+      "viewLeaderboard": "Zobraziť Rebríček",
+      "claim": "NÁROKOVAŤ"
+    },
+    "stats": {
+      "yourStakedBalance": "Váš Stakovaný Zostatok",
+      "unlockNote": "30% odomknuté pri spustení, 70% vesting počas 6 mesiacov (len tokeny)",
+      "yourPoolShare": "Váš % z Poolu",
+      "yourPoolShareDesc": "Váš podiel z celkového stakingového poolu",
+      "totalStaked": "Celkom Stakované (Pool Predpredaja)",
+      "totalStakedDesc": "Celkové stakované tokeny všetkých účastníkov predpredaja",
+      "annualApy": "Ročný APY",
+      "annualApyValue": "65% ročne",
+      "annualApyDesc": "Súčasný ročný percentuálny výnos",
+      "dailyRewards": "Denné Odmeny",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Dostupné Teraz (bez vestingu)"
+    },
+    "rewards": {
+      "title": "Celkové Nahromadené Odmeny"
+    },
+    "footer": {
+      "notice": "Staking je exkluzívny pre kupujúcich predpredaja. Odmeny závisia od aktivity ekosystému.",
+      "vestingNote": "Vesting sa vzťahuje len na stakované tokeny. Odmeny nie sú vestované."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Zobraziť Rebríček",
+      "frame": "Rám",
+      "longFrame": "Dlhý Rám",
+      "logoSpread": "Rozloženie Loga",
+      "claimButton": "Nárokovať"
+    }
+  },
+  "notFound": {
+    "title": "Stránka Nenájdená",
+    "description": "Stránka, ktorú hľadáte, neexistuje.",
+    "goHome": "Ísť Domov",
+    "staking": "Staking",
+    "lossClaim": "Nárok na Straty"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

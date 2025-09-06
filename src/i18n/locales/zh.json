@@ -1,0 +1,261 @@
+{
+  "gating": {
+    "warningTitle": "监管警告",
+    "warningIntro": "您的国家（{country}）可能对加密货币交易或代币销售有限制。请查看下面的信息并确认以继续。",
+    "bullets": {
+      "info": "本网站仅用于信息目的，不构成财务建议。",
+      "restrictions": "在您的司法管辖区，参与可能受到限制或禁止。",
+      "continue": "继续即表示您确认了解风险和当地法规。"
+    },
+    "blockedTitle": "访问受限",
+    "blockedBody": "在您的司法管辖区（{country}）无法访问此内容。由于监管限制，我们无法在您的位置提供代币销售或交易信息。",
+    "back": "返回",
+    "continue": "我理解，继续",
+    "warningCountryNotes": {
+      "US": "加密服务在美国受到严格监管（SEC、CFTC、FinCEN）。继续即表示您承认合规是您自己的责任。",
+      "IN": "印度的加密交易需要缴纳重税并面临不明确的法规。只有在了解当地法律的情况下才能继续。",
+      "VN": "越南禁止加密货币作为法定货币，但交易被广泛使用。请自行承担风险继续。",
+      "TH": "泰国已对加密交易所进行监管；确保遵守泰国SEC的规定。",
+      "TR": "土耳其限制加密货币用于支付。交易在监管下仍然允许。",
+      "NG": "尼日利亚对处理加密货币的银行有限制，但P2P交易很常见。请自行承担风险继续。",
+      "UA": "加密货币在乌克兰是合法的，但处于不断发展的监管之下。请自行承担风险继续。",
+      "RS": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。",
+      "BG": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。",
+      "HU": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。",
+      "CZ": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。",
+      "SK": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。",
+      "SI": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。",
+      "PL": "加密货币是被允许的，但在欧盟或当地法律下受到监管。请自行承担风险继续。"
+    },
+    "blockedCountryNotes": {
+      "RU": "由于国际制裁，来自俄罗斯的访问受到限制。交易不可用。",
+      "CN": "在中国大陆，加密货币交易和交易所被禁止。访问被拒绝。",
+      "BD": "在孟加拉国，加密货币交易在法律上是被禁止的。",
+      "NP": "在尼泊尔，加密货币交易被禁止。",
+      "BO": "在玻利维亚，加密货币交易被禁止。",
+      "DZ": "在阿尔及利亚，加密货币交易被禁止。",
+      "MA": "在摩洛哥，加密货币交易被禁止。",
+      "QA": "在卡塔尔，加密货币交易被禁止。",
+      "EG": "在埃及，加密货币交易被禁止。"
+    }
+  },
+  "seo": {
+    "title": "$REKT - 只有失败者才能获胜",
+    "description": "拥抱崩盘。第一个奖励你损失的模因币。"
+  },
+  "nav": {
+    "hero": "首页",
+    "tokenomics": "代币经济",
+    "lossClaim": "损失申请",
+    "staking": "质押",
+    "leaderboard": "排行榜",
+    "team": "团队",
+    "roadmap": "路线图",
+    "whitepaper": "白皮书",
+    "faq": "常见问题"
+  },
+  "home": {
+    "hero": {
+      "title": "只有失败者才能获胜",
+      "subtitle": "拥抱崩盘"
+    },
+    "howToBuy": {
+      "title": "如何购买：",
+      "steps": {
+        "connectWallet": "连接您的钱包",
+        "choosePayment": "选择支付方式",
+        "enterAmount": "输入金额",
+        "confirmTransaction": "确认交易"
+      }
+    },
+    "wallet": {
+      "connect": "连接钱包"
+    },
+    "presale": {
+      "title": "第一阶段预售",
+      "currentPrice": "当前价格",
+      "nextPrice": "下一个价格",
+      "priceIncreaseNote": "达到目标时价格上涨",
+      "progress": "进度",
+      "raised": "已筹集 {amount}",
+      "amountPlaceholder": "输入金额",
+      "max": "最大",
+      "buyWith": "用 {method} 购买",
+      "alt": {
+        "buyWithSOL": "用SOL购买",
+        "buyWithSOLHover": "用SOL购买悬停"
+      }
+    },
+    "countdown": {
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分",
+      "seconds": "秒"
+    },
+    "asSeenOn": {
+      "title": "如在以下媒体所见"
+    }
+  },
+  "lossClaim": {
+    "title": "REKT损失申请",
+    "tagline": "一枪。一盾。",
+    "description": {
+      "before": "为至少分配350美元的钱包提供的独家V1预售奖金。在预售结束后提交您的申请，以为符合条件的损失恢复REKT代币。损失申请奖励",
+      "not": "不会",
+      "after": "被质押——这是一次性机会。"
+    },
+    "cta": {
+      "check": "检查资格",
+      "viewEligibility": "查看资格"
+    },
+    "status": {
+      "eligible": "符合条件",
+      "unused": "未使用"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "白名单钱包",
+        "desc": "只有分配350美元的V1预售钱包才能申请"
+      },
+      "onePer": {
+        "title": "每个钱包一次申请",
+        "desc": "每个钱包单次申请——无重置"
+      },
+      "window": {
+        "title": "申请窗口",
+        "desc": "只有在预售正式结束后才能提交申请"
+      }
+    },
+    "form": {
+      "heading": "申请您的预售奖金",
+      "selectToken": "选择代币",
+      "chooseEligibleToken": "选择符合条件的代币...",
+      "claimAmount": "申请金额",
+      "usdtEquivalent": "0.00美元USDT等值",
+      "disclaimer": "损失申请代币不会被质押，以后也不能重新质押",
+      "submit": "提交申请"
+    },
+    "info": {
+      "title": "重要：V1预售奖金",
+      "list": {
+        "whitelisted": "仅适用于分配≥350美元的V1预售钱包",
+        "onePer": "每个钱包一次申请",
+        "eligibleOnly": "仅限符合条件的代币",
+        "afterPresale": "只有在预售结束后才能提交申请",
+        "notStaked": "从损失申请获得的代币不会被质押"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1奖金——仅此一次",
+      "text": "错过申请窗口，就永远失去了。",
+      "buy": "购买 $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT质押 - 只有失败者才能获胜",
+      "logoAlt": "标志"
+    },
+    "info": "所有预售代币从购买开始自动质押。奖励立即开始，可在预售结束时申请。",
+    "buttons": {
+      "viewLeaderboard": "查看排行榜",
+      "claim": "申请"
+    },
+    "stats": {
+      "yourStakedBalance": "您的质押余额",
+      "unlockNote": "启动时解锁30%，6个月内归属70%（仅限代币）",
+      "yourPoolShare": "您的池份额%",
+      "yourPoolShareDesc": "您在总质押池中的份额",
+      "totalStaked": "总质押（预售池）",
+      "totalStakedDesc": "所有预售参与者质押的代币总数",
+      "annualApy": "年度APY",
+      "annualApyValue": "65% 每年",
+      "annualApyDesc": "当前年收益率",
+      "dailyRewards": "每日奖励",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "现在可用（无归属）"
+    },
+    "rewards": {
+      "title": "累积总奖励"
+    },
+    "footer": {
+      "notice": "质押专属于预售购买者。奖励取决于生态系统活动。",
+      "vestingNote": "归属仅适用于质押代币。奖励不归属。"
+    },
+    "alts": {
+      "viewLeaderboardImg": "查看排行榜",
+      "frame": "框架",
+      "longFrame": "长框架",
+      "logoSpread": "标志分布",
+      "claimButton": "申请"
+    }
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "您正在寻找的页面不存在。",
+    "goHome": "回到首页",
+    "staking": "质押",
+    "lossClaim": "损失申请"
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard"
+    }
+  },
+  "footer": {
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  }
+}

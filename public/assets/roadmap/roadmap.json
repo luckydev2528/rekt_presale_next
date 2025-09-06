@@ -1,0 +1,188 @@
+{
+    "designSystemName": "Neon_Roadmap_UI",
+    "description": "A vertical timeline-style UI design system for presenting a roadmap. The design is futuristic and tech-oriented, using a dark theme with vibrant, glowing neon accents and custom angular shapes to guide the user through different phases.",
+    "colorPalette": {
+      "primary": {
+        "name": "primary-background",
+        "hex": "#120c24",
+        "description": "Deep navy/purple used as the main background."
+      },
+      "accent-glow-primary": {
+        "name": "vibrant-purple-glow",
+        "hex": "#be29ec",
+        "description": "A bright, glowing purple/magenta for primary borders, headers, and highlights."
+      },
+      "accent-glow-secondary": {
+        "name": "bright-cyan-glow",
+        "hex": "#00d1ff",
+        "description": "A vivid cyan used for the main timeline spine and secondary highlights."
+      },
+      "text-primary": {
+        "name": "primary-text",
+        "hex": "#ffffff",
+        "description": "White for main titles and body content."
+      },
+      "text-secondary": {
+        "name": "secondary-text",
+        "hex": "#d3d3d3",
+        "description": "Light grey for subtitles and less emphasized text."
+      },
+      "text-goal": {
+        "name": "goal-text-color",
+        "hex": "#f0e68c",
+        "description": "A soft yellow or gold for the 'GOAL:' text to make it stand out."
+      },
+      "bullet-point": {
+        "name": "list-item-marker-color",
+        "hex": "#be29ec",
+        "description": "The same vibrant purple as the primary accent, used for list item markers."
+      }
+    },
+    "typography": {
+      "fontFamily": "Sans-Serif, preferably a futuristic or geometric font like 'Orbitron', 'Exo 2', or 'Rajdhani'",
+      "styles": {
+        "main-title": {
+          "name": "roadmap-main-title",
+          "fontSize": "32px",
+          "fontWeight": "700",
+          "color": "primary-text",
+          "textTransform": "uppercase"
+        },
+        "subtitle": {
+          "name": "roadmap-subtitle",
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "secondary-text",
+          "textTransform": "uppercase"
+        },
+        "card-title": {
+          "name": "phase-card-title",
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "color": "primary-text",
+          "textTransform": "uppercase"
+        },
+        "card-goal": {
+          "name": "phase-goal-text",
+          "fontSize": "14px",
+          "fontWeight": "700",
+          "color": "goal-text-color",
+          "textTransform": "uppercase"
+        },
+        "body-list": {
+          "name": "phase-description-list",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "color": "primary-text",
+          "lineHeight": "1.8"
+        },
+        "phase-marker": {
+          "name": "phase-number-label",
+          "fontSize": "28px",
+          "fontWeight": "700",
+          "color": "primary-text",
+          "textTransform": "uppercase"
+        }
+      }
+    },
+    "layout": {
+      "structure": "A vertical, single-column timeline with content cards branching off to the left and phase markers to the right, connected by a central 'spine'.",
+      "spacing": {
+        "baseUnit": "8px",
+        "medium": "16px",
+        "large": "24px",
+        "xlarge": "48px",
+        "section-gap": "72px"
+      }
+    },
+    "components": {
+      "main-frame": {
+        "name": "page-outer-frame",
+        "description": "The decorative, non-intrusive border at the very top and bottom of the entire view.",
+        "style": {
+          "borderColor": "bright-cyan-glow",
+          "opacity": "0.5"
+        }
+      },
+      "header": {
+        "name": "roadmap-header",
+        "description": "The main header section at the top containing the title and subtitle.",
+        "style": {
+          "textAlign": "center",
+          "padding": "large 0",
+          "marginBottom": "xlarge"
+        }
+      },
+      "timeline-spine": {
+        "name": "central-connector-line",
+        "description": "The main vertical line that forms the backbone of the roadmap.",
+        "style": {
+          "width": "4px",
+          "backgroundColor": "bright-cyan-glow",
+          "boxShadow": "0 0 10px var(--bright-cyan-glow)"
+        }
+      },
+      "content-card": {
+        "name": "phase-details-card",
+        "description": "The main container holding the details for each roadmap phase.",
+        "style": {
+          "border": "2px solid",
+          "borderColor": "vibrant-purple-glow",
+          "borderRadius": "12px",
+          "backgroundColor": "rgba(28, 15, 49, 0.8)",
+          "boxShadow": "inset 0 0 20px rgba(190, 41, 236, 0.3)",
+          "padding": "large"
+        }
+      },
+      "card-header": {
+        "name": "card-title-container",
+        "description": "A custom-shaped header element within the content card for the title.",
+        "style": {
+          "backgroundColor": "vibrant-purple-glow",
+          "padding": "8px 16px",
+          "clipPath": "polygon(0 0, 100% 0, 95% 100%, 0% 100%)",
+          "marginBottom": "medium"
+        }
+      },
+      "list-item-bullet": {
+        "name": "custom-bullet-point",
+        "description": "The custom square bullet points used in the feature lists.",
+        "style": {
+          "width": "8px",
+          "height": "8px",
+          "backgroundColor": "bullet-point-color",
+          "marginRight": "medium"
+        }
+      },
+      "highlighted-item": {
+        "name": "emphasized-list-item",
+        "description": "A list item that is specially highlighted with a border.",
+        "style": {
+          "border": "1px solid",
+          "borderColor": "bright-cyan-glow",
+          "borderRadius": "4px",
+          "padding": "4px 8px"
+        }
+      },
+      "phase-marker": {
+        "name": "phase-label-card",
+        "description": "The smaller containers on the right side of the timeline that indicate the phase number.",
+        "style": {
+          "border": "2px solid",
+          "borderColor": "vibrant-purple-glow",
+          "borderRadius": "8px",
+          "padding": "medium large",
+          "boxShadow": "0 0 15px rgba(190, 41, 236, 0.5)"
+        }
+      },
+      "phase-marker-mascot": {
+        "name": "phase-label-character",
+        "description": "The small character illustration attached to each phase marker.",
+        "style": {
+          "position": "absolute",
+          "top": "-20px",
+          "right": "-15px"
+        }
+      }
+    }
+  }

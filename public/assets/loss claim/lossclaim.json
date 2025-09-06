@@ -1,0 +1,180 @@
+{
+  "designSystemName": "Neon_Web_App_UI",
+  "description": "A comprehensive UI design system for a dark-themed, futuristic web application, specifically for cryptocurrency or fintech platforms. The style is defined by a deep space background, vibrant neon glows (cyan, magenta, yellow), custom container shapes, and a structured, multi-section layout.",
+  "colorPalette": {
+    "primary": {
+      "name": "primary-background",
+      "hex": "#0a0612",
+      "description": "Black with a subtle, textured starfield/noise pattern."
+    },
+    "accent-glow-primary": {
+      "name": "bright-cyan-glow",
+      "hex": "#00d1ff",
+      "description": "Vivid cyan for primary borders, navigation elements, and highlights."
+    },
+    "accent-glow-secondary": {
+      "name": "vibrant-magenta-glow",
+      "hex": "#be29ec",
+      "description": "Bright magenta/purple for active states, glows, and banners."
+    },
+    "accent-glow-tertiary": {
+      "name": "bright-yellow-glow",
+      "hex": "#ffd700",
+      "description": "Bright yellow for specific card borders and list bullets."
+    },
+    "text-primary": {
+      "name": "primary-text",
+      "hex": "#ffffff",
+      "description": "White for main headings and important text."
+    },
+    "text-secondary": {
+      "name": "secondary-text",
+      "hex": "#d3d3d3",
+      "description": "Light grey for subtitles, body copy, and less critical information."
+    },
+    "text-accent": {
+      "name": "accent-text-cyan",
+      "hex": "#00d1ff",
+      "description": "Cyan for specific titles within components."
+    },
+    "button-primary": {
+      "name": "primary-button-gradient",
+      "gradient": "linear-gradient(90deg, #4d4dff, #8a2be2)",
+      "description": "A blue-to-purple gradient for primary call-to-action buttons."
+    },
+    "button-secondary": {
+      "name": "secondary-button-background",
+      "hex": "#005f6b",
+      "description": "A dark teal for secondary action buttons like 'Submit'."
+    },
+    "warning": {
+      "name": "warning-red-border",
+      "hex": "#ff0000",
+      "description": "Red for borders and text in warning messages."
+    },
+    "banner": {
+      "name": "info-banner-blue",
+      "hex": "#0052cc",
+      "description": "A solid, bright blue for full-width informational banners."
+    }
+  },
+  "typography": {
+    "fontFamily": "Sans-Serif, preferably a modern, geometric font like 'Exo 2' or 'Rajdhani'",
+    "styles": {
+      "page-title": { "fontSize": "48px", "fontWeight": "700", "color": "primary-text" },
+      "section-title": { "fontSize": "32px", "fontWeight": "600", "color": "primary-text" },
+      "card-title": { "fontSize": "20px", "fontWeight": "600", "color": "accent-text-cyan" },
+      "body-large": { "fontSize": "18px", "fontWeight": "400", "color": "secondary-text" },
+      "body-small": { "fontSize": "14px", "fontWeight": "400", "color": "secondary-text" },
+      "input-label": { "fontSize": "16px", "fontWeight": "600", "color": "bright-yellow-glow" },
+      "button": { "fontSize": "16px", "fontWeight": "600", "color": "primary-text" }
+    }
+  },
+  "layout": {
+    "structure": "A vertically stacked, multi-section layout including a header, hero, content grids, and footer.",
+    "spacing": { "baseUnit": "8px", "medium": "16px", "large": "24px", "xlarge": "48px" }
+  },
+  "components": {
+    "header-nav": {
+      "name": "main-navigation-bar",
+      "description": "The main site header with navigation links.",
+      "style": {
+        "border": "1px solid",
+        "borderColor": "bright-cyan-glow",
+        "borderRadius": "16px",
+        "boxShadow": "0 0 10px var(--bright-cyan-glow)",
+        "padding": "medium"
+      },
+      "nav-item": {
+        "name": "navigation-button",
+        "description": "Custom-shaped buttons for navigation links.",
+        "style": {
+          "clipPath": "polygon(10% 0, 100% 0, 90% 100%, 0% 100%)",
+          "active-background": "vibrant-magenta-glow"
+        }
+      },
+      "language-selector": { "name": "dropdown-language-picker" }
+    },
+    "primary-button": {
+      "name": "cta-glow-button",
+      "description": "The main call-to-action button used across the site.",
+      "style": {
+        "background": "var(--primary-button-gradient)",
+        "borderRadius": "30px",
+        "padding": "12px 32px",
+        "border": "1px solid #fff",
+        "boxShadow": "0 0 15px var(--vibrant-magenta-glow)"
+      }
+    },
+    "hero-section": { "name": "page-hero-block" },
+    "floating-icon": {
+      "name": "background-animated-mascot",
+      "description": "Small, decorative icons that float and drift in the background."
+    },
+    "info-card": {
+      "name": "status-check-card",
+      "description": "Cards used to display status or key information points.",
+      "style": {
+        "border": "2px solid",
+        "borderColor": "bright-yellow-glow",
+        "borderRadius": "16px",
+        "clipPath": "polygon(0 20px, 20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px))",
+        "padding": "large"
+      }
+    },
+    "claim-form-section": {
+      "name": "main-content-area",
+      "description": "The main interactive section of the page, containing forms and info boxes."
+    },
+    "form-input": {
+      "name": "text-input-field",
+      "description": "A standard text input field for forms.",
+      "style": {
+        "backgroundColor": "transparent",
+        "border": "1px solid",
+        "borderColor": "bright-cyan-glow",
+        "borderRadius": "8px",
+        "padding": "medium"
+      }
+    },
+    "info-box": {
+      "name": "important-notes-container",
+      "description": "A container for displaying important information, often next to a form.",
+      "style": {
+        "border": "1px solid",
+        "borderColor": "bright-cyan-glow",
+        "borderRadius": "12px",
+        "padding": "large"
+      },
+      "bullet-point": {
+        "name": "list-item-marker-yellow",
+        "style": { "color": "bright-yellow-glow" }
+      }
+    },
+    "warning-banner": {
+      "name": "notice-bar-warning",
+      "description": "A small banner to display warnings or critical notices.",
+      "style": {
+        "border": "1px solid",
+        "borderColor": "warning-red-border",
+        "borderRadius": "8px",
+        "color": "warning-red-border",
+        "padding": "small medium"
+      }
+    },
+    "full-width-banner": {
+      "name": "cta-full-width-section",
+      "description": "A full-width banner used to draw attention to a specific action or message.",
+      "style": { "backgroundColor": "info-banner-blue", "padding": "xlarge 0" }
+    },
+    "footer": {
+      "name": "main-site-footer",
+      "description": "The site footer containing logos, navigation, and social links.",
+      "style": { "padding": "xlarge medium" },
+      "social-icon": {
+        "name": "footer-social-link",
+        "description": "Circular icons for social media links with a glow effect on hover."
+      }
+    }
+  }
+}
