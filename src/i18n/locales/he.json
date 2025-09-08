@@ -96,184 +96,6 @@
       "title": "כפי שנראה ב"
     }
   },
-  "lossClaim": {
-    "title": "תביעת הפסד REKT",
-    "tagline": "יריה אחת. מגן אחד.",
-    "description": {
-      "before": "בונוס בלעדי למכירה מוקדמת V1 לארנקים עם הקצאה של לפחות $350. הגש את התביעה שלך לאחר סיום המכירה המוקדמת כדי לשחזר טוקני REKT עבור הפסדים זכאים. תגמולי תביעת הפסד",
-      "not": "אינם",
-      "after": "מוקפאים — זה הזדמנות חד-פעמית."
-    },
-    "cta": {
-      "check": "בדוק זכאות",
-      "viewEligibility": "צפה בזכאות"
-    },
-    "status": {
-      "eligible": "זכאי",
-      "unused": "לא בשימוש"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "ארנק ברשימה הלבנה",
-        "desc": "רק ארנקי מכירה מוקדמת V1 עם הקצאת $350 יכולים לתבוע"
-      },
-      "onePer": {
-        "title": "תביעה אחת לארנק",
-        "desc": "תביעה אחת לארנק — ללא איפוסים"
-      },
-      "window": {
-        "title": "חלון תביעה",
-        "desc": "תביעות יכולות להיות מוגשות רק לאחר סגירה רשמית של המכירה המוקדמת"
-      }
-    },
-    "form": {
-      "heading": "תבע את בונוס המכירה המוקדמת שלך",
-      "selectToken": "בחר טוקן",
-      "chooseEligibleToken": "בחר טוקן זכאי...",
-      "claimAmount": "סכום תביעה",
-      "usdtEquivalent": "שווה ערך $0.00 USDT",
-      "disclaimer": "טוקני תביעת הפסד אינם מוקפאים ולא ניתן להקפיא אותם מאוחר יותר",
-      "submit": "הגש תביעה"
-    },
-    "info": {
-      "title": "חשוב: בונוס מכירה מוקדמת V1",
-      "list": {
-        "whitelisted": "זמין רק לארנקי מכירה מוקדמת V1 עם הקצאה ≥ $350",
-        "onePer": "תביעה אחת לארנק",
-        "eligibleOnly": "טוקנים זכאים בלבד",
-        "afterPresale": "תביעות יכולות להיות מוגשות רק לאחר סיום המכירה המוקדמת",
-        "notStaked": "טוקנים שהתקבלו מתביעת הפסד אינם מוקפאים"
-      }
-    },
-    "ctaBottom": {
-      "title": "בונוס V1 — פעם אחת בלבד",
-      "text": "החמץ את חלון התביעה, והוא נעלם לנצח.",
-      "buy": "קנה $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT סטייקינג - רק המפסידים מנצחים",
-      "logoAlt": "לוגו"
-    },
-    "info": "כל טוקני המכירה המוקדמת מוקפאים אוטומטית מהרכישה. תגמולים מתחילים מיד, ניתנים לתביעה בסוף המכירה המוקדמת.",
-    "buttons": {
-      "viewLeaderboard": "צפה בלוח המובילים",
-      "claim": "תבע"
-    },
-    "stats": {
-      "yourStakedBalance": "היתרה המוקפאת שלך",
-      "unlockNote": "30% משוחרר בהשקה, 70% הבשלה על 6 חודשים (טוקנים בלבד)",
-      "yourPoolShare": "אחוז הבריכה שלך",
-      "yourPoolShareDesc": "החלק שלך מבריכת הסטייקינג הכוללת",
-      "totalStaked": "סה\"כ מוקפא (בריכת מכירה מוקדמת)",
-      "totalStakedDesc": "סה\"כ טוקנים מוקפאים של כל משתתפי המכירה המוקדמת",
-      "annualApy": "APY שנתי",
-      "annualApyValue": "65% לשנה",
-      "annualApyDesc": "תשואה שנתית נוכחית באחוזים",
-      "dailyRewards": "תגמולים יומיים",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "זמין עכשיו (ללא הבשלה)"
-    },
-    "rewards": {
-      "title": "סה\"כ תגמולים שנצברו"
-    },
-    "footer": {
-      "notice": "סטייקינג בלעדי לקוני מכירה מוקדמת. תגמולים תלויים בפעילות המערכת האקולוגית.",
-      "vestingNote": "הבשלה חלה רק על טוקנים מוקפאים. תגמולים לא מובשלים."
-    },
-    "alts": {
-      "viewLeaderboardImg": "צפה בלוח המובילים",
-      "frame": "מסגרת",
-      "longFrame": "מסגרת ארוכה",
-      "logoSpread": "פיזור לוגו",
-      "claimButton": "תבע"
-    }
-  },
-  "notFound": {
-    "title": "עמוד לא נמצא",
-    "description": "העמוד שאתה מחפש לא קיים.",
-    "goHome": "לך הביתה",
-    "staking": "סטייקינג",
-    "lossClaim": "תביעת הפסד"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "תביעת הפסד REKT",
+    "tagline": "יריה אחת. מגן אחד.",
+    "description": {
+      "before": "בונוס בלעדי למכירה מוקדמת V1 לארנקים עם הקצאה של לפחות $350. הגש את התביעה שלך לאחר סיום המכירה המוקדמת כדי לשחזר טוקני REKT עבור הפסדים זכאים. תגמולי תביעת הפסד",
+      "not": "אינם",
+      "after": "מוקפאים — זה הזדמנות חד-פעמית."
+    },
+    "cta": {
+      "check": "בדוק זכאות",
+      "viewEligibility": "צפה בזכאות"
+    },
+    "status": {
+      "eligible": "זכאי",
+      "unused": "לא בשימוש"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "ארנק ברשימה הלבנה",
+        "desc": "רק ארנקי מכירה מוקדמת V1 עם הקצאת $350 יכולים לתבוע"
+      },
+      "onePer": {
+        "title": "תביעה אחת לארנק",
+        "desc": "תביעה אחת לארנק — ללא איפוסים"
+      },
+      "window": {
+        "title": "חלון תביעה",
+        "desc": "תביעות יכולות להיות מוגשות רק לאחר סגירה רשמית של המכירה המוקדמת"
+      }
+    },
+    "form": {
+      "heading": "תבע את בונוס המכירה המוקדמת שלך",
+      "selectToken": "בחר טוקן",
+      "chooseEligibleToken": "בחר טוקן זכאי...",
+      "claimAmount": "סכום תביעה",
+      "usdtEquivalent": "שווה ערך $0.00 USDT",
+      "disclaimer": "טוקני תביעת הפסד אינם מוקפאים ולא ניתן להקפיא אותם מאוחר יותר",
+      "submit": "הגש תביעה"
+    },
+    "info": {
+      "title": "חשוב: בונוס מכירה מוקדמת V1",
+      "list": {
+        "whitelisted": "זמין רק לארנקי מכירה מוקדמת V1 עם הקצאה ≥ $350",
+        "onePer": "תביעה אחת לארנק",
+        "eligibleOnly": "טוקנים זכאים בלבד",
+        "afterPresale": "תביעות יכולות להיות מוגשות רק לאחר סיום המכירה המוקדמת",
+        "notStaked": "טוקנים שהתקבלו מתביעת הפסד אינם מוקפאים"
+      }
+    },
+    "ctaBottom": {
+      "title": "בונוס V1 — פעם אחת בלבד",
+      "text": "החמץ את חלון התביעה, והוא נעלם לנצח.",
+      "buy": "קנה $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT סטייקינג - רק המפסידים מנצחים",
+      "logoAlt": "לוגו"
+    },
+    "info": "כל טוקני המכירה המוקדמת מוקפאים אוטומטית מהרכישה. תגמולים מתחילים מיד, ניתנים לתביעה בסוף המכירה המוקדמת.",
+    "buttons": {
+      "viewLeaderboard": "צפה בלוח המובילים",
+      "claim": "תבע"
+    },
+    "stats": {
+      "yourStakedBalance": "היתרה המוקפאת שלך",
+      "unlockNote": "30% משוחרר בהשקה, 70% הבשלה על 6 חודשים (טוקנים בלבד)",
+      "yourPoolShare": "אחוז הבריכה שלך",
+      "yourPoolShareDesc": "החלק שלך מבריכת הסטייקינג הכוללת",
+      "totalStaked": "סה\"כ מוקפא (בריכת מכירה מוקדמת)",
+      "totalStakedDesc": "סה\"כ טוקנים מוקפאים של כל משתתפי המכירה המוקדמת",
+      "annualApy": "APY שנתי",
+      "annualApyValue": "65% לשנה",
+      "annualApyDesc": "תשואה שנתית נוכחית באחוזים",
+      "dailyRewards": "תגמולים יומיים",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "זמין עכשיו (ללא הבשלה)"
+    },
+    "rewards": {
+      "title": "סה\"כ תגמולים שנצברו"
+    },
+    "footer": {
+      "notice": "סטייקינג בלעדי לקוני מכירה מוקדמת. תגמולים תלויים בפעילות המערכת האקולוגית.",
+      "vestingNote": "הבשלה חלה רק על טוקנים מוקפאים. תגמולים לא מובשלים."
+    },
+    "alts": {
+      "viewLeaderboardImg": "צפה בלוח המובילים",
+      "frame": "מסגרת",
+      "longFrame": "מסגרת ארוכה",
+      "logoSpread": "פיזור לוגו",
+      "claimButton": "תבע"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "עמוד לא נמצא",
+    "description": "העמוד שאתה מחפש לא קיים.",
+    "goHome": "לך הביתה",
+    "staking": "סטייקינג",
+    "lossClaim": "תביעת הפסד"
   }
 }

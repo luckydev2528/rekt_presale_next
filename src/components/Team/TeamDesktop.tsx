@@ -52,7 +52,7 @@ export default function TeamDesktop() {
         </div>
 
         
-        <div className="grid gap-y-10 gap-x-4 md:[grid-template-columns:repeat(2,390px)] lg:[grid-template-columns:repeat(3,390px)] justify-center">
+        <div className="grid gap-y-10 gap-x-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center max-w-[1200px] mx-auto">
           {teamMembers.map((m) => (
             <TeamCard key={m.name} {...m} />
           ))}

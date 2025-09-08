@@ -73,14 +73,14 @@ export default function MobileTeamCard({ name, role, desc, avatar, splitAfter }:
         </div>
 
         
-        <div className="absolute inset-0 flex flex-col items-center justify-start px-6 pt-20 text-center z-[10]">
-          <h3 className="text-[22px] font-primary font-bold text-white leading-tight">
+        <div className="absolute inset-0 flex flex-col items-center justify-start px-6 pt-20 pb-6 text-center z-[10]">
+          <h3 className="text-[22px] font-primary font-bold text-white leading-tight word-wrap break-words px-2">
             {name}
           </h3>
-          <p className="text-[14px] font-semibold mt-1" style={{ color: 'var(--bright-cyan-glow)' }}>
+          <p className="text-[14px] font-semibold mt-1 word-wrap break-words hyphens-auto px-2 leading-tight" style={{ color: 'var(--bright-cyan-glow)' }}>
             {role}
           </p>
-          <p className="text-[14px] text-text-secondary leading-relaxed mt-3 max-w-[36ch]">
+          <p className="text-[14px] text-text-secondary leading-relaxed mt-3 px-2 word-wrap break-words hyphens-auto flex-grow">
             {segments.length > 0 ? (
               segments.map((seg, i) => (
                 <span key={i}>

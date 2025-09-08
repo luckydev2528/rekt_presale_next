@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 
 export default function RoadmapDesktop() {
   const t = useTranslations('sections')
+  const tRoadmap = useTranslations()
   const headerBg = '/assets/roadmap/background.svg';
 
   const phaseBadgeBgByIndex = [
@@ -127,7 +128,7 @@ export default function RoadmapDesktop() {
             const badgeOrderClass = isLeft ? '' : styles.rowReverse;
 
             return (
-              <div key={phase.title} className="relative mb-28 flex items-start">
+              <div key={phase.titleKey} className="relative mb-28 flex items-start">
                 
                 <div className={`${styles.phaseCard} ${cardPositionClass} w-full lg:max-w-md`}>
                   
@@ -140,7 +141,7 @@ export default function RoadmapDesktop() {
                       className="object-contain pointer-events-none"
                       aria-hidden="true"
                     />
-                    <h3 className={styles.headerTitle}>{phase.title}</h3>
+                    <h3 className={styles.headerTitle}>{tRoadmap(phase.titleKey)}</h3>
                   </div>
 
                   
@@ -153,11 +154,11 @@ export default function RoadmapDesktop() {
                       className="object-fill object-left-top pointer-events-none"
                       aria-hidden="true"
                     />
-                    <p className={styles.goalLabel}>GOAL: {phase.goal}</p>
+                    <p className={styles.goalLabel}>GOAL: {tRoadmap(phase.goalKey)}</p>
                     <ul className={styles.goalList}>
-                      {phase.items.map((item, i) => (
+                      {phase.itemKeys.map((itemKey, i) => (
                         <li key={i} className={styles.listItem}>
-                          <span className="text-sm text-gray-300">{item}</span>
+                          <span className="text-sm text-gray-300">{tRoadmap(itemKey)}</span>
                         </li>
                       ))}
                     </ul>

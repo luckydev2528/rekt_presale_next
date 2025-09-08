@@ -96,184 +96,6 @@
       "title": "همانطور که در دیده شده"
     }
   },
-  "lossClaim": {
-    "title": "درخواست ضرر REKT",
-    "tagline": "یک شلیک. یک سپر.",
-    "description": {
-      "before": "یک پاداش انحصاری فروش مقدماتی V1 برای کیف پول‌های با حداقل تخصیص ۳۵۰ دلار. درخواست خود را پس از پایان فروش مقدماتی ارسال کنید تا توکن‌های REKT را برای ضررهای واجد شرایط بازیابی کنید. پاداش‌های درخواست ضرر",
-      "not": "سهام‌گذاری نشده‌اند",
-      "after": " — این یک فرصت یکباره است."
-    },
-    "cta": {
-      "check": "بررسی واجد بودن شرایط",
-      "viewEligibility": "مشاهده واجد بودن شرایط"
-    },
-    "status": {
-      "eligible": "واجد شرایط",
-      "unused": "استفاده نشده"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "کیف پول فهرست سفید",
-        "desc": "فقط کیف پول‌های فروش مقدماتی V1 با تخصیص ۳۵۰ دلار می‌توانند درخواست دهند"
-      },
-      "onePer": {
-        "title": "یک درخواست به ازای هر کیف پول",
-        "desc": "یک درخواست واحد برای هر کیف پول — بدون تنظیم مجدد"
-      },
-      "window": {
-        "title": "پنجره درخواست",
-        "desc": "درخواست‌ها فقط پس از بسته شدن رسمی فروش مقدماتی قابل ارسال هستند"
-      }
-    },
-    "form": {
-      "heading": "پاداش فروش مقدماتی خود را درخواست کنید",
-      "selectToken": "انتخاب توکن",
-      "chooseEligibleToken": "توکن واجد شرایط را انتخاب کنید...",
-      "claimAmount": "مبلغ درخواست",
-      "usdtEquivalent": "معادل ۰.۰۰ دلار USDT",
-      "disclaimer": "توکن‌های درخواست ضرر سهام‌گذاری نشده‌اند و نمی‌توان آن‌ها را بعداً دوباره سهام‌گذاری کرد",
-      "submit": "ارسال درخواست"
-    },
-    "info": {
-      "title": "مهم: پاداش فروش مقدماتی V1",
-      "list": {
-        "whitelisted": "فقط برای کیف پول‌های فروش مقدماتی V1 با تخصیص ≥ ۳۵۰ دلار در دسترس است",
-        "onePer": "یک درخواست به ازای هر کیف پول",
-        "eligibleOnly": "فقط توکن‌های واجد شرایط",
-        "afterPresale": "درخواست‌ها فقط پس از پایان فروش مقدماتی قابل ارسال هستند",
-        "notStaked": "توکن‌های دریافتی از درخواست ضرر سهام‌گذاری نشده‌اند"
-      }
-    },
-    "ctaBottom": {
-      "title": "پاداش V1 — فقط یک بار",
-      "text": "پنجره درخواست را از دست بدهید، و برای همیشه از بین می‌رود.",
-      "buy": "خرید $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "سهام‌گذاری REKT - فقط بازندگان برنده می‌شوند",
-      "logoAlt": "لوگو"
-    },
-    "info": "همه توکن‌های فروش مقدماتی از خرید به صورت خودکار سهام‌گذاری می‌شوند. پاداش‌ها فوراً شروع می‌شوند، در پایان فروش مقدماتی قابل درخواست.",
-    "buttons": {
-      "viewLeaderboard": "مشاهده جدول رهبری",
-      "claim": "درخواست"
-    },
-    "stats": {
-      "yourStakedBalance": "موجودی سهام‌گذاری شده شما",
-      "unlockNote": "۳۰٪ در راه‌اندازی آزاد، ۷۰٪ سپرده‌گذاری طی ۶ ماه (فقط توکن‌ها)",
-      "yourPoolShare": "درصد استخر شما",
-      "yourPoolShareDesc": "سهم شما از کل استخر سهام‌گذاری",
-      "totalStaked": "کل سهام‌گذاری شده (استخر فروش مقدماتی)",
-      "totalStakedDesc": "کل توکن‌های سهام‌گذاری شده همه شرکت‌کنندگان فروش مقدماتی",
-      "annualApy": "درآمد سالانه",
-      "annualApyValue": "۶۵٪ سالانه",
-      "annualApyDesc": "درآمد درصدی سالانه فعلی",
-      "dailyRewards": "پاداش‌های روزانه",
-      "dailyRewardsValue": "۲,۱۷۸+ REKT",
-      "dailyRewardsDesc": "اکنون در دسترس (بدون سپرده‌گذاری)"
-    },
-    "rewards": {
-      "title": "کل پاداش‌های تجمعی"
-    },
-    "footer": {
-      "notice": "سهام‌گذاری انحصاری خریداران فروش مقدماتی است. پاداش‌ها به فعالیت اکوسیستم بستگی دارد.",
-      "vestingNote": "سپرده‌گذاری فقط برای توکن‌های سهام‌گذاری شده اعمال می‌شود. پاداش‌ها سپرده‌گذاری نمی‌شوند."
-    },
-    "alts": {
-      "viewLeaderboardImg": "مشاهده جدول رهبری",
-      "frame": "قاب",
-      "longFrame": "قاب بلند",
-      "logoSpread": "پراکنش لوگو",
-      "claimButton": "درخواست"
-    }
-  },
-  "notFound": {
-    "title": "صفحه یافت نشد",
-    "description": "صفحه‌ای که به دنبال آن هستید وجود ندارد.",
-    "goHome": "رفتن به خانه",
-    "staking": "سهام‌گذاری",
-    "lossClaim": "درخواست ضرر"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "درخواست ضرر REKT",
+    "tagline": "یک شلیک. یک سپر.",
+    "description": {
+      "before": "یک پاداش انحصاری فروش مقدماتی V1 برای کیف پول‌های با حداقل تخصیص ۳۵۰ دلار. درخواست خود را پس از پایان فروش مقدماتی ارسال کنید تا توکن‌های REKT را برای ضررهای واجد شرایط بازیابی کنید. پاداش‌های درخواست ضرر",
+      "not": "سهام‌گذاری نشده‌اند",
+      "after": " — این یک فرصت یکباره است."
+    },
+    "cta": {
+      "check": "بررسی واجد بودن شرایط",
+      "viewEligibility": "مشاهده واجد بودن شرایط"
+    },
+    "status": {
+      "eligible": "واجد شرایط",
+      "unused": "استفاده نشده"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "کیف پول فهرست سفید",
+        "desc": "فقط کیف پول‌های فروش مقدماتی V1 با تخصیص ۳۵۰ دلار می‌توانند درخواست دهند"
+      },
+      "onePer": {
+        "title": "یک درخواست به ازای هر کیف پول",
+        "desc": "یک درخواست واحد برای هر کیف پول — بدون تنظیم مجدد"
+      },
+      "window": {
+        "title": "پنجره درخواست",
+        "desc": "درخواست‌ها فقط پس از بسته شدن رسمی فروش مقدماتی قابل ارسال هستند"
+      }
+    },
+    "form": {
+      "heading": "پاداش فروش مقدماتی خود را درخواست کنید",
+      "selectToken": "انتخاب توکن",
+      "chooseEligibleToken": "توکن واجد شرایط را انتخاب کنید...",
+      "claimAmount": "مبلغ درخواست",
+      "usdtEquivalent": "معادل ۰.۰۰ دلار USDT",
+      "disclaimer": "توکن‌های درخواست ضرر سهام‌گذاری نشده‌اند و نمی‌توان آن‌ها را بعداً دوباره سهام‌گذاری کرد",
+      "submit": "ارسال درخواست"
+    },
+    "info": {
+      "title": "مهم: پاداش فروش مقدماتی V1",
+      "list": {
+        "whitelisted": "فقط برای کیف پول‌های فروش مقدماتی V1 با تخصیص ≥ ۳۵۰ دلار در دسترس است",
+        "onePer": "یک درخواست به ازای هر کیف پول",
+        "eligibleOnly": "فقط توکن‌های واجد شرایط",
+        "afterPresale": "درخواست‌ها فقط پس از پایان فروش مقدماتی قابل ارسال هستند",
+        "notStaked": "توکن‌های دریافتی از درخواست ضرر سهام‌گذاری نشده‌اند"
+      }
+    },
+    "ctaBottom": {
+      "title": "پاداش V1 — فقط یک بار",
+      "text": "پنجره درخواست را از دست بدهید، و برای همیشه از بین می‌رود.",
+      "buy": "خرید $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "سهام‌گذاری REKT - فقط بازندگان برنده می‌شوند",
+      "logoAlt": "لوگو"
+    },
+    "info": "همه توکن‌های فروش مقدماتی از خرید به صورت خودکار سهام‌گذاری می‌شوند. پاداش‌ها فوراً شروع می‌شوند، در پایان فروش مقدماتی قابل درخواست.",
+    "buttons": {
+      "viewLeaderboard": "مشاهده جدول رهبری",
+      "claim": "درخواست"
+    },
+    "stats": {
+      "yourStakedBalance": "موجودی سهام‌گذاری شده شما",
+      "unlockNote": "۳۰٪ در راه‌اندازی آزاد، ۷۰٪ سپرده‌گذاری طی ۶ ماه (فقط توکن‌ها)",
+      "yourPoolShare": "درصد استخر شما",
+      "yourPoolShareDesc": "سهم شما از کل استخر سهام‌گذاری",
+      "totalStaked": "کل سهام‌گذاری شده (استخر فروش مقدماتی)",
+      "totalStakedDesc": "کل توکن‌های سهام‌گذاری شده همه شرکت‌کنندگان فروش مقدماتی",
+      "annualApy": "درآمد سالانه",
+      "annualApyValue": "۶۵٪ سالانه",
+      "annualApyDesc": "درآمد درصدی سالانه فعلی",
+      "dailyRewards": "پاداش‌های روزانه",
+      "dailyRewardsValue": "۲,۱۷۸+ REKT",
+      "dailyRewardsDesc": "اکنون در دسترس (بدون سپرده‌گذاری)"
+    },
+    "rewards": {
+      "title": "کل پاداش‌های تجمعی"
+    },
+    "footer": {
+      "notice": "سهام‌گذاری انحصاری خریداران فروش مقدماتی است. پاداش‌ها به فعالیت اکوسیستم بستگی دارد.",
+      "vestingNote": "سپرده‌گذاری فقط برای توکن‌های سهام‌گذاری شده اعمال می‌شود. پاداش‌ها سپرده‌گذاری نمی‌شوند."
+    },
+    "alts": {
+      "viewLeaderboardImg": "مشاهده جدول رهبری",
+      "frame": "قاب",
+      "longFrame": "قاب بلند",
+      "logoSpread": "پراکنش لوگو",
+      "claimButton": "درخواست"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "صفحه یافت نشد",
+    "description": "صفحه‌ای که به دنبال آن هستید وجود ندارد.",
+    "goHome": "رفتن به خانه",
+    "staking": "سهام‌گذاری",
+    "lossClaim": "درخواست ضرر"
   }
 }

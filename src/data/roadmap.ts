@@ -1,42 +1,42 @@
 export interface Phase {
-  title: string;
-  goal: string;
-  items: string[];
+  titleKey: string;
+  goalKey: string;
+  itemKeys: string[];
 }
 
 export const phases: Phase[] = [
   {
-    title: 'Launch & Foundation',
-    goal: 'Fair launch, instant staking, lean & meme-ready setup.',
-    items: [
-      'Deploying Smart Contract.',
-      'Open X (Twitter) & Telegram.',
-      'Dashboard: REKT Score Leaderboard, Vesting Tracker, Staking Reward, Burn Cap.',
-      'Auto Staking For All Presale Tokens, Start Earning From Day One.',
-      'Loss Claim V1 (Only For Presale Investors From $350 Transaction, 1 Claim Per Wallet, On-Chain Verified).',
-      'Solidproof Audit.'
+    titleKey: 'roadmap.phases.phase1.title',
+    goalKey: 'roadmap.phases.phase1.goal',
+    itemKeys: [
+      'roadmap.phases.phase1.items.smartContract',
+      'roadmap.phases.phase1.items.socialMedia',
+      'roadmap.phases.phase1.items.dashboard',
+      'roadmap.phases.phase1.items.autoStaking',
+      'roadmap.phases.phase1.items.lossClaim',
+      'roadmap.phases.phase1.items.audit'
     ]
   },
   {
-    title: 'Utility & REKT Logic',
-    goal: 'Activate tokenomics, engage stakers, drive on-chain volume.',
-    items: [
-      '1% Dex Tax: 50% Staking, 25% Treasury, And 25% Burn (Until 200M Burned).',
-      'Rage Claim Penalties Scale Over Time (20% -> 5%).',
-      'REKT Score Leaderboard.',
-      'Loss Claim V2: Wallet Age Multiplies, Cooldowns.',
-      'Burn Cap Tracker + Live Staking Stats.',
-      'Optional NFT Drop To Refill Staking Pool.'
+    titleKey: 'roadmap.phases.phase2.title',
+    goalKey: 'roadmap.phases.phase2.goal',
+    itemKeys: [
+      'roadmap.phases.phase2.items.dexTax',
+      'roadmap.phases.phase2.items.rageClaim',
+      'roadmap.phases.phase2.items.leaderboard',
+      'roadmap.phases.phase2.items.lossClaimV2',
+      'roadmap.phases.phase2.items.burnTracker',
+      'roadmap.phases.phase2.items.nftDrop'
     ]
   },
   {
-    title: 'Scaling & Community Chaos',
-    goal: 'Meme-powered growth and ecosystem expansion.',
-    items: [
-      'CEX Outreach (Solana-Friendly).',
-      'MEME Wars: Community Leaderboard + Airdrops.',
-      'Rekt Labs: Experimental Staking/NFT Features.',
-      'Final Audit (Certik Or Ottersec).'
+    titleKey: 'roadmap.phases.phase3.title',
+    goalKey: 'roadmap.phases.phase3.goal',
+    itemKeys: [
+      'roadmap.phases.phase3.items.cexOutreach',
+      'roadmap.phases.phase3.items.memeWars',
+      'roadmap.phases.phase3.items.rektLabs',
+      'roadmap.phases.phase3.items.finalAudit'
     ]
   }
 ];

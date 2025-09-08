@@ -67,6 +67,29 @@ body {
   overflow-x: hidden;
 }
 
+/* Text handling utilities for multi-language support */
+.word-wrap {
+  word-wrap: break-word;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.hyphens-auto {
+  hyphens: auto;
+}
+
+.text-overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
 
 .font-primary {
   font-family: var(--font-orbitron), monospace;

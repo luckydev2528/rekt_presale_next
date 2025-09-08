@@ -96,184 +96,6 @@
       "title": "Као што се види на"
     }
   },
-  "lossClaim": {
-    "title": "REKT Zahtev za Gubitke",
-    "tagline": "Jedan hitac. Jedan štit.",
-    "description": {
-      "before": "Ekskluzivni V1 predprodajni bonus za novčanike sa najmanje $350 alokacije. Podnesite vaš zahtev nakon završetka predprodaje da biste oporavili REKT tokene za kvalifikovane gubitke. Nagrade Zahteva za Gubitke",
-      "not": "NISU",
-      "after": "u staking-u — ovo je prilika jednom u životu."
-    },
-    "cta": {
-      "check": "Proveri Pravo",
-      "viewEligibility": "Pogledaj Pravo"
-    },
-    "status": {
-      "eligible": "Kvalifikovan",
-      "unused": "Neiskorišćen"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Novčanik na Beloj Listi",
-        "desc": "Samo V1 predprodajni novčanici sa $350 alokacije mogu zahtevati"
-      },
-      "onePer": {
-        "title": "Jedan Zahtev Po Novčaniku",
-        "desc": "Jedan zahtev po novčaniku — bez resetovanja"
-      },
-      "window": {
-        "title": "Prozor za Zahteve",
-        "desc": "Zahtevi mogu biti podneseni samo nakon zvaničnog zatvaranja predprodaje"
-      }
-    },
-    "form": {
-      "heading": "Zatražite Vaš Predprodajni Bonus",
-      "selectToken": "Izaberi Token",
-      "chooseEligibleToken": "Odaberite kvalifikovan token...",
-      "claimAmount": "Iznos Zahteva",
-      "usdtEquivalent": "Ekvivalent $0.00 USDT",
-      "disclaimer": "Tokeni Zahteva za Gubitke nisu u staking-u i ne mogu biti ponovo stavljeni u staking kasnije",
-      "submit": "Pošalji Zahtev"
-    },
-    "info": {
-      "title": "Važno: V1 Predprodajni Bonus",
-      "list": {
-        "whitelisted": "Dostupno samo za V1 predprodajne novčanike sa alokacijom ≥ $350",
-        "onePer": "Jedan zahtev po novčaniku",
-        "eligibleOnly": "Samo kvalifikovani tokeni",
-        "afterPresale": "Zahtevi mogu biti podneseni samo nakon završetka predprodaje",
-        "notStaked": "Tokeni primljeni iz Zahteva za Gubitke NISU u staking-u"
-      }
-    },
-    "ctaBottom": {
-      "title": "V1 Bonus — Samo Jednom",
-      "text": "Propustite prozor za zahtev i nestaje zauvek.",
-      "buy": "KUPI $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Staking - Samo gubitnici pobeduju",
-      "logoAlt": "Logo"
-    },
-    "info": "Svi predprodajni tokeni su automatski u staking-u od kupovine. Nagrade počinju odmah, mogu se zahtevati na kraju predprodaje.",
-    "buttons": {
-      "viewLeaderboard": "Pogledaj Rang Listu",
-      "claim": "ZATRAŽI"
-    },
-    "stats": {
-      "yourStakedBalance": "Vaš Staking Balans",
-      "unlockNote": "30% otključano na pokretanju, 70% vesting tokom 6 meseci (samo tokeni)",
-      "yourPoolShare": "Vaš % Pula",
-      "yourPoolShareDesc": "Vaš deo ukupnog staking pula",
-      "totalStaked": "Ukupno u Staking-u (Predprodajni Pul)",
-      "totalStakedDesc": "Ukupni tokeni u staking-u svih učesnika predprodaje",
-      "annualApy": "Godišnji APY",
-      "annualApyValue": "65% godišnje",
-      "annualApyDesc": "Trenutni godišnji procentni prinos",
-      "dailyRewards": "Dnevne Nagrade",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Dostupno Sada (bez vesting-a)"
-    },
-    "rewards": {
-      "title": "Ukupne Akumulirane Nagrade"
-    },
-    "footer": {
-      "notice": "Staking je ekskluzivan za kupce predprodaje. Nagrade zavise od aktivnosti ekosistema.",
-      "vestingNote": "Vesting se primenjuje samo na tokene u staking-u. Nagrade nisu vested."
-    },
-    "alts": {
-      "viewLeaderboardImg": "Pogledaj Rang Listu",
-      "frame": "Okvir",
-      "longFrame": "Dugačak Okvir",
-      "logoSpread": "Logo Rasprostiranje",
-      "claimButton": "Zatraži"
-    }
-  },
-  "notFound": {
-    "title": "Stranica Nije Pronađena",
-    "description": "Stranica koju tražite ne postoji.",
-    "goHome": "Idi na Početnu",
-    "staking": "Staking",
-    "lossClaim": "Zahtev za Gubitke"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Zahtev za Gubitke",
+    "tagline": "Jedan hitac. Jedan štit.",
+    "description": {
+      "before": "Ekskluzivni V1 predprodajni bonus za novčanike sa najmanje $350 alokacije. Podnesite vaš zahtev nakon završetka predprodaje da biste oporavili REKT tokene za kvalifikovane gubitke. Nagrade Zahteva za Gubitke",
+      "not": "NISU",
+      "after": "u staking-u — ovo je prilika jednom u životu."
+    },
+    "cta": {
+      "check": "Proveri Pravo",
+      "viewEligibility": "Pogledaj Pravo"
+    },
+    "status": {
+      "eligible": "Kvalifikovan",
+      "unused": "Neiskorišćen"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Novčanik na Beloj Listi",
+        "desc": "Samo V1 predprodajni novčanici sa $350 alokacije mogu zahtevati"
+      },
+      "onePer": {
+        "title": "Jedan Zahtev Po Novčaniku",
+        "desc": "Jedan zahtev po novčaniku — bez resetovanja"
+      },
+      "window": {
+        "title": "Prozor za Zahteve",
+        "desc": "Zahtevi mogu biti podneseni samo nakon zvaničnog zatvaranja predprodaje"
+      }
+    },
+    "form": {
+      "heading": "Zatražite Vaš Predprodajni Bonus",
+      "selectToken": "Izaberi Token",
+      "chooseEligibleToken": "Odaberite kvalifikovan token...",
+      "claimAmount": "Iznos Zahteva",
+      "usdtEquivalent": "Ekvivalent $0.00 USDT",
+      "disclaimer": "Tokeni Zahteva za Gubitke nisu u staking-u i ne mogu biti ponovo stavljeni u staking kasnije",
+      "submit": "Pošalji Zahtev"
+    },
+    "info": {
+      "title": "Važno: V1 Predprodajni Bonus",
+      "list": {
+        "whitelisted": "Dostupno samo za V1 predprodajne novčanike sa alokacijom ≥ $350",
+        "onePer": "Jedan zahtev po novčaniku",
+        "eligibleOnly": "Samo kvalifikovani tokeni",
+        "afterPresale": "Zahtevi mogu biti podneseni samo nakon završetka predprodaje",
+        "notStaked": "Tokeni primljeni iz Zahteva za Gubitke NISU u staking-u"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Bonus — Samo Jednom",
+      "text": "Propustite prozor za zahtev i nestaje zauvek.",
+      "buy": "KUPI $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Samo gubitnici pobeduju",
+      "logoAlt": "Logo"
+    },
+    "info": "Svi predprodajni tokeni su automatski u staking-u od kupovine. Nagrade počinju odmah, mogu se zahtevati na kraju predprodaje.",
+    "buttons": {
+      "viewLeaderboard": "Pogledaj Rang Listu",
+      "claim": "ZATRAŽI"
+    },
+    "stats": {
+      "yourStakedBalance": "Vaš Staking Balans",
+      "unlockNote": "30% otključano na pokretanju, 70% vesting tokom 6 meseci (samo tokeni)",
+      "yourPoolShare": "Vaš % Pula",
+      "yourPoolShareDesc": "Vaš deo ukupnog staking pula",
+      "totalStaked": "Ukupno u Staking-u (Predprodajni Pul)",
+      "totalStakedDesc": "Ukupni tokeni u staking-u svih učesnika predprodaje",
+      "annualApy": "Godišnji APY",
+      "annualApyValue": "65% godišnje",
+      "annualApyDesc": "Trenutni godišnji procentni prinos",
+      "dailyRewards": "Dnevne Nagrade",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Dostupno Sada (bez vesting-a)"
+    },
+    "rewards": {
+      "title": "Ukupne Akumulirane Nagrade"
+    },
+    "footer": {
+      "notice": "Staking je ekskluzivan za kupce predprodaje. Nagrade zavise od aktivnosti ekosistema.",
+      "vestingNote": "Vesting se primenjuje samo na tokene u staking-u. Nagrade nisu vested."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Pogledaj Rang Listu",
+      "frame": "Okvir",
+      "longFrame": "Dugačak Okvir",
+      "logoSpread": "Logo Rasprostiranje",
+      "claimButton": "Zatraži"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Stranica Nije Pronađena",
+    "description": "Stranica koju tražite ne postoji.",
+    "goHome": "Idi na Početnu",
+    "staking": "Staking",
+    "lossClaim": "Zahtev za Gubitke"
   }
 }

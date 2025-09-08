@@ -96,177 +96,6 @@
       "title": "As seen on"
     }
   },
-  "lossClaim": {
-    "title": "REKT 賠損申請",
-    "tagline": "一擊，一盾。",
-    "description": {
-      "before": "專屬於 V1 預售、配額至少 $350 的錢包。預售結束後提交申請，可就符合資格的損失領回 REKT 代幣。賠損申請獎勵",
-      "not": "不會",
-      "after": "參與質押 — 這是一次性的機會。"
-    },
-    "cta": {
-      "check": "檢查資格",
-      "viewEligibility": "查看資格"
-    },
-    "status": {
-      "eligible": "符合資格",
-      "unused": "未使用"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "白名單錢包",
-        "desc": "僅限 V1 預售且配額達 $350 的錢包可申請"
-      },
-      "onePer": {
-        "title": "每錢包限申請一次",
-        "desc": "每個錢包僅能申請一次 — 不可重置"
-      },
-      "window": {
-        "title": "申請時間窗",
-        "desc": "僅限預售正式結束後方可提交申請"
-      }
-    },
-    "form": {
-      "heading": "申領你的預售加碼",
-      "selectToken": "選擇代幣",
-      "chooseEligibleToken": "選擇可申請的代幣…",
-      "claimAmount": "申領數量",
-      "usdtEquivalent": "$0.00 USDT 等值",
-      "disclaimer": "賠損申請所得代幣不會參與質押，且日後不可再質押",
-      "submit": "提交申請"
-    },
-    "info": {
-      "title": "重要：V1 預售加碼",
-      "list": {
-        "whitelisted": "僅限 V1 預售且配額 ≥ $350 的錢包",
-        "onePer": "每錢包限申請一次",
-        "eligibleOnly": "僅限符合資格的代幣",
-        "afterPresale": "僅限預售結束後方可提交",
-        "notStaked": "賠損申請取得的代幣不會參與質押"
-      }
-    },
-    "ctaBottom": {
-      "title": "V1 加碼 — 僅此一次",
-      "text": "錯過申請時段就永遠錯過。",
-      "buy": "購買 $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Staking - Only losers win",
-      "logoAlt": "Logo"
-    },
-    "info": "All presale tokens are auto-staked from purchase. Rewards start instantly, claimable at end of presale.",
-    "buttons": {
-      "viewLeaderboard": "View Leaderboard",
-      "claim": "CLAIM"
-    },
-    "stats": {
-      "yourStakedBalance": "Your Staked Balance",
-      "unlockNote": "30% unlocked at launch, 70% vesting over 6 months (tokens only)",
-      "yourPoolShare": "Your % of Pool",
-      "yourPoolShareDesc": "Your share of the total staking pool",
-      "totalStaked": "Total Staked (Presale Pool)",
-      "totalStakedDesc": "Total tokens staked across all presale participants",
-      "annualApy": "Annual APY",
-      "annualApyValue": "65% p/a",
-      "annualApyDesc": "Current annual percentage yield",
-      "dailyRewards": "Daily Rewards",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Available Now (no vesting)"
-    },
-    "rewards": {
-      "title": "Total Rewards Accrued"
-    },
-    "footer": {
-      "notice": "Staking is exclusive to presale buyers. Rewards depend on ecosystem activity.",
-      "vestingNote": "Vesting applies only to staked tokens. Rewards are not vested."
-    },
-    "alts": {
-      "viewLeaderboardImg": "View Leaderboard",
-      "frame": "Frame",
-      "longFrame": "Long Frame",
-      "logoSpread": "Logo Spread",
-      "claimButton": "Claim"
-    }
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -381,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "REKT 賠損申請",
+    "tagline": "一擊，一盾。",
+    "description": {
+      "before": "專屬於 V1 預售、配額至少 $350 的錢包。預售結束後提交申請，可就符合資格的損失領回 REKT 代幣。賠損申請獎勵",
+      "not": "不會",
+      "after": "參與質押 — 這是一次性的機會。"
+    },
+    "cta": {
+      "check": "檢查資格",
+      "viewEligibility": "查看資格"
+    },
+    "status": {
+      "eligible": "符合資格",
+      "unused": "未使用"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "白名單錢包",
+        "desc": "僅限 V1 預售且配額達 $350 的錢包可申請"
+      },
+      "onePer": {
+        "title": "每錢包限申請一次",
+        "desc": "每個錢包僅能申請一次 — 不可重置"
+      },
+      "window": {
+        "title": "申請時間窗",
+        "desc": "僅限預售正式結束後方可提交申請"
+      }
+    },
+    "form": {
+      "heading": "申領你的預售加碼",
+      "selectToken": "選擇代幣",
+      "chooseEligibleToken": "選擇可申請的代幣…",
+      "claimAmount": "申領數量",
+      "usdtEquivalent": "$0.00 USDT 等值",
+      "disclaimer": "賠損申請所得代幣不會參與質押，且日後不可再質押",
+      "submit": "提交申請"
+    },
+    "info": {
+      "title": "重要：V1 預售加碼",
+      "list": {
+        "whitelisted": "僅限 V1 預售且配額 ≥ $350 的錢包",
+        "onePer": "每錢包限申請一次",
+        "eligibleOnly": "僅限符合資格的代幣",
+        "afterPresale": "僅限預售結束後方可提交",
+        "notStaked": "賠損申請取得的代幣不會參與質押"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 加碼 — 僅此一次",
+      "text": "錯過申請時段就永遠錯過。",
+      "buy": "購買 $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Only losers win",
+      "logoAlt": "Logo"
+    },
+    "info": "All presale tokens are auto-staked from purchase. Rewards start instantly, claimable at end of presale.",
+    "buttons": {
+      "viewLeaderboard": "View Leaderboard",
+      "claim": "CLAIM"
+    },
+    "stats": {
+      "yourStakedBalance": "Your Staked Balance",
+      "unlockNote": "30% unlocked at launch, 70% vesting over 6 months (tokens only)",
+      "yourPoolShare": "Your % of Pool",
+      "yourPoolShareDesc": "Your share of the total staking pool",
+      "totalStaked": "Total Staked (Presale Pool)",
+      "totalStakedDesc": "Total tokens staked across all presale participants",
+      "annualApy": "Annual APY",
+      "annualApyValue": "65% p/a",
+      "annualApyDesc": "Current annual percentage yield",
+      "dailyRewards": "Daily Rewards",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Available Now (no vesting)"
+    },
+    "rewards": {
+      "title": "Total Rewards Accrued"
+    },
+    "footer": {
+      "notice": "Staking is exclusive to presale buyers. Rewards depend on ecosystem activity.",
+      "vestingNote": "Vesting applies only to staked tokens. Rewards are not vested."
+    },
+    "alts": {
+      "viewLeaderboardImg": "View Leaderboard",
+      "frame": "Frame",
+      "longFrame": "Long Frame",
+      "logoSpread": "Logo Spread",
+      "claimButton": "Claim"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "goHome": "Go Home",
+    "staking": "Staking",
+    "lossClaim": "Loss Claim"
   }
 }

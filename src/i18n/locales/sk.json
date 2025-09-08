@@ -96,184 +96,6 @@
       "title": "Ako je vidieť na"
     }
   },
-  "lossClaim": {
-    "title": "REKT Nárok na Straty",
-    "tagline": "Jeden výstrel. Jeden štít.",
-    "description": {
-      "before": "Exkluzívny bonus predpredaja V1 pre peňaženky s alokáciou aspoň $350. Podajte svoj nárok po skončení predpredaja na obnovenie REKT tokenov za oprávnené straty. Odmeny Nároku na Straty",
-      "not": "NIE SÚ",
-      "after": "stakované — toto je jednorazová príležitosť."
-    },
-    "cta": {
-      "check": "Skontrolovať Oprávnenosť",
-      "viewEligibility": "Zobraziť Oprávnenosť"
-    },
-    "status": {
-      "eligible": "Oprávnený",
-      "unused": "Nepoužité"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Peňaženka na Bielej Listine",
-        "desc": "Len peňaženky predpredaja V1 s alokáciou $350 môžu nárokovať"
-      },
-      "onePer": {
-        "title": "Jeden Nárok Na Peňaženku",
-        "desc": "Jeden nárok na peňaženku — žiadne resetovanie"
-      },
-      "window": {
-        "title": "Okno Nárokov",
-        "desc": "Nároky môžu byť podané len po oficiálnom uzavretí predpredaja"
-      }
-    },
-    "form": {
-      "heading": "Nárokujte Si Váš Bonus Predpredaja",
-      "selectToken": "Vybrať Token",
-      "chooseEligibleToken": "Vyberte oprávnený token...",
-      "claimAmount": "Suma Nároku",
-      "usdtEquivalent": "Ekvivalent $0.00 USDT",
-      "disclaimer": "Tokeny Nároku na Straty nie sú stakované a neskôr nemôžu byť znovu stakované",
-      "submit": "Podať Nárok"
-    },
-    "info": {
-      "title": "Dôležité: Bonus Predpredaja V1",
-      "list": {
-        "whitelisted": "Dostupné len pre peňaženky predpredaja V1 s alokáciou ≥ $350",
-        "onePer": "Jeden nárok na peňaženku",
-        "eligibleOnly": "Len oprávnené tokeny",
-        "afterPresale": "Nároky môžu byť podané len po skončení predpredaja",
-        "notStaked": "Tokeny získané z Nároku na Straty NIE SÚ stakované"
-      }
-    },
-    "ctaBottom": {
-      "title": "Bonus V1 — Len Raz",
-      "text": "Premeškajte okno nárokov a je to navždy preč.",
-      "buy": "KÚPIŤ $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Staking - Len porazení vyhrajú",
-      "logoAlt": "Logo"
-    },
-    "info": "Všetky tokeny predpredaja sú automaticky stakované od nákupu. Odmeny začínajú okamžite, nárokovateľné na konci predpredaja.",
-    "buttons": {
-      "viewLeaderboard": "Zobraziť Rebríček",
-      "claim": "NÁROKOVAŤ"
-    },
-    "stats": {
-      "yourStakedBalance": "Váš Stakovaný Zostatok",
-      "unlockNote": "30% odomknuté pri spustení, 70% vesting počas 6 mesiacov (len tokeny)",
-      "yourPoolShare": "Váš % z Poolu",
-      "yourPoolShareDesc": "Váš podiel z celkového stakingového poolu",
-      "totalStaked": "Celkom Stakované (Pool Predpredaja)",
-      "totalStakedDesc": "Celkové stakované tokeny všetkých účastníkov predpredaja",
-      "annualApy": "Ročný APY",
-      "annualApyValue": "65% ročne",
-      "annualApyDesc": "Súčasný ročný percentuálny výnos",
-      "dailyRewards": "Denné Odmeny",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Dostupné Teraz (bez vestingu)"
-    },
-    "rewards": {
-      "title": "Celkové Nahromadené Odmeny"
-    },
-    "footer": {
-      "notice": "Staking je exkluzívny pre kupujúcich predpredaja. Odmeny závisia od aktivity ekosystému.",
-      "vestingNote": "Vesting sa vzťahuje len na stakované tokeny. Odmeny nie sú vestované."
-    },
-    "alts": {
-      "viewLeaderboardImg": "Zobraziť Rebríček",
-      "frame": "Rám",
-      "longFrame": "Dlhý Rám",
-      "logoSpread": "Rozloženie Loga",
-      "claimButton": "Nárokovať"
-    }
-  },
-  "notFound": {
-    "title": "Stránka Nenájdená",
-    "description": "Stránka, ktorú hľadáte, neexistuje.",
-    "goHome": "Ísť Domov",
-    "staking": "Staking",
-    "lossClaim": "Nárok na Straty"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Nárok na Straty",
+    "tagline": "Jeden výstrel. Jeden štít.",
+    "description": {
+      "before": "Exkluzívny bonus predpredaja V1 pre peňaženky s alokáciou aspoň $350. Podajte svoj nárok po skončení predpredaja na obnovenie REKT tokenov za oprávnené straty. Odmeny Nároku na Straty",
+      "not": "NIE SÚ",
+      "after": "stakované — toto je jednorazová príležitosť."
+    },
+    "cta": {
+      "check": "Skontrolovať Oprávnenosť",
+      "viewEligibility": "Zobraziť Oprávnenosť"
+    },
+    "status": {
+      "eligible": "Oprávnený",
+      "unused": "Nepoužité"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Peňaženka na Bielej Listine",
+        "desc": "Len peňaženky predpredaja V1 s alokáciou $350 môžu nárokovať"
+      },
+      "onePer": {
+        "title": "Jeden Nárok Na Peňaženku",
+        "desc": "Jeden nárok na peňaženku — žiadne resetovanie"
+      },
+      "window": {
+        "title": "Okno Nárokov",
+        "desc": "Nároky môžu byť podané len po oficiálnom uzavretí predpredaja"
+      }
+    },
+    "form": {
+      "heading": "Nárokujte Si Váš Bonus Predpredaja",
+      "selectToken": "Vybrať Token",
+      "chooseEligibleToken": "Vyberte oprávnený token...",
+      "claimAmount": "Suma Nároku",
+      "usdtEquivalent": "Ekvivalent $0.00 USDT",
+      "disclaimer": "Tokeny Nároku na Straty nie sú stakované a neskôr nemôžu byť znovu stakované",
+      "submit": "Podať Nárok"
+    },
+    "info": {
+      "title": "Dôležité: Bonus Predpredaja V1",
+      "list": {
+        "whitelisted": "Dostupné len pre peňaženky predpredaja V1 s alokáciou ≥ $350",
+        "onePer": "Jeden nárok na peňaženku",
+        "eligibleOnly": "Len oprávnené tokeny",
+        "afterPresale": "Nároky môžu byť podané len po skončení predpredaja",
+        "notStaked": "Tokeny získané z Nároku na Straty NIE SÚ stakované"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Len Raz",
+      "text": "Premeškajte okno nárokov a je to navždy preč.",
+      "buy": "KÚPIŤ $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Len porazení vyhrajú",
+      "logoAlt": "Logo"
+    },
+    "info": "Všetky tokeny predpredaja sú automaticky stakované od nákupu. Odmeny začínajú okamžite, nárokovateľné na konci predpredaja.",
+    "buttons": {
+      "viewLeaderboard": "Zobraziť Rebríček",
+      "claim": "NÁROKOVAŤ"
+    },
+    "stats": {
+      "yourStakedBalance": "Váš Stakovaný Zostatok",
+      "unlockNote": "30% odomknuté pri spustení, 70% vesting počas 6 mesiacov (len tokeny)",
+      "yourPoolShare": "Váš % z Poolu",
+      "yourPoolShareDesc": "Váš podiel z celkového stakingového poolu",
+      "totalStaked": "Celkom Stakované (Pool Predpredaja)",
+      "totalStakedDesc": "Celkové stakované tokeny všetkých účastníkov predpredaja",
+      "annualApy": "Ročný APY",
+      "annualApyValue": "65% ročne",
+      "annualApyDesc": "Súčasný ročný percentuálny výnos",
+      "dailyRewards": "Denné Odmeny",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Dostupné Teraz (bez vestingu)"
+    },
+    "rewards": {
+      "title": "Celkové Nahromadené Odmeny"
+    },
+    "footer": {
+      "notice": "Staking je exkluzívny pre kupujúcich predpredaja. Odmeny závisia od aktivity ekosystému.",
+      "vestingNote": "Vesting sa vzťahuje len na stakované tokeny. Odmeny nie sú vestované."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Zobraziť Rebríček",
+      "frame": "Rám",
+      "longFrame": "Dlhý Rám",
+      "logoSpread": "Rozloženie Loga",
+      "claimButton": "Nárokovať"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Stránka Nenájdená",
+    "description": "Stránka, ktorú hľadáte, neexistuje.",
+    "goHome": "Ísť Domov",
+    "staking": "Staking",
+    "lossClaim": "Nárok na Straty"
   }
 }

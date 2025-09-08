@@ -6,14 +6,17 @@
   position: relative;
   isolation: isolate;
   background: var(--background-card);
-
   border-radius: 16px;
-
   padding: 1.25rem;
-
-
   transition: transform 0.3s ease;
-
+  /* Ensure cards can grow with content and handle text overflow */
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .cardFrame > * {
@@ -24,15 +27,12 @@
 .cardFrame::before {
   content: "";
   position: absolute;
-  
   inset: 0;
   border-radius: inherit;
   background-image: url('/assets/Team/border of the Icon.svg');
   background-repeat: no-repeat;
   background-position: center;
-  
   background-size: 100% 100%;
-  
   filter: drop-shadow(0 0 8px rgba(0, 209, 255, 0.85)) drop-shadow(0 0 22px rgba(0, 209, 255, 0.5));
   will-change: filter;
   pointer-events: none;
@@ -41,11 +41,7 @@
 
 .cardFrame:hover {
   transform: translateY(-6px) scale(1.02);
-  
-  
 }
-
-
 
 .avatarCircle {
   position: relative;
@@ -58,11 +54,19 @@
   margin: -74px auto 22px auto;
   overflow: hidden;
   z-index: 2; 
+  flex-shrink: 0;
 }
 
 @media (min-width: 768px) {
   .cardFrame {
     padding-top: 2rem;
+    min-height: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cardFrame {
+    min-height: 340px;
   }
 }
 
@@ -76,6 +80,11 @@
 
 .roleText {
   color: var(--text-accent);
+  /* Better text handling for longer role names */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.4;
 }
 
 .connector {

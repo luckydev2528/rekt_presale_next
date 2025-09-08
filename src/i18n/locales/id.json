@@ -96,184 +96,6 @@
       "title": "Seperti yang terlihat di"
     }
   },
-  "lossClaim": {
-    "title": "Klaim Kerugian REKT",
-    "tagline": "Satu tembakan. Satu perisai.",
-    "description": {
-      "before": "Bonus presale V1 eksklusif untuk dompet dengan alokasi minimal $350. Kirim klaim Anda setelah presale berakhir untuk memulihkan token REKT untuk kerugian yang memenuhi syarat. Hadiah Klaim Kerugian",
-      "not": "TIDAK",
-      "after": "di-stake — ini adalah kesempatan sekali seumur hidup."
-    },
-    "cta": {
-      "check": "Periksa Kelayakan",
-      "viewEligibility": "Lihat Kelayakan"
-    },
-    "status": {
-      "eligible": "Memenuhi syarat",
-      "unused": "Tidak digunakan"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Dompet Whitelist",
-        "desc": "Hanya dompet presale V1 dengan alokasi $350 yang dapat mengklaim"
-      },
-      "onePer": {
-        "title": "Satu Klaim Per Dompet",
-        "desc": "Klaim tunggal per dompet — tidak ada reset"
-      },
-      "window": {
-        "title": "Jendela Klaim",
-        "desc": "Klaim hanya dapat dikirim setelah presale resmi ditutup"
-      }
-    },
-    "form": {
-      "heading": "Klaim Bonus Presale Anda",
-      "selectToken": "Pilih Token",
-      "chooseEligibleToken": "Pilih token yang memenuhi syarat...",
-      "claimAmount": "Jumlah Klaim",
-      "usdtEquivalent": "Setara $0.00 USDT",
-      "disclaimer": "Token Klaim Kerugian tidak di-stake dan tidak dapat di-stake ulang nanti",
-      "submit": "Kirim Klaim"
-    },
-    "info": {
-      "title": "Penting: Bonus Presale V1",
-      "list": {
-        "whitelisted": "Hanya tersedia untuk dompet presale V1 dengan alokasi ≥ $350",
-        "onePer": "Satu klaim per dompet",
-        "eligibleOnly": "Hanya token yang memenuhi syarat",
-        "afterPresale": "Klaim hanya dapat dikirim setelah presale berakhir",
-        "notStaked": "Token yang diterima dari Klaim Kerugian TIDAK di-stake"
-      }
-    },
-    "ctaBottom": {
-      "title": "Bonus V1 — Hanya Sekali",
-      "text": "Lewatkan jendela klaim, dan hilang selamanya.",
-      "buy": "BELI $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Staking - Hanya pecundang yang menang",
-      "logoAlt": "Logo"
-    },
-    "info": "Semua token presale di-stake otomatis dari pembelian. Hadiah dimulai seketika, dapat diklaim di akhir presale.",
-    "buttons": {
-      "viewLeaderboard": "Lihat Papan Peringkat",
-      "claim": "KLAIM"
-    },
-    "stats": {
-      "yourStakedBalance": "Saldo Stake Anda",
-      "unlockNote": "30% dibuka saat peluncuran, 70% vesting selama 6 bulan (hanya token)",
-      "yourPoolShare": "% Pool Anda",
-      "yourPoolShareDesc": "Bagian Anda dari total pool staking",
-      "totalStaked": "Total Di-stake (Pool Presale)",
-      "totalStakedDesc": "Total token di-stake dari semua peserta presale",
-      "annualApy": "APY Tahunan",
-      "annualApyValue": "65% per tahun",
-      "annualApyDesc": "Hasil persentase tahunan saat ini",
-      "dailyRewards": "Hadiah Harian",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Tersedia Sekarang (tanpa vesting)"
-    },
-    "rewards": {
-      "title": "Total Hadiah Terakumulasi"
-    },
-    "footer": {
-      "notice": "Staking eksklusif untuk pembeli presale. Hadiah tergantung pada aktivitas ekosistem.",
-      "vestingNote": "Vesting hanya berlaku untuk token yang di-stake. Hadiah tidak di-vest."
-    },
-    "alts": {
-      "viewLeaderboardImg": "Lihat Papan Peringkat",
-      "frame": "Bingkai",
-      "longFrame": "Bingkai Panjang",
-      "logoSpread": "Penyebaran Logo",
-      "claimButton": "Klaim"
-    }
-  },
-  "notFound": {
-    "title": "Halaman Tidak Ditemukan",
-    "description": "Halaman yang Anda cari tidak ada.",
-    "goHome": "Ke Beranda",
-    "staking": "Staking",
-    "lossClaim": "Klaim Kerugian"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "Klaim Kerugian REKT",
+    "tagline": "Satu tembakan. Satu perisai.",
+    "description": {
+      "before": "Bonus presale V1 eksklusif untuk dompet dengan alokasi minimal $350. Kirim klaim Anda setelah presale berakhir untuk memulihkan token REKT untuk kerugian yang memenuhi syarat. Hadiah Klaim Kerugian",
+      "not": "TIDAK",
+      "after": "di-stake — ini adalah kesempatan sekali seumur hidup."
+    },
+    "cta": {
+      "check": "Periksa Kelayakan",
+      "viewEligibility": "Lihat Kelayakan"
+    },
+    "status": {
+      "eligible": "Memenuhi syarat",
+      "unused": "Tidak digunakan"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Dompet Whitelist",
+        "desc": "Hanya dompet presale V1 dengan alokasi $350 yang dapat mengklaim"
+      },
+      "onePer": {
+        "title": "Satu Klaim Per Dompet",
+        "desc": "Klaim tunggal per dompet — tidak ada reset"
+      },
+      "window": {
+        "title": "Jendela Klaim",
+        "desc": "Klaim hanya dapat dikirim setelah presale resmi ditutup"
+      }
+    },
+    "form": {
+      "heading": "Klaim Bonus Presale Anda",
+      "selectToken": "Pilih Token",
+      "chooseEligibleToken": "Pilih token yang memenuhi syarat...",
+      "claimAmount": "Jumlah Klaim",
+      "usdtEquivalent": "Setara $0.00 USDT",
+      "disclaimer": "Token Klaim Kerugian tidak di-stake dan tidak dapat di-stake ulang nanti",
+      "submit": "Kirim Klaim"
+    },
+    "info": {
+      "title": "Penting: Bonus Presale V1",
+      "list": {
+        "whitelisted": "Hanya tersedia untuk dompet presale V1 dengan alokasi ≥ $350",
+        "onePer": "Satu klaim per dompet",
+        "eligibleOnly": "Hanya token yang memenuhi syarat",
+        "afterPresale": "Klaim hanya dapat dikirim setelah presale berakhir",
+        "notStaked": "Token yang diterima dari Klaim Kerugian TIDAK di-stake"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Hanya Sekali",
+      "text": "Lewatkan jendela klaim, dan hilang selamanya.",
+      "buy": "BELI $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Hanya pecundang yang menang",
+      "logoAlt": "Logo"
+    },
+    "info": "Semua token presale di-stake otomatis dari pembelian. Hadiah dimulai seketika, dapat diklaim di akhir presale.",
+    "buttons": {
+      "viewLeaderboard": "Lihat Papan Peringkat",
+      "claim": "KLAIM"
+    },
+    "stats": {
+      "yourStakedBalance": "Saldo Stake Anda",
+      "unlockNote": "30% dibuka saat peluncuran, 70% vesting selama 6 bulan (hanya token)",
+      "yourPoolShare": "% Pool Anda",
+      "yourPoolShareDesc": "Bagian Anda dari total pool staking",
+      "totalStaked": "Total Di-stake (Pool Presale)",
+      "totalStakedDesc": "Total token di-stake dari semua peserta presale",
+      "annualApy": "APY Tahunan",
+      "annualApyValue": "65% per tahun",
+      "annualApyDesc": "Hasil persentase tahunan saat ini",
+      "dailyRewards": "Hadiah Harian",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Tersedia Sekarang (tanpa vesting)"
+    },
+    "rewards": {
+      "title": "Total Hadiah Terakumulasi"
+    },
+    "footer": {
+      "notice": "Staking eksklusif untuk pembeli presale. Hadiah tergantung pada aktivitas ekosistem.",
+      "vestingNote": "Vesting hanya berlaku untuk token yang di-stake. Hadiah tidak di-vest."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Lihat Papan Peringkat",
+      "frame": "Bingkai",
+      "longFrame": "Bingkai Panjang",
+      "logoSpread": "Penyebaran Logo",
+      "claimButton": "Klaim"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Halaman yang Anda cari tidak ada.",
+    "goHome": "Ke Beranda",
+    "staking": "Staking",
+    "lossClaim": "Klaim Kerugian"
   }
 }

@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 
 export default function RoadmapMobile() {
   const t = useTranslations('sections');
+  const tRoadmap = useTranslations();
   const headerBg = '/assets/Mobileview/roadmap/phasetitlesbackground.svg';
   const goalBg = '/assets/roadmap/Goalfair.webp';
 
@@ -53,7 +54,7 @@ export default function RoadmapMobile() {
       
       <div className="mx-auto max-w-md space-y-10">
         {phases.map((phase, index) => (
-          <div key={phase.title} className="relative">
+          <div key={phase.titleKey} className="relative">
             
             {[0, 1, 2].includes(index) && (
               <div className="relative h-[210px] sm:h-[240px] mb-4">
@@ -84,7 +85,7 @@ export default function RoadmapMobile() {
                 className="object-fill pointer-events-none"
                 aria-hidden="true"
               />
-              <h3 className={`${styles.headerTitle} ${styles.mobileHeaderTitle}`}>{phase.title}</h3>
+              <h3 className={`${styles.headerTitle} ${styles.mobileHeaderTitle}`}>{tRoadmap(phase.titleKey)}</h3>
             </div>
 
             
@@ -97,11 +98,11 @@ export default function RoadmapMobile() {
                 className="object-fill object-left-top pointer-events-none"
                 aria-hidden="true"
               />
-              <p className={`${styles.goalLabel} text-sm`}>GOAL: {phase.goal}</p>
+              <p className={`${styles.goalLabel} text-sm`}>GOAL: {tRoadmap(phase.goalKey)}</p>
               <ul className={`${styles.goalList} space-y-2`}>
-                {phase.items.map((item, i) => (
+                {phase.itemKeys.map((itemKey, i) => (
                   <li key={i} className={styles.listItem}>
-                    <span className="text-sm text-gray-300">{item}</span>
+                    <span className="text-sm text-gray-300">{tRoadmap(itemKey)}</span>
                   </li>
                 ))}
               </ul>

@@ -96,6 +96,182 @@
       "title": "で見た通り"
     }
   },
+  "distribution": {
+    "presale": "Presale",
+    "treasury": "Treasury",
+    "liquidityPool": "Liquidity Pool",
+    "stakingPool": "Staking Pool",
+    "communityFund": "Community Fund"
+  },
+  "tax": {
+    "title": "{percentage}% Tax on Every Buy/Sell",
+    "breakdown": {
+      "stakingPool": "Staking Pool",
+      "treasury": "Treasury",
+      "burn": "Burn"
+    },
+    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
+    "burnCapReached": "Until 200M Burn cap reached"
+  },
+  "team": {
+    "sadboi": {
+      "name": "Sadboi",
+      "role": "Founder & Vision Lead",
+      "description": "Built  in a bear market because pain is the best teacher. Bags are heavy, conviction is heavier."
+    },
+    "downbadDave": {
+      "name": "DownBad Dave",
+      "role": "Community Manager & Chief Meme Officer",
+      "description": "Here to keep the vibes up when the charts are down. Memes are free, morale is priceless."
+    },
+    "liquidationLisa": {
+      "name": "Liquidation Lisa",
+      "role": "Tokenomics & Staking Specialist",
+      "description": "Knows the math, feels the pain. Designed  supply curve tighter than a margin call."
+    },
+    "fomoFred": {
+      "name": "FOMO Fred",
+      "role": "Marketing & Hype Generator",
+      "description": "If you are reading this, you are already late. Let us go viral."
+    },
+    "paperhandPete": {
+      "name": "Paperhand Pete",
+      "role": "Risk Management & Anti-Abuse Lead",
+      "description": "Sells early so you do not have to. Protecting the treasury from itself."
+    },
+    "rektRoxy": {
+      "name": "REKT Roxy",
+      "role": "Lead Developer & Security Expert",
+      "description": "Ships code faster than you can say gas fees. No rug, all build."
+    }
+  },
+  "roadmap": {
+    "phases": {
+      "phase1": {
+        "title": "ローンチ & 基盤",
+        "goal": "フェアローンチ、即時ステーキング、シンプル＆ミーム対応セットアップ。",
+        "items": {
+          "smartContract": "スマートコントラクトのデプロイ。",
+          "socialMedia": "X（Twitter）＆Telegramオープン。",
+          "dashboard": "ダッシュボード：REKTスコアリーダーボード、ベスティングトラッカー、ステーキング報酬、バーンキャップ。",
+          "autoStaking": "全プレセールトークンの自動ステーキング、初日から収益開始。",
+          "lossClaim": "損失クレームV1（350ドル取引からのプレセール投資家のみ、ウォレット当たり1クレーム、オンチェーン検証済み）。",
+          "audit": "Solidproof監査。"
+        }
+      },
+      "phase2": {
+        "title": "ユーティリティ & REKTロジック",
+        "goal": "トークノミクス活性化、ステーカー参加、オンチェーンボリューム促進。",
+        "items": {
+          "dexTax": "1% Dex税：50%ステーキング、25%トレジャリー、25%バーン（2億バーンまで）。",
+          "rageClaim": "レイジクレームペナルティの時間スケール（20% -> 5%）。",
+          "leaderboard": "REKTスコアリーダーボード。",
+          "lossClaimV2": "損失クレームV2：ウォレット年数倍増、クールダウン。",
+          "burnTracker": "バーンキャップトラッカー + ライブステーキング統計。",
+          "nftDrop": "ステーキングプール補充のためのオプショナルNFTドロップ。"
+        }
+      },
+      "phase3": {
+        "title": "スケーリング & コミュニティカオス",
+        "goal": "ミーム主導の成長とエコシステム拡張。",
+        "items": {
+          "cexOutreach": "CEXアウトリーチ（Solanaフレンドリー）。",
+          "memeWars": "MEME Wars：コミュニティリーダーボード + エアドロップ。",
+          "rektLabs": "Rekt Labs：実験的ステーキング/NFT機能。",
+          "finalAudit": "最終監査（CertikまたはOttersec）。"
+        }
+      }
+    }
+  },
+  "faq": {
+    "items": {
+      "sellAfterLaunch": {
+        "question": "ローンチ後にすべて売却できますか？",
+        "answer": "ローンチ時に30%がアンロック、残りは6ヶ月でベスト。早く欲しい？レイジクレームですがバーンペナルティを予想してください。"
+      },
+      "rewardsOnLocked": {
+        "question": "ロックされたトークンで報酬を得られますか？",
+        "answer": "はい！すべてのプレセールトークンは自動的にステークされ、初日から報酬を獲得します。"
+      },
+      "afterBurnCap": {
+        "question": "バーンキャップ後に何が起こりますか？",
+        "answer": "2億トークンがバーンされると、バーンメカニズムが停止します。税配分は50%トレジャリー、50%ステーキングに移行します。"
+      },
+      "lossClaimsSupported": {
+        "question": "損失クレームにどのトークンを使用できますか？",
+        "answer": "DeFiプロトコル、CEX清算、またはラグプルからの検証された損失は、適切な検証でクレーム可能です。"
+      },
+      "stakeAfterPresale": {
+        "question": "プレセール後に購入してもステークできますか？",
+        "answer": "もちろん！ステーキングはすべての$REKT保有者が利用可能で、プレセール参加者だけではありません。"
+      },
+      "claimAmount": {
+        "question": "損失からどのくらいのREKTをクレームできますか？",
+        "answer": "クレームは検証された損失額、ウォレット年数、コミュニティティア倍率に基づいて計算されます。"
+      }
+    }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "最大のカオスのための公平な分配",
+      "distributionTitle": "分配の内訳",
+      "totalSupply": "総供給量：{amount} {symbol}"
+    },
+    "team": {
+      "title": "$REKT レジェンドに会う",
+      "subtitle": "痛みを利益に変えた堕落者たち。それぞれが市場で戦闘テストされ、清算の炎で鍛えられました。"
+    },
+    "roadmap": {
+      "title": "$REKT ロードマップ",
+      "subtitle": "プレセール購入者限定のステーキング · シンプル化されたローンチスタック"
+    },
+    "whitepaper": {
+      "title": "ドキュメンテーション & セキュリティ",
+      "subtitle": "透明性とセキュリティを最優先",
+      "description": "完全なドキュメンテーションとサードパーティのセキュリティ監査",
+      "whitepaper": {
+        "title": "ホワイトペーパー",
+        "description": "トークノミクス、ロードマップ、技術実装をカバーする包括的なドキュメンテーション",
+        "features": {
+          "tokenomics": "完全なトークノミクス分析",
+          "technical": "技術アーキテクチャの詳細",
+          "roadmap": "ロードマップと将来の計画",
+          "risk": "リスク評価と免責事項"
+        },
+        "button": "ホワイトペーパーを見る"
+      },
+      "audit": {
+        "title": "セキュリティ監査",
+        "description": "主要なブロックチェーンセキュリティ企業によるサードパーティセキュリティ監査",
+        "button": "監査レポートを見る"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "REKTについて知っておくべきすべて",
+      "expand": "展開",
+      "collapse": "折りたたむ"
+    },
+    "leaderboard": {
+      "title": "敗者ランキング",
+      "subtitle": "最大の敗者が最大の勝者です",
+      "loading": "リーダーボードを読み込み中...",
+      "noData": "データがありません。",
+      "error": "リーダーボードの読み込みに失敗しました",
+      "columns": {
+        "rank": "ランク",
+        "loser": "敗者",
+        "rektScore": "REKTスコア",
+        "totalLosses": "総損失",
+        "purchase": "購入"
+      },
+      "buttons": {
+        "refreshLeaderboard": "リーダーボードを更新",
+        "claimYourLoss": "あなたの損失を請求"
+      }
+    }
+  },
   "lossClaim": {
     "title": "REKT損失請求",
     "tagline": "一撃。一つの盾。",
@@ -190,74 +366,6 @@
       "claimButton": "請求"
     }
   },
-  "notFound": {
-    "title": "ページが見つかりません",
-    "description": "お探しのページは存在しません。",
-    "goHome": "ホームへ",
-    "staking": "ステーキング",
-    "lossClaim": "損失請求"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "最大のカオスのための公平な分配",
-      "distributionTitle": "分配の内訳",
-      "totalSupply": "総供給量：{amount} {symbol}"
-    },
-    "team": {
-      "title": "$REKT レジェンドに会う",
-      "subtitle": "痛みを利益に変えた堕落者たち。それぞれが市場で戦闘テストされ、清算の炎で鍛えられました。"
-    },
-    "roadmap": {
-      "title": "$REKT ロードマップ",
-      "subtitle": "プレセール購入者限定のステーキング · シンプル化されたローンチスタック"
-    },
-    "whitepaper": {
-      "title": "ドキュメンテーション & セキュリティ",
-      "subtitle": "透明性とセキュリティを最優先",
-      "description": "完全なドキュメンテーションとサードパーティのセキュリティ監査",
-      "whitepaper": {
-        "title": "ホワイトペーパー",
-        "description": "トークノミクス、ロードマップ、技術実装をカバーする包括的なドキュメンテーション",
-        "features": {
-          "tokenomics": "完全なトークノミクス分析",
-          "technical": "技術アーキテクチャの詳細",
-          "roadmap": "ロードマップと将来の計画",
-          "risk": "リスク評価と免責事項"
-        },
-        "button": "ホワイトペーパーを見る"
-      },
-      "audit": {
-        "title": "セキュリティ監査",
-        "description": "主要なブロックチェーンセキュリティ企業によるサードパーティセキュリティ監査",
-        "button": "監査レポートを見る"
-      }
-    },
-    "faq": {
-      "title": "よくある質問",
-      "subtitle": "REKTについて知っておくべきすべて",
-      "expand": "展開",
-      "collapse": "折りたたむ"
-    },
-    "leaderboard": {
-      "title": "敗者ランキング",
-      "subtitle": "最大の敗者が最大の勝者です",
-      "loading": "リーダーボードを読み込み中...",
-      "noData": "データがありません。",
-      "error": "リーダーボードの読み込みに失敗しました",
-      "columns": {
-        "rank": "ランク",
-        "loser": "敗者",
-        "rektScore": "REKTスコア",
-        "totalLosses": "総損失",
-        "purchase": "購入"
-      },
-      "buttons": {
-        "refreshLeaderboard": "リーダーボードを更新",
-        "claimYourLoss": "あなたの損失を請求"
-      }
-    }
-  },
   "footer": {
     "description": "あなたの暗号通貨の損失を利益に変える革命的なミームコイン。$REKTエコシステムでは敗者だけが勝ちます。",
     "socialTitle": "ソーシャルリンクに参加",
@@ -274,119 +382,11 @@
       "staking": "ステーキング"
     }
   },
-  "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
-  },
-  "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
-    "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
-    },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
-  },
-  "team": {
-    "sadboi": {
-      "name": "Sadboi",
-      "role": "Founder & Vision Lead",
-      "description": "Built  in a bear market because pain is the best teacher. Bags are heavy, conviction is heavier."
-    },
-    "downbadDave": {
-      "name": "DownBad Dave",
-      "role": "Community Manager & Chief Meme Officer",
-      "description": "Here to keep the vibes up when the charts are down. Memes are free, morale is priceless."
-    },
-    "liquidationLisa": {
-      "name": "Liquidation Lisa",
-      "role": "Tokenomics & Staking Specialist",
-      "description": "Knows the math, feels the pain. Designed  supply curve tighter than a margin call."
-    },
-    "fomoFred": {
-      "name": "FOMO Fred",
-      "role": "Marketing & Hype Generator",
-      "description": "If you are reading this, you are already late. Let us go viral."
-    },
-    "paperhandPete": {
-      "name": "Paperhand Pete",
-      "role": "Risk Management & Anti-Abuse Lead",
-      "description": "Sells early so you do not have to. Protecting the treasury from itself."
-    },
-    "rektRoxy": {
-      "name": "REKT Roxy",
-      "role": "Lead Developer & Security Expert",
-      "description": "Ships code faster than you can say gas fees. No rug, all build."
-    }
-  },
-  "roadmap": {
-    "phases": {
-      "phase1": {
-        "title": "Launch & Foundation",
-        "goal": "Fair launch, instant staking, lean & meme-ready setup.",
-        "items": {
-          "smartContract": "Deploying Smart Contract.",
-          "socialMedia": "Open X (Twitter) & Telegram.",
-          "dashboard": "Dashboard: REKT Score Leaderboard, Vesting Tracker, Staking Reward, Burn Cap.",
-          "autoStaking": "Auto Staking For All Presale Tokens, Start Earning From Day One.",
-          "lossClaim": "Loss Claim V1 (Only For Presale Investors From  Transaction, 1 Claim Per Wallet, On-Chain Verified).",
-          "audit": "Solidproof Audit."
-        }
-      },
-      "phase2": {
-        "title": "Utility & REKT Logic",
-        "goal": "Activate tokenomics, engage stakers, drive on-chain volume.",
-        "items": {
-          "dexTax": "1% Dex Tax: 50% Staking, 25% Treasury, And 25% Burn (Until 200M Burned).",
-          "rageClaim": "Rage Claim Penalties Scale Over Time (20% -> 5%).",
-          "leaderboard": "REKT Score Leaderboard.",
-          "lossClaimV2": "Loss Claim V2: Wallet Age Multiplies, Cooldowns.",
-          "burnTracker": "Burn Cap Tracker + Live Staking Stats.",
-          "nftDrop": "Optional NFT Drop To Refill Staking Pool."
-        }
-      },
-      "phase3": {
-        "title": "Scaling & Community Chaos",
-        "goal": "Meme-powered growth and ecosystem expansion.",
-        "items": {
-          "cexOutreach": "CEX Outreach (Solana-Friendly).",
-          "memeWars": "MEME Wars: Community Leaderboard + Airdrops.",
-          "rektLabs": "Rekt Labs: Experimental Staking/NFT Features.",
-          "finalAudit": "Final Audit (Certik Or Ottersec)."
-        }
-      }
-    }
-  },
-  "faq": {
-    "items": {
-      "sellAfterLaunch": {
-        "question": "Can I sell everything after launch?",
-        "answer": "30% unlocks at launch, the rest vests over 6 months. Want more early? Rage claim but expect a burn penalty."
-      },
-      "rewardsOnLocked": {
-        "question": "Do I earn rewards on locked tokens?",
-        "answer": "Yes! All presale tokens are automatically staked and earning rewards from day one."
-      },
-      "afterBurnCap": {
-        "question": "What happens after the burn cap?",
-        "answer": "Once 200M tokens are burned, the burn mechanism stops. Tax distribution shifts to 50% treasury, 50% staking."
-      },
-      "lossClaimsSupported": {
-        "question": "Which tokens can I use for Loss Claims?",
-        "answer": "Any verified loss from DeFi protocols, CEX liquidations, or rug pulls can be claimed with proper verification."
-      },
-      "stakeAfterPresale": {
-        "question": "Can I stake if I buy after the presale?",
-        "answer": "Absolutely! Staking is available to all  holders, not just presale participants."
-      },
-      "claimAmount": {
-        "question": "How much REKT can I claim from losses?",
-        "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
-      }
-    }
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しません。",
+    "goHome": "ホームへ",
+    "staking": "ステーキング",
+    "lossClaim": "損失請求"
   }
 }

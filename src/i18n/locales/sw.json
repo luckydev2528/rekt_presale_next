@@ -96,184 +96,6 @@
       "title": "Kama inavyoonekana kwenye"
     }
   },
-  "lossClaim": {
-    "title": "REKT Madai ya Hasara",
-    "tagline": "Risasi moja. Ngao moja.",
-    "description": {
-      "before": "Pekee ya bonus ya mauzo ya awali V1 kwa pochi zilizo na angalau $350 mgao. Wasilisha madai yako baada ya mauzo ya awali kumalizika ili kurudisha tokeni za REKT kwa hasara zinazostahili. Tuzo za Madai ya Hasara",
-      "not": "HAZIWEKWI",
-      "after": "— hii ni fursa ya mara moja."
-    },
-    "cta": {
-      "check": "Angalia Ustahili",
-      "viewEligibility": "Ona Ustahili"
-    },
-    "status": {
-      "eligible": "Anastahili",
-      "unused": "Haijatumika"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Pochi katika Orodha Nyeupe",
-        "desc": "Pochi za mauzo ya awali V1 zenye mgao wa $350 pekee zinaweza kudai"
-      },
-      "onePer": {
-        "title": "Madai Moja Kwa Pochi",
-        "desc": "Madai moja kwa pochi — hakuna kurejesha"
-      },
-      "window": {
-        "title": "Dirisha la Madai",
-        "desc": "Madai yanaweza kuwasilishwa tu baada ya mauzo ya awali kufungwa rasmi"
-      }
-    },
-    "form": {
-      "heading": "Dai Bonus Yako ya Mauzo ya Awali",
-      "selectToken": "Chagua Tokeni",
-      "chooseEligibleToken": "Chagua tokeni inayostahili...",
-      "claimAmount": "Kiasi cha Madai",
-      "usdtEquivalent": "Sawa na $0.00 USDT",
-      "disclaimer": "Tokeni za Madai ya Hasara haziwekwi na haziwezi kuwekwa tena baadaye",
-      "submit": "Wasilisha Madai"
-    },
-    "info": {
-      "title": "Muhimu: Bonus ya Mauzo ya Awali V1",
-      "list": {
-        "whitelisted": "Inapatikana tu kwa pochi za mauzo ya awali V1 zenye mgao ≥ $350",
-        "onePer": "Madai moja kwa pochi",
-        "eligibleOnly": "Tokeni zinazostahili tu",
-        "afterPresale": "Madai yanaweza kuwasilishwa tu baada ya mauzo ya awali kumalizika",
-        "notStaked": "Tokeni zilizopokelewa kutoka Madai ya Hasara HAZIWEKWI"
-      }
-    },
-    "ctaBottom": {
-      "title": "Bonus ya V1 — Mara Moja Tu",
-      "text": "Kosa dirisha la madai, na linapotea milele.",
-      "buy": "NUNUA $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Kuweka - Washindani pekee ndio wanaoshinda",
-      "logoAlt": "Logo"
-    },
-    "info": "Tokeni zote za mauzo ya awali zimewekwa kiotomatiki kutoka ununuzi. Tuzo zinaanza mara moja, zinaweza kudaiwa mwishoni mwa mauzo ya awali.",
-    "buttons": {
-      "viewLeaderboard": "Ona Jedwali la Viongozi",
-      "claim": "DAI"
-    },
-    "stats": {
-      "yourStakedBalance": "Usawa Wako Uliowekwa",
-      "unlockNote": "30% imefunguliwa kwenye uzinduzi, 70% kuvuna kwa miezi 6 (tokeni tu)",
-      "yourPoolShare": "% Yako ya Bwawa",
-      "yourPoolShareDesc": "Sehemu yako ya jumla ya bwawa la kuweka",
-      "totalStaked": "Jumla Iliyowekwa (Bwawa la Mauzo ya Awali)",
-      "totalStakedDesc": "Jumla ya tokeni zilizowekwa za washiriki wote wa mauzo ya awali",
-      "annualApy": "APY ya Kila Mwaka",
-      "annualApyValue": "65% kwa mwaka",
-      "annualApyDesc": "Mapato ya kila mwaka ya sasa kwa asilimia",
-      "dailyRewards": "Tuzo za Kila Siku",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Inapatikana Sasa (hakuna kuvuna)"
-    },
-    "rewards": {
-      "title": "Jumla ya Tuzo Zilizokusanywa"
-    },
-    "footer": {
-      "notice": "Kuweka ni pekee kwa wananunuzi wa mauzo ya awali. Tuzo zinategemea shughuli za mazingira.",
-      "vestingNote": "Kuvuna kunatumika kwa tokeni zilizowekwa tu. Tuzo hazivunwi."
-    },
-    "alts": {
-      "viewLeaderboardImg": "Ona Jedwali la Viongozi",
-      "frame": "Fremu",
-      "longFrame": "Fremu Ndefu",
-      "logoSpread": "Uenezaji wa Logo",
-      "claimButton": "Dai"
-    }
-  },
-  "notFound": {
-    "title": "Ukurasa Haujapatikana",
-    "description": "Ukurasa unaoutafuta haupo.",
-    "goHome": "Enda Nyumbani",
-    "staking": "Kuweka",
-    "lossClaim": "Madai ya Hasara"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Madai ya Hasara",
+    "tagline": "Risasi moja. Ngao moja.",
+    "description": {
+      "before": "Pekee ya bonus ya mauzo ya awali V1 kwa pochi zilizo na angalau $350 mgao. Wasilisha madai yako baada ya mauzo ya awali kumalizika ili kurudisha tokeni za REKT kwa hasara zinazostahili. Tuzo za Madai ya Hasara",
+      "not": "HAZIWEKWI",
+      "after": "— hii ni fursa ya mara moja."
+    },
+    "cta": {
+      "check": "Angalia Ustahili",
+      "viewEligibility": "Ona Ustahili"
+    },
+    "status": {
+      "eligible": "Anastahili",
+      "unused": "Haijatumika"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Pochi katika Orodha Nyeupe",
+        "desc": "Pochi za mauzo ya awali V1 zenye mgao wa $350 pekee zinaweza kudai"
+      },
+      "onePer": {
+        "title": "Madai Moja Kwa Pochi",
+        "desc": "Madai moja kwa pochi — hakuna kurejesha"
+      },
+      "window": {
+        "title": "Dirisha la Madai",
+        "desc": "Madai yanaweza kuwasilishwa tu baada ya mauzo ya awali kufungwa rasmi"
+      }
+    },
+    "form": {
+      "heading": "Dai Bonus Yako ya Mauzo ya Awali",
+      "selectToken": "Chagua Tokeni",
+      "chooseEligibleToken": "Chagua tokeni inayostahili...",
+      "claimAmount": "Kiasi cha Madai",
+      "usdtEquivalent": "Sawa na $0.00 USDT",
+      "disclaimer": "Tokeni za Madai ya Hasara haziwekwi na haziwezi kuwekwa tena baadaye",
+      "submit": "Wasilisha Madai"
+    },
+    "info": {
+      "title": "Muhimu: Bonus ya Mauzo ya Awali V1",
+      "list": {
+        "whitelisted": "Inapatikana tu kwa pochi za mauzo ya awali V1 zenye mgao ≥ $350",
+        "onePer": "Madai moja kwa pochi",
+        "eligibleOnly": "Tokeni zinazostahili tu",
+        "afterPresale": "Madai yanaweza kuwasilishwa tu baada ya mauzo ya awali kumalizika",
+        "notStaked": "Tokeni zilizopokelewa kutoka Madai ya Hasara HAZIWEKWI"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus ya V1 — Mara Moja Tu",
+      "text": "Kosa dirisha la madai, na linapotea milele.",
+      "buy": "NUNUA $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Kuweka - Washindani pekee ndio wanaoshinda",
+      "logoAlt": "Logo"
+    },
+    "info": "Tokeni zote za mauzo ya awali zimewekwa kiotomatiki kutoka ununuzi. Tuzo zinaanza mara moja, zinaweza kudaiwa mwishoni mwa mauzo ya awali.",
+    "buttons": {
+      "viewLeaderboard": "Ona Jedwali la Viongozi",
+      "claim": "DAI"
+    },
+    "stats": {
+      "yourStakedBalance": "Usawa Wako Uliowekwa",
+      "unlockNote": "30% imefunguliwa kwenye uzinduzi, 70% kuvuna kwa miezi 6 (tokeni tu)",
+      "yourPoolShare": "% Yako ya Bwawa",
+      "yourPoolShareDesc": "Sehemu yako ya jumla ya bwawa la kuweka",
+      "totalStaked": "Jumla Iliyowekwa (Bwawa la Mauzo ya Awali)",
+      "totalStakedDesc": "Jumla ya tokeni zilizowekwa za washiriki wote wa mauzo ya awali",
+      "annualApy": "APY ya Kila Mwaka",
+      "annualApyValue": "65% kwa mwaka",
+      "annualApyDesc": "Mapato ya kila mwaka ya sasa kwa asilimia",
+      "dailyRewards": "Tuzo za Kila Siku",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Inapatikana Sasa (hakuna kuvuna)"
+    },
+    "rewards": {
+      "title": "Jumla ya Tuzo Zilizokusanywa"
+    },
+    "footer": {
+      "notice": "Kuweka ni pekee kwa wananunuzi wa mauzo ya awali. Tuzo zinategemea shughuli za mazingira.",
+      "vestingNote": "Kuvuna kunatumika kwa tokeni zilizowekwa tu. Tuzo hazivunwi."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Ona Jedwali la Viongozi",
+      "frame": "Fremu",
+      "longFrame": "Fremu Ndefu",
+      "logoSpread": "Uenezaji wa Logo",
+      "claimButton": "Dai"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Ukurasa Haujapatikana",
+    "description": "Ukurasa unaoutafuta haupo.",
+    "goHome": "Enda Nyumbani",
+    "staking": "Kuweka",
+    "lossClaim": "Madai ya Hasara"
   }
 }

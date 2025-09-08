@@ -96,184 +96,6 @@
       "title": "Cum se vede pe"
     }
   },
-  "lossClaim": {
-    "title": "Revendicare Pierderi REKT",
-    "tagline": "O lovitură. Un scut.",
-    "description": {
-      "before": "Un bonus exclusiv de prevânzare V1 pentru portofele cu cel puțin $350 alocare. Trimiteți revendicarea după încheierea prevânzării pentru a recupera tokenurile REKT pentru pierderile eligibile. Recompensele pentru Revendicare Pierderi",
-      "not": "NU SUNT",
-      "after": "staked — aceasta este o șansă unică."
-    },
-    "cta": {
-      "check": "Verificare Eligibilitate",
-      "viewEligibility": "Vizualizare Eligibilitate"
-    },
-    "status": {
-      "eligible": "Eligibil",
-      "unused": "Nefolosit"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Portofel Whitelisted",
-        "desc": "Doar portofele de prevânzare V1 cu alocare de $350 pot revendica"
-      },
-      "onePer": {
-        "title": "O Revendicare Pe Portofel",
-        "desc": "O singură revendicare pe portofel — fără resetări"
-      },
-      "window": {
-        "title": "Fereastra de Revendicare",
-        "desc": "Revendicările pot fi trimise doar după închiderea oficială a prevânzării"
-      }
-    },
-    "form": {
-      "heading": "Revendicați Bonusul de Prevânzare",
-      "selectToken": "Selectare Token",
-      "chooseEligibleToken": "Alegeți token eligibil...",
-      "claimAmount": "Suma Revendicării",
-      "usdtEquivalent": "Echivalent $0.00 USDT",
-      "disclaimer": "Tokenurile de Revendicare Pierderi nu sunt staked și nu pot fi re-staked mai târziu",
-      "submit": "Trimite Revendicarea"
-    },
-    "info": {
-      "title": "Important: Bonus Prevânzare V1",
-      "list": {
-        "whitelisted": "Disponibil doar pentru portofele de prevânzare V1 cu alocare ≥ $350",
-        "onePer": "O revendicare pe portofel",
-        "eligibleOnly": "Doar tokenuri eligibile",
-        "afterPresale": "Revendicările pot fi trimise doar după sfârșitul prevânzării",
-        "notStaked": "Tokenurile primite din Revendicare Pierderi NU SUNT staked"
-      }
-    },
-    "ctaBottom": {
-      "title": "Bonus V1 — Doar O Dată",
-      "text": "Ratați fereastra de revendicare și dispare pentru totdeauna.",
-      "buy": "CUMPĂRAȚI $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Staking - Doar pierzătorii câștigă",
-      "logoAlt": "Logo"
-    },
-    "info": "Toate tokenurile de prevânzare sunt auto-staked de la cumpărare. Recompensele încep instant, revendicabile la sfârșitul prevânzării.",
-    "buttons": {
-      "viewLeaderboard": "Vizualizare Clasament",
-      "claim": "REVENDICĂ"
-    },
-    "stats": {
-      "yourStakedBalance": "Soldul Dvs. Staked",
-      "unlockNote": "30% deblocat la lansare, 70% vesting peste 6 luni (doar tokenuri)",
-      "yourPoolShare": "% din Pool",
-      "yourPoolShareDesc": "Partea dvs. din pool-ul total de staking",
-      "totalStaked": "Total Staked (Pool Prevânzare)",
-      "totalStakedDesc": "Total tokenuri staked de toți participanții la prevânzare",
-      "annualApy": "APY Anual",
-      "annualApyValue": "65% pe an",
-      "annualApyDesc": "Randamentul procentual anual actual",
-      "dailyRewards": "Recompense Zilnice",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Disponibil Acum (fără vesting)"
-    },
-    "rewards": {
-      "title": "Total Recompense Acumulate"
-    },
-    "footer": {
-      "notice": "Staking-ul este exclusiv pentru cumpărătorii de prevânzare. Recompensele depind de activitatea ecosistemului.",
-      "vestingNote": "Vesting-ul se aplică doar tokenurilor staked. Recompensele nu sunt vested."
-    },
-    "alts": {
-      "viewLeaderboardImg": "Vizualizare Clasament",
-      "frame": "Cadru",
-      "longFrame": "Cadru Lung",
-      "logoSpread": "Logo Răspândit",
-      "claimButton": "Revendică"
-    }
-  },
-  "notFound": {
-    "title": "Pagina Nu A Fost Găsită",
-    "description": "Pagina pe care o căutați nu există.",
-    "goHome": "Mergi Acasă",
-    "staking": "Staking",
-    "lossClaim": "Revendicare Pierderi"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "Revendicare Pierderi REKT",
+    "tagline": "O lovitură. Un scut.",
+    "description": {
+      "before": "Un bonus exclusiv de prevânzare V1 pentru portofele cu cel puțin $350 alocare. Trimiteți revendicarea după încheierea prevânzării pentru a recupera tokenurile REKT pentru pierderile eligibile. Recompensele pentru Revendicare Pierderi",
+      "not": "NU SUNT",
+      "after": "staked — aceasta este o șansă unică."
+    },
+    "cta": {
+      "check": "Verificare Eligibilitate",
+      "viewEligibility": "Vizualizare Eligibilitate"
+    },
+    "status": {
+      "eligible": "Eligibil",
+      "unused": "Nefolosit"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Portofel Whitelisted",
+        "desc": "Doar portofele de prevânzare V1 cu alocare de $350 pot revendica"
+      },
+      "onePer": {
+        "title": "O Revendicare Pe Portofel",
+        "desc": "O singură revendicare pe portofel — fără resetări"
+      },
+      "window": {
+        "title": "Fereastra de Revendicare",
+        "desc": "Revendicările pot fi trimise doar după închiderea oficială a prevânzării"
+      }
+    },
+    "form": {
+      "heading": "Revendicați Bonusul de Prevânzare",
+      "selectToken": "Selectare Token",
+      "chooseEligibleToken": "Alegeți token eligibil...",
+      "claimAmount": "Suma Revendicării",
+      "usdtEquivalent": "Echivalent $0.00 USDT",
+      "disclaimer": "Tokenurile de Revendicare Pierderi nu sunt staked și nu pot fi re-staked mai târziu",
+      "submit": "Trimite Revendicarea"
+    },
+    "info": {
+      "title": "Important: Bonus Prevânzare V1",
+      "list": {
+        "whitelisted": "Disponibil doar pentru portofele de prevânzare V1 cu alocare ≥ $350",
+        "onePer": "O revendicare pe portofel",
+        "eligibleOnly": "Doar tokenuri eligibile",
+        "afterPresale": "Revendicările pot fi trimise doar după sfârșitul prevânzării",
+        "notStaked": "Tokenurile primite din Revendicare Pierderi NU SUNT staked"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bonus V1 — Doar O Dată",
+      "text": "Ratați fereastra de revendicare și dispare pentru totdeauna.",
+      "buy": "CUMPĂRAȚI $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Doar pierzătorii câștigă",
+      "logoAlt": "Logo"
+    },
+    "info": "Toate tokenurile de prevânzare sunt auto-staked de la cumpărare. Recompensele încep instant, revendicabile la sfârșitul prevânzării.",
+    "buttons": {
+      "viewLeaderboard": "Vizualizare Clasament",
+      "claim": "REVENDICĂ"
+    },
+    "stats": {
+      "yourStakedBalance": "Soldul Dvs. Staked",
+      "unlockNote": "30% deblocat la lansare, 70% vesting peste 6 luni (doar tokenuri)",
+      "yourPoolShare": "% din Pool",
+      "yourPoolShareDesc": "Partea dvs. din pool-ul total de staking",
+      "totalStaked": "Total Staked (Pool Prevânzare)",
+      "totalStakedDesc": "Total tokenuri staked de toți participanții la prevânzare",
+      "annualApy": "APY Anual",
+      "annualApyValue": "65% pe an",
+      "annualApyDesc": "Randamentul procentual anual actual",
+      "dailyRewards": "Recompense Zilnice",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Disponibil Acum (fără vesting)"
+    },
+    "rewards": {
+      "title": "Total Recompense Acumulate"
+    },
+    "footer": {
+      "notice": "Staking-ul este exclusiv pentru cumpărătorii de prevânzare. Recompensele depind de activitatea ecosistemului.",
+      "vestingNote": "Vesting-ul se aplică doar tokenurilor staked. Recompensele nu sunt vested."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Vizualizare Clasament",
+      "frame": "Cadru",
+      "longFrame": "Cadru Lung",
+      "logoSpread": "Logo Răspândit",
+      "claimButton": "Revendică"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Pagina Nu A Fost Găsită",
+    "description": "Pagina pe care o căutați nu există.",
+    "goHome": "Mergi Acasă",
+    "staking": "Staking",
+    "lossClaim": "Revendicare Pierderi"
   }
 }

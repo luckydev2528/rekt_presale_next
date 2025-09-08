@@ -96,184 +96,6 @@
       "title": "көрінгендей"
     }
   },
-  "lossClaim": {
-    "title": "REKT Шығын Талабы",
-    "tagline": "Бір ату. Бір қалқан.",
-    "description": {
-      "before": "Кемінде $350 бөлінісі бар әмияндар үшін эксклюзивті V1 алдын ала сату бонусы. Сәйкес шығындар үшін REKT токендерін қалпына келтіру үшін алдын ала сату аяқталғаннан кейін талабыңызды жіберіңіз. Шығын Талабы сыйлықтары",
-      "not": "СТЕЙКИНГКЕ САЛЫНБАҒАН",
-      "after": " — бұл бір рет ғана мүмкіндік."
-    },
-    "cta": {
-      "check": "Сәйкестікті Тексеру",
-      "viewEligibility": "Сәйкестікті Көру"
-    },
-    "status": {
-      "eligible": "Сәйкес",
-      "unused": "Пайдаланылмаған"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Ақ Тізімдегі Әмиян",
-        "desc": "$350 бөлінісі бар V1 алдын ала сату әмияндары ғана талап қоя алады"
-      },
-      "onePer": {
-        "title": "Әмиян үшін Бір Талап",
-        "desc": "Әмиян үшін жалғыз талап — қайта орнату жоқ"
-      },
-      "window": {
-        "title": "Талап Терезесі",
-        "desc": "Талаптар тек алдын ала сату ресми түрде жабылғаннан кейін ғана жіберіле алады"
-      }
-    },
-    "form": {
-      "heading": "Алдын ала Сату Бонусыңызды Талап Етіңіз",
-      "selectToken": "Токенді Таңдау",
-      "chooseEligibleToken": "Сәйкес токенді таңдаңыз...",
-      "claimAmount": "Талап Сомасы",
-      "usdtEquivalent": "$0.00 USDT баламасы",
-      "disclaimer": "Шығын Талабы токендері стейкингке салынбаған және кейінірек қайта стейкингке салынбайды",
-      "submit": "Талапты Жіберу"
-    },
-    "info": {
-      "title": "Маңызды: V1 Алдын ала сату бонусы",
-      "list": {
-        "whitelisted": "Тек ≥ $350 бөлінісі бар V1 алдын ала сату әмияндарына қолжетімді",
-        "onePer": "Әмиян үшін бір талап",
-        "eligibleOnly": "Тек сәйкес токендер",
-        "afterPresale": "Талаптар тек алдын ала сату аяқталғаннан кейін ғана жіберіле алады",
-        "notStaked": "Шығын Талабынан алынған токендер СТЕЙКИНГКЕ САЛЫНБАҒАН"
-      }
-    },
-    "ctaBottom": {
-      "title": "V1 Бонус — Тек Бір Рет",
-      "text": "Талап терезесін жіберіп алсаңыз, ол мәңгілікке жоғалады.",
-      "buy": "$REKT САТЫП АЛ"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Стейкинг - Тек жеңілгендер жеңеді",
-      "logoAlt": "Логотип"
-    },
-    "info": "Барлық алдын ала сату токендері сатып алуыдан бастап автоматты түрде стейкингке салынады. Сыйлықтар лезде басталады, алдын ала сату аяқталғанда талап етуге болады.",
-    "buttons": {
-      "viewLeaderboard": "Көшбасшылар Тақтасын Көру",
-      "claim": "ТАЛАП ЕТУ"
-    },
-    "stats": {
-      "yourStakedBalance": "Сіздің Стейкингтегі Балансыңыз",
-      "unlockNote": "Іске қосылуда 30% ашылады, 6 ай бойы 70% вестинг (тек токендер)",
-      "yourPoolShare": "Пулдағы сіздің үлесіңіз %",
-      "yourPoolShareDesc": "Жалпы стейкинг пулындағы сіздің үлесіңіз",
-      "totalStaked": "Жалпы Стейкингтегі (Алдын ала сату пулы)",
-      "totalStakedDesc": "Барлық алдын ала сату қатысушыларының жалпы стейкингтегі токендері",
-      "annualApy": "Жылдық APY",
-      "annualApyValue": "жылына 65%",
-      "annualApyDesc": "Ағымдағы жылдық пайыздық кіріс",
-      "dailyRewards": "Күнделікті Сыйлықтар",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Қазір Қолжетімді (вестинг жоқ)"
-    },
-    "rewards": {
-      "title": "Жалпы Жинақталған Сыйлықтар"
-    },
-    "footer": {
-      "notice": "Стейкинг алдын ала сату сатып алушыларына ғана арналған. Сыйлықтар экожүйе белсенділігіне байланысты.",
-      "vestingNote": "Вестинг тек стейкингтегі токендерге қолданылады. Сыйлықтар вестингке салынбайды."
-    },
-    "alts": {
-      "viewLeaderboardImg": "Көшбасшылар Тақтасын Көру",
-      "frame": "Жақтау",
-      "longFrame": "Ұзын Жақтау",
-      "logoSpread": "Логотип Таралуы",
-      "claimButton": "Талап ету"
-    }
-  },
-  "notFound": {
-    "title": "Бет Табылмады",
-    "description": "Сіз іздеген бет жоқ.",
-    "goHome": "Басты Бетке Өту",
-    "staking": "Стейкинг",
-    "lossClaim": "Шығын Талабы"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown",
-      "totalSupply": "Total Supply: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard",
-      "columns": {
-        "rank": "Rank",
-        "loser": "Loser",
-        "rektScore": "Rekt Score",
-        "totalLosses": "Total Losses",
-        "purchase": "Purchase"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Refresh Leaderboard",
-        "claimYourLoss": "Claim your loss"
-      }
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    },
-    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
-    "socialTitle": "Join our Social links",
-    "copyright": "Copyright ©  {year}. All rights reserved.",
-    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk."
-  },
   "distribution": {
     "presale": "Presale",
     "treasury": "Treasury",
@@ -388,5 +210,183 @@
         "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Fair distribution for maximum chaos",
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Meet the $REKT Legends",
+      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
+    },
+    "roadmap": {
+      "title": "$REKT Roadmap",
+      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
+    },
+    "whitepaper": {
+      "title": "Documentation & Security",
+      "subtitle": "Transparency and security first",
+      "description": "Full documentation and third-party security audits",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
+        "features": {
+          "tokenomics": "Complete tokenomics breakdown",
+          "technical": "Technical architecture details",
+          "roadmap": "Roadmap and future plans",
+          "risk": "Risk assessment and disclaimers"
+        },
+        "button": "View Whitepaper"
+      },
+      "audit": {
+        "title": "Security Audit",
+        "description": "Third-party security audit by leading blockchain security firms",
+        "button": "View Audit Report"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about getting REKT",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "leaderboard": {
+      "title": "Loser Leaderboard",
+      "subtitle": "The biggest losers are the biggest winners",
+      "loading": "Loading leaderboard...",
+      "noData": "No data available.",
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "REKT Шығын Талабы",
+    "tagline": "Бір ату. Бір қалқан.",
+    "description": {
+      "before": "Кемінде $350 бөлінісі бар әмияндар үшін эксклюзивті V1 алдын ала сату бонусы. Сәйкес шығындар үшін REKT токендерін қалпына келтіру үшін алдын ала сату аяқталғаннан кейін талабыңызды жіберіңіз. Шығын Талабы сыйлықтары",
+      "not": "СТЕЙКИНГКЕ САЛЫНБАҒАН",
+      "after": " — бұл бір рет ғана мүмкіндік."
+    },
+    "cta": {
+      "check": "Сәйкестікті Тексеру",
+      "viewEligibility": "Сәйкестікті Көру"
+    },
+    "status": {
+      "eligible": "Сәйкес",
+      "unused": "Пайдаланылмаған"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Ақ Тізімдегі Әмиян",
+        "desc": "$350 бөлінісі бар V1 алдын ала сату әмияндары ғана талап қоя алады"
+      },
+      "onePer": {
+        "title": "Әмиян үшін Бір Талап",
+        "desc": "Әмиян үшін жалғыз талап — қайта орнату жоқ"
+      },
+      "window": {
+        "title": "Талап Терезесі",
+        "desc": "Талаптар тек алдын ала сату ресми түрде жабылғаннан кейін ғана жіберіле алады"
+      }
+    },
+    "form": {
+      "heading": "Алдын ала Сату Бонусыңызды Талап Етіңіз",
+      "selectToken": "Токенді Таңдау",
+      "chooseEligibleToken": "Сәйкес токенді таңдаңыз...",
+      "claimAmount": "Талап Сомасы",
+      "usdtEquivalent": "$0.00 USDT баламасы",
+      "disclaimer": "Шығын Талабы токендері стейкингке салынбаған және кейінірек қайта стейкингке салынбайды",
+      "submit": "Талапты Жіберу"
+    },
+    "info": {
+      "title": "Маңызды: V1 Алдын ала сату бонусы",
+      "list": {
+        "whitelisted": "Тек ≥ $350 бөлінісі бар V1 алдын ала сату әмияндарына қолжетімді",
+        "onePer": "Әмиян үшін бір талап",
+        "eligibleOnly": "Тек сәйкес токендер",
+        "afterPresale": "Талаптар тек алдын ала сату аяқталғаннан кейін ғана жіберіле алады",
+        "notStaked": "Шығын Талабынан алынған токендер СТЕЙКИНГКЕ САЛЫНБАҒАН"
+      }
+    },
+    "ctaBottom": {
+      "title": "V1 Бонус — Тек Бір Рет",
+      "text": "Талап терезесін жіберіп алсаңыз, ол мәңгілікке жоғалады.",
+      "buy": "$REKT САТЫП АЛ"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Стейкинг - Тек жеңілгендер жеңеді",
+      "logoAlt": "Логотип"
+    },
+    "info": "Барлық алдын ала сату токендері сатып алуыдан бастап автоматты түрде стейкингке салынады. Сыйлықтар лезде басталады, алдын ала сату аяқталғанда талап етуге болады.",
+    "buttons": {
+      "viewLeaderboard": "Көшбасшылар Тақтасын Көру",
+      "claim": "ТАЛАП ЕТУ"
+    },
+    "stats": {
+      "yourStakedBalance": "Сіздің Стейкингтегі Балансыңыз",
+      "unlockNote": "Іске қосылуда 30% ашылады, 6 ай бойы 70% вестинг (тек токендер)",
+      "yourPoolShare": "Пулдағы сіздің үлесіңіз %",
+      "yourPoolShareDesc": "Жалпы стейкинг пулындағы сіздің үлесіңіз",
+      "totalStaked": "Жалпы Стейкингтегі (Алдын ала сату пулы)",
+      "totalStakedDesc": "Барлық алдын ала сату қатысушыларының жалпы стейкингтегі токендері",
+      "annualApy": "Жылдық APY",
+      "annualApyValue": "жылына 65%",
+      "annualApyDesc": "Ағымдағы жылдық пайыздық кіріс",
+      "dailyRewards": "Күнделікті Сыйлықтар",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Қазір Қолжетімді (вестинг жоқ)"
+    },
+    "rewards": {
+      "title": "Жалпы Жинақталған Сыйлықтар"
+    },
+    "footer": {
+      "notice": "Стейкинг алдын ала сату сатып алушыларына ғана арналған. Сыйлықтар экожүйе белсенділігіне байланысты.",
+      "vestingNote": "Вестинг тек стейкингтегі токендерге қолданылады. Сыйлықтар вестингке салынбайды."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Көшбасшылар Тақтасын Көру",
+      "frame": "Жақтау",
+      "longFrame": "Ұзын Жақтау",
+      "logoSpread": "Логотип Таралуы",
+      "claimButton": "Талап ету"
+    }
+  },
+  "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the  ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright ©  {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Roadmap",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Audit",
+      "leaderboard": "Leaderboard",
+      "lossClaim": "Loss Claim",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Бет Табылмады",
+    "description": "Сіз іздеген бет жоқ.",
+    "goHome": "Басты Бетке Өту",
+    "staking": "Стейкинг",
+    "lossClaim": "Шығын Талабы"
   }
 }

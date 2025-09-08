@@ -1,66 +1,66 @@
 {
   "gating": {
     "warningTitle": "Advertencia Regulatoria",
-    "warningIntro": "Tu país ({country}) puede tener restricciones sobre el comercio de criptomonedas o ventas de tokens. Revisa la información y reconoce para continuar.",
+    "warningIntro": "Su país ({country}) puede tener restricciones sobre el comercio de criptomonedas o ventas de tokens. Por favor revise la información a continuación y confirme para continuar.",
     "bullets": {
-      "info": "Este sitio es solo informativo y no constituye asesoramiento financiero.",
-      "restrictions": "La participación puede estar restringida o prohibida en tu jurisdicción.",
-      "continue": "Al continuar, confirmas que entiendes los riesgos y las regulaciones locales."
+      "info": "Este sitio es solo para fines informativos y no constituye asesoramiento financiero.",
+      "restrictions": "La participación puede estar restringida o prohibida en su jurisdicción.",
+      "continue": "Al continuar, confirma que entiende los riesgos y las regulaciones locales."
     },
     "blockedTitle": "Acceso Restringido",
-    "blockedBody": "El acceso a este contenido no está disponible en tu jurisdicción ({country}). No podemos proporcionar información de venta o comercio de tokens en tu ubicación debido a restricciones regulatorias.",
+    "blockedBody": "El acceso a este contenido no está disponible en su jurisdicción ({country}). No podemos proporcionar información de venta de tokens o comercio en su ubicación debido a restricciones regulatorias.",
     "back": "Volver",
     "continue": "Entiendo, Continuar",
     "warningCountryNotes": {
-      "US": "Crypto services are strictly regulated in the United States (SEC, CFTC, FinCEN). By continuing, you acknowledge compliance is your own responsibility.",
-      "IN": "Crypto trading in India is subject to heavy taxation and unclear regulations. Proceed only if you understand the local laws.",
-      "VN": "Vietnam prohibits crypto as legal tender, but trading is widely used. Continue at your own risk.",
-      "TH": "Thailand has regulated crypto exchanges; ensure compliance with SEC Thailand.",
-      "TR": "Turkey restricts use of crypto for payments. Trading remains allowed under regulation.",
-      "NG": "Nigeria has restrictions on banks handling crypto, but P2P trading is common. Continue at your own risk.",
-      "UA": "Crypto is legal in Ukraine, but under evolving regulations. Continue at your own risk.",
-      "RS": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
-      "BG": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
-      "HU": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
-      "CZ": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
-      "SK": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
-      "SI": "Crypto is permitted but regulated under EU or local law. Continue at your own risk.",
-      "PL": "Crypto is permitted but regulated under EU or local law. Continue at your own risk."
+      "US": "Los servicios criptográficos están estrictamente regulados en Estados Unidos (SEC, CFTC, FinCEN). Al continuar, reconoce que el cumplimiento es su propia responsabilidad.",
+      "IN": "El comercio de criptomonedas en India está sujeto a fuertes impuestos y regulaciones poco claras. Proceda solo si entiende las leyes locales.",
+      "VN": "Vietnam prohíbe las criptomonedas como moneda de curso legal, pero el comercio es ampliamente utilizado. Continúe bajo su propio riesgo.",
+      "TH": "Tailandia tiene intercambios de criptomonedas regulados; asegure el cumplimiento con SEC Tailandia.",
+      "TR": "Turquía restringe el uso de criptomonedas para pagos. El comercio sigue permitido bajo regulación.",
+      "NG": "Nigeria tiene restricciones sobre bancos que manejan criptomonedas, pero el comercio P2P es común. Continúe bajo su propio riesgo.",
+      "UA": "Las criptomonedas son legales en Ucrania, pero bajo regulaciones en evolución. Continúe bajo su propio riesgo.",
+      "RS": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo.",
+      "BG": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo.",
+      "HU": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo.",
+      "CZ": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo.",
+      "SK": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo.",
+      "SI": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo.",
+      "PL": "Las criptomonedas están permitidas pero reguladas bajo la ley de la UE o local. Continúe bajo su propio riesgo."
     },
     "blockedCountryNotes": {
-      "RU": "Due to international sanctions, access from Russia is restricted. Trading is not available.",
-      "CN": "Crypto trading and exchanges are banned in mainland China. Access denied.",
-      "BD": "Crypto trading is prohibited by law in Bangladesh.",
-      "NP": "Crypto trading is prohibited in Nepal.",
-      "BO": "Crypto trading is prohibited in Bolivia.",
-      "DZ": "Crypto trading is prohibited in Algeria.",
-      "MA": "Crypto trading is prohibited in Morocco.",
-      "QA": "Crypto trading is prohibited in Qatar.",
-      "EG": "Crypto trading is prohibited in Egypt."
+      "RU": "Debido a sanciones internacionales, el acceso desde Rusia está restringido. El comercio no está disponible.",
+      "CN": "El comercio de criptomonedas e intercambios están prohibidos en China continental. Acceso denegado.",
+      "BD": "El comercio de criptomonedas está prohibido por ley en Bangladesh.",
+      "NP": "El comercio de criptomonedas está prohibido en Nepal.",
+      "BO": "El comercio de criptomonedas está prohibido en Bolivia.",
+      "DZ": "El comercio de criptomonedas está prohibido en Argelia.",
+      "MA": "El comercio de criptomonedas está prohibido en Marruecos.",
+      "QA": "El comercio de criptomonedas está prohibido en Qatar.",
+      "EG": "El comercio de criptomonedas está prohibido en Egipto."
     }
   },
   "seo": {
-    "title": "$REKT - Only losers win",
-    "description": "Embrace the crash. The first memecoin that rewards your losses."
+    "title": "$REKT - Solo los perdedores ganan",
+    "description": "Abraza el crash. La primera memecoin que recompensa tus pérdidas."
   },
   "nav": {
     "hero": "Inicio",
-    "tokenomics": "Tokenómica",
-    "lossClaim": "Reclamo de Pérdida",
+    "tokenomics": "Tokenomics",
+    "lossClaim": "Reclamar Pérdida",
     "staking": "Staking",
     "leaderboard": "Clasificación",
     "team": "Equipo",
-    "roadmap": "Hoja de ruta",
-    "whitepaper": "Libro blanco",
-    "faq": "Preguntas frecuentes"
+    "roadmap": "Hoja de Ruta",
+    "whitepaper": "Whitepaper",
+    "faq": "FAQ"
   },
   "home": {
     "hero": {
       "title": "Solo los perdedores ganan",
-      "subtitle": "Abraza la caída"
+      "subtitle": "Abraza el crash"
     },
     "howToBuy": {
-      "title": "Cómo comprar:",
+      "title": "Cómo Comprar:",
       "steps": {
         "connectWallet": "Conecta tu billetera",
         "choosePayment": "Elige método de pago",
@@ -74,8 +74,8 @@
     "presale": {
       "title": "Preventa Fase 1",
       "currentPrice": "Precio Actual",
-      "nextPrice": "Siguiente Precio",
-      "priceIncreaseNote": "Precio aumenta al alcanzar objetivo",
+      "nextPrice": "Próximo Precio",
+      "priceIncreaseNote": "El precio aumenta cuando se alcanza el objetivo",
       "progress": "Progreso",
       "raised": "{amount} recaudado",
       "amountPlaceholder": "Ingresa cantidad",
@@ -96,260 +96,89 @@
       "title": "Como se ve en"
     }
   },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Distribución justa para el caos máximo",
-      "distributionTitle": "Desglose de Distribución",
-      "totalSupply": "Suministro Total: {amount} {symbol}"
-    },
-    "team": {
-      "title": "Conoce a las Leyendas de $REKT",
-      "subtitle": "Los degenerados que convirtieron el dolor en ganancia. Cada uno probado en batalla por el mercado, forjado en los fuegos de la liquidación."
-    },
-    "roadmap": {
-      "title": "Hoja de Ruta de $REKT",
-      "subtitle": "Staking exclusivo para compradores de preventa · Stack de lanzamiento simplificado"
-    },
-    "whitepaper": {
-      "title": "Documentación y Seguridad",
-      "subtitle": "Transparencia y seguridad primero",
-      "description": "Documentación completa y auditorías de seguridad de terceros",
-      "whitepaper": {
-        "title": "Libro Blanco",
-        "description": "Documentación integral que cubre tokenomics, hoja de ruta e implementación técnica",
-        "features": {
-          "tokenomics": "Desglose completo de tokenomics",
-          "technical": "Detalles de arquitectura técnica",
-          "roadmap": "Hoja de ruta y planes futuros",
-          "risk": "Evaluación de riesgos y descargos"
-        },
-        "button": "Ver Libro Blanco"
-      },
-      "audit": {
-        "title": "Auditoría de Seguridad",
-        "description": "Auditoría de seguridad de terceros por empresas líderes en seguridad blockchain",
-        "button": "Ver Reporte de Auditoría"
-      }
-    },
-    "faq": {
-      "title": "Preguntas Frecuentes",
-      "subtitle": "Todo lo que necesitas saber sobre ser REKT",
-      "expand": "Expandir",
-      "collapse": "Contraer"
-    },
-    "leaderboard": {
-      "title": "Tabla de Perdedores",
-      "subtitle": "Los mayores perdedores son los mayores ganadores",
-      "loading": "Cargando tabla de clasificación...",
-      "noData": "No hay datos disponibles.",
-      "error": "Error al cargar la tabla de clasificación",
-      "columns": {
-        "rank": "Rango",
-        "loser": "Perdedor",
-        "rektScore": "Puntuación Rekt",
-        "totalLosses": "Pérdidas Totales",
-        "purchase": "Compra"
-      },
-      "buttons": {
-        "refreshLeaderboard": "Actualizar Tabla",
-        "claimYourLoss": "Reclamar tu pérdida"
-      }
-    }
-  },
-  "lossClaim": {
-    "title": "Reclamo de Pérdida REKT",
-    "tagline": "Un disparo. Un escudo.",
-    "description": {
-      "before": "Un bono exclusivo de la preventa V1 para billeteras con al menos $350 de asignación. Envía tu reclamo después de que termine la preventa para recuperar tokens REKT por pérdidas elegibles. Las recompensas de Reclamo de Pérdida",
-      "not": "NO",
-      "after": "están en staking — esta es una oportunidad única."
-    },
-    "cta": {
-      "check": "Verificar elegibilidad",
-      "viewEligibility": "Ver elegibilidad"
-    },
-    "status": {
-      "eligible": "Elegible",
-      "unused": "Sin usar"
-    },
-    "cards": {
-      "whitelisted": {
-        "title": "Billetera en lista blanca",
-        "desc": "Solo las billeteras de la preventa V1 con una asignación de $350 pueden reclamar"
-      },
-      "onePer": {
-        "title": "Un reclamo por billetera",
-        "desc": "Un solo reclamo por billetera — sin restablecer"
-      },
-      "window": {
-        "title": "Ventana de reclamo",
-        "desc": "Los reclamos solo pueden enviarse una vez que la preventa haya terminado oficialmente"
-      }
-    },
-    "form": {
-      "heading": "Reclama tu bono de preventa",
-      "selectToken": "Seleccionar token",
-      "chooseEligibleToken": "Elige token elegible...",
-      "claimAmount": "Monto del reclamo",
-      "usdtEquivalent": "Equivalente $0.00 USDT",
-      "disclaimer": "Los tokens del Reclamo de Pérdida no se ponen en staking y no pueden volver a ponerse en staking",
-      "submit": "Enviar reclamo"
-    },
-    "info": {
-      "title": "Importante: Bono de Preventa V1",
-      "list": {
-        "whitelisted": "Disponible solo para billeteras de preventa V1 con asignación ≥ $350",
-        "onePer": "Un reclamo por billetera",
-        "eligibleOnly": "Solo tokens elegibles",
-        "afterPresale": "Los reclamos solo pueden enviarse después de que termine la preventa",
-        "notStaked": "Los tokens recibidos por Reclamo de Pérdida NO están en staking"
-      }
-    },
-    "ctaBottom": {
-      "title": "Bono V1 — Solo una vez",
-      "text": "Si pierdes la ventana de reclamo, se pierde para siempre.",
-      "buy": "COMPRAR $REKT"
-    }
-  },
-  "staking": {
-    "header": {
-      "alt": "REKT Staking - Only losers win",
-      "logoAlt": "Logo"
-    },
-    "info": "All presale tokens are auto-staked from purchase. Rewards start instantly, claimable at end of presale.",
-    "buttons": {
-      "viewLeaderboard": "View Leaderboard",
-      "claim": "CLAIM"
-    },
-    "stats": {
-      "yourStakedBalance": "Your Staked Balance",
-      "unlockNote": "30% unlocked at launch, 70% vesting over 6 months (tokens only)",
-      "yourPoolShare": "Your % of Pool",
-      "yourPoolShareDesc": "Your share of the total staking pool",
-      "totalStaked": "Total Staked (Presale Pool)",
-      "totalStakedDesc": "Total tokens staked across all presale participants",
-      "annualApy": "Annual APY",
-      "annualApyValue": "65% p/a",
-      "annualApyDesc": "Current annual percentage yield",
-      "dailyRewards": "Daily Rewards",
-      "dailyRewardsValue": "2,178+ REKT",
-      "dailyRewardsDesc": "Available Now (no vesting)"
-    },
-    "rewards": {
-      "title": "Total Rewards Accrued"
-    },
-    "footer": {
-      "notice": "Staking is exclusive to presale buyers. Rewards depend on ecosystem activity.",
-      "vestingNote": "Vesting applies only to staked tokens. Rewards are not vested."
-    },
-    "alts": {
-      "viewLeaderboardImg": "View Leaderboard",
-      "frame": "Frame",
-      "longFrame": "Long Frame",
-      "logoSpread": "Logo Spread",
-      "claimButton": "Claim"
-    }
-  },
-  "footer": {
-    "description": "La moneda meme revolucionaria que convierte tus pérdidas cripto en ganancias. Solo los perdedores ganan en el ecosistema $REKT.",
-    "socialTitle": "Únete a nuestros enlaces sociales",
-    "copyright": "Copyright © $REKT {year}. Todos los derechos reservados.",
-    "disclaimer": "Descargo: Moneda meme con utilidad. Sin ganancias garantizadas. No es consejo financiero. Úsala bajo tu propio riesgo.",
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Hoja de Ruta",
-      "faq": "FAQ",
-      "whitepaper": "Libro Blanco",
-      "audit": "Auditoría",
-      "leaderboard": "Tabla de Clasificación",
-      "lossClaim": "Reclamar Pérdida",
-      "staking": "Staking"
-    }
-  },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "Preventa",
+    "treasury": "Tesorería",
+    "liquidityPool": "Pool de Liquidez",
+    "stakingPool": "Pool de Staking",
+    "communityFund": "Fondo Comunitario"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "{percentage}% Impuesto en Cada Compra/Venta",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "Pool de Staking",
+      "treasury": "Tesorería",
+      "burn": "Quema"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "Una vez que se hayan quemado 200M $REKT, la quema se detendrá permanentemente. El 50% irá a la tesorería y el 50% al staking para fomentar el crecimiento a largo plazo.",
+    "burnCapReached": "Hasta que se alcance el límite de quema de 200M"
   },
   "team": {
     "sadboi": {
       "name": "Sadboi",
-      "role": "Founder & Vision Lead",
-      "description": "Built  in a bear market because pain is the best teacher. Bags are heavy, conviction is heavier."
+      "role": "Fundador y Líder de Visión",
+      "description": "Construyó $REKT en un mercado bajista porque el dolor es el mejor maestro. Las bolsas son pesadas, la convicción es más pesada."
     },
     "downbadDave": {
       "name": "DownBad Dave",
-      "role": "Community Manager & Chief Meme Officer",
-      "description": "Here to keep the vibes up when the charts are down. Memes are free, morale is priceless."
+      "role": "Gerente de Comunidad y Jefe de Memes",
+      "description": "Aquí para mantener las vibras altas cuando los gráficos están bajos. Los memes son gratis, la moral no tiene precio."
     },
     "liquidationLisa": {
       "name": "Liquidation Lisa",
-      "role": "Tokenomics & Staking Specialist",
-      "description": "Knows the math, feels the pain. Designed  supply curve tighter than a margin call."
+      "role": "Especialista en Tokenomics y Staking",
+      "description": "Conoce las matemáticas, siente el dolor. Diseñó la curva de suministro de $REKT más ajustada que una llamada de margen."
     },
     "fomoFred": {
       "name": "FOMO Fred",
-      "role": "Marketing & Hype Generator",
-      "description": "If you are reading this, you are already late. Let us go viral."
+      "role": "Generador de Marketing y Hype",
+      "description": "Si estás leyendo esto, ya llegaste tarde. Vamos viral."
     },
     "paperhandPete": {
       "name": "Paperhand Pete",
-      "role": "Risk Management & Anti-Abuse Lead",
-      "description": "Sells early so you do not have to. Protecting the treasury from itself."
+      "role": "Líder de Gestión de Riesgos y Anti-Abuso",
+      "description": "Vende temprano para que no tengas que hacerlo. Protegiendo la tesorería de sí misma."
     },
     "rektRoxy": {
       "name": "REKT Roxy",
-      "role": "Lead Developer & Security Expert",
-      "description": "Ships code faster than you can say gas fees. No rug, all build."
+      "role": "Desarrolladora Principal y Experta en Seguridad",
+      "description": "Envía código más rápido de lo que puedes decir 'gas fees'. Sin rug, pura construcción."
     }
   },
   "roadmap": {
     "phases": {
       "phase1": {
-        "title": "Launch & Foundation",
-        "goal": "Fair launch, instant staking, lean & meme-ready setup.",
+        "title": "Lanzamiento y Fundación",
+        "goal": "Lanzamiento justo, staking instantáneo, configuración lean y lista para memes.",
         "items": {
-          "smartContract": "Deploying Smart Contract.",
-          "socialMedia": "Open X (Twitter) & Telegram.",
-          "dashboard": "Dashboard: REKT Score Leaderboard, Vesting Tracker, Staking Reward, Burn Cap.",
-          "autoStaking": "Auto Staking For All Presale Tokens, Start Earning From Day One.",
-          "lossClaim": "Loss Claim V1 (Only For Presale Investors From  Transaction, 1 Claim Per Wallet, On-Chain Verified).",
-          "audit": "Solidproof Audit."
+          "smartContract": "Desplegando Contrato Inteligente.",
+          "socialMedia": "Abrir X (Twitter) y Telegram.",
+          "dashboard": "Dashboard: Clasificación REKT Score, Rastreador de Vesting, Recompensa de Staking, Límite de Quema.",
+          "autoStaking": "Auto Staking Para Todos los Tokens de Preventa, Comienza a Ganar Desde el Día Uno.",
+          "lossClaim": "Reclamar Pérdida V1 (Solo Para Inversores de Preventa Desde Transacción de $350, 1 Reclamo Por Billetera, Verificado On-Chain).",
+          "audit": "Auditoría Solidproof."
         }
       },
       "phase2": {
-        "title": "Utility & REKT Logic",
-        "goal": "Activate tokenomics, engage stakers, drive on-chain volume.",
+        "title": "Utilidad y Lógica REKT",
+        "goal": "Activar tokenomics, involucrar stakers, impulsar volumen on-chain.",
         "items": {
-          "dexTax": "1% Dex Tax: 50% Staking, 25% Treasury, And 25% Burn (Until 200M Burned).",
-          "rageClaim": "Rage Claim Penalties Scale Over Time (20% -> 5%).",
-          "leaderboard": "REKT Score Leaderboard.",
-          "lossClaimV2": "Loss Claim V2: Wallet Age Multiplies, Cooldowns.",
-          "burnTracker": "Burn Cap Tracker + Live Staking Stats.",
-          "nftDrop": "Optional NFT Drop To Refill Staking Pool."
+          "dexTax": "1% Impuesto Dex: 50% Staking, 25% Tesorería, Y 25% Quema (Hasta 200M Quemados).",
+          "rageClaim": "Las Penalizaciones de Rage Claim Escalan Con el Tiempo (20% -> 5%).",
+          "leaderboard": "Clasificación REKT Score.",
+          "lossClaimV2": "Reclamar Pérdida V2: Edad de Billetera Multiplica, Cooldowns.",
+          "burnTracker": "Rastreador de Límite de Quema + Estadísticas de Staking en Vivo.",
+          "nftDrop": "Drop NFT Opcional Para Rellenar Pool de Staking."
         }
       },
       "phase3": {
-        "title": "Scaling & Community Chaos",
-        "goal": "Meme-powered growth and ecosystem expansion.",
+        "title": "Escalado y Caos Comunitario",
+        "goal": "Crecimiento impulsado por memes y expansión del ecosistema.",
         "items": {
-          "cexOutreach": "CEX Outreach (Solana-Friendly).",
-          "memeWars": "MEME Wars: Community Leaderboard + Airdrops.",
-          "rektLabs": "Rekt Labs: Experimental Staking/NFT Features.",
-          "finalAudit": "Final Audit (Certik Or Ottersec)."
+          "cexOutreach": "Alcance CEX (Amigable con Solana).",
+          "memeWars": "MEME Wars: Clasificación Comunitaria + Airdrops.",
+          "rektLabs": "Rekt Labs: Características Experimentales de Staking/NFT.",
+          "finalAudit": "Auditoría Final (Certik O Ottersec)."
         }
       }
     }
@@ -358,11 +187,11 @@
     "items": {
       "sellAfterLaunch": {
         "question": "¿Puedo vender todo después del lanzamiento?",
-        "answer": "30% se desbloquea en el lanzamiento, el resto se otorga durante 6 meses. ¿Quieres más temprano? Reclama con rabia pero espera una penalización por quema."
+        "answer": "30% se desbloquea en el lanzamiento, el resto se libera gradualmente durante 6 meses. ¿Quieres más temprano? Rage claim pero espera una penalización de quema."
       },
       "rewardsOnLocked": {
-        "question": "¿Gano recompensas con tokens bloqueados?",
-        "answer": "¡Sí! Todos los tokens de preventa se ponen automáticamente en staking y ganan recompensas desde el primer día."
+        "question": "¿Gano recompensas en tokens bloqueados?",
+        "answer": "¡Sí! Todos los tokens de preventa se apuestan automáticamente y ganan recompensas desde el primer día."
       },
       "afterBurnCap": {
         "question": "¿Qué pasa después del límite de quema?",
@@ -381,5 +210,183 @@
         "answer": "Los reclamos se calculan basados en el monto de pérdida verificado, antigüedad de la billetera y multiplicadores de nivel de comunidad."
       }
     }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "Distribución justa para máximo caos",
+      "distributionTitle": "Desglose de Distribución",
+      "totalSupply": "Suministro Total: {amount} {symbol}"
+    },
+    "team": {
+      "title": "Conoce a las Leyendas $REKT",
+      "subtitle": "Los degenerados que convirtieron el dolor en ganancia. Cada uno probado en batalla por el mercado, forjado en los fuegos de la liquidación."
+    },
+    "roadmap": {
+      "title": "Hoja de Ruta $REKT",
+      "subtitle": "Staking exclusivo para compradores de preventa · Stack de lanzamiento simplificado"
+    },
+    "whitepaper": {
+      "title": "Documentación y Seguridad",
+      "subtitle": "Transparencia y seguridad primero",
+      "description": "Documentación completa y auditorías de seguridad de terceros",
+      "whitepaper": {
+        "title": "Whitepaper",
+        "description": "Documentación integral que cubre tokenomics, hoja de ruta e implementación técnica",
+        "features": {
+          "tokenomics": "Desglose completo de tokenomics",
+          "technical": "Detalles de arquitectura técnica",
+          "roadmap": "Hoja de ruta y planes futuros",
+          "risk": "Evaluación de riesgos y descargos de responsabilidad"
+        },
+        "button": "Ver Whitepaper"
+      },
+      "audit": {
+        "title": "Auditoría de Seguridad",
+        "description": "Auditoría de seguridad de terceros por firmas líderes de seguridad blockchain",
+        "button": "Ver Reporte de Auditoría"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber sobre ser REKT",
+      "expand": "Expandir",
+      "collapse": "Colapsar"
+    },
+    "leaderboard": {
+      "title": "Clasificación de Perdedores",
+      "subtitle": "Los mayores perdedores son los mayores ganadores",
+      "loading": "Cargando clasificación...",
+      "noData": "No hay datos disponibles.",
+      "error": "Error al cargar clasificación",
+      "columns": {
+        "rank": "Rango",
+        "loser": "Perdedor",
+        "rektScore": "Puntuación Rekt",
+        "totalLosses": "Pérdidas Totales",
+        "purchase": "Compra"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Actualizar Clasificación",
+        "claimYourLoss": "Reclama tu pérdida"
+      }
+    }
+  },
+  "lossClaim": {
+    "title": "Reclamar Pérdida REKT",
+    "tagline": "Un tiro. Un escudo.",
+    "description": {
+      "before": "Un bono exclusivo V1 de preventa para billeteras con al menos $350 de asignación. Envía tu reclamo después de que termine la preventa para recuperar tokens REKT por pérdidas elegibles. Las recompensas de Reclamar Pérdida",
+      "not": "NO",
+      "after": "están en staking — esta es una oportunidad única."
+    },
+    "cta": {
+      "check": "Verificar Elegibilidad",
+      "viewEligibility": "Ver Elegibilidad"
+    },
+    "status": {
+      "eligible": "Elegible",
+      "unused": "Sin Usar"
+    },
+    "cards": {
+      "whitelisted": {
+        "title": "Billetera en Lista Blanca",
+        "desc": "Solo billeteras de preventa V1 con asignación de $350 pueden reclamar"
+      },
+      "onePer": {
+        "title": "Un Reclamo Por Billetera",
+        "desc": "Reclamo único por billetera — sin reinicios"
+      },
+      "window": {
+        "title": "Ventana de Reclamo",
+        "desc": "Los reclamos solo pueden enviarse una vez que la preventa haya cerrado oficialmente"
+      }
+    },
+    "form": {
+      "heading": "Reclama Tu Bono de Preventa",
+      "selectToken": "Seleccionar Token",
+      "chooseEligibleToken": "Elegir token elegible...",
+      "claimAmount": "Cantidad de Reclamo",
+      "usdtEquivalent": "$0.00 equivalente USDT",
+      "disclaimer": "Los tokens de Reclamar Pérdida no están en staking y no pueden ser re-apostados después",
+      "submit": "Enviar Reclamo"
+    },
+    "info": {
+      "title": "Importante: Bono V1 de Preventa",
+      "list": {
+        "whitelisted": "Disponible solo para billeteras de preventa V1 con asignación ≥ $350",
+        "onePer": "Un reclamo por billetera",
+        "eligibleOnly": "Solo tokens elegibles",
+        "afterPresale": "Los reclamos solo pueden enviarse después de que termine la preventa",
+        "notStaked": "Los tokens recibidos de Reclamar Pérdida NO están en staking"
+      }
+    },
+    "ctaBottom": {
+      "title": "Bono V1 — Solo Una Vez",
+      "text": "Pierde la ventana de reclamo, y se habrá ido para siempre.",
+      "buy": "COMPRAR $REKT"
+    }
+  },
+  "staking": {
+    "header": {
+      "alt": "REKT Staking - Solo los perdedores ganan",
+      "logoAlt": "Logo"
+    },
+    "info": "Todos los tokens de preventa se apuestan automáticamente desde la compra. Las recompensas comienzan instantáneamente, reclamables al final de la preventa.",
+    "buttons": {
+      "viewLeaderboard": "Ver Clasificación",
+      "claim": "RECLAMAR"
+    },
+    "stats": {
+      "yourStakedBalance": "Tu Balance en Staking",
+      "unlockNote": "30% desbloqueado en el lanzamiento, 70% liberándose durante 6 meses (solo tokens)",
+      "yourPoolShare": "Tu % del Pool",
+      "yourPoolShareDesc": "Tu parte del pool total de staking",
+      "totalStaked": "Total en Staking (Pool de Preventa)",
+      "totalStakedDesc": "Total de tokens en staking entre todos los participantes de preventa",
+      "annualApy": "APY Anual",
+      "annualApyValue": "65% p/a",
+      "annualApyDesc": "Rendimiento porcentual anual actual",
+      "dailyRewards": "Recompensas Diarias",
+      "dailyRewardsValue": "2,178+ REKT",
+      "dailyRewardsDesc": "Disponible Ahora (sin liberación gradual)"
+    },
+    "rewards": {
+      "title": "Total de Recompensas Acumuladas"
+    },
+    "footer": {
+      "notice": "El staking es exclusivo para compradores de preventa. Las recompensas dependen de la actividad del ecosistema.",
+      "vestingNote": "La liberación gradual se aplica solo a tokens en staking. Las recompensas no tienen liberación gradual."
+    },
+    "alts": {
+      "viewLeaderboardImg": "Ver Clasificación",
+      "frame": "Marco",
+      "longFrame": "Marco Largo",
+      "logoSpread": "Logo Extendido",
+      "claimButton": "Reclamar"
+    }
+  },
+  "footer": {
+    "description": "La revolucionaria meme coin que convierte tus pérdidas criptográficas en ganancias. Solo los perdedores ganan en el ecosistema $REKT.",
+    "socialTitle": "Únete a nuestros enlaces sociales",
+    "copyright": "Copyright © $REKT {year}. Todos los derechos reservados.",
+    "disclaimer": "Descargo de responsabilidad: Meme coin con utilidad. No hay ganancias garantizadas. No es asesoramiento financiero. Úsalo bajo tu propio riesgo.",
+    "links": {
+      "tokenomics": "Tokenomics",
+      "roadmap": "Hoja de Ruta",
+      "faq": "FAQ",
+      "whitepaper": "Whitepaper",
+      "audit": "Auditoría",
+      "leaderboard": "Clasificación",
+      "lossClaim": "Reclamar Pérdida",
+      "staking": "Staking"
+    }
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "description": "La página que buscas no existe.",
+    "goHome": "Ir al Inicio",
+    "staking": "Staking",
+    "lossClaim": "Reclamar Pérdida"
   }
 }
