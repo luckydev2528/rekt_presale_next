@@ -1,7 +1,6 @@
 'use client'
 
 import { useRef, useState, useCallback, useEffect } from 'react'
-import Image from 'next/image'
 import type { FAQItem } from '@/data/faqItems'
 import { faqItems } from '@/data/faqItems'
 import { useTranslations } from 'next-intl'
@@ -36,6 +35,7 @@ function FAQItemRowMobile({ item, index, isOpen, onToggle, headerRef }: {
   onToggle: (index: number) => void
   headerRef: (el: HTMLButtonElement | null) => void
 }) {
+  const t = useTranslations('faq')
   const panelId = `faq-panel-${item.id}`
   const headerId = `faq-header-${item.id}`
 
@@ -70,7 +70,7 @@ function FAQItemRowMobile({ item, index, isOpen, onToggle, headerRef }: {
 
           <div className="flex items-center justify-between flex-shrink-0 px-4 py-4 min-h-[90px]">
             <h3 className="text-base font-semibold text-white pr-4 leading-relaxed">
-              {item.question}
+              {t(`items.${item.id}.question`)}
             </h3>
             <div className="flex-shrink-0 ml-2">
               <PlusIcon open={isOpen} />
@@ -86,7 +86,7 @@ function FAQItemRowMobile({ item, index, isOpen, onToggle, headerRef }: {
               className="px-4 pb-4"
             >
               <div className="text-sm text-gray-300 leading-relaxed w-full">
-                {item.answer}
+                {t(`items.${item.id}.answer`)}
               </div>
             </div>
           )}
@@ -131,7 +131,7 @@ export default function FAQMobile() {
 
       <div className="text-center mb-8">
         <h2 id="faq-heading-mobile" className="text-2xl md:text-3xl font-primary font-bold leading-tight">
-          <span className="text-cyan-400">F</span>requently <span className="text-purple-500">A</span>sked <span className="text-cyan-400">Q</span>uestions
+          {t('faq.title')}
         </h2>
         <p className="text-gray-300 mt-2 text-sm">{t('faq.subtitle')}</p>
       </div>

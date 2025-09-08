@@ -2,26 +2,28 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 const firstRowLinks = [
-  "Tokenomics",
-  "Roadmap",
-  "FAQ",
-  "Whitepaper",
-  "Audit",
-  "Leaderboard",
+  "tokenomics",
+  "roadmap",
+  "faq",
+  "whitepaper",
+  "audit",
+  "leaderboard",
 ];
 
-const secondRowLinks = ["Loss Claim", "Staking"];
+const secondRowLinks = ["lossClaim", "staking"];
 
 export default function FooterSection() {
+  const t = useTranslations('footer');
   const year = new Date().getFullYear();
 
   const router = useRouter();
 
   const handleLinkClick = (link: string) => {
-    if (link === "Loss Claim" || link === "Staking") {
-      const targetRoute = link === "Loss Claim" ? "/loss-claim" : "/staking";
+    if (link === "lossClaim" || link === "staking") {
+      const targetRoute = link === "lossClaim" ? "/loss-claim" : "/staking";
       router.push(targetRoute);
       return;
     }
@@ -34,27 +36,26 @@ export default function FooterSection() {
 
   return (
     <footer className="relative pt-0 pb-6 mt-0 border-t border-purple-500/50 overflow-hidden">
-
+      {/* Disclaimer Banner */}
       <div className="w-full overflow-hidden bg-[#3e008c] py-2 px-3 lg:px-4">
         <div className="inline-block animate-scroll-infinite whitespace-nowrap text-[13px]">
-          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">Disclaimer:</span>
-          Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk. &nbsp; • &nbsp;
-          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">Disclaimer:</span>
-          Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk. &nbsp; • &nbsp;
-          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">Disclaimer:</span>
-          Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk. &nbsp; • &nbsp;
-          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">Disclaimer:</span>
-          Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.
+          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">{t('disclaimer')}</span>
+          &nbsp; • &nbsp;
+          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">{t('disclaimer')}</span>
+          &nbsp; • &nbsp;
+          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">{t('disclaimer')}</span>
+          &nbsp; • &nbsp;
+          <span className="text-[var(--text-accent)] font-primary font-bold mr-1">{t('disclaimer')}</span>
         </div>
       </div>
 
-
+      {/* Background */}
       <div className="absolute inset-0 pointer-events-none opacity-30">
         <Image src="/assets/bg-2-1.webp" alt="Background" fill className="object-cover" />
       </div>
 
       <div className="relative z-10 w-full px-3 lg:px-6 grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-4 lg:gap-6 py-8 items-start">
-
+        {/* Left Section */}
         <div className="max-w-sm space-y-4">
           <div className="flex items-center space-x-3">
             <Image
@@ -73,11 +74,11 @@ export default function FooterSection() {
             />
           </div>
           <p className="text-gray-300 text-[13px] leading-relaxed">
-            The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the $REKT ecosystem.
+            {t('description')}
           </p>
         </div>
 
-
+        {/* Center Section - Navigation Links */}
         <div className="flex flex-col items-center lg:items-center lg:justify-self-center text-[13px] text-gray-300 space-y-2">
           <div className="flex flex-wrap justify-center gap-10">
             {firstRowLinks.map((link) => (
@@ -86,7 +87,7 @@ export default function FooterSection() {
                 onClick={() => handleLinkClick(link)}
                 className="hover:text-cyan-400 transition-colors"
               >
-                {link}
+                {t(`links.${link}`)}
               </button>
             ))}
           </div>
@@ -97,17 +98,17 @@ export default function FooterSection() {
                 onClick={() => handleLinkClick(link)}
                 className="hover:text-cyan-400 transition-colors"
               >
-                {link}
+                {t(`links.${link}`)}
               </button>
             ))}
           </div>
         </div>
 
-
+        {/* Right Section - Social Links */}
         <div className="flex flex-col items-start lg:items-end space-y-4 lg:justify-self-end">
-          <h4 className="text-white font-primary text-lg tracking-wide font-bold">Join our Social links</h4>
+          <h4 className="text-white font-primary text-lg tracking-wide font-bold">{t('socialTitle')}</h4>
           <div className="flex space-x-4">
-
+            {/* Telegram */}
             <a
               href="https://t.me/REKT"
               target="_blank"
@@ -123,7 +124,7 @@ export default function FooterSection() {
               <span className="sr-only">Telegram</span>
             </a>
 
-
+            {/* Twitter/X */}
             <a
               href="https://twitter.com/REKT"
               target="_blank"
@@ -142,9 +143,9 @@ export default function FooterSection() {
         </div>
       </div>
 
-
+      {/* Copyright */}
       <div className="relative z-10 mt-8 pt-4 border-t border-purple-500/30 text-center text-xs text-white px-3 lg:px-6">
-        Copyright © $REKT {year}. All rights reserved.
+        {t('copyright', { year })}
       </div>
     </footer>
   );

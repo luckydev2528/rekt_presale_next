@@ -14,7 +14,7 @@ export default function WhitepaperSection() {
         
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-primary font-bold leading-tight">
-            <span className="text-cyan-400">Documentation</span> <span className="text-purple-500">&amp; Security</span>
+            {t('whitepaper.title')}
           </h2>
           <p className="text-gray-300 mt-3 text-lg">{t('whitepaper.subtitle')}</p>
           <p className="text-sm text-gray-400">{t('whitepaper.description')}</p>

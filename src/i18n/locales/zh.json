@@ -96,6 +96,182 @@
       "title": "如在以下媒体所见"
     }
   },
+  "distribution": {
+    "presale": "预售",
+    "treasury": "国库",
+    "liquidityPool": "流动性池",
+    "stakingPool": "质押池",
+    "communityFund": "社区基金"
+  },
+  "tax": {
+    "title": "{percentage}% 每次买卖税",
+    "breakdown": {
+      "stakingPool": "质押池",
+      "treasury": "国库",
+      "burn": "销毁"
+    },
+    "burnCapDescription": "一旦销毁了2亿个$REKT，销毁将永久停止。50%将进入国库，50%将进入质押以鼓励长期增长。",
+    "burnCapReached": "直到达到2亿销毁上限"
+  },
+  "team": {
+    "sadboi": {
+      "name": "Sadboi",
+      "role": "创始人兼愿景负责人",
+      "description": "在熊市中构建$REKT，因为痛苦是最好的老师。包袱很重，信念更重。"
+    },
+    "downbadDave": {
+      "name": "DownBad Dave",
+      "role": "社区经理兼首席表情包官",
+      "description": "在图表下跌时保持氛围。表情包是免费的，士气是无价的。"
+    },
+    "liquidationLisa": {
+      "name": "Liquidation Lisa",
+      "role": "代币经济学和质押专家",
+      "description": "懂数学，感受痛苦。设计的$REKT供应曲线比保证金调用更紧。"
+    },
+    "fomoFred": {
+      "name": "FOMO Fred",
+      "role": "营销和炒作生成器",
+      "description": "如果你在读这个，你已经迟到了。让我们病毒式传播吧。"
+    },
+    "paperhandPete": {
+      "name": "Paperhand Pete",
+      "role": "风险管理和反滥用负责人",
+      "description": "早卖所以你不必这样做。保护国库免受自身伤害。"
+    },
+    "rektRoxy": {
+      "name": "REKT Roxy",
+      "role": "首席开发者兼安全专家",
+      "description": "发布代码比你说'gas费用'还快。无地毯拉，全是建设。"
+    }
+  },
+  "roadmap": {
+    "phases": {
+      "phase1": {
+        "title": "启动与基础",
+        "goal": "公平启动，即时质押，精简且适合表情包的设置。",
+        "items": {
+          "smartContract": "部署智能合约。",
+          "socialMedia": "开放X（Twitter）和Telegram。",
+          "dashboard": "仪表板：REKT分数排行榜，归属跟踪器，质押奖励，销毁上限。",
+          "autoStaking": "所有预售代币自动质押，从第一天开始赚取。",
+          "lossClaim": "损失申请V1（仅限350美元交易的预售投资者，每个钱包1次申请，链上验证）。",
+          "audit": "Solidproof审计。"
+        }
+      },
+      "phase2": {
+        "title": "实用性和REKT逻辑",
+        "goal": "激活代币经济学，吸引质押者，推动链上交易量。",
+        "items": {
+          "dexTax": "1% Dex税：50%质押，25%国库，25%销毁（直到销毁2亿）。",
+          "rageClaim": "愤怒申请惩罚随时间缩放（20% -> 5%）。",
+          "leaderboard": "REKT分数排行榜。",
+          "lossClaimV2": "损失申请V2：钱包年龄倍数，冷却期。",
+          "burnTracker": "销毁上限跟踪器+实时质押统计。",
+          "nftDrop": "可选NFT空投以补充质押池。"
+        }
+      },
+      "phase3": {
+        "title": "扩展和社区混乱",
+        "goal": "表情包驱动的增长和生态系统扩展。",
+        "items": {
+          "cexOutreach": "CEX外展（Solana友好）。",
+          "memeWars": "表情包战争：社区排行榜+空投。",
+          "rektLabs": "Rekt实验室：实验性质押/NFT功能。",
+          "finalAudit": "最终审计（Certik或Ottersec）。"
+        }
+      }
+    }
+  },
+  "faq": {
+    "items": {
+      "sellAfterLaunch": {
+        "question": "启动后我可以卖掉所有东西吗？",
+        "answer": "启动时解锁30%，其余在6个月内归属。想要更早？愤怒申请但期待销毁惩罚。"
+      },
+      "rewardsOnLocked": {
+        "question": "我在锁定代币上赚取奖励吗？",
+        "answer": "是的！所有预售代币都会自动质押并从第一天开始赚取奖励。"
+      },
+      "afterBurnCap": {
+        "question": "销毁上限后会发生什么？",
+        "answer": "一旦销毁2亿代币，销毁机制停止。税收分配转为50%国库，50%质押。"
+      },
+      "lossClaimsSupported": {
+        "question": "我可以使用哪些代币进行损失申请？",
+        "answer": "任何来自DeFi协议、CEX清算或地毯拉扯的经过验证的损失都可以通过适当验证进行申请。"
+      },
+      "stakeAfterPresale": {
+        "question": "如果我在预售后购买，我可以质押吗？",
+        "answer": "绝对可以！质押对所有$REKT持有者开放，不仅仅是预售参与者。"
+      },
+      "claimAmount": {
+        "question": "我可以从损失中申请多少REKT？",
+        "answer": "申请基于验证的损失金额、钱包年龄和社区等级倍数计算。"
+      }
+    }
+  },
+  "sections": {
+    "rektonomics": {
+      "title": "Rektonomics",
+      "subtitle": "公平分配以实现最大混乱",
+      "distributionTitle": "分配明细",
+      "totalSupply": "总供应量：{amount} {symbol}"
+    },
+    "team": {
+      "title": "认识 $REKT 传奇人物",
+      "subtitle": "将痛苦转化为利润的堕落者。每一个都经过市场的战斗考验，在清算的火焰中锻造而成。"
+    },
+    "roadmap": {
+      "title": "$REKT 路线图",
+      "subtitle": "质押专属于预售购买者 · 简化启动堆栈"
+    },
+    "whitepaper": {
+      "title": "文档与安全",
+      "subtitle": "透明度和安全第一",
+      "description": "完整的文档和第三方安全审计",
+      "whitepaper": {
+        "title": "白皮书",
+        "description": "涵盖代币经济学、路线图和技术实施的综合文档",
+        "features": {
+          "tokenomics": "完整的代币经济学分析",
+          "technical": "技术架构详情",
+          "roadmap": "路线图和未来计划",
+          "risk": "风险评估和免责声明"
+        },
+        "button": "查看白皮书"
+      },
+      "audit": {
+        "title": "安全审计",
+        "description": "由领先的区块链安全公司进行的第三方安全审计",
+        "button": "查看审计报告"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "关于获得 REKT 你需要知道的一切",
+      "expand": "展开",
+      "collapse": "收起"
+    },
+    "leaderboard": {
+      "title": "失败者排行榜",
+      "subtitle": "最大的失败者就是最大的赢家",
+      "loading": "正在加载排行榜...",
+      "noData": "没有可用数据。",
+      "error": "加载排行榜失败",
+      "columns": {
+        "rank": "排名",
+        "loser": "失败者",
+        "rektScore": "REKT 分数",
+        "totalLosses": "总损失",
+        "purchase": "购买"
+      },
+      "buttons": {
+        "refreshLeaderboard": "刷新排行榜",
+        "claimYourLoss": "申请你的损失"
+      }
+    }
+  },
   "lossClaim": {
     "title": "REKT损失申请",
     "tagline": "一枪。一盾。",
@@ -190,72 +366,27 @@
       "claimButton": "申请"
     }
   },
+  "footer": {
+    "description": "革命性的模因币，将您的加密损失转化为收益。在 $REKT 生态系统中，只有失败者才能获胜。",
+    "socialTitle": "加入我们的社交链接",
+    "copyright": "版权所有 © $REKT {year}。保留所有权利。",
+    "disclaimer": "免责声明：具有实用性的模因币。不保证利润。不是财务建议。使用风险自负。",
+    "links": {
+      "tokenomics": "代币经济",
+      "roadmap": "路线图",
+      "faq": "常见问题",
+      "whitepaper": "白皮书",
+      "audit": "审计",
+      "leaderboard": "排行榜",
+      "lossClaim": "损失申请",
+      "staking": "质押"
+    }
+  },
   "notFound": {
     "title": "页面未找到",
     "description": "您正在寻找的页面不存在。",
     "goHome": "回到首页",
     "staking": "质押",
     "lossClaim": "损失申请"
-  },
-  "sections": {
-    "rektonomics": {
-      "title": "Rektonomics",
-      "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown"
-    },
-    "team": {
-      "title": "Meet the $REKT Legends",
-      "subtitle": "The degenerates who turned pain into profit. Each one battle-tested by the market, forged in the fires of liquidation."
-    },
-    "roadmap": {
-      "title": "$REKT Roadmap",
-      "subtitle": "Staking exclusive to presale buyers · Simplified launch stack"
-    },
-    "whitepaper": {
-      "title": "Documentation & Security",
-      "subtitle": "Transparency and security first",
-      "description": "Full documentation and third-party security audits",
-      "whitepaper": {
-        "title": "Whitepaper",
-        "description": "Comprehensive documentation covering tokenomics, roadmap and technical implementation",
-        "features": {
-          "tokenomics": "Complete tokenomics breakdown",
-          "technical": "Technical architecture details",
-          "roadmap": "Roadmap and future plans",
-          "risk": "Risk assessment and disclaimers"
-        },
-        "button": "View Whitepaper"
-      },
-      "audit": {
-        "title": "Security Audit",
-        "description": "Third-party security audit by leading blockchain security firms",
-        "button": "View Audit Report"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about getting REKT",
-      "expand": "Expand",
-      "collapse": "Collapse"
-    },
-    "leaderboard": {
-      "title": "Loser Leaderboard",
-      "subtitle": "The biggest losers are the biggest winners",
-      "loading": "Loading leaderboard...",
-      "noData": "No data available.",
-      "error": "Failed to load leaderboard"
-    }
-  },
-  "footer": {
-    "links": {
-      "tokenomics": "Tokenomics",
-      "roadmap": "Roadmap",
-      "faq": "FAQ",
-      "whitepaper": "Whitepaper",
-      "audit": "Audit",
-      "leaderboard": "Leaderboard",
-      "lossClaim": "Loss Claim",
-      "staking": "Staking"
-    }
   }
 }

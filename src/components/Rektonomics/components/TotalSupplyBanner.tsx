@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { TotalSupplyBannerProps } from '../types';
 import { REKTONOMICS_ASSETS } from '../constants';
 
@@ -21,6 +22,7 @@ const TotalSupplyBanner: React.FC<TotalSupplyBannerProps> = ({
   variant = 'default',
   hideText = false,
 }) => {
+  const t = useTranslations('sections');
   const src = backgroundSrc ?? REKTONOMICS_ASSETS.totalSupplyBg;
   const critical = isAssetCritical(src);
   const { isLoading, hasError, handleLoad, handleError } = useOptimizedImage({
@@ -67,7 +69,7 @@ const TotalSupplyBanner: React.FC<TotalSupplyBannerProps> = ({
       {!hideText && (
         <div className={styles.contentOverlay}>
           <span className={styles.totalSupplyText}>
-            Total Supply: {totalSupply} {tokenSymbol}
+            {t('rektonomics.totalSupply', { amount: totalSupply, symbol: tokenSymbol })}
           </span>
         </div>
       )}

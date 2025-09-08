@@ -1,11 +1,11 @@
 import React from 'react';
 import { RektonomicsSectionProps } from './types';
-import { DEFAULT_TOKENOMICS_DATA, TAX_BREAKDOWN_ITEMS, getAssetBundle, getDistributionItems } from './constants';
+import { DEFAULT_TOKENOMICS_DATA, getAssetBundle, getDistributionItems, getTaxBreakdownItems } from './constants';
 import { useIsMobile } from './utils/useIsMobile';
 import { useTranslations } from 'next-intl';
 import styles from './RektonomicsSection.module.css';
 
-
+// Component imports
 import MainContainer from './components/MainContainer';
 import TaxContainer from './components/TaxContainer';
 import TotalSupplyBanner from './components/TotalSupplyBanner';
@@ -14,6 +14,7 @@ import MascotCenter from './components/MascotCenter';
 import PieChart from './components/PieChart';
 import TaxInfoSection from './components/TaxInfoSection';
 import AssetPreloader from './components/AssetPreloader';
+
 import RektonomicsMobile from './RektonomicsMobile';
 
 const RektonomicsSection: React.FC<RektonomicsSectionProps> = ({
@@ -21,9 +22,9 @@ const RektonomicsSection: React.FC<RektonomicsSectionProps> = ({
   className = '',
 }) => {
   const isMobile = useIsMobile();
-  const t = useTranslations('sections');
+  const t = useTranslations();
   
-
+  // Mobile version
   if (isMobile) {
     return (
       <section className={`relative ${styles.rektonomicsSection} ${className}`}>
@@ -34,21 +35,22 @@ const RektonomicsSection: React.FC<RektonomicsSectionProps> = ({
     );
   }
 
-
+  // Desktop version
   const assets = getAssetBundle(false);
-  const distributionItems = getDistributionItems(false);
+  const distributionItems = getDistributionItems(false, t);
+  const taxBreakdownItems = getTaxBreakdownItems();
 
   return (
     <section className={`${styles.rektonomicsSection} ${className}`}>
-
+      {/* Asset Preloader */}
       <AssetPreloader />
       
-      
+      {/* Main Container */}
       <MainContainer className={styles.mainContainer} borderSrc={assets.border}>
-        
+        {/* Header Section */}
         <div className={styles.headerSection}>
-          <h2 className={styles.sectionTitle}>{t('rektonomics.title')}</h2>
-          <p className={styles.sectionSubtitle}>{t('rektonomics.subtitle')}</p>
+          <h2 className={styles.sectionTitle}>{t('sections.rektonomics.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('sections.rektonomics.subtitle')}</p>
           <TotalSupplyBanner
             totalSupply={data.totalSupply.amount}
             tokenSymbol={data.totalSupply.symbol}
@@ -56,10 +58,10 @@ const RektonomicsSection: React.FC<RektonomicsSectionProps> = ({
           />
         </div>
 
-        
+        {/* Content Grid */}
         <div className={styles.contentGrid}>
           <div className={styles.distributionSection}>
-            <h3 className={styles.distributionTitle}>{t('rektonomics.distributionTitle')}</h3>
+            <h3 className={styles.distributionTitle}>{t('sections.rektonomics.distributionTitle')}</h3>
             <DistributionBreakdown items={distributionItems} />
           </div>
           <MascotCenter
@@ -75,12 +77,11 @@ const RektonomicsSection: React.FC<RektonomicsSectionProps> = ({
         </div>
       </MainContainer>
 
-      
+      {/* Tax Container */}
       <TaxContainer className={styles.taxContainer}>
         <TaxInfoSection
           taxPercentage={data.tax.percentage}
-          breakdown={TAX_BREAKDOWN_ITEMS}
-          description={data.tax.burnCapDescription}
+          breakdown={taxBreakdownItems}
         />
       </TaxContainer>
     </section>

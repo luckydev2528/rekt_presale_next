@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 import { useEffect, useState } from "react";
 import LeaderboardMobile from "./LeaderboardMobile";
@@ -10,6 +11,7 @@ import { useIsMobile } from "@/components/Rektonomics/utils/useIsMobile";
 
 
 export default function LeaderboardSection() {
+  const t = useTranslations('sections');
   const router = useRouter();
   const isMobile = useIsMobile();
 
@@ -47,7 +49,7 @@ export default function LeaderboardSection() {
     (async () => {
       try {
         const res = await fetch("/api/leaderboard", { cache: "no-store" });
-        if (!res.ok) throw new Error("Failed to load leaderboard");
+        if (!res.ok) throw new Error(t('leaderboard.error'));
         const json = (await res.json()) as LeaderboardEntry[];
         if (!cancelled) setRows(json);
       } catch (e: unknown) {
@@ -105,6 +107,14 @@ export default function LeaderboardSection() {
         />
 
         
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex items-start justify-center">
+          <div className="mt-[80px] flex flex-col items-center justify-start">
+            <div className="text-white text-[36px] font-display text-white  font-normal">{t('leaderboard.title')}</div>
+            <div className="text-white text-[28px] ">{t('leaderboard.subtitle')}</div>
+          </div>
+        </div>
+
+
         <div className="absolute left-1/2 -translate-x-1/2 top-[24%] md:top-[23%] lg:top-[22%] w-[92%] md:w-[88%] lg:w-[82%] bottom-[14%] overflow-hidden z-20">
           <div
             className="relative h-full w-full rounded-xl overflow-hidden backdrop-blur-sm border-2 shadow-[0_0_20px_rgba(138,43,226,0.35)]"
@@ -116,7 +126,6 @@ export default function LeaderboardSection() {
           >
             
             <div className="absolute inset-x-0 top-0 h-[4px] bg-[#00d1ff] shadow-[0_0_10px_rgba(0,209,255,0.8)]" />
-
             
             <div className="absolute top-0 bottom-0 left-4 right-4 pointer-events-none z-[1]">
               <div className="absolute top-0 bottom-0 left-[20%] w-px bg-[rgba(0,209,255,0.18)]" />
@@ -124,6 +133,7 @@ export default function LeaderboardSection() {
               <div className="absolute top-0 bottom-0 left-[60%] w-px bg-[rgba(0,209,255,0.18)]" />
               <div className="absolute top-0 bottom-0 left-[80%] w-px bg-[rgba(0,209,255,0.18)]" />
             </div>
+            
             
             <div
               className="px-4 py-3 sticky top-0 z-10 backdrop-blur-sm"
@@ -134,11 +144,11 @@ export default function LeaderboardSection() {
               }}
             >
               <div className="grid grid-cols-5 text-sm font-semibold divide-x divide-[rgba(0,209,255,0.18)]">
-                <div className="px-2">Rank</div>
-                <div className="px-2">Loser</div>
-                <div className="px-2 text-right">Rekt Score</div>
-                <div className="px-2 text-right">Total Losses</div>
-                <div className="px-2 text-right">Purchase</div>
+                <div className="px-2">{t('leaderboard.columns.rank')}</div>
+                <div className="px-2">{t('leaderboard.columns.loser')}</div>
+                <div className="px-2 text-right">{t('leaderboard.columns.rektScore')}</div>
+                <div className="px-2 text-right">{t('leaderboard.columns.totalLosses')}</div>
+                <div className="px-2 text-right">{t('leaderboard.columns.purchase')}</div>
               </div>
             </div>
 
@@ -146,7 +156,7 @@ export default function LeaderboardSection() {
             <div className="h-[calc(100%-48px)] overflow-y-auto relative z-[2]">
               {loading && (
                 <div className="p-6 text-center" style={{ color: COLORS.textPrimary }}>
-                  Loading leaderboard...
+                  {t('leaderboard.loading')}
                 </div>
               )}
               {error && !loading && (
@@ -154,7 +164,7 @@ export default function LeaderboardSection() {
               )}
               {!loading && !error && rows.length === 0 && (
                 <div className="p-6 text-center" style={{ color: COLORS.textPrimary }}>
-                  No data available.
+                  {t('leaderboard.noData')}
                 </div>
               )}
 
@@ -269,34 +279,44 @@ export default function LeaderboardSection() {
           <div className="flex items-center gap-3">
             <button
               type="button"
-              aria-label="Refresh Leaderboard"
+              aria-label={t('leaderboard.buttons.refreshLeaderboard')}
               onClick={() => router.refresh()}
-              className="block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95"
+              className="block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95 relative "
             >
               <Image
                 src="/assets/leaderboard/button.svg"
-                alt="Refresh Leaderboard"
-                width={170}
+                alt={t('leaderboard.buttons.refreshLeaderboard')}
+                width={200}
                 height={48}
                 unoptimized
                 priority
-                className="w-[170px] h-[48px] object-contain drop-shadow-[0_0_12px_rgba(0,255,255,0.35)]"
+                className="object-contain drop-shadow-[0_0_12px_rgba(0,255,255,0.35)]"
               />
+              <div className="absolute text-white text-[14px] font-display font-normal top-0 left-0 right-0 bottom-0
+                 flex items-center justify-center
+              " >
+                {t('leaderboard.buttons.refreshLeaderboard')}
+              </div>
             </button>
             <Link
               href="/loss-claim"
-              aria-label="Open Loss Claim"
-              className="block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95"
+              aria-label={t('leaderboard.buttons.claimYourLoss')}
+              className="relative block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95"
             >
               <Image
-                src="/assets/leaderboard/button2.svg"
-                alt="Open Loss Claim"
-                width={170}
+                src="/assets/leaderboard/button.svg"
+                alt={t('leaderboard.buttons.claimYourLoss')}
+                width={200}
                 height={48}
                 unoptimized
                 priority
-                className="w-[170px] h-[48px] object-contain drop-shadow-[0_0_12px_rgba(0,255,255,0.35)]"
+                className="object-contain drop-shadow-[0_0_12px_rgba(0,255,255,0.35)]"
               />
+              <div className="absolute text-white text-[14px] font-display font-normal top-0 left-0 right-0 bottom-0
+                 flex items-center justify-center
+              " >
+                {t('leaderboard.buttons.claimYourLoss')}
+              </div>
             </Link>
           </div>
         </div>

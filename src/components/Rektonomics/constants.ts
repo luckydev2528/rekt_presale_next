@@ -114,35 +114,35 @@ export const getAssetBundle = (isMobile: boolean = false) => {
   };
 };
 
-export const getDistributionItems = (isMobile: boolean = false): DistributionItem[] => {
+export const getDistributionItems = (isMobile: boolean = false, t?: (key: string) => string): DistributionItem[] => {
   const src = isMobile ? REKTONOMICS_MOBILE_ASSETS : REKTONOMICS_ASSETS;
   return [
     {
-      name: 'Presale',
+      name: t ? t('distribution.presale') : 'Presale',
       percentage: DEFAULT_TOKENOMICS_DATA.distribution.presale,
       svgAsset: src.distributionLines.presale,
       color: '#8c5dff',
     },
     {
-      name: 'Treasury',
+      name: t ? t('distribution.treasury') : 'Treasury',
       percentage: DEFAULT_TOKENOMICS_DATA.distribution.treasury,
       svgAsset: src.distributionLines.treasury,
       color: '#00d1ff',
     },
     {
-      name: 'Liquidity Pool',
+      name: t ? t('distribution.liquidityPool') : 'Liquidity Pool',
       percentage: DEFAULT_TOKENOMICS_DATA.distribution.liquidityPool,
       svgAsset: src.distributionLines.liquidity,
       color: '#007bff',
     },
     {
-      name: 'Staking Pool',
+      name: t ? t('distribution.stakingPool') : 'Staking Pool',
       percentage: DEFAULT_TOKENOMICS_DATA.distribution.stakingPool,
       svgAsset: src.distributionLines.staking,
       color: '#0052cc',
     },
     {
-      name: 'Community Fund',
+      name: t ? t('distribution.communityFund') : 'Community Fund',
       percentage: DEFAULT_TOKENOMICS_DATA.distribution.communityFund,
       svgAsset: src.distributionLines.community,
       color: '#4dc3ff',
@@ -151,22 +151,22 @@ export const getDistributionItems = (isMobile: boolean = false): DistributionIte
 };
 
 
-export const TAX_BREAKDOWN_ITEMS: TaxBreakdownItem[] = [
+export const getTaxBreakdownItems = (): TaxBreakdownItem[] => [
   {
-    name: 'Staking Pool',
+    name: 'stakingPool',
     percentage: DEFAULT_TOKENOMICS_DATA.tax.breakdown.stakingPool,
     color: '#00ff41',
   },
   {
-    name: 'Treasury',
+    name: 'treasury',
     percentage: DEFAULT_TOKENOMICS_DATA.tax.breakdown.treasury,
     color: '#00ff41',
   },
   {
-    name: 'Burn',
+    name: 'burn',
     percentage: DEFAULT_TOKENOMICS_DATA.tax.breakdown.burn,
     color: '#ff1744', 
-    description: 'Until 200M Burn cap reached'
+    description: 'burnCapReached'
   },
 ];
 

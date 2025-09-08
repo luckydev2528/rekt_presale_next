@@ -1,9 +1,10 @@
 import React from 'react';
 import { RektonomicsSectionProps } from './types';
-import { DEFAULT_TOKENOMICS_DATA, TAX_BREAKDOWN_ITEMS, getAssetBundle, getDistributionItems } from './constants';
+import { DEFAULT_TOKENOMICS_DATA, getAssetBundle, getDistributionItems, getTaxBreakdownItems } from './constants';
+import { useTranslations } from 'next-intl';
 import styles from './RektonomicsSection.module.css';
 
-
+// Component imports
 import MainContainer from './components/MainContainer';
 import TaxContainer from './components/TaxContainer';
 import TotalSupplyBanner from './components/TotalSupplyBanner';
@@ -14,22 +15,24 @@ import TaxInfoSection from './components/TaxInfoSection';
 import AssetPreloader from './components/AssetPreloader';
 
 
+
 const RektonomicsMobile: React.FC<RektonomicsSectionProps> = ({
   data = DEFAULT_TOKENOMICS_DATA,
   className = '',
 }) => {
-
+  const t = useTranslations();
   const assets = getAssetBundle(true);
-  const distributionItems = getDistributionItems(true);
+  const distributionItems = getDistributionItems(true, t);
+  const taxBreakdownItems = getTaxBreakdownItems();
 
   return (
     <div className={`${styles.mobileWrapper} ${className || ''}`}>
-
+      {/* Asset Preloader */}
       <AssetPreloader />
 
-
+      {/* Main Container */}
       <MainContainer className={styles.mainContainer} borderSrc={assets.border}>
-
+        {/* Header Section */}
         <div className={styles.headerSection}>
           {assets.headerAccents && (
             <img
@@ -39,8 +42,8 @@ const RektonomicsMobile: React.FC<RektonomicsSectionProps> = ({
               className={styles.headerAccents}
             />
           )}
-          <h2 className={styles.sectionTitle}>Rektonomics</h2>
-          <p className={styles.sectionSubtitle}>Fair distribution for maximum chaos</p>
+          <h2 className={styles.sectionTitle}>{t('sections.rektonomics.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('sections.rektonomics.subtitle')}</p>
           <TotalSupplyBanner
             totalSupply={data.totalSupply.amount}
             tokenSymbol={data.totalSupply.symbol}
@@ -50,28 +53,27 @@ const RektonomicsMobile: React.FC<RektonomicsSectionProps> = ({
           />
         </div>
 
-        
+        {/* Pie Chart */}
         <div className={styles.pieChart}>
           <PieChart data={distributionItems} chartImageSrc={assets.chart} />
         </div>
 
-        
+        {/* Content Grid */}
         <div className={styles.contentGrid}>
           <MascotCenter gifSrc={assets.mascot} altText="REKT Mascot Animation" />
 
           <div className={styles.distributionSection}>
-            <h3 className={styles.distributionTitle}>Distribution Breakdown</h3>
+            <h3 className={styles.distributionTitle}>{t('sections.rektonomics.distributionTitle')}</h3>
             <DistributionBreakdown items={distributionItems} />
           </div>
         </div>
       </MainContainer>
 
-      
+      {/* Tax Container */}
       <TaxContainer className={styles.taxContainer} backgroundSrc={assets.taxBackground}>
         <TaxInfoSection
           taxPercentage={data.tax.percentage}
-          breakdown={TAX_BREAKDOWN_ITEMS}
-          description={data.tax.burnCapDescription}
+          breakdown={taxBreakdownItems}
           variant="mobile"
         />
       </TaxContainer>

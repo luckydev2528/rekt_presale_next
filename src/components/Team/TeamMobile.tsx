@@ -3,11 +3,12 @@
 import Image from 'next/image'
 import MobileTeamCard from './MobileTeamCard'
 import styles from './TeamSection.module.css'
-import { teamMembers } from '@/data/teamData'
+import { getTeamMembers } from '@/data/teamData'
 import { useTranslations } from 'next-intl'
 
 export default function TeamMobile() {
-  const t = useTranslations('sections')
+  const t = useTranslations()
+  const teamMembers = getTeamMembers(t)
   
   return (
     <div className={`${styles.section} py-16 relative w-full`} style={{ overflowX: 'hidden' }}>
@@ -28,7 +29,7 @@ export default function TeamMobile() {
               priority={false}
             />
             <h2 className="relative z-10 text-3xl font-primary font-bold px-1">
-              {t('team.title').split('$REKT').map((part, index) => (
+              {t('sections.team.title').split('$REKT').map((part, index) => (
                 index === 0 ? (
                   <span key={index}>{part}<span className="neon-glow-cyan" style={{ color: 'var(--bright-cyan-glow)' }}>$REKT</span></span>
                 ) : (
@@ -48,7 +49,7 @@ export default function TeamMobile() {
           </div>
         </div>
         <p className="text-base text-gray-300 max-w-xl mx-auto mt-3">
-          {t('team.subtitle')}
+          {t('sections.team.subtitle')}
         </p>
       </div>
 

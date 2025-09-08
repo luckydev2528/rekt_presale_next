@@ -43,16 +43,16 @@ export default function WhitepaperMobile() {
             />
             <div className="relative pt-20 px-6 pb-8 flex flex-col items-center text-center">
               <Image src="/assets/Whitepaper/REKT.webp" alt="Whitepaper Icon" width={80} height={80} />
-              <h3 className="text-xl font-primary font-bold text-white mt-4">Whitepaper</h3>
+              <h3 className="text-xl font-primary font-bold text-white mt-4">{t('whitepaper.whitepaper.title')}</h3>
               <p className="text-gray-300 text-xs mt-2 max-w-xs">
-                Comprehensive documentation covering tokenomics, roadmap and technical implementation
+                {t('whitepaper.whitepaper.description')}
               </p>
               <ul className="mt-4 space-y-1.5 text-left">
                 {[
-                  'Complete tokenomics breakdown',
-                  'Technical architecture details',
-                  'Roadmap and future plans',
-                  'Risk assessment and disclaimers'
+                  t('whitepaper.whitepaper.features.tokenomics'),
+                  t('whitepaper.whitepaper.features.technical'),
+                  t('whitepaper.whitepaper.features.roadmap'),
+                  t('whitepaper.whitepaper.features.risk')
                 ].map(item => (
                   <li key={item} className="flex items-start space-x-2">
                     <Image
@@ -80,7 +80,7 @@ export default function WhitepaperMobile() {
                   className="pointer-events-none select-none"
                 />
                 <span className="absolute inset-0 flex items-center justify-center font-bold text-white text-xs tracking-wider">
-                  View Whitepaper
+                  {t('whitepaper.whitepaper.button')}
                 </span>
               </a>
             </div>
@@ -114,9 +114,9 @@ export default function WhitepaperMobile() {
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                 />
               </div>
-              <h3 className="text-xl font-primary font-bold text-white mt-4">Security Audit</h3>
+              <h3 className="text-xl font-primary font-bold text-white mt-4">{t('whitepaper.audit.title')}</h3>
               <p className="text-gray-300 text-xs mt-2 max-w-xs">
-                Third-party security audit by leading blockchain security firms
+                {t('whitepaper.audit.description')}
               </p>
               
               <div className="flex items-center justify-center gap-12 mt-4">
@@ -142,7 +142,7 @@ export default function WhitepaperMobile() {
                   className="pointer-events-none select-none"
                 />
                 <span className="absolute inset-0 flex items-center justify-center font-bold text-white text-xs tracking-wider">
-                  View Audit Report
+                  {t('whitepaper.audit.button')}
                 </span>
               </a>
             </div>

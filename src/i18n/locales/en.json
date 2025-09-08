@@ -96,11 +96,127 @@
       "title": "As seen on"
     }
   },
+  "distribution": {
+    "presale": "Presale",
+    "treasury": "Treasury",
+    "liquidityPool": "Liquidity Pool",
+    "stakingPool": "Staking Pool",
+    "communityFund": "Community Fund"
+  },
+  "tax": {
+    "title": "{percentage}% Tax on Every Buy/Sell",
+    "breakdown": {
+      "stakingPool": "Staking Pool",
+      "treasury": "Treasury",
+      "burn": "Burn"
+    },
+    "burnCapDescription": "Once 200M $REKT have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
+    "burnCapReached": "Until 200M Burn cap reached"
+  },
+  "team": {
+    "sadboi": {
+      "name": "Sadboi",
+      "role": "Founder & Vision Lead",
+      "description": "Built $REKT in a bear market because pain is the best teacher. Bags are heavy, conviction is heavier."
+    },
+    "downbadDave": {
+      "name": "DownBad Dave",
+      "role": "Community Manager & Chief Meme Officer",
+      "description": "Here to keep the vibes up when the charts are down. Memes are free, morale is priceless."
+    },
+    "liquidationLisa": {
+      "name": "Liquidation Lisa",
+      "role": "Tokenomics & Staking Specialist",
+      "description": "Knows the math, feels the pain. Designed $REKT's supply curve tighter than a margin call."
+    },
+    "fomoFred": {
+      "name": "FOMO Fred",
+      "role": "Marketing & Hype Generator",
+      "description": "If you're reading this, you're already late. Let's go viral."
+    },
+    "paperhandPete": {
+      "name": "Paperhand Pete",
+      "role": "Risk Management & Anti-Abuse Lead",
+      "description": "Sells early so you don't have to. Protecting the treasury from itself."
+    },
+    "rektRoxy": {
+      "name": "REKT Roxy",
+      "role": "Lead Developer & Security Expert",
+      "description": "Ships code faster than you can say 'gas fees.' No rug, all build."
+    }
+  },
+  "roadmap": {
+    "phases": {
+      "phase1": {
+        "title": "Launch & Foundation",
+        "goal": "Fair launch, instant staking, lean & meme-ready setup.",
+        "items": {
+          "smartContract": "Deploying Smart Contract.",
+          "socialMedia": "Open X (Twitter) & Telegram.",
+          "dashboard": "Dashboard: REKT Score Leaderboard, Vesting Tracker, Staking Reward, Burn Cap.",
+          "autoStaking": "Auto Staking For All Presale Tokens, Start Earning From Day One.",
+          "lossClaim": "Loss Claim V1 (Only For Presale Investors From $350 Transaction, 1 Claim Per Wallet, On-Chain Verified).",
+          "audit": "Solidproof Audit."
+        }
+      },
+      "phase2": {
+        "title": "Utility & REKT Logic",
+        "goal": "Activate tokenomics, engage stakers, drive on-chain volume.",
+        "items": {
+          "dexTax": "1% Dex Tax: 50% Staking, 25% Treasury, And 25% Burn (Until 200M Burned).",
+          "rageClaim": "Rage Claim Penalties Scale Over Time (20% -> 5%).",
+          "leaderboard": "REKT Score Leaderboard.",
+          "lossClaimV2": "Loss Claim V2: Wallet Age Multiplies, Cooldowns.",
+          "burnTracker": "Burn Cap Tracker + Live Staking Stats.",
+          "nftDrop": "Optional NFT Drop To Refill Staking Pool."
+        }
+      },
+      "phase3": {
+        "title": "Scaling & Community Chaos",
+        "goal": "Meme-powered growth and ecosystem expansion.",
+        "items": {
+          "cexOutreach": "CEX Outreach (Solana-Friendly).",
+          "memeWars": "MEME Wars: Community Leaderboard + Airdrops.",
+          "rektLabs": "Rekt Labs: Experimental Staking/NFT Features.",
+          "finalAudit": "Final Audit (Certik Or Ottersec)."
+        }
+      }
+    }
+  },
+  "faq": {
+    "items": {
+      "sellAfterLaunch": {
+        "question": "Can I sell everything after launch?",
+        "answer": "30% unlocks at launch, the rest vests over 6 months. Want more early? Rage claim but expect a burn penalty."
+      },
+      "rewardsOnLocked": {
+        "question": "Do I earn rewards on locked tokens?",
+        "answer": "Yes! All presale tokens are automatically staked and earning rewards from day one."
+      },
+      "afterBurnCap": {
+        "question": "What happens after the burn cap?",
+        "answer": "Once 200M tokens are burned, the burn mechanism stops. Tax distribution shifts to 50% treasury, 50% staking."
+      },
+      "lossClaimsSupported": {
+        "question": "Which tokens can I use for Loss Claims?",
+        "answer": "Any verified loss from DeFi protocols, CEX liquidations, or rug pulls can be claimed with proper verification."
+      },
+      "stakeAfterPresale": {
+        "question": "Can I stake if I buy after the presale?",
+        "answer": "Absolutely! Staking is available to all $REKT holders, not just presale participants."
+      },
+      "claimAmount": {
+        "question": "How much REKT can I claim from losses?",
+        "answer": "Claims are calculated based on verified loss amount, wallet age, and community tier multipliers."
+      }
+    }
+  },
   "sections": {
     "rektonomics": {
       "title": "Rektonomics",
       "subtitle": "Fair distribution for maximum chaos",
-      "distributionTitle": "Distribution Breakdown"
+      "distributionTitle": "Distribution Breakdown",
+      "totalSupply": "Total Supply: {amount} {symbol}"
     },
     "team": {
       "title": "Meet the $REKT Legends",
@@ -142,7 +258,18 @@
       "subtitle": "The biggest losers are the biggest winners",
       "loading": "Loading leaderboard...",
       "noData": "No data available.",
-      "error": "Failed to load leaderboard"
+      "error": "Failed to load leaderboard",
+      "columns": {
+        "rank": "Rank",
+        "loser": "Loser",
+        "rektScore": "Rekt Score",
+        "totalLosses": "Total Losses",
+        "purchase": "Purchase"
+      },
+      "buttons": {
+        "refreshLeaderboard": "Refresh Leaderboard",
+        "claimYourLoss": "Claim your loss"
+      }
     }
   },
   "lossClaim": {
@@ -240,6 +367,10 @@
     }
   },
   "footer": {
+    "description": "The revolutionary meme coin that turns your crypto losses into gains. Only losers win in the $REKT ecosystem.",
+    "socialTitle": "Join our Social links",
+    "copyright": "Copyright © $REKT {year}. All rights reserved.",
+    "disclaimer": "Disclaimer: Meme coin with utility. No guaranteed profits. Not financial advice. Use at your own risk.",
     "links": {
       "tokenomics": "Tokenomics",
       "roadmap": "Roadmap",

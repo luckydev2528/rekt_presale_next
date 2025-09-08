@@ -3,11 +3,12 @@
 import Image from 'next/image'
 import TeamCard from './TeamCard'
 import styles from './TeamSection.module.css'
-import { teamMembers } from '@/data/teamData'
+import { getTeamMembers } from '@/data/teamData'
 import { useTranslations } from 'next-intl'
 
 export default function TeamDesktop() {
-  const t = useTranslations('sections')
+  const t = useTranslations()
+  const teamMembers = getTeamMembers(t)
   
   return (
     <section className={`${styles.section} py-20 relative`}>
@@ -27,7 +28,7 @@ export default function TeamDesktop() {
               loading="lazy"
             />
             <h2 className="text-4xl font-primary font-bold whitespace-nowrap">
-              {t('team.title').split('$REKT').map((part, index) => (
+              {t('sections.team.title').split('$REKT').map((part, index) => (
                 index === 0 ? (
                   <span key={index}>{part}<span className="neon-glow-cyan" style={{ color: 'var(--bright-cyan-glow)' }}>$REKT</span></span>
                 ) : (
@@ -46,7 +47,7 @@ export default function TeamDesktop() {
             />
           </div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            {t('team.subtitle')}
+            {t('sections.team.subtitle')}
           </p>
         </div>
 

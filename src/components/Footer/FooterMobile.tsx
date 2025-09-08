@@ -147,7 +147,7 @@ export default function FooterMobile() {
 
           <div className="border-t border-cyan-400 pt-4">
             <p className="text-white text-center text-xs">
-              Copyright © $REKT {year}. All rights reserved.
+              {t('copyright', { year })}
             </p>
           </div>
         </div>

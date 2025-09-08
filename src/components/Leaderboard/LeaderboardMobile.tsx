@@ -34,7 +34,7 @@ export default function LeaderboardMobile() {
     (async () => {
       try {
         const res = await fetch("/api/leaderboard", { cache: "no-store" });
-        if (!res.ok) throw new Error("Failed to load leaderboard");
+        if (!res.ok) throw new Error(t('leaderboard.error'));
         const json = (await res.json()) as LeaderboardEntry[];
         if (!cancelled) setRows(json);
       } catch (e: unknown) {
@@ -218,38 +218,48 @@ export default function LeaderboardMobile() {
         </div>
 
 
-        <div className="absolute left-1/2 -translate-x-1/2 bottom-[6%] z-50">
-          <div className="flex items-center justify-center gap-3">
+        <div className="absolute  bottom-[6%] z-50">
+          <div className="flex items-center justify-between w-[100vw] px-3">
             <button
               type="button"
-              aria-label="Refresh Leaderboard"
+              aria-label={t('leaderboard.buttons.refreshLeaderboard')}
               onClick={() => router.refresh()}
-              className="block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95"
+              className="block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95 relative "
             >
               <Image
                 src="/assets/leaderboard/button.svg"
-                alt="Refresh Leaderboard"
+                alt={t('leaderboard.buttons.refreshLeaderboard')}
                 width={180}
-                height={51}
+                height={48}
                 unoptimized
                 priority
-                className="w-[180px] h-[51px] object-contain drop-shadow-[0_0_10px_rgba(0,255,255,0.3)]"
+                className="object-contain drop-shadow-[0_0_12px_rgba(0,255,255,0.35)]"
               />
+              <div className="absolute text-white text-[14px] font-display font-normal top-0 left-0 right-0 bottom-0
+                 flex items-center justify-center
+              " >
+                {t('leaderboard.buttons.refreshLeaderboard')}
+              </div>
             </button>
             <Link
               href="/loss-claim"
-              aria-label="Open Loss Claim"
-              className="block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95"
+              aria-label={t('leaderboard.buttons.claimYourLoss')}
+              className="relative block cursor-pointer transition-transform hover:scale-[1.02] active:scale-95"
             >
               <Image
-                src="/assets/leaderboard/button2.svg"
-                alt="Open Loss Claim"
+                src="/assets/leaderboard/button.svg"
+                alt={t('leaderboard.buttons.claimYourLoss')}
                 width={180}
-                height={51}
+                height={48}
                 unoptimized
                 priority
-                className="w-[180px] h-[51px] object-contain drop-shadow-[0_0_10px_rgba(0,255,255,0.3)]"
+                className="object-contain drop-shadow-[0_0_12px_rgba(0,255,255,0.35)]"
               />
+              <div className="absolute text-white text-[14px] font-display font-normal top-0 left-0 right-0 bottom-0
+                 flex items-center justify-center
+              " >
+                {t('leaderboard.buttons.claimYourLoss')}
+              </div>
             </Link>
           </div>
         </div>

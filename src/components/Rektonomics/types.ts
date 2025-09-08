@@ -116,7 +116,6 @@ export interface PieChartProps {
 export interface TaxInfoSectionProps {
   taxPercentage: number;
   breakdown: TaxBreakdownItem[];
-  description: string;
   variant?: 'default' | 'mobile';
 }
 

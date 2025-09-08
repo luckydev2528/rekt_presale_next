@@ -36,6 +36,7 @@ function FAQItemRowDesktop({ item, index, isOpen, onToggle, headerRef }: {
   onToggle: (index: number) => void
   headerRef: (el: HTMLButtonElement | null) => void
 }) {
+  const t = useTranslations('faq')
   const panelId = `faq-panel-${item.id}`
   const headerId = `faq-header-${item.id}`
 
@@ -73,7 +74,7 @@ function FAQItemRowDesktop({ item, index, isOpen, onToggle, headerRef }: {
         >
           <div className="flex items-center justify-between px-8 py-6">
             <h3 className="text-lg font-semibold text-white pr-4">
-              {item.question}
+              {t(`items.${item.id}.question`)}
             </h3>
             <div className="flex-shrink-0 ml-4">
               <PlusIcon open={isOpen} />
@@ -89,7 +90,7 @@ function FAQItemRowDesktop({ item, index, isOpen, onToggle, headerRef }: {
               className="px-8 pb-6 pt-2"
             >
               <div className="text-gray-300 leading-relaxed">
-                {item.answer}
+                {t(`items.${item.id}.answer`)}
               </div>
             </div>
           )}
@@ -149,7 +150,7 @@ export default function FAQDesktop() {
         <div className="relative overflow-hidden w-screen -ml-[50vw] left-1/2 h-0.5 mb-12 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500" aria-hidden="true"></div>
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <h2 id="faq-heading" className="text-4xl md:text-5xl font-primary font-bold leading-tight">
-            <span className="text-cyan-400">F</span>requently <span className="text-purple-500">A</span>sked <span className="text-cyan-400">Q</span>uestions
+            {t('faq.title')}
           </h2>
           <p className="text-gray-300 mt-3 text-lg">{t('faq.subtitle')}</p>
         </div>
