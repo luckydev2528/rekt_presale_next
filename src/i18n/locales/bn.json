@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "প্রিসেল",
+    "treasury": "ট্রেজারি",
+    "liquidityPool": "লিকুইডিটি পুল",
+    "stakingPool": "স্ট্যাকিং পুল",
+    "communityFund": "কমিউনিটি ফান্ড"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "প্রতিটি কেনা/বেচায় {percentage}% ট্যাক্স",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "স্ট্যাকিং পুল",
+      "treasury": "ট্রেজারি",
+      "burn": "বার্ন"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "একবার 200M $REKT বার্ন হয়ে গেলে, বার্ন চিরতরে বন্ধ হয়ে যাবে। 50% ট্রেজারিতে যাবে এবং 50% স্ট্যাকিং এ যাবে দীর্ঘমেয়াদী বৃদ্ধি উৎসাহিত করতে।",
+    "burnCapReached": "200M বার্ন ক্যাপ পৌঁছানো পর্যন্ত"
   },
   "team": {
     "sadboi": {

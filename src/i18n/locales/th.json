@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "พรีเซล",
+    "treasury": "คลัง",
+    "liquidityPool": "พูลสภาพคล่อง",
+    "stakingPool": "พูลสเตคกิ้ง",
+    "communityFund": "กองทุนชุมชน"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "ภาษี {percentage}% ในทุกการซื้อ/ขาย",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "พูลสเตคกิ้ง",
+      "treasury": "คลัง",
+      "burn": "เบิร์น"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "เมื่อ $REKT 200M ถูกเบิร์นแล้ว การเบิร์นจะหยุดถาวร 50% จะไปที่คลังและ 50% จะไปที่สเตคกิ้งเพื่อส่งเสริมการเติบโตระยะยาว",
+    "burnCapReached": "จนถึงขีดจำกัดเบิร์น 200M"
   },
   "team": {
     "sadboi": {

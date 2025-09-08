@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
+    "presale": "Předprodej",
+    "treasury": "Pokladna",
+    "liquidityPool": "Pool Likvidity",
     "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "communityFund": "Komunitní Fond"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "{percentage}% Daň z Každé Koupě/Prodeje",
     "breakdown": {
       "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "treasury": "Pokladna",
+      "burn": "Spalování"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "Jakmile se spálí 200M $REKT, spalování se zastaví natrvalo. 50% půjde do pokladny a 50% do stakingu pro podporu dlouhodobého růstu.",
+    "burnCapReached": "Do dosažení limitu spalování 200M"
   },
   "team": {
     "sadboi": {

@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "Предварителна продажба",
+    "treasury": "Съкровищница",
+    "liquidityPool": "Пул за Ликвидност",
+    "stakingPool": "Пул за Стейкинг",
+    "communityFund": "Фонд на Общността"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "{percentage}% Данък върху Всяка Покупка/Продажба",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "Пул за Стейкинг",
+      "treasury": "Съкровищница",
+      "burn": "Изгаряне"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "След като се изгорят 200M $REKT, изгарянето ще спре завинаги. 50% ще отидат в съкровищницата и 50% в стейкинга за насърчаване на дългосрочния растеж.",
+    "burnCapReached": "До достигане на лимита за изгаряне от 200M"
   },
   "team": {
     "sadboi": {

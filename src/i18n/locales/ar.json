@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "البيع المسبق",
+    "treasury": "الخزينة",
+    "liquidityPool": "مجموعة السيولة",
+    "stakingPool": "مجموعة الستاكينغ",
+    "communityFund": "صندوق المجتمع"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "ضريبة {percentage}% على كل شراء/بيع",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "مجموعة الستاكينغ",
+      "treasury": "الخزينة",
+      "burn": "حرق"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "بمجرد حرق 200 مليون $REKT، سيتوقف الحرق نهائياً. 50% ستذهب للخزينة، و50% للستاكينغ لتشجيع النمو طويل الأمد.",
+    "burnCapReached": "حتى الوصول لحد الحرق 200 مليون"
   },
   "team": {
     "sadboi": {

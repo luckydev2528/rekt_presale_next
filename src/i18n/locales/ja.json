@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "プレセール",
+    "treasury": "トレジャリー",
+    "liquidityPool": "流動性プール",
+    "stakingPool": "ステーキングプール",
+    "communityFund": "コミュニティファンド"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "全ての売買に{percentage}%の税金",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "ステーキングプール",
+      "treasury": "トレジャリー",
+      "burn": "バーン"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "2億$REKTがバーンされると、バーンは永続的に停止します。50%はトレジャリーに、50%はステーキングに配分され、長期的な成長を促進します。",
+    "burnCapReached": "2億バーンキャップに到達するまで"
   },
   "team": {
     "sadboi": {

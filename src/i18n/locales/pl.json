@@ -98,20 +98,20 @@
   },
   "distribution": {
     "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "treasury": "Skarbiec",
+    "liquidityPool": "Pula Płynności",
+    "stakingPool": "Pula Staking",
+    "communityFund": "Fundusz Społeczności"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "{percentage}% Podatek od Każdego Zakupu/Sprzedaży",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "Pula Staking",
+      "treasury": "Skarbiec",
+      "burn": "Spalanie"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "Po spaleniu 200M $REKT, spalanie zatrzyma się na stałe. 50% pójdzie do skarbca, a 50% do stakingu, aby zachęcić do długoterminowego wzrostu.",
+    "burnCapReached": "Do osiągnięcia limitu spalania 200M"
   },
   "team": {
     "sadboi": {

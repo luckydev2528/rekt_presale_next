@@ -97,21 +97,21 @@
     }
   },
   "distribution": {
-    "presale": "Presale",
-    "treasury": "Treasury",
-    "liquidityPool": "Liquidity Pool",
-    "stakingPool": "Staking Pool",
-    "communityFund": "Community Fund"
+    "presale": "Ön Satış",
+    "treasury": "Hazine",
+    "liquidityPool": "Likidite Havuzu",
+    "stakingPool": "Staking Havuzu",
+    "communityFund": "Topluluk Fonu"
   },
   "tax": {
-    "title": "{percentage}% Tax on Every Buy/Sell",
+    "title": "Her Alım/Satımda {percentage}% Vergi",
     "breakdown": {
-      "stakingPool": "Staking Pool",
-      "treasury": "Treasury",
-      "burn": "Burn"
+      "stakingPool": "Staking Havuzu",
+      "treasury": "Hazine",
+      "burn": "Yakma"
     },
-    "burnCapDescription": "Once 200M  have been burned, burning will stop permanently. 50% will go to the treasury, and 50% will go to staking to encourage long-term growth.",
-    "burnCapReached": "Until 200M Burn cap reached"
+    "burnCapDescription": "200M $REKT yakıldığında, yakma kalıcı olarak duracak. %50 hazineye, %50 uzun vadeli büyümeyi teşvik etmek için staking'e gidecek.",
+    "burnCapReached": "200M yakma limitine kadar"
   },
   "team": {
     "sadboi": {
