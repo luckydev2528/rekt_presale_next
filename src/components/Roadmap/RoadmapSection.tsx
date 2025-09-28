@@ -117,7 +117,7 @@ export default function RoadmapSection() {
             const badgeOrderClass = isLeft ? '' : styles.rowReverse;
 
             return (
-              <div key={phase.title} className="relative mb-28 flex items-start">
+              <div key={phase.titleKey} className="relative mb-28 flex items-start">
                 
                 <div className={`${styles.phaseCard} ${cardPositionClass} w-full lg:max-w-md`}>
                   
@@ -130,7 +130,7 @@ export default function RoadmapSection() {
                       className="object-contain pointer-events-none transform -translate-x-6 sm:-translate-x-8 md:-translate-x-10 lg:-translate-x-12 xl:-translate-x-16 2xl:-translate-x-20"
                       aria-hidden="true"
                     />
-                    <h3 className={styles.headerTitle}>{phase.title}</h3>
+                    <h3 className={styles.headerTitle}>{phase.titleKey}</h3>
                   </div>
 
                   
@@ -143,9 +143,9 @@ export default function RoadmapSection() {
                       className="object-fill object-left-top pointer-events-none"
                       aria-hidden="true"
                     />
-                    <p className={styles.goalLabel}>GOAL: {phase.goal}</p>
+                    <p className={styles.goalLabel}>GOAL: {phase.goalKey}</p>
                     <ul className={styles.goalList}>
-                      {phase.items.map((item, i) => (
+                      {phase.itemKeys.map((item, i) => (
                         <li key={i} className={styles.listItem}>
                           <span className="text-sm text-gray-300">{item}</span>
                         </li>
